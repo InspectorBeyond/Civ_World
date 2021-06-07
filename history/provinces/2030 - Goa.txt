@@ -1,0 +1,14 @@
+culture = marathi
+religion = pantheon
+trade_goods = spices
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = GOA
+controller = GOA
+add_core = Goa
+capital = "Goa"
+
+discovered_by = GOA
+hre = no

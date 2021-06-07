@@ -1,0 +1,14 @@
+culture = khazak
+religion = pantheon
+trade_goods = wool
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = ALM
+controller = ALM
+add_core = ALM
+capital = "Almaty"
+
+discovered_by = ALM
+hre = no

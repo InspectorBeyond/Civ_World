@@ -1,0 +1,18 @@
+culture = norwegian
+religion = pantheon
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 3
+owner = NOR
+controller = NOR
+add_core = NOR
+capital = "Nidaros"
+
+discovered_by = NOR
+
+1444.11.13 = {
+owner = ---
+controller = ---
+add_core = ---
+}

@@ -1,0 +1,13 @@
+on_startup = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = FAQ_country_flag
+			}
+			ai = no
+		}
+		every_country = {
+			country_event = { id = wc.1 }
+		}
+	}
+}

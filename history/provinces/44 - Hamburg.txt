@@ -1,0 +1,14 @@
+culture = lower_saxon
+religion = pantheon
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = HAM
+controller = HAM
+add_core = HAM
+capital = "Hamburg"
+
+discovered_by = HAM
+hre = no

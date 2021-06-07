@@ -1,0 +1,14 @@
+culture = english
+religion = pantheon #Fetishism
+trade_goods = unknown
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = CPT
+controller = CPT
+add_core = CPT
+capital = "Cape Town"
+
+discovered_by = CPT
+hre = no

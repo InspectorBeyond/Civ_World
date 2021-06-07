@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+primary_culture = gallic
+religion = pantheon
+government_rank = 2
+capital = 92
+fixed_capital = 92
+
+1444.11.10 = {
+	monarch = {
+		name = "Ambiorix"
+		dynasty = "Eurbiorn"
+		birth_date = 1414.11.11
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = bold_fighter_personality
+}
+

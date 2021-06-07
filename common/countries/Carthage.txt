@@ -1,0 +1,121 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 213  213  213 }
+
+revolutionary_colors = { 12  2  12 }
+
+historical_idea_groups = {
+	exploration_ideas
+	expansion_ideas
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	maritime_ideas	
+	administrative_ideas
+	offensive_ideas
+	economic_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+monarch_names = {
+	"Hanno #0" = 20
+	"Malchus #0" = 20
+	"Mago #0" = 20
+	"Hasdrubal #0" = 20
+	"Hamilcar #0" = 20
+	"Himilco #0" = 20
+	"Hannibal #0" = 40
+	"Gisco #0" = 10
+	"Bomilcar #0" = 10
+	"Hampsicora #0" = 10
+	"Adherbal #0" = 10
+	"Maharbal #0" = 10
+	"Epicydes #0" = 10
+	
+	"Abdalonymus" = 5
+	"Achololim" = 5
+	"Baalhaan" = 5
+	"Carthalo" = 5
+	"Fuabal" = 5
+	"Hamiscora" = 5
+	"Luli" = 5
+	"Mathos" = 5
+	"Merbal" = 5
+	"Tendao" = 5
+	"Salicar" = 5
+	"Zaracas" = 5
+	"Shipitbaal" = 5
+	"Abdalonim" = 5
+	"Abdeshmun" = 5
+	"Abdi-Milki" = 5
+	"Abdmelqart" = 5
+	"Abdosir" = 5
+	"Aderbaal" = 5
+	"Adonibaal" = 5
+	"Ahiram" = 5
+	"Akbar" = 5
+	"Azemilk" = 5
+	"Baalhanno" = 5
+	"Bodashtart" = 5
+	"Bodeshmun" = 5
+	"Baalshillek" = 5
+	"Bodmelqart" = 5
+	"Danel" = 5
+	"Bodinelqart" = 5
+	"Elulaios" = 5
+	"Eshmunamash" = 5
+	"Germelqart" = 5
+	"Khilletzbaal" = 5
+	"Maharbaal" = 5
+	"Melqartpilles" = 5
+	"Milkpilles" = 5
+	"Philosir" = 5
+	"Sakarbaal" = 5
+	"Tabnit" = 5
+	"Yehawwielon" = 5
+	"Yutpan" = 5
+	"Milkyaton" = 5
+	"Zimrida" = 5   
+	
+	"Dido #1" = -40
+	"Adonia" = -1
+	"Ashtoreth" = -1
+	"Coryander" = -1
+	"Jesibel" = -1
+	"Tanith" = -1
+	"Tanni" = -1
+	"Tanythe" = -1
+	"Arishat" = -1
+	"Elissa" = -1
+	"Muttunbaal" = -1
+  
+
+}
+
+leader_names = {
+		Magona Barca Didonia Hannonia Zinnridia Abimikia "of Carthage" "of Tunes" "of Thapsus" "of Hadrumentum" "of Utica" "of Olbia" "of Lilybaion"
+		"" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" 
+}
+
+ship_names = {
+	Astarte Baal "Baalat Gebal" El Eshmun Ibussim Melqart Thammuz Abdalonim Abdeshmun "Abdi-Milki" Abdmelqart Abdosir Aderbaal Adonibaal Ahiram Akbar Aqhat Ashtartyaton Ashtzaph Azemilk Baalhanno Baalshillek Bodashtart Bodeshmun Bodinelqart Bodmelqart Danel Elulaios Eshmunamash Germelqart Kanmi Khilletzbaal Maharbaal Melqartpilles Milkherem Milkpilles Milkyaton Philosir Poumyathon "Rib-Addi" Sakarbaal Tabnit Yehawwielon Yutpan Zimrida
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Ships of $PROVINCE$"
+}

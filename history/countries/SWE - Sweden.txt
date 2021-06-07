@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+unit_type = western
+primary_culture = swedish
+religion = pantheon
+capital = 1	#Stockholm
+
+national_focus = MIL
+
+1444.11.10 = {
+	monarch = {
+		name = "Gustav II"
+		dynasty = "Adolf"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = scholar_personality
+}

@@ -1,0 +1,16 @@
+
+trade_goods = cloth
+culture = swiss 
+religion = pantheon 
+base_tax = 3 
+base_production = 3 
+base_manpower = 3
+
+
+owner = GNV
+controller = GNV
+add_core = GNV
+capital = "Geneva"
+
+discovered_by = GNV
+hre = no

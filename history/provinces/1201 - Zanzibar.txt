@@ -1,0 +1,14 @@
+culture = swahili
+religion = pantheon
+trade_goods = slaves
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = ZNZ
+controller = ZNZ
+add_core = ZNZ
+capital = "Zanzibar"
+
+discovered_by = ZNZ
+hre = no

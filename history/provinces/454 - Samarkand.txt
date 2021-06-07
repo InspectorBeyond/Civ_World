@@ -1,0 +1,14 @@
+culture = uzbehk
+religion = pantheon
+trade_goods = spices
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = SMK
+controller = SMK
+add_core = SMK
+capital = "Samarkand"
+
+discovered_by = SMK
+hre = no

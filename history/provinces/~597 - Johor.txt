@@ -1,0 +1,14 @@
+culture = malayan
+religion = pantheon
+trade_goods = chinaware
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = SGP
+controller = SGP
+add_core = SGP
+capital = "Singapore"
+
+discovered_by = SGP
+hre = no

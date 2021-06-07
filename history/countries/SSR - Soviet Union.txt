@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = peasants_republic
+primary_culture = russian
+religion = pantheon
+technology_group = western
+capital = 295 # Moskva
+fixed_capital = 295 # Cannot move capital away from this province & no power cost to move to it
+national_focus = MIL
+
+1444.11.10 = {
+	monarch = {
+		name = "Joseph Stalin"
+		culture = georgian
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = industrious_personality
+}

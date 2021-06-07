@@ -1,0 +1,15 @@
+culture = occitain
+religion = pantheon
+trade_goods = fish
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+
+owner = MNC
+controller = MNC
+add_core = MNC
+capital = "Monaco"
+
+discovered_by = MNC
+hre = no

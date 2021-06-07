@@ -1,0 +1,29 @@
+culture = mapuche
+religion = pantheon
+trade_goods = fish
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+native_size = 10
+native_hostileness = 9
+owner = MPC
+controller = MPC
+add_core = MPC
+capital = "Ngulu Mapu"
+
+discovered_by = MPC
+
+1444.11.12 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+1444.11.13 = {
+owner = MPC
+controller = MPC
+add_core = MPC
+}
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

@@ -1,0 +1,25 @@
+culture = brazilian
+religion = pantheon
+trade_goods = unknown
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+capital = "Rio de janeiro"
+
+discovered_by = BRZ
+
+
+1444.11.12 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+1444.11.13 = {
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+}

@@ -1,0 +1,19 @@
+culture = vietnamese
+religion = pantheon
+trade_goods = chinaware
+base_tax = 3
+base_production = 3
+base_manpower = 3
+owner = VTM
+controller = VTM
+add_core = VTM
+capital = "Thang Long"
+
+discovered_by = VTM
+
+1444.11.13 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+hre = no

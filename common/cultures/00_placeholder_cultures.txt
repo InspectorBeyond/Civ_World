@@ -1,0 +1,1649 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+#
+# Union tags do not suffer from the 'same_culture_group' tax penalty.
+# Primary tags are the first choice for rebel factions seeking cultural independence.
+#
+# graphical_culture = westerngfx
+# second_graphical_culture = muslimgfx (fallback if the first does not exist)
+
+finno_ugric = { #Ugric
+	graphical_culture = westerngfx
+	
+	uralic = {
+		primary = PRM
+		male_names = {
+			Mikhail
+		}
+		female_names = {
+			Nasta Katyö Ölga
+		}
+	}
+	samoyed = {
+		male_names = {
+			Alik
+		}
+		female_names = {
+			Atpälha
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid"
+		}
+	}
+	
+	
+	ostyaki = {
+		male_names = {
+			Ággi 
+		}
+		female_names = {
+			Áidná
+		}
+	}
+	ingrian = {
+		male_names = {
+			Kahru
+		}
+		female_names = {
+			Aasa
+		}
+	}
+	dynasty_names = {
+		# CKII - Lappish
+		"Ubmeje"
+	}
+}
+
+baltic	= {
+	graphical_culture = easterngfx
+	
+	estonian = {
+		primary = EST
+		dynasty_names = {
+			Bielke
+		}
+		male_names = {
+			Aabel
+		}
+		female_names = {
+			Aada
+		}
+	}
+	lithuanian = {
+		primary = LIT
+		male_names = {
+			Zygimantas 
+		}
+		female_names = {
+			Agné
+		}
+		dynasty_names = {
+			Ugandi
+		}
+	}
+	latvian = {
+		primary = LVA
+		male_names = {
+			Aishno
+		}
+		female_names = {
+			Agita
+		}
+	}
+	
+	male_names = {
+		Algirdas
+	}
+	female_names = {
+		Aldona
+	}
+	dynasty_names = {
+		Ugandi
+	}
+}
+
+aridoamerican = {
+	graphical_culture = southamericagfx
+	tecos = {
+		primary = CLM
+		male_names = {
+			Acalan
+		}
+		female_names = {
+			Achcauhtli
+		}
+	}
+	tepic = {
+		primary = XAL
+		male_names = {
+			Acalan
+		}
+		female_names = {
+			Achcauhtli
+			
+		}
+	}
+	chichimecan = {
+		primary = CCM
+		male_names = {
+			Ocuil
+		}	
+		female_names = {
+			Quiauhxochitl
+		}
+	}
+	guamares = {
+		primary = GAM
+		male_names = {
+			Ocuil
+		}	
+		female_names = {
+			Quiauhxochitl
+		}
+	}
+	otomi = {
+		primary = OTO
+		male_names = {
+			Ocuil
+		}	
+		female_names = {
+			Quiauhxochitl 
+		}	
+	}
+	yaqui = {
+		primary = YAQ
+		male_names = {
+			Tariacuri
+		}
+		female_names = {
+			Zyanya
+		}
+	}
+	dynasty_names = {
+		# CKII
+		"Acatl"
+	}
+}
+
+otomanguean = {
+	graphical_culture = southamericagfx
+	zapotek = {
+		primary = ZAP
+		male_names = {
+			Cocijoeza
+		}
+		female_names = {
+			Zyanya
+		}
+	}
+	mixtec = {
+		primary = MIX
+		male_names = {
+			Cocijoeza
+		}
+		female_names = {
+			Zyanya
+		}
+	}
+	tlapanec = {
+		primary = TLA
+		male_names = {
+			Cocijoeza
+		}
+		female_names = {
+			Zyanya
+		}
+	}
+	dynasty_names = {
+		Beljjw
+	}
+}
+
+je_tupi = { # Tupi
+	graphical_culture = northamericagfx
+	
+	tupinamba = {
+		primary = TPQ
+		dynasty_names = {
+			Piratininga
+		}
+		male_names = {
+			Tibiriçá
+		}
+		female_names = {
+			Bartira
+		}
+	}
+	guarani = {
+		primary = GUA
+		dynasty_names = {
+			Mbigua
+		}
+		male_names = {
+			Angatupyry
+		}
+		female_names = {
+			Bartira
+		}
+	}
+}
+
+je = {
+	graphical_culture = northamericagfx
+	charruan = {
+		primary = CUA
+		dynasty_names = {
+			Sénaqué
+		}
+		male_names = {
+			Zapicán
+		}
+		female_names = {
+			Bartira
+		}
+	}
+	ge = {
+		primary = TUA
+		dynasty_names = {
+			Aimoré
+		}
+		male_names = {
+			Jandui
+		}
+		female_names = {
+			Bartira
+		}
+	}
+}
+
+maranon = {
+	graphical_culture = southamericagfx
+	jivaro = {
+		male_names = {
+			Anquimarca
+		}
+		female_names = {
+			Axomamma
+		}
+	}
+	chachapoyan = {
+		primary = CYA
+		male_names = {
+			Anquimarca
+		}
+		female_names = {
+			Axomamma
+		}
+	}
+	dynasty_names = {
+		Marano Jivaro Chachapoya
+	}
+}
+
+chibchan = {
+	graphical_culture = southamericagfx
+	
+	muisca = {
+		primary = MCA
+		dynasty_names = {
+			
+		}
+		male_names = {
+			Meicuchuca
+		}
+		female_names = {
+			Chia
+		}
+	}
+	cara = {
+		primary = QTO
+		dynasty_names = {
+			Anquimarca
+		}
+		male_names = {
+			Anquimarca
+		}
+		female_names = {
+			Axomamma
+		}
+	}
+	miskito = {
+		primary = MIS
+		dynasty_names = {
+			Miskito Chibchan
+		}
+		male_names = {
+			Anquimarca
+		}
+		female_names = {
+			Axomamma
+		}
+	}
+}
+
+mataco = {	#Matacoan
+	graphical_culture = northamericagfx
+	
+	chacoan = {
+		male_names = {
+			Sopa
+		}
+		female_names = {
+			Kantuta
+		}
+		dynasty_names = {
+			Atlatl 
+		}
+	}
+}
+
+carribean = {
+	graphical_culture = northamericagfx
+
+	arawak = { #Taino
+		male_names = {
+			Áhari 
+		}
+		female_names = {
+			Hayá Isani Takuiba Twengga
+		}
+	}
+	maipurean = {
+		male_names = {
+			Áhari
+		}
+		female_names = {
+			Hayá Isani Takuiba Twengga
+		}
+	}
+	carib = {
+		primary = CAB
+		male_names = {
+			Áhari Ebedimu Gunfuli Kaigouchi Ilumani Pirijá Semén
+		}
+		female_names = {
+			Hayá Isani
+		}
+	}
+	guajiro = { #	Lokono / Northern Mainland Arawak
+		primary = ARW
+		male_names = {
+			Wiwakaleme
+		}
+		female_names = {
+			Takuiba Twengga
+		}
+	}
+	dynasty_names = {
+		Eregu
+	}
+}
+
+eskaleut = {
+	graphical_culture = northamericagfx
+
+	aleutian = {
+		male_names = {
+			Aariak
+		}
+		female_names = {
+			Kanguyak
+		}
+	}
+	inuit = {
+		male_names = {
+			Nauja
+		}
+		female_names = {
+			Ahnah
+		}
+	}
+	dynasty_names = {
+		Amaruq
+	}
+}
+
+plains_algonquian = {
+	graphical_culture = northamericagfx
+
+	cheyenne = {
+		primary = CHY
+		dynasty_names = {
+			Mohe
+		}
+		male_names = {
+			Wechegalla
+		}
+		female_names = {
+			Ehyophsta 
+		}
+	}
+	blackfoot = {
+		primary = BLA
+		dynasty_names = {			
+			Aisikstukiks
+		}
+		male_names = {
+			Shanah
+		}
+		female_names = {
+			Peta
+		}
+	}
+	arapaho = {
+		primary = ARP
+		dynasty_names = {
+			Clatsop
+		}
+		male_names = {
+			Comcomly
+		}
+		female_names = {
+			Elvamox
+		}
+	}
+	plains_cree = {
+		primary = NEH
+		dynasty_names = {
+			Iyiyiw
+		}
+		male_names = {
+			Kapapamahchakwew
+		}
+		female_names = {
+			Torotiy 
+		}
+	}
+	bungi = {
+		primary = OJI
+		dynasty_names = {
+			Missisage
+		}
+		male_names = {
+			Nemekas
+		}
+		female_names = {
+			Aazhawiggizhigokwe
+		}
+	}
+}
+
+eastern_algonquian = {
+	graphical_culture = northamericagfx
+	
+	delaware = {
+		primary = LEN
+		dynasty_names = {
+			Sapokanikan
+		}
+		male_names = {
+			Tetabuxike
+		}
+		female_names = {
+			Awowas
+		}
+	}
+	abenaki = {
+		primary = ABE
+		dynasty_names = {
+			Amoskeay
+		}
+		male_names = {
+			Qualebeenewes
+		}
+		female_names = {
+			Mali
+		}
+	}
+	mikmaq = {
+		primary = MIK
+		dynasty_names = {
+			Epekwik
+		}
+		male_names = {
+			Membectou
+		}
+		female_names = {
+			Mali
+		}
+	}
+	maliseet = {
+		primary = MLS
+		dynasty_names = {
+			Epekwik
+		}
+		male_names = {
+			Membectou
+		}
+		female_names = {
+			Mali
+		}
+	}
+	mahican = {
+		primary = MAH
+		dynasty_names = {
+			Muhhcanneuw
+		}
+		male_names = {
+			Maumauntissekun
+		}
+		female_names = {
+			Awashonks
+		}
+	}
+	powhatan = {
+		primary = POW
+		dynasty_names = {
+			Powhatan
+		}
+		male_names = {
+			Wahunsenacawh
+		}
+		female_names = {
+			Cockacoeske
+		}
+	}
+	pequot = {
+		primary = PEQ
+		dynasty_names = {		
+			Metoac
+		}
+		male_names = {
+			Tatobem
+		}
+		female_names = {
+			Awashonks
+		}
+	}	
+	massachusset = {
+		primary = WAM
+		dynasty_names = {		
+			Metoac
+		}
+		male_names = {
+			Tatobem
+		}
+		female_names = {
+			Awashonks
+		}
+	}
+}
+siouan = {
+	graphical_culture = northamericagfx
+	
+	dakota = {
+		primary = SIO
+		dynasty_names = {
+			Sichangu
+		}
+		male_names = {
+			Wabasha
+		}
+		female_names = {
+			Tasinasapewin
+		}
+	}
+	nakota = {
+		primary = ASI
+		dynasty_names = {
+			Aegitina
+		}
+		male_names = {
+			Tepeeoska
+		}
+		female_names = {
+			Tasinasapewin
+		}
+	}
+	chiwere = {
+		primary = FOX
+		dynasty_names = {
+			Mesquakie
+		}
+		male_names = {
+			"Keokuk Wapello"
+		}
+		female_names = {
+			Tasinasapewin
+		}
+	}
+	osage = {
+		primary = OSA
+		dynasty_names = {
+			Wazhaze
+		}
+		male_names = {
+			Teshuhimga
+		}
+		female_names = {
+			Wakonsamoie
+		}
+	}
+}
+
+caddoan = {
+	graphical_culture = northamericagfx
+
+	wichita = {
+		primary = WIC
+		dynasty_names = {
+			Clatsop
+		}
+		male_names = {
+			Comcomly
+		}
+		female_names = {
+			Elvamox
+		}
+	}
+	caddo = {
+		primary = CAD
+		dynasty_names = {
+			Adai
+		}
+		male_names = {
+			Tashar
+		}
+		female_names = {
+			Zacado
+		}
+	}
+	pawnee = {
+		primary = PAW
+		dynasty_names = {
+			Marhar
+		}
+		male_names = {
+			Tarahutacaw
+		}
+		female_names = {
+			Tstakurriwax
+		}
+	}
+}
+	
+
+muskogean = {
+	graphical_culture = northamericagfx
+	
+	creek = {
+		primary = CRE
+		dynasty_names = {
+			Chitto
+		}
+		male_names = {
+			"Hoboi-Hili-Miko"
+		}
+		female_names = {
+			Llanquiray
+		}
+	}
+	choctaw = {
+		primary = CHO
+		dynasty_names = {
+			Usquelagana
+		}
+		male_names = {
+			Ayaestangui
+		}
+		female_names = {
+			Nahomtima
+		}
+	}
+	chickasaw = {
+		primary = CHI
+		dynasty_names = {
+			Ackia
+		}
+		male_names = {
+			Itawamba
+		}
+		female_names = {
+			Mintahoye
+		}
+	}
+	yuchi = {
+		primary = CIA
+		dynasty_names = {
+			Ackia
+		}
+		male_names = {
+			Itawamba
+		}
+		female_names = {
+			Mintahoye
+		}
+	}
+	yoron = {
+		primary = CAQ
+		dynasty_names = {
+			Ackia
+		}
+		male_names = {
+			Itawamba
+		}
+		female_names = {
+			Mintahoye
+		}
+	}
+	catawba = {
+		primary = COF
+		dynasty_names = {
+			Owasso
+		}
+		male_names = {
+			Teshuhimga
+		}
+		female_names = {
+			Wakonsamoie
+		}
+	}
+	natchez = {
+		primary = NTZ
+		dynasty_names = {
+			Ackia
+		}
+		male_names = {
+			Itawamba
+		}
+		female_names = {
+			Mintahoye
+		}
+	}
+	yamasee = {
+		primary = ALT
+		dynasty_names = {
+			Ackia
+		}
+		male_names = {
+			Itawamba
+		}
+		female_names = {
+			Mintahoye
+		}
+	}
+}
+
+apachean = {
+	graphical_culture = northamericagfx
+	apache = {
+		primary = APA
+		dynasty_names = {
+			Jicarilla
+		}
+		male_names = {
+			"Nanni Chaddi"
+		}
+		female_names = {
+			Dahteste
+		}
+	}
+	mescalero = {
+		primary = MSC
+		dynasty_names = {
+			Jicarilla
+		}
+		male_names = {
+			"Nanni Chaddi"
+		}
+		female_names = {
+			Dahteste
+		}
+	}
+	lipan = {
+		primary = LIP
+		dynasty_names = {
+			Jicarilla
+		}
+		male_names = {
+			"Nanni Chaddi"
+		}
+		female_names = {
+			Dahteste
+		}
+	}
+	navajo = {
+		primary = NAH
+		dynasty_names = {
+			"Bit'anhi"
+			
+		}
+		male_names = {
+			"Chapitone"
+		}
+		female_names = {
+			"Dahteste"
+		}
+	}
+}
+na_dene = {
+	graphical_culture = northamericagfx
+
+	chipewyan = {
+		dynasty_names = {
+			"Tsi'naajinii"
+		}
+		male_names = {
+			"Chapitone"
+		}
+		female_names = {
+			"Dahteste"
+		}
+	}
+	haida = {
+		primary = HDA
+		dynasty_names = {
+			Kiusta
+		}
+		male_names = {
+			"Nanni Chaddi"
+		}
+		female_names = {
+			Dahteste
+		}
+	}
+	athabascan = {
+		dynasty_names = {
+			Kiusta
+		}
+		male_names = {
+			"Nanni Chaddi"
+		}
+		female_names = {
+			Dahteste
+		}
+	}
+}
+
+penutian = {
+	graphical_culture = northamericagfx
+	salish = {
+		primary = SAL
+		dynasty_names = {
+			Samish
+		}
+		male_names = {
+			Seattle
+		}
+		female_names = {
+			Kikisoblu
+		}
+	}
+	chinook = {
+		primary = CNK
+		dynasty_names = {
+			Clatsop
+		}
+		male_names = {
+			Comcomly
+		}
+		female_names = {
+			Elvamox
+		}
+	}
+	yokuts = {
+		primary = YKT
+		dynasty_names = {
+			Wishram
+		}
+		male_names = {
+			Comcomly
+		}
+		female_names = {
+			Elvamox
+		}
+	}
+}
+
+tibetan_group = {
+	graphical_culture = asiangfx
+	tibetan = {
+		primary = UTS
+		dynasty_names = {
+			Se
+		}
+		male_names = {
+			"Gendun Drup"
+		}
+		female_names = {
+			"Kamala"
+		}
+	}
+	yi = {
+		primary = CYI
+		dynasty_names = {
+			"An"
+		}
+		male_names = {
+			Qizhen
+		}
+		female_names = {
+			Heying
+		}
+	}
+	bai = {
+		primary = CDL
+		dynasty_names = {
+			"Duan" "Gao" "Meng"
+		}
+		male_names = {
+			Qizhen
+		}
+		female_names = {
+			Heying
+		}
+	}
+}
+
+burman = {
+	graphical_culture = asiangfx
+
+	burmese = {
+		primary = TAU
+		dynasty_names = {
+			Taungu
+		}
+		male_names = {
+			"Zalahtinyan" 
+		}
+		female_names = {
+			"Yaza Dewi"
+		}
+	}
+	mon = {
+		primary = PEG
+		dynasty_names = {
+			Pegu
+		}
+		male_names = {
+			"Razadarit"
+		}
+		female_names = {
+			"Mya"
+		}	
+	}
+	chin = {
+		primary = MLB
+		dynasty_names = {
+			Shubol
+		}
+		male_names = {
+			"Pengshiba"
+		}
+		female_names = {
+			"Mangaldahi"
+		}
+	}
+	karen = {
+		dynasty_names = {
+			"An"
+		}
+		male_names = { # Same as Bai
+			Qizhen
+		}
+		female_names = { # Same as Bai
+			Heying
+		}
+	}
+	kachin = {
+		dynasty_names = {
+			"Duan"
+		}
+		male_names = { # Same as Bai
+			Qizhen
+		}
+		female_names = { # Same as Bai
+			Heying
+		}
+	}
+	arakanese = {
+		primary = ARK
+		dynasty_names = {
+			Thandwe "Mrauk-U"
+		}
+		male_names = {
+			"Radzathu"
+		}
+		female_names = {
+			"Saw Sit"
+		}
+	}
+}
+
+aboriginal_australian = {
+	graphical_culture = aboriginalgfx
+	second_graphical_culture = africangfx
+	
+	aboriginal = { #(Kuric) Eora/East Coast
+		primary = EOR
+		male_names = {
+			#pre-mandala names
+			Adoni
+			
+			#shared names
+			Babawar
+		}
+		female_names = {
+			#pre-mandala names
+			Akala
+			
+			#shared names
+			Alkawari
+		}
+	}
+	yura = { #South Australia
+		primary = KAU
+		male_names = {
+			#pre-mandala names
+			Adoni 
+		}
+		female_names = {
+			#pre-mandala names
+			Akala
+			
+			#shared names
+			Alkawari
+		}
+	}
+	paman = { #Capricornia
+		primary = AWN
+		male_names = {
+			#pre-mandala names
+			Adoni
+			
+			#shared names
+			Babawar
+		}
+		female_names = {
+			#pre-mandala names
+			Akala
+			
+			#shared names
+			Alkawari
+		}
+	}
+	gunwinyguan = { #Top End
+		primary = LAR
+		male_names = {
+			#pre-mandala names
+			Adoni
+			
+			#shared names
+			Babawar
+		}
+		female_names = {
+			#pre-mandala names
+			Akala
+			
+			#shared names
+			Alkawari
+		}
+	}
+	palawa = { #Tasmania
+		primary = PLW
+		male_names = {
+			#pre-mandala names
+			Adoni
+			
+			#shared names
+			Babawar
+		}
+		female_names = {
+			#pre-mandala names
+			Akala
+			
+			#shared names
+			Alkawari
+		}
+	}
+	kulin = { #Melbourne
+		primary = WRU
+		male_names = {
+			#pre-mandala names
+			Adoni
+			
+			#shared names
+			Babawar
+		}
+		female_names = {
+			#pre-mandala names
+			Akala
+			
+			#shared names
+			Alkawari
+		}
+	}
+	gamilaraay = { #interior
+		primary = GMI
+		male_names = {
+			#pre-mandala names
+			Adoni
+			
+			#shared names
+			Babawar
+		}
+		female_names = {
+			#pre-mandala names
+			Akala
+			
+			#shared names
+			Alkawari
+		}
+	}
+	nyoongah = { #Perth
+		primary = NOO
+		male_names = {
+			#pre-mandala names
+			Adoni
+		}
+		female_names = {
+			#pre-mandala names
+			Akala
+		}
+	}
+	dynasty_names = {
+		Barak
+	}
+}
+
+western_aryan = {
+	graphical_culture = indiangfx
+
+	gujarati = {
+		primary = GUJ
+		dynasty_names = {
+			"Muzaffarid"
+		}
+		male_names = {
+			Zafar
+		}
+		female_names = {
+			Fatima
+		}
+	}
+	saurashtri = {
+		primary = JGD
+		dynasty_names = {
+			"Yadava"
+		}
+		male_names = {
+			Zafar
+		}
+		female_names = {
+			Fatima
+		}
+	}
+	marathi = {
+		primary = MAR
+		dynasty_names = {
+			"Bhonsle" 
+		}
+		male_names = {
+			Shivaji
+		}
+		female_names = {
+			Ahilyabai
+		}
+	}
+	sindhi = {
+		primary = SND
+		dynasty_names = {
+			"Samma" 
+		}
+		male_names = {
+			"Ali Sher"
+		}
+		female_names = {
+			Bhagi
+		}
+	}
+	rajput = {
+		primary = MER
+		dynasty_names = {
+			"Sisodiya"
+		}
+		male_names = {
+			"Udai Singh"
+		}
+		female_names = {
+			Akal
+		}
+	}
+	malvi = {
+		primary = MLW
+		dynasty_names = {
+			"Holkar" 
+		}
+		male_names = {
+			"Dilavar Khan"
+		}
+		female_names = {
+			"Qudsia"
+		}
+	}
+}
+
+central_indic = {
+	graphical_culture = indiangfx
+
+	gondi = {
+		primary = GDW
+		dynasty_names = {
+			"Chanda"
+		}
+		male_names = {
+			"Narsingh Rai"
+		}
+		female_names = {
+			"Durgavati"
+		}
+	}
+	garjati = {
+		primary = GRJ
+		dynasty_names = {
+			"Nagavamsi"
+		}
+		male_names = {
+			"Haria"
+		}
+		female_names = {
+			"Giriraj" 
+		}
+	}
+	jharkhandi = {
+		primary = NGP
+		dynasty_names = { "Porohat" "Nagavamsi" "Raksel" "Munda" "Ho" "Bhuiyan" }
+		male_names = {
+			"Maharato"
+		}
+		female_names = {
+			"Durgavati"
+		}
+	}
+	female_names = {
+		Abha Abhilasha Aditi Aishwarya
+	}
+	male_names = {
+		Abhay Aditya Aditi Agni
+	}
+}
+
+sahelian = {
+	graphical_culture = africangfx
+	
+	hausa = {
+		primary = HAU
+		dynasty_names = {
+			Azna
+		}
+		male_names = {
+			"Chiroma"
+		}
+		female_names = {
+			Aamina
+		}
+	}
+	kanuri = {
+		primary = KBO
+		dynasty_names = {
+			Sayfawa
+		}
+		male_names = {
+			"Dunama"
+		}
+		female_names = {
+			Aamina
+		}
+	}
+	bilala = {
+		primary = YAO
+		dynasty_names = {
+			Mahamat
+		}
+		male_names = {
+			"Djil Essa Tubo"
+		}
+		female_names = {
+			"Aikaché"
+		}
+	}
+	tuareg = {
+		primary = AIR
+		dynasty_names = {
+			Magsharen
+		}
+		male_names = {
+			Agg-Abba
+		}
+		female_names = {
+			"Tin Hinan"
+		}
+	}		
+	senegambian = {
+		primary = JOL
+		dynasty_names = {
+			"N'Dyaye"
+		}
+		male_names = {
+			"N'Dyelen Mbey"
+		}
+		female_names = {
+			"Fatoumata Sall"
+		}
+	}			
+	fulani = {
+		primary = FUL
+		dynasty_names = {
+			Fodio
+		}
+		male_names = {
+			Tengella 
+		}
+		female_names = {
+			"Tabara"
+		}
+	}
+}
+
+west_african = {
+	graphical_culture = africangfx
+	
+	yorumba = {
+		primary = OYO
+		dynasty_names = {
+			Alaafin
+		}
+		male_names = {
+			Oranyan
+		}
+		female_names = {
+			Winona
+		}
+	}
+	aka = {
+		primary = ASH
+		dynasty_names = {
+			Denkyirahene
+		}
+		male_names = {
+			"Beriguwiemda"
+		}
+		female_names = {
+			Adaeze
+		}
+	}
+	nupe = {
+		primary = NUP
+		dynasty_names = {
+			Etsu
+		}
+		male_names = {
+			"Edegi"
+		}
+		female_names = {
+			Abagbe
+		}
+	}
+	fon = {
+		primary = DAH
+		dynasty_names = {
+			Ajahutonon
+		}
+		male_names = {
+			Agaja
+		}
+		female_names = {
+			Hangbe
+		}
+	}
+	mossi = {
+		primary = MSI
+		dynasty_names = {
+			"Tenga Niama"
+		}
+		male_names = {
+			Sapilem
+		}
+		female_names = {
+			Poko
+		}
+	}
+	dagomba = {
+		primary = DGB
+		dynasty_names = {
+			Naa Dagomba Mamprusi
+		}
+		male_names = {
+			Sapilem
+		}
+		female_names = {
+			Poko
+		}
+	}
+}
+
+great_lakes_group = {
+	graphical_culture = africangfx
+	rwandan = {
+		primary = RWA
+		dynasty_names = { 
+			Songoro
+		}
+		male_names = {
+			Ruhaga
+		}
+		female_names = {
+			Baramparaye
+		}
+	}
+	ganda = {
+		primary = BUG
+		male_names = {
+			Ruhinda
+		}
+		female_names = {
+			Nyiramavugo
+		}
+	}
+	masaba = {
+		dynasty_names = { 
+			Ngonge
+		}
+		male_names = {
+			Ruhinda 
+		}
+		female_names = {
+			Nyiramavugo
+		}
+	}
+}
+
+african = {	#Eastern Bantu Groups
+	graphical_culture = africangfx
+	
+	madagasque = {
+		primary = SKA
+		dynasty_names = {
+			Mwenemutapa
+		}
+		male_names = {
+			Abidemi
+		}
+		female_names = {
+			Mavuto
+		}
+	}
+	#Tagless Bantu Cultures:
+	takama = {
+	}
+	bena = {
+	}
+	bantu = { #Thagiicu, old tag kept to not break older saves.
+	}
+	swahili = {
+		primary = ZAN
+		dynasty_names = {
+			Nabahani
+		}
+		male_names = {
+			Husayn
+		}
+		female_names = {
+			"Mwana Mwema"
+		}
+	}
+	
+	dynasty_names = {
+		Mwenemutapa Rozwi Mutopa Lukeni Loanga Nabahani al-Mawahib Zanzibari Mvita al-Malindi
+	}
+	male_names = {
+		Abidemi Abimbola Abiodun Abioye Aboubacar Abubakar Ade Adebayo Adebola Adebowale Adedayo Adegoke Adetokunbo Adisa
+	}
+	female_names = {
+		Mavuto Mayamiko Mayeso Mbali Mchumba Meklit Mirembe Mojisola Monifa Mphatso Mtendere Mudiwa Munashe Mwanajuma Nakato
+	}
+}
+
+sudanese = {
+	graphical_culture = africangfx
+	acholi = {
+	}
+	nubian = {
+	}
+	beja = {
+	}
+	dynasty_names = {
+		Senar
+	}
+	male_names = {
+		"'Amâra" "'Abd al-Qâdir" "Nâ'l" "Dakîn al-'Adil" "Dûra" "Taiyîb" "Unsa" "Adlân" "Bâdî" "Rubât" "Nûl" 
+	}
+	female_names = {
+		Agathe Alethia Anthelia Athanasia Chaelsoñoja Chrissa Christina Douriko Egaloskoura Eikkir
+	}
+}
+
+evenks = {
+	graphical_culture = asiangfx
+	evenk = {
+		graphical_culture = inuitgfx
+		dynasty_names = {
+			Badarhan Tabangut 
+		}
+		male_names = {
+			Aiaan
+		}
+		female_names = {
+			Naryiaana
+		}
+	}
+	yakut = {
+		graphical_culture = inuitgfx
+		dynasty_names = {
+			Badarhan Tabangut 
+		}
+		male_names = {
+			Aiaan
+		}
+		female_names = {
+			Naryiaana
+		}
+	}
+	yukagyr = {
+		dynasty_names = {
+			Uygulaan Khorints
+		}
+		male_names = {
+			Aiaan
+		}
+		female_names = {
+			Naryiaana
+		}
+	}
+	buryat = {
+		graphical_culture = inuitgfx
+		primary = BRT
+		dynasty_names = {
+			Badarhan
+		}
+		male_names = {
+			Agbarjin 
+		}
+		female_names = {
+			Temülen
+		}
+	}
+	tuvan = {
+		graphical_culture = inuitgfx
+		dynasty_names = {
+			Badarhan "Chagatay" "Ediguid" "Giray" "Borjigin" "Shaybanid" "Janid" "Mangit"
+		}
+		male_names = {
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtu Dayan Darayisung 
+			Delbeg Ejei Elbeg Engke Guyuk Gun Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke Mulan 
+			Manduulun Oljei Orug Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temur Toghun Tumen 
+			Tolui Toq Uskhal Yesun Ariq Batu Eljigidei Joichi
+		}
+		female_names = {
+			Temulen Borte Mandukhai Samar Zaufishan 
+		}
+	}
+	tungus = {
+		graphical_culture = inuitgfx
+		dynasty_names = {
+			Bulagat
+		}
+		male_names = {
+			Agbarjin
+		}
+		female_names = {
+			Naryiaana
+		}
+	}
+	manchu = {
+		dynasty_names = {
+			"Aisin Gioro"
+		}
+		male_names = {
+			"Bukuri Yongson"
+		}
+		female_names = {
+			Fen 
+		}
+	}
+	dynasty_names = {
+		Khorints Tabangut Sartul Daur Khorchin Bulagat Ekhirit Khongodor
+	}
+}
+
+
+kamchatkan_g = {
+	graphical_culture = inuitgfx
+	
+	ainu = {
+		primary = ANU
+		dynasty_names = {
+			Shibushari 
+		}
+		male_names = {
+			Koshamain
+		}
+		female_names = {
+			Monashir
+		}
+	}
+	kamchatkan = {
+		primary = KMC
+		dynasty_names = {
+			Garpancha
+		}
+		male_names = {
+			Aiaan
+		}
+		female_names = {
+			Naryiaana
+		}
+	}
+}
+

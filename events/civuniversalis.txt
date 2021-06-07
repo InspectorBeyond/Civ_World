@@ -1,0 +1,352 @@
+namespace = civuniversalis
+country_event = {
+	id = civuniversalis.1
+	title = civuniversalis.1_title
+	desc = civuniversalis.1_desc
+	picture = CIV_REL_eventPicture
+	
+	trigger = {
+		religion = pantheon
+		is_year = 1470
+		total_development = 100
+		has_idea_group = religious_ideas
+		NOT = { tag = KON }
+		NOT = { has_country_flag = religions_chosen }
+		OR = {
+			NOT = { has_global_flag = shinto_exists }
+			NOT = { has_global_flag = norse_pagan_reformed_exists }
+			NOT = { has_global_flag = catholic_exists }
+			NOT = { has_global_flag = protestant_exists }
+			NOT = { has_global_flag = orthodox_exists }
+			NOT = { has_global_flag = coptic_exists }
+			NOT = { has_global_flag = sunni_exists }
+			NOT = { has_global_flag = hinduism_exists }
+			NOT = { has_global_flag = sikh_exists }
+			NOT = { has_global_flag = buddhism_exists }
+			NOT = { has_global_flag = taosism_exists }
+			NOT = { has_global_flag = confucianism_exists }
+			NOT = { has_global_flag = zoroastrian_exists }
+			NOT = { has_global_flag = jewish_exists }
+			NOT = { has_global_flag = tengri_pagan_reformed_exists }
+			
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 35
+	}
+	
+	immediate = {
+		set_country_flag = civuniversalis.1_happened
+	}
+	
+	option = {
+        name = civuniversalis.1_shinto
+        trigger = {
+            NOT = {
+                has_global_flag = shinto_exists
+            }
+        }
+        change_religion = shinto
+        every_owned_province = {
+            change_religion = shinto
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = shinto_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+    option = {
+        name = civuniversalis.1_norse
+        trigger = {
+            NOT = {
+                has_global_flag = norse_pagan_reformed_exists
+            }
+        }
+        change_religion = norse_pagan_reformed
+        every_owned_province = {
+            change_religion = norse_pagan_reformed
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = norse_pagan_reformed_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_catholic
+        trigger = {
+            NOT = {
+                has_global_flag = catholic_exists
+            }
+        }
+        change_religion = catholic
+        every_owned_province = {
+            change_religion = catholic
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = catholic_exists
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+        name = civuniversalis.1_prtoestant
+        trigger = {
+			is_year = 1517
+            NOT = {
+                has_global_flag = protestant_exists
+            }
+        }
+        change_religion = protestant
+        every_owned_province = {
+            change_religion = protestant
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+		enable_religion = protestant
+        set_global_flag = protestant_exists
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+        name = civuniversalis.1_orthodox
+        trigger = {
+            NOT = {
+                has_global_flag = orthodox_exists
+            }
+        }
+        change_religion = orthodox
+        every_owned_province = {
+            change_religion = orthodox
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = orthodox_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_coptic
+        trigger = {
+            NOT = {
+                has_global_flag = coptic_exists
+            }
+        }
+        change_religion = coptic
+        every_owned_province = {
+            change_religion = coptic
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = coptic_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_sunni
+        trigger = {
+            NOT = {
+                has_global_flag = sunni_exists
+            }
+        }
+        change_religion = sunni
+        every_owned_province = {
+            change_religion = sunni
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = sunni_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_hinduism
+        trigger = {
+            NOT = {
+                has_global_flag = hinduism_exists
+            }
+        }
+        change_religion = hinduism
+        every_owned_province = {
+            change_religion = hinduism
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = hinduism_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_sikh
+        trigger = {
+            NOT = {
+                has_global_flag = sikh_exists
+            }
+        }
+        change_religion = sikhism
+        every_owned_province = {
+            change_religion = sikhism
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = sikh_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_buddhism
+        trigger = {
+            NOT = {
+                has_global_flag = buddhism_exists
+            }
+        }
+        change_religion = buddhism
+        every_owned_province = {
+            change_religion = buddhism
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = buddhism_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_confucianism
+        trigger = {
+            NOT = {
+                has_global_flag = confucianism_exists
+            }
+        }
+        change_religion = confucianism
+        every_owned_province = {
+            change_religion = confucianism
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = confucianism_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_taosism
+        trigger = {
+            NOT = {
+                has_global_flag = taosism_exists
+            }
+        }
+        change_religion = taosism
+        every_owned_province = {
+            change_religion = taosism
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = taosism_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_zoroastrian
+        trigger = {
+            NOT = {
+                has_global_flag = zoroastrian_exists
+            }
+        }
+        change_religion = zoroastrian
+        every_owned_province = {
+            change_religion = zoroastrian
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = zoroastrian_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_jewish
+        trigger = {
+            NOT = {
+                has_global_flag = jewish_exists
+            }
+        }
+        change_religion = jewish
+        every_owned_province = {
+            change_religion = jewish
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = jewish_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_tengri_pagan_reformed
+        trigger = {
+            NOT = {
+                has_global_flag = tengri_pagan_reformed_exists
+            }
+        }
+        change_religion = tengri_pagan_reformed
+        every_owned_province = {
+            change_religion = tengri_pagan_reformed
+        }
+		add_country_modifier = {
+			name = "additional_missionaries"
+			duration = -1
+		}
+        set_global_flag = tengri_pagan_reformed_exists
+		ai_chance = {
+			factor = 1
+		}
+    }
+	option = {
+        name = civuniversalis.1_close
+		set_country_flag = religions_chosen
+		ai_chance = {
+			factor = 1
+		}
+    }
+}

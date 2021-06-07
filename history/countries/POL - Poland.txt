@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = polish
+religion = pantheon
+technology_group = western
+capital = 257 # Warszawa
+
+1444.11.10 = {
+	monarch = {
+		name = "Casimir III"
+		dynasty = "Piast"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = charismatic_negotiator_personality
+}

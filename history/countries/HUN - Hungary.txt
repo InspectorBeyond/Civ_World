@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = hungarian
+religion = pantheon
+technology_group = western
+government_rank = 2
+capital = 153 # Buda
+
+1444.11.10 = {
+	monarch = {
+		name = "Matthias"
+		dynasty = "Corvinus"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = fierce_negotiator_personality
+}

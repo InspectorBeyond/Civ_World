@@ -1,0 +1,17 @@
+# No previous file for Moniquira
+
+
+culture = muisca
+religion = pantheon
+trade_goods = salt
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = HZA
+controller = HZA
+add_core = HZA
+capital = "Hanza"
+
+discovered_by = HZA
+hre = no

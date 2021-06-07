@@ -1,0 +1,13 @@
+
+advisor = {
+	advisor_id = 1
+	name = "Pargali Ibrahim Pasha" #Suleyman the Magnificent's first appointed Grand Vizier
+	location = 147 #Salonica (born there)
+	discount = yes
+	skill = 2
+	culture = greek
+	religion = pantheon
+	type = statesman
+	date = 1444.1.1 #became grand vizier
+	death_date = 1600.1.1
+}

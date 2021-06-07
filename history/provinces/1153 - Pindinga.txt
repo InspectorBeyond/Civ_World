@@ -1,0 +1,15 @@
+culture = nupe  
+religion = pantheon #Fetishism
+trade_goods = wool
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+
+owner = TRG
+controller = TRG
+add_core = TRG
+capital = "Taruga"
+
+discovered_by = TRG
+hre = no

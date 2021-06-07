@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+religion = pantheon
+primary_culture = magadhi
+capital = 558	# Patna
+
+1444.11.10 = {
+	monarch = {
+		name = "Chandragupta"
+		dynasty = "Maurya"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = expansionist_personality
+}

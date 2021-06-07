@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = amhara
+religion = pantheon
+technology_group = western
+unit_type = sub_saharan
+capital = 1224	# Shewa
+
+1444.11.10 = {
+	monarch = {
+		name = "Menelik II"
+		dynasty = "Solomonid"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = silver_tongue_personality
+}

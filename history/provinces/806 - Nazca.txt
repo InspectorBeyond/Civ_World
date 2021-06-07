@@ -1,0 +1,14 @@
+culture = inca
+religion = pantheon
+trade_goods = fish
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = NZC
+controller = NZC
+add_core = NZC
+capital = "Nazca"
+
+discovered_by = NZC
+hre = no

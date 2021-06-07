@@ -1,0 +1,76 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+
+color = { 17 40 106 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	maritime_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Camilo #0" = 20
+	"Enrique #0" = 20
+	"Fernando #0" = 20
+	"Juan #0" = 20
+	"Phillip #0" = 20
+	"Alfonso #0" = 20
+	"Carlos #0" = 20
+	"Sancho #0" = 20
+	"Ramiro #0" = 20
+	"Pedro #0" = 20
+	"Alonso #0" = 20
+	"Alvaro #0" = 20
+	"Baltasar #0" = 20
+	"Bernardo #0" = 20
+	"Hernando #0" = 20
+	"Simon #1" = 40
+	
+	"Aldonza #0" = -20
+	"Anderquina #0" = -20
+	"Beatriz #0" = -20
+	"Berenguela #0" = -20
+	"Berengaria #0" = -20
+	"Blanca #0" = -20
+	"Constanza #0" = -20
+	"Elvira #0" = -20
+	"Estefania #0" = -20
+	"Fronilda #0" = -20
+	"Gontroda #0" = -20
+	"Agnes #0" = -20
+}
+
+
+ship_names = {
+	Antioquia
+	Barranquilla
+	Caldas "Cartegena de Indias"
+	Independiente Indomable Intrepido 
+	"Pedro Gonzalez" Pijao
+	"Rio Hacha"
+	Tayrona
+}

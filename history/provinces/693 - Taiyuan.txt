@@ -1,0 +1,18 @@
+culture = xibei
+religion = pantheon
+trade_goods = iron
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+owner = CZH
+controller = CZH
+add_core = CZH
+capital = "Taiyuan"
+
+discovered_by = CZH
+
+1444.11.13 = {
+owner = ---
+controller = ---
+add_core = ---
+}

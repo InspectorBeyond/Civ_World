@@ -1,0 +1,15 @@
+
+culture = norwegian
+religion = pantheon 
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = OSL
+controller = OSL
+add_core = OSL
+capital = "Oslo"
+
+discovered_by = OSL
+hre = no

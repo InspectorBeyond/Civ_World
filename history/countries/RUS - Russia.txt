@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = russian
+religion = pantheon
+technology_group = western
+capital = 33 # Neva
+fixed_capital = 33 # Cannot move capital away from this province & no power cost to move to it
+national_focus = ADM
+
+1444.11.10 = {
+	monarch = {
+		name = "Peter I"
+		dynasty = "Romanov"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = expansionist_personality
+}

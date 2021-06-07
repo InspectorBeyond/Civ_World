@@ -1,0 +1,14 @@
+culture = gulf_arabic
+religion = pantheon
+trade_goods = fish
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = ORM
+controller = ORM
+add_core = ORM
+capital = "Ormuz"
+
+discovered_by = ORM
+hre = no

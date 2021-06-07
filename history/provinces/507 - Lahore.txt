@@ -1,0 +1,15 @@
+culture = panjabi
+religion = pantheon
+trade_goods = silk
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+
+owner = LHR
+controller = LHR
+add_core = LHR
+capital = "Lahore"
+
+discovered_by = LHR
+hre = no

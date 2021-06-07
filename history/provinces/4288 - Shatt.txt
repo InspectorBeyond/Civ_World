@@ -1,0 +1,25 @@
+# - Cezair i-Arab -> al-Qurna, Zihiya, Rahmaniya
+
+
+culture = sumerian
+religion = pantheon
+trade_goods = spices #Dates
+base_tax = 3
+base_production = 3
+base_manpower = 3
+owner = SMR
+controller = SMR
+add_core = SMR
+capital = "Uruk"
+
+discovered_by = SMR
+
+1444.11.13 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

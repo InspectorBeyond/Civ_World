@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = english
+religion = pantheon
+technology_group = western
+capital = 237 # Oxford
+
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Victoria"
+		dynasty = "Hanover"
+		adm = 6
+		dip = 6
+		mil = 6
+	female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = expansionist_personality
+}

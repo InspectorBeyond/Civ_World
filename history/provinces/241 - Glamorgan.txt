@@ -1,0 +1,14 @@
+culture = welsh
+religion = pantheon
+trade_goods = iron
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = CDF
+controller = CDF
+add_core = CDF
+capital = "Cardiff"
+
+discovered_by = CDF
+hre = no

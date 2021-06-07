@@ -1,0 +1,14 @@
+culture = cantonese
+religion = pantheon
+trade_goods = spices
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = HNK
+controller = HNK
+add_core = HNK
+capital = "Hong Kong"
+
+discovered_by = HNK
+hre = no

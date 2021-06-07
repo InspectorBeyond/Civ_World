@@ -1,0 +1,27 @@
+#4935 - Oahu
+
+culture = polynesian
+religion = pantheon
+hre = no
+trade_goods = cloth
+base_tax = 3
+base_production = 3
+base_manpower = 3
+owner = PLY
+controller = PLY
+add_core = PLY
+capital = "Honolulu"
+
+discovered_by = MAO
+discovered_by = PLY
+
+1444.11.12 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+1444.11.13 = {
+owner = PLY
+controller = PLY
+add_core = PLY
+}

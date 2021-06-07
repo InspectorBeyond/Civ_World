@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = cree
+religion = pantheon
+technology_group = western
+capital = 1813
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Poundmaker"
+		dynasty = "of Cree"
+		birth_date = 1410.11.11
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = silver_tongue_personality
+}

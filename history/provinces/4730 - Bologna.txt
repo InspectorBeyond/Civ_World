@@ -1,0 +1,17 @@
+# 4730 - Bologna
+
+
+trade_goods = cloth
+culture = romagnan 
+religion = pantheon 
+base_tax = 3 
+base_production = 3 
+base_manpower = 3
+
+owner = BLG
+controller = BLG
+add_core = BLG
+capital = "Bologna"
+
+discovered_by = BLG
+hre = no

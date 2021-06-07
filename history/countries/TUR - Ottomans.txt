@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = turkish
+religion = pantheon
+technology_group = western
+capital = 326
+national_focus = MIL
+religious_school = hanafi_school
+
+1444.11.10 = {
+	monarch = {
+		name = "Suleiman"
+		dynasty = "Osmanoglu"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = conqueror_personality
+}

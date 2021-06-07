@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = western
+primary_culture = dutch
+religion = pantheon
+capital = 97 #Amsterdam
+
+1444.11.10 = {
+	monarch = {
+		name = "Wilhelmina"
+		dynasty = "van Oranje-Nassau"
+		adm = 6
+		dip = 6
+		mil = 6
+	female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = entrepreneur_personality
+}

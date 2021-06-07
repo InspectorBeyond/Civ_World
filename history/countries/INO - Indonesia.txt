@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = javanese
+technology_group = western
+religion = pantheon
+capital = 628
+fixed_capital = 628
+
+1444.11.10 = {
+	monarch = {
+		name = "Gitarja"
+		dynasty = "Rajaza"
+		adm = 6
+		dip = 6
+		mil = 6
+	female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = entrepreneur_personality
+}

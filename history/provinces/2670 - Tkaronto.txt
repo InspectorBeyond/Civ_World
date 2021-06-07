@@ -1,0 +1,14 @@
+culture = american
+religion = pantheon
+trade_goods = tobacco #nearby Petuns were called the Tobacco indians
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = TRN
+controller = TRN
+add_core = TRN
+capital = "Toronto"
+
+discovered_by = TRN
+hre = no

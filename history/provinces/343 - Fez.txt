@@ -1,0 +1,14 @@
+culture = moroccan
+religion = pantheon
+trade_goods = cloth
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = FEZ
+controller = FEZ
+add_core = FEZ
+capital = "Fez"
+
+discovered_by = FEZ
+hre = no

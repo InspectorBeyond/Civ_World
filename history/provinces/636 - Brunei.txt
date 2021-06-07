@@ -1,0 +1,14 @@
+culture = bornean
+religion = pantheon
+trade_goods = spices
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = BEI
+controller = BEI
+add_core = BEI
+capital = "Bandar Brunei"
+
+discovered_by = BEI
+hre = no

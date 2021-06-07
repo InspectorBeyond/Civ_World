@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = carthaginian
+religion = pantheon
+technology_group = western
+historical_friend = PHO
+capital = 341	# Tunis
+
+1444.11.10 = {
+	monarch = {
+		name = "Dido"
+		dynasty = "of Carthage"
+		birth_date = 1378.11.11
+		adm = 6
+		dip = 6
+		mil = 6
+	female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = conqueror_personality
+}

@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = danish
+religion = pantheon 
+technology_group = western
+capital = 12 #Sjaelland
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Harald Bluetooth"
+		dynasty = "Gorm"
+		birth_date = 1397.11.11
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = conqueror_personality
+}

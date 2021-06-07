@@ -1,0 +1,15 @@
+culture = hittite
+religion = pantheon
+trade_goods = grain
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+
+owner = HTT
+controller = HTT
+add_core = HTT
+capital = "Hattusa"
+
+discovered_by = HTT
+hre = no

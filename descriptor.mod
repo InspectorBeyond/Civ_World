@@ -1,0 +1,15 @@
+replace_path="common/country_tags"
+replace_path="common/countries"
+replace_path="gfx/loadingscreens"
+replace_path="common/bookmarks"
+replace_path="common/cultures"
+replace_path="common/event_modifiers"
+replace_path="decisions"
+replace_path="gfx/flags"
+replace_path="history"
+replace_path="missions"
+tags={
+	"New Nations"
+}
+name="Civ_W1"
+supported_version="1.30.3"

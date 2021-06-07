@@ -1,0 +1,14 @@
+culture = finnish
+religion = pantheon
+trade_goods = naval_supplies
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = HEL
+controller = HEL
+add_core = HEL
+capital = "Helsinki"
+
+discovered_by = HEL
+hre = no

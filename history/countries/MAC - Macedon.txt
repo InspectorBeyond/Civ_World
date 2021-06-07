@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = macedonian
+religion = pantheon
+technology_group = western
+capital = 148	# Macedonia
+fixed_capital = 148 # Cannot move capital away from this province & no power cost to move to it
+
+1444.11.10 = {
+	monarch = {
+		name = "Alexander The Great"
+		dynasty = "Argead"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = conqueror_personality
+}

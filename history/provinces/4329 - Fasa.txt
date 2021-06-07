@@ -1,0 +1,14 @@
+#4329 - Fasa and Jahrum
+
+
+culture = barbarian
+religion = pantheon
+trade_goods = silk #And Paper in Jahrum
+base_tax = 3
+base_production = 3
+base_manpower = 3
+discovered_by = PER
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

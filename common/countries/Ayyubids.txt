@@ -1,0 +1,70 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 251 228 104 }
+revolutionary_colors = { 11  9  11 }
+
+historical_idea_groups = {
+	religious_ideas
+	maritime_ideas
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+monarch_names = {
+	"Muhammad #0" = 30
+	"Ahmad #0" = 20
+	"'Abd al-'Aziz #0" = 20
+	"al-Musta'in #0" = 20
+	"al-Nasr #0" = 20
+	"al-Mahmudi #0" = 20
+	"'Uthman #0" = 20
+	"Yalbay #0" = 20
+	"Janbulat #0" = 20
+	"Yusuf #0" = 20
+	"Barquq #0" = 20
+	"'Ali Baybars #0" = 20
+	"Saladin #1" = 40
+	
+	"Shahira #0" = -20
+	"Yusra #0" = -20
+	"Asma #0" = -20
+	"Abda #0" = -20
+	"Ahu #0" = -20
+	"Aiza #0" = -20
+	"Aliyah #0" = -20
+	"Butayna #0" = -20
+	"Daniyah #0" = -20
+	"Dima #0" = -20
+	"Fahra #0" = -20
+	"Fahriya #0" = -20
+	"Fatima #0" = -20
+	"Gamila#0" = -20
+}
+
+ship_names = {
+	"Zaher Barqooq" "Farag Ben Barqooq"
+	"Ben Barqooq" "Muyaid Sheikh" "Ahmen Muyaid" 
+	"Zaher Tatar" "Nasser Muhamed" "Ashraf Barsbay"
+	"Aziz Gamal" "Nahr an-Nil" "Al-Farafirah"
+	"Ad-Däkhilah" "Al-Kharijah" "Al-Ali" "Al-Bahriyah"
+	Rahman Rahim Malik Quddus Salam Mu'min Muhaymin
+	Aziz Jabbar Mutakabbir Khaliq Bari Musawwir 
+	Ghaffar Qahhar Wahhab Razzaq Fattah Alim Qabid
+	Basit Khafid Rafi Mu'izz Mudhill Sami Basir Hakam Adl
+}

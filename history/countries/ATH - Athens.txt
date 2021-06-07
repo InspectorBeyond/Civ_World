@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+primary_culture = athenian
+religion = pantheon
+capital = 146	# Athens
+fixed_capital = 146 # Cannot move capital away from this province & no power cost to move to it
+
+1444.11.10 = {
+	monarch = {
+		name = "Pericles"
+		dynasty = "Athenian"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = scholar_personality
+}

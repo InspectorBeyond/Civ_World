@@ -1,0 +1,14 @@
+culture = omani_culture
+religion = pantheon
+trade_goods = spices
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = MUS
+controller = MUS
+add_core = MUS
+capital = "Muscat"
+
+discovered_by = MUS
+hre = no

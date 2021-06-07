@@ -1,0 +1,68 @@
+#Country Name: Please seefilename.
+
+graphical_culture = africangfx
+
+color = { 197 189 160 }
+
+historical_idea_groups = {
+	exploration_ideas
+	expansion_ideas
+	religious_ideas
+	quantity_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+
+historical_units = {
+	african_spearmen
+	bantu_tribal_warfare
+	african_hill_warfare
+	adal_gunpowder_warfare
+	westernized_adal
+	adal_guerilla_warfare
+	african_somali_cavalry
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_hussar
+	african_dragoon		
+}
+
+monarch_names = {
+	"Amyrteos #0" = 20
+	"Ankhmachis #0" = 20
+	"Anemhor #0" = 20
+	"Charias #0" = 20
+	"Djedhor #0" = 20
+	"Ezena #0" = 20
+	"Horemakhet #0" = 20
+	"Isocrates #0" = 20
+	"Khabbabash #0" = 20
+	"Leonippus #0" = 20
+	"Lydiadas #0" = 20
+	"Manetho #0" = 20
+	"Massiva #0" = 20
+	
+	"Agape #0" = -20
+	"Agathoclea #0" = -20
+	"Amanishabheto #0" = -20
+	"Amanitore #1" = -40
+	"Berenice #0" = -20
+	"Charis #0" = -20
+	"Cleopatra #0" = -20
+	"Cynna #0" = -20
+	"Demetria #0" = -20
+	"Elpis #0" = -20
+	"Eirene #0" = -20
+	"Hypatia #0" = -20
+	"Nysa #0" = -20
+	"Oenanthe #0" = -20
+	"Olympia #0" = -20
+	"Phila #0" = -20
+}
+
+ship_names = {
+	Apedemak Bes Dedwen Arensnuphis Amon
+	Mandulis Amenirdis Taweret Mut Tefnut Khnum
+}

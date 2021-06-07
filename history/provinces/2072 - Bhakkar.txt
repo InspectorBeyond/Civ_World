@@ -1,0 +1,15 @@
+culture = panjabi
+religion = pantheon
+trade_goods = cotton
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+
+owner = MHJ
+controller = MHJ
+add_core = MHJ
+capital = "Mohenjo-daro"
+
+discovered_by = MHJ
+hre = no

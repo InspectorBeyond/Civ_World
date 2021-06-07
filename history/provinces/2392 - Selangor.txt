@@ -1,0 +1,15 @@
+culture = malayan
+religion = pantheon
+trade_goods = grain
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+
+owner = KLL
+controller = KLL
+add_core = KLL
+capital = "Kuala Lumpur"
+
+discovered_by = KLL
+hre = no

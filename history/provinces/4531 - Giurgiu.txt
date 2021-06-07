@@ -1,0 +1,17 @@
+# Giurgiu
+
+
+culture = romanian
+religion = pantheon
+trade_goods = livestock
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = BUC
+controller = BUC
+add_core = BUC
+capital = "Bucharest"
+
+discovered_by = BUC
+hre = no

@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = inca
+religion = pantheon
+technology_group = western
+unit_type = south_american
+capital = 808	# Cuzco
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Pachacuti Inca"
+		dynasty = "Hanan"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+
+	add_ruler_personality = careful_personality
+	add_ruler_personality = immortal_personality
+}

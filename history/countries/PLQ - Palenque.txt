@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = mayan
+religion = pantheon
+technology_group = western
+capital = 2632
+fixed_capital = 2632
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Pacal II"
+		dynasty = "of Maya"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = scholar_personality
+}

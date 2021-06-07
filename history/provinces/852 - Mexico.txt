@@ -1,0 +1,28 @@
+culture = aztek
+religion = pantheon
+trade_goods = gold
+base_tax = 3 
+base_production = 3
+base_manpower = 3 
+owner = AZT
+controller = AZT
+add_core = AZT
+capital = "Mexico"
+
+discovered_by = AZT
+
+
+1444.11.12 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+1444.11.13 = {
+owner = AZT
+controller = AZT
+add_core = AZT
+}
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

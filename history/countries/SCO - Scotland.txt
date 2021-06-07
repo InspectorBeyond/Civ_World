@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = scottish
+religion = pantheon
+technology_group = western
+capital = 248 # Edinburgh
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Robert"
+		dynasty = "Bruce"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = architectural_visionary_personality
+}

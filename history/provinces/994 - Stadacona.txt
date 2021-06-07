@@ -1,0 +1,15 @@
+culture = cosmopolitan_french
+religion = pantheon
+trade_goods = unknown
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+
+owner = QUE
+controller = QUE
+add_core = QUE
+capital = "Quebec"
+
+discovered_by = QUE
+hre = no

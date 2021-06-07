@@ -1,0 +1,14 @@
+culture = lombard
+religion = pantheon
+trade_goods = cloth
+base_tax = 3 
+base_production = 3 
+base_manpower = 3
+
+owner = MLO
+controller = MLO
+add_core = MLO
+capital = "Milano"
+
+discovered_by = MLO
+hre = no

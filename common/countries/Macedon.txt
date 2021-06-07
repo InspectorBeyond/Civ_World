@@ -1,0 +1,77 @@
+#Country Name: Please see filename
+
+graphical_culture = easterngfx
+
+color = { 0  79  206 }
+
+historical_idea_groups = {
+	exploration_ideas
+	expansion_ideas
+	defensive_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+monarch_names = {
+	"Aesillas #0" = 20
+	"Agathocles #0" = 20
+	"Agelaos #0" = 20
+	"Alexander #1" = 40
+	"Alcetas #0" = 20
+	"Damasias #0" = 20
+	"Demetrius #0" = 20
+	"Dioedas #0" = 20
+	"Diophantus #0" = 20
+	"Echemos #0" = 20
+	"Ehnon #0" = 20
+	"Ephron #0" = 20
+	"Euclid #0" = 20
+	"Eudicus #0" = 20
+	"Eudoridas #0" = 20
+	"Pericles #0" = 20
+	
+	"Adelpha #0" = -20
+	"Agape #0" = -20
+	"Airlea #0" = -20
+	"Akantha #0" = -20
+	"Berenice #0" = -20
+	"Charis #0" = -20
+	"Cleopatra #0" = -20
+	"Cynna #0" = -20
+	"Demetria #0" = -20
+	"Euthalia #0" = -20
+	"Evgenia #0" = -20
+	"Helen #0" = -20
+	"Gorgo #0" = -20
+}
+ship_names = {
+	Bitola Nikole Kicovo
+	Macedonia Miljacka
+	Skopje
+}
+
+
+

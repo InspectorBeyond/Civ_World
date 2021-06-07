@@ -1,0 +1,15 @@
+culture = saxon
+religion = pantheon
+trade_goods = wool
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+
+owner = WTT
+controller = WTT
+add_core = WTT
+capital = "Wittenberg"
+
+discovered_by = WTT
+hre = no

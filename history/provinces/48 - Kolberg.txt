@@ -1,0 +1,15 @@
+culture = polish
+religion = pantheon
+trade_goods = fish
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+
+owner = WLN
+controller = WLN
+add_core = WLN
+capital = "Wolin"
+
+discovered_by = WLN
+hre = no

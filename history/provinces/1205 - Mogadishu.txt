@@ -1,0 +1,14 @@
+culture = somali
+religion = pantheon
+trade_goods = ivory
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = MDI
+controller = MDI
+add_core = MDI
+capital = "Mogadishu"
+
+discovered_by = MDI
+hre = no

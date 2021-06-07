@@ -1,0 +1,14 @@
+culture = dutch
+religion = pantheon #Fetishism
+trade_goods = unknown
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = JHN
+controller = JHN
+add_core = JHN
+capital = "Johannesburg"
+
+discovered_by = JHN
+hre = no

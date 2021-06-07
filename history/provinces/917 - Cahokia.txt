@@ -1,0 +1,16 @@
+culture = illini
+religion = pantheon
+trade_goods = unknown
+base_tax = 3
+base_production = 3
+base_manpower = 3
+native_size = 10
+native_hostileness = 0
+
+owner = CAH
+controller = CAH
+add_core = CAH
+capital = "Cahokia"
+
+discovered_by = CAH
+hre = no

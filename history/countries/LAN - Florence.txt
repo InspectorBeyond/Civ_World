@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = free_city
+primary_culture = tuscan
+religion = pantheon
+technology_group = western
+capital = 116 # Firenze
+government_rank = 1

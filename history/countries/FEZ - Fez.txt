@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = free_city
+primary_culture = moroccan
+religion = pantheon
+technology_group = western
+capital = 343	# Fez
+government_rank = 1

@@ -1,0 +1,56 @@
+namespace = "wc"
+
+#F.A.Q
+country_event = {
+	id = wc.1
+	title = "wc.1.t"
+	desc = "wc.1.d"
+	is_triggered_only = yes
+	picture = CIV_eventPicture
+	
+	trigger = {
+		NOT = {
+			has_global_flag = FAQ_country_flag
+		}
+		ai = no
+	}
+
+	option = {
+		name = "wc.1.0"
+		hidden_effect = {
+			dismantle_hre = yes
+		}
+		set_global_flag = FAQ_country_flag
+	}
+	
+}
+
+#Очищение колонии без колониста
+province_event = {
+	id = wc.2
+	title = "wc.2.t"
+	desc = "wc.2.d"
+
+	hidden = yes
+
+	trigger = {
+		ROOT = {
+			is_colony = yes
+			has_colonist = no
+		}
+	}
+
+	option = {
+		name = "wc.2.0"
+		ai_chance = { factor = 1 }
+		ROOT = {
+			every_province = {
+				limit = {
+					is_colony = yes
+					has_colonist = no
+				}
+				add_colonysize = -1000
+			}
+		}
+	}
+}

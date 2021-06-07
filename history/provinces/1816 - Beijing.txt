@@ -1,0 +1,18 @@
+culture = zhongyuan
+religion = pantheon
+trade_goods = grain
+base_tax = 3
+base_production = 3
+base_manpower = 3
+capital = "Beijing"
+owner = YUA
+controller = YUA
+add_core = YUA
+
+discovered_by = YUA
+
+1444.11.13 = {
+owner = ---
+controller = ---
+add_core = ---
+}

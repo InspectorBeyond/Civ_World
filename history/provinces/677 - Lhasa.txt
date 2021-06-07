@@ -1,0 +1,14 @@
+culture = nepali
+religion = pantheon
+trade_goods = cloth
+base_tax = 3 			#haven't reduced this, it's already quite dirty poor
+base_production = 3		#haven't reduced this, it's already quite dirty poor
+base_manpower = 3
+
+owner = LHA
+controller = LHA
+add_core = LHA
+capital = "Lhasa"
+
+discovered_by = LHA
+hre = no

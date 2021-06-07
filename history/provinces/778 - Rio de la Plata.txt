@@ -1,0 +1,16 @@
+culture = castillian
+religion = pantheon
+trade_goods = grain
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+native_size = 5
+native_hostileness = 1
+
+owner = BNA
+controller = BNA
+add_core = BNA
+capital = "Buenos Aires"
+
+discovered_by = BNA
+hre = no

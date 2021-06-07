@@ -1,0 +1,15 @@
+culture = aka
+religion = pantheon #Fetishism
+trade_goods = gold
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+
+owner = KMS
+controller = KMS
+add_core = KMS
+capital = "Kumasi"
+
+discovered_by = KMS
+hre = no

@@ -1,0 +1,14 @@
+culture = malayan
+religion = pantheon
+trade_goods = spices
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = MLC
+controller = MLC
+add_core = MLC
+capital = "Malacca"
+
+discovered_by = MLC
+hre = no

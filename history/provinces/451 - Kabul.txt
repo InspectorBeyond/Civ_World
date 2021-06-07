@@ -1,0 +1,14 @@
+culture = afghani
+religion = pantheon
+trade_goods = dyes
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = KAB
+controller = KAB
+add_core = KAB
+capital = "Kabul"
+
+discovered_by = KAB
+hre = no

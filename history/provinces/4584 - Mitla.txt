@@ -1,0 +1,17 @@
+# No previous file for Mitla
+
+
+culture = zapotek
+religion = pantheon
+trade_goods = sugar
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = MTL
+controller = MTL
+add_core = MTL
+capital = "Mitla"
+
+discovered_by = MTL
+hre = no

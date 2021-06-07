@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = western
+religion = pantheon
+primary_culture = zhongyuan
+capital = 1821
+
+1444.11.10 = {
+	monarch = {
+		name = "Wu Zetian"
+		dynasty = "Zhou"
+		adm = 6
+		dip = 6
+		mil = 6
+	female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = scholar_personality
+}

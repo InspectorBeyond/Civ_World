@@ -1,0 +1,7 @@
+﻿l_english:
+ NORMAL_START: "Civilization World"
+ NORMAL_START_DESC: "Civs from Civilization 5 and 6 in EU4 world map"
+ OLD_WORLD_ONLY: "Old World Only"
+ OLD_WORLD_DESC: "Removes all nations in Americas, Asutralia and Polynesia"
+ NEW_WORLD_ONLY: "New World Only"
+ NEW_WORLD_DESC: "Removes all nations in Old World, leaving it to the New World nations"

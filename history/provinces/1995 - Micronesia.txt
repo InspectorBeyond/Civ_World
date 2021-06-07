@@ -1,0 +1,16 @@
+culture = polynesian
+religion = pantheon
+trade_goods = unknown
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+discovered_by = MAO
+discovered_by = PLY
+
+owner = NAN
+controller = NAN
+add_core = NAN
+capital = "Nan Madol"
+
+discovered_by = NAN
+hre = no

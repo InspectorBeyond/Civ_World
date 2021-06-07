@@ -1,0 +1,14 @@
+culture = bulgarian
+religion = pantheon
+trade_goods = grain
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = PSL
+controller = PSL
+add_core = PSL
+capital = "Preslav"
+
+discovered_by = PSL
+hre = no

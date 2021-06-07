@@ -1,0 +1,15 @@
+culture = yorumba
+religion = pantheon #Fetishism
+trade_goods = coffee #Kola nuts
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+
+owner = IFE
+controller = IFE
+add_core = IFE
+capital = "Ife"
+
+discovered_by = IFE
+hre = no

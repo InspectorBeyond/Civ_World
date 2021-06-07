@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+religion = pantheon
+primary_culture = assyria
+capital = 411 #Mosul
+
+1444.11.10 = {
+	monarch = {
+		name = "Ashurbanipal"
+		dynasty = "Sargonid"
+		birth_date = 1427.11.11
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = bold_fighter_personality
+}

@@ -1,0 +1,16 @@
+
+culture = malayan
+religion = pantheonic
+capital = "Singapur"
+trade_goods = fish
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+owner = SGP
+controller = SGP
+add_core = SGP
+
+discovered_by = SGP

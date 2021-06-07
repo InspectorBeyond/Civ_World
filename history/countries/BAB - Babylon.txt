@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+religion = pantheon
+primary_culture = babylonian
+capital = 410 #Baghdad
+
+1444.11.10 = {
+	monarch = {
+		name = "Nebuchadnezzar II"
+		dynasty = "Chaldean"
+		birth_date = 1415.11.11
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = scholar_personality
+}

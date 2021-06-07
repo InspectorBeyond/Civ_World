@@ -1,0 +1,11 @@
+culture = barbarian #Should not be Greek or Orthodox in 1444. Its status as a majority Greek city dates to at least after the 17th Century
+religion = pantheon
+trade_goods = salt #Major Ottoman Salt Work
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

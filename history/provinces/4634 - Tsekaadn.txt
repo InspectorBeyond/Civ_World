@@ -1,0 +1,32 @@
+# No previous file for Tsékaadn
+
+culture = barbarian
+religion = pantheon
+capital = "Tsékaadn"
+trade_goods = unknown
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = north_american
+
+1541.1.1 = { discovered_by = SPA } # Francisco Vásquez de Coronado
+
+1710.1.1 = { 
+	owner = APA
+	controller = APA
+	is_city = yes
+	trade_goods = wool
+	culture = barbarian
+	add_core = APA 
+} #Plains tribe expand
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

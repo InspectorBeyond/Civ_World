@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = meroitic
+religion = pantheon
+technology_group = western
+unit_type = sub_saharan
+capital = 2797
+fixed_capital = 2797
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Amanitore"
+		dynasty = "Meroitic"
+		adm = 6
+		dip = 6
+		mil = 6
+	female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = architectural_visionary_personality
+}

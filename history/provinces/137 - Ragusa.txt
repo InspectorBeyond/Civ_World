@@ -1,0 +1,14 @@
+culture = croatian
+religion = pantheon
+trade_goods = naval_supplies
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = RAG
+controller = RAG
+add_core = RAG
+capital = "Ragusa"
+
+discovered_by = RAG
+hre = no

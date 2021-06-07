@@ -1,0 +1,14 @@
+culture = andalucian
+religion = pantheon
+trade_goods = salt
+base_tax = 3 
+base_production = 3
+base_manpower = 3 
+
+owner = GRA
+controller = GRA
+add_core = GRA
+capital = "Granada"
+
+discovered_by = GRA
+hre = no

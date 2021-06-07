@@ -1,0 +1,19 @@
+# No previous file for Ohlone
+
+culture = barbarian
+religion = pantheon
+capital = "Ohlone" 
+trade_goods = unknown 
+hre = no 
+base_tax = 3
+base_production = 3
+base_manpower = 3
+native_size = 5 
+native_ferocity = 1 
+native_hostileness = 3 
+discovered_by = north_american
+extra_cost = 8
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

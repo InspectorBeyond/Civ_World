@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = old_egyptian
+religion = pantheon
+technology_group = western
+capital = 4319
+fixed_capital = 4319
+
+1444.11.10 = {
+	monarch = {
+		name = "Cleopatra"
+		dynasty = "Ptolemaic"
+		culture = macedonian
+		birth_date = 1426.11.11
+		adm = 6
+		dip = 6
+		mil = 6
+	female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = silver_tongue_personality
+}

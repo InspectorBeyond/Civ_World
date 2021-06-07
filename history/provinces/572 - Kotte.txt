@@ -1,0 +1,14 @@
+culture = tamil
+religion = pantheon
+trade_goods = spices	#Cinnamon
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = CBO
+controller = CBO
+add_core = CBO
+capital = "Colombo"
+
+discovered_by = CBO
+hre = no

@@ -1,0 +1,14 @@
+culture = greek
+religion = pantheon
+trade_goods = cloth
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = ATC
+controller = ATC
+add_core = ATC
+capital = "Antioch"
+
+discovered_by = ATC
+hre = no

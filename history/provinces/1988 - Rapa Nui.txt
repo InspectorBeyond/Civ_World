@@ -1,0 +1,14 @@
+culture = polynesian
+religion = pantheon
+trade_goods = unknown
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = RPN
+controller = RPN
+add_core = RPN
+capital = "Rapa Nui"
+
+discovered_by = RPN
+hre = no

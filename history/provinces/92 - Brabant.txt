@@ -1,0 +1,17 @@
+culture = gallic
+religion = pantheon
+trade_goods = cloth
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = GAU
+controller = GAU
+add_core = GAU
+
+discovered_by = GAU
+
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

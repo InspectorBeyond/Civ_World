@@ -1,0 +1,73 @@
+country_decisions = {
+united_oda_japan = {
+		major = yes
+		potential = {
+			tag = ODA
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1020
+				province_id = 1028
+				owned_by = HJO
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			NOT = { exists = HJO }
+			NOT = { exists = JAP }
+			owns = 1020
+			owns = 1028
+			has_institution = renaissance
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			change_tag = JAP
+			set_country_flag = formed_japan_flag
+			set_government_rank = 3
+			add_legitimacy = 100
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+united_hojo_japan = {
+		major = yes
+		potential = {
+			tag = HJO
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1020
+				province_id = 1028
+				owned_by = ODA
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			NOT = { exists = ODA }
+			NOT = { exists = HJP }
+			owns = 1020
+			owns = 1028
+			has_institution = renaissance
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			change_tag = HJP
+			set_country_flag = formed_hojo_japan_flag
+			set_government_rank = 3
+			add_legitimacy = 100
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+}

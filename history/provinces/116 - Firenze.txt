@@ -1,0 +1,14 @@
+culture = tuscan 
+religion = pantheon 
+trade_goods = wine
+base_tax = 3 
+base_production = 3    
+base_manpower = 3    
+
+owner = LAN
+controller = LAN
+add_core = LAN
+capital = "Florence"
+
+discovered_by = LAN
+hre = no

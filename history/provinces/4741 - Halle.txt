@@ -1,0 +1,14 @@
+# 4741 - Halle
+
+
+trade_goods = salt #the name "Halle" apparently might even derive from the Indo-Germanic word for salt
+culture = barbarian 
+religion = pantheon 
+base_tax = 3 
+base_production = 3 
+base_manpower = 3
+
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

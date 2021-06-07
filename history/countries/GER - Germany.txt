@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+primary_culture = prussian
+religion = pantheon
+capital = 50	# Berlin
+
+1444.11.10 = {
+	monarch = {
+		name = "Otto"
+		dynasty = "von Bismark"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = architectural_visionary_personality
+}

@@ -1,0 +1,14 @@
+culture = madagasque
+religion = pantheon #Fetishism
+trade_goods = grain
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = ATN
+controller = ATN
+add_core = ATN
+capital = "Antananarivo"
+
+discovered_by = ATN
+hre = no

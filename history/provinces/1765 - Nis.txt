@@ -1,0 +1,15 @@
+culture = bulgarian
+religion = pantheon
+trade_goods = copper
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+
+owner = SFI
+controller = SFI
+add_core = SFI
+capital = "Sofia"
+
+discovered_by = SFI
+hre = no

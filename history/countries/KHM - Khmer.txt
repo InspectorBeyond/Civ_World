@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = khmer
+religion = pantheon
+technology_group = western
+capital = 609
+fixed_capital = 609
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Jayavarman VII"
+		dynasty = "Khmer"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = architectural_visionary_personality
+}

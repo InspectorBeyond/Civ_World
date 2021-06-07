@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = iroquois
+religion = pantheon
+technology_group = western
+capital = 960 #Onondaga
+government_rank = 2
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Hiawatha"
+		dynasty = "Iroqouis"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = architectural_visionary_personality
+}

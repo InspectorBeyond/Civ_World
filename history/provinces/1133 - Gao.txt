@@ -1,0 +1,22 @@
+culture = songhai
+religion = pantheon
+trade_goods = cloth
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+owner = SON
+controller = SON
+add_core = SON
+capital = "Gao"
+
+discovered_by = SON
+
+1444.11.13 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

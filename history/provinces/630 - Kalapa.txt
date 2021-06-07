@@ -1,0 +1,15 @@
+culture = javanese
+religion = pantheon
+trade_goods = spices
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+
+owner = JAK
+controller = JAK
+add_core = JAK
+capital = "Jakarta"
+
+discovered_by = JAK
+hre = no

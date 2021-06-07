@@ -1,0 +1,14 @@
+culture = buryat
+religion = pantheon
+trade_goods = fur
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = KYZ
+controller = KYZ
+add_core = KYZ
+capital = "Kyzyl"
+
+discovered_by = KYZ
+hre = no

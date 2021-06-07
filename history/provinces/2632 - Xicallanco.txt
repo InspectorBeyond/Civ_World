@@ -1,0 +1,24 @@
+culture = mayan
+religion = pantheon
+trade_goods = cocoa
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+owner = PLQ
+controller = PLQ
+add_core = PLQ
+capital = "Palenque"
+
+discovered_by = PLQ
+
+1444.11.12 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+1444.11.13 = {
+owner = PLQ
+controller = PLQ
+add_core = PLQ
+}
+hre = no

@@ -1,0 +1,15 @@
+culture = czech
+religion = pantheon
+trade_goods = cloth 
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+
+owner = PRA
+controller = PRA
+add_core = PRA
+capital = "Prague"
+
+discovered_by = PRA
+hre = no

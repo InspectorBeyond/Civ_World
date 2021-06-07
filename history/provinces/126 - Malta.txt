@@ -1,0 +1,15 @@
+culture = maltese 
+religion = pantheon 
+trade_goods = fish
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+discovered_by = CFG
+owner = VLT
+controller = VLT
+add_core = VLT
+capital = "Valetta"
+
+discovered_by = VLT
+hre = no

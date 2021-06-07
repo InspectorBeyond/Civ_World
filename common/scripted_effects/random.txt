@@ -1,0 +1,44 @@
+move_unit_effect = { #type
+    while = {
+        limit = {
+            capital_scope = {
+                $type$_in_province = PREV
+            }
+        }
+        capital_scope = {
+            kill_units = {
+                who = owner
+                type = $type$
+                amount = 1
+            }
+        }
+        $type$ = event_target:MoveTarget
+    }
+}
+move_ship_effect = { #type #shipvalue
+    while = {
+        limit = {
+            capital_scope = {
+                $type$s_in_province = PREV
+            }
+        }
+        capital_scope = {
+            kill_units = {
+                who = owner
+                type = $type$
+                amount = 1
+            }
+        }
+        if = {
+            limit = {
+                event_target:MoveTarget = {
+                    has_port = yes
+                }
+            }
+            $type$ = event_target:MoveTarget
+        }
+        else = {
+            add_treasury = $shipvalue$
+        }
+    }
+}

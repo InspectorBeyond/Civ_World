@@ -1,0 +1,69 @@
+namespace = random_place
+country_event = {
+	id = random_place.1
+	title = random_place.1_title
+	desc = random_place.1_desc
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	after = {
+		every_country = {
+                save_event_target_as = movecountry
+                random_province = {
+                    limit = {
+                        owned_by = ---
+                        is_island = no
+                        NOT = {
+                            any_province = {
+                                NOT = {
+                                    province_distance = {
+                                        who = PREV
+                                        distance = 50
+                                    }
+                                }
+                                NOT = {
+                                    OR = {
+                                        owned_by = ---
+                                        owned_by = event_target:movecountry
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    cede_province = PREV
+                    add_core = PREV
+                    change_culture = PREV
+                    change_religion = PREV
+                    save_event_target_as = MoveTarget
+                }
+                move_unit_effect = { type=infantry }
+                move_unit_effect = { type=cavalry }
+                move_unit_effect = { type=artillery }
+                move_ship_effect = { type=heavy_ship shipvalue=50 }
+                move_ship_effect = { type=light_ship shipvalue=25 }
+                move_ship_effect = { type=galley shipvalue=10 }
+                move_ship_effect = { type=transport shipvalue=12 }
+                capital_scope = {
+                    every_core_country = {
+                        remove_core = PREV
+                    }
+                    cede_province = ---
+                }
+                every_province = {
+                    undiscover_country = PREV
+                }
+                every_province = {
+                    limit = {
+                        NOT = {
+                            province_distance = {
+                                who = event_target:MoveTarget
+                                distance = 40
+                            }
+                        }
+                    }
+                    discover_country = PREV
+                }
+            }
+	}
+}

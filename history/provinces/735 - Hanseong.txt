@@ -1,0 +1,14 @@
+culture = korean
+religion = pantheon
+trade_goods = grain
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = SEU
+controller = SEU
+add_core = SEU
+capital = "Seoul"
+
+discovered_by = SEU
+hre = no

@@ -1,0 +1,17 @@
+#455 - Diu
+
+
+culture = gujarati
+religion = pantheon
+trade_goods = sugar
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = SMT
+controller = SMT
+add_core = SMT
+capital = "Somnath"
+
+discovered_by = SMT
+hre = no

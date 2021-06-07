@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = aquitaine
+religion = pantheon
+technology_group = western
+capital = 196
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Eleanor"
+		dynasty = "Ramnulfid"
+		birth_date = 1429.11.11
+		adm = 6
+		dip = 6
+		mil = 6
+	female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = silver_tongue_personality
+}

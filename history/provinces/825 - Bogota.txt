@@ -1,0 +1,27 @@
+culture = castillian
+religion = pantheon
+trade_goods = cocoa
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+owner = COL
+controller = COL
+add_core = COL
+capital = "Bogota"
+
+discovered_by = COL
+
+1444.11.12 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+1444.11.13 = {
+owner = COL
+controller = COL
+add_core = COL
+}
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

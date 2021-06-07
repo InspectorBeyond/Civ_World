@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+primary_culture = american
+religion = pantheon
+capital = 953
+government_rank = 2
+
+
+1444.11.10 = {
+	monarch = {
+		name = "George"
+		dynasty = "Washington"
+		birth_date = 1387.11.11
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = charismatic_negotiator_personality
+}

@@ -1,0 +1,13 @@
+#4451 - Sonpur
+
+
+culture = barbarian
+religion = pantheon
+trade_goods = naval_supplies
+base_tax = 3
+base_production = 3
+base_manpower = 3
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

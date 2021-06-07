@@ -1,0 +1,14 @@
+culture = latvian
+religion = pantheon
+trade_goods = naval_supplies
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = RIG
+controller = RIG
+add_core = RIG
+capital = "Riga"
+
+discovered_by = RIG
+hre = no

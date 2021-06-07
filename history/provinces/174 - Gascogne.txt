@@ -1,0 +1,22 @@
+culture = aquitaine
+religion = pantheon
+trade_goods = wine
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+owner = AQT
+controller = AQT
+add_core = AQT
+capital = "Aquitaine"
+
+discovered_by = AQT
+
+1444.11.13 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

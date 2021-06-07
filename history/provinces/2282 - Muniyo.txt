@@ -1,0 +1,15 @@
+culture = kanuri 
+religion = pantheon
+trade_goods = grain
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+
+owner = NGZ
+controller = NGZ
+add_core = NGZ
+capital = "Ngazargamu"
+
+discovered_by = NGZ
+hre = no

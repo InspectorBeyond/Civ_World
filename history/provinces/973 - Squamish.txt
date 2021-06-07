@@ -1,0 +1,16 @@
+culture = american
+religion = pantheon
+trade_goods = unknown
+base_tax = 3
+base_production = 3
+base_manpower = 3
+native_size = 5
+native_hostileness = 6
+
+owner = VAN
+controller = VAN
+add_core = VAN
+capital = "Vancouver"
+
+discovered_by = VAN
+hre = no

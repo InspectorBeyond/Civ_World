@@ -1,0 +1,15 @@
+# 4769 - Jülich
+
+
+trade_goods = grain
+culture = barbarian 
+religion = pantheon 
+base_tax = 3 
+base_production = 3 
+base_manpower = 3
+
+discovered_by = HRE
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

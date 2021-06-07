@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = free_city
+primary_culture = andalucian
+religion = pantheon
+technology_group = western
+capital = 223	# Granada
+government_rank = 1

@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = mayan
+religion = pantheon
+technology_group = western
+capital = 4594
+fixed_capital = 4594
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Wac Chanil Ajaw "
+		dynasty = "of Naranjo"
+		adm = 6
+		dip = 6
+		mil = 6
+	female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = scholar_personality
+}

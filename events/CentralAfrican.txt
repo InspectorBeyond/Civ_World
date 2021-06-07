@@ -1,0 +1,416 @@
+########################################
+# Events for Central African nations
+#
+# written by Rufus Tronde and Petter Vilberg
+########################################
+
+namespace = central_african
+
+### Malagasy Events
+
+# Visitor Breaks Fady
+country_event = {
+	id = central_african.4
+	title = "central_african.4.t"
+	desc = "central_african.4.d"
+	picture = ACCUSATION_eventPicture
+
+	is_triggered_only = yes
+
+	# 
+	option = {
+		name = "central_african.4.a"
+		add_casus_belli = {
+			target = FROM
+			type = cb_insult
+			months = 32
+		}
+	}
+}
+
+# Mbudye Clashes with Chief
+country_event = {
+	id = central_african.7
+	title = "central_african.7.t"
+	desc = "central_african.7.d"
+	picture = LIBERUM_VETO_eventPicture
+
+	trigger = {
+		has_dlc = "Mare Nostrum"
+		has_country_modifier = expanded_mbudye
+	}
+
+	mean_time_to_happen = {
+		months = 180
+	}
+
+	# 
+	option = {
+		name = "central_african.7.a"
+		add_legitimacy = -20
+	}
+
+	# 
+	option = {
+		name = "central_african.7.b"
+		add_prestige = -10
+	}
+}
+
+# Mbudye Generational Conflict
+country_event = {
+	id = central_african.8
+	title = "central_african.8.t"
+	desc = "central_african.8.d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+
+	trigger = {
+		has_dlc = "Mare Nostrum"
+		has_country_modifier = expanded_mbudye
+	}
+
+	mean_time_to_happen = {
+		months = 180
+	}
+
+	# Side with Elders
+	option = {
+		name = "central_african.8.a"
+		add_legitimacy = 20
+		add_adm_power = -50
+	}
+
+	# Side with new blood
+	option = {
+		name = "central_african.8.b"
+		define_advisor = {
+			type = theologian
+			discount = yes
+			skill = 1
+		}
+		define_advisor = {
+			type = statesman
+			discount = yes
+			skill = 1
+		}
+		add_meritocracy_effect = yes
+		add_stability = -1
+	}
+}
+
+
+#Antionio Fernandes
+country_event = {
+	id = central_african.9
+	title = central_african.9.t
+	desc = central_african.9.d
+	picture = CENTRAL_AFRICAN_PORTUGUESE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		has_dlc = "Mare Nostrum"
+		religion = shamanism
+		capital_scope = {
+			OR = {
+				area = zimbabwe_area
+				area = lower_zambezi_area
+				area = butua_area
+			}
+		}
+		east_africa_region = {
+			owned_by = POR
+		}
+	}
+
+
+	option = {
+		name = central_african.9.a
+		reverse_add_opinion = {
+			who = POR
+			modifier = opinion_welcomed_fernandes
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					trade_goods = gold
+				}
+			}
+			random = {
+				chance = 30
+				random_owned_province = {
+					limit = {
+						is_capital = no
+						NOT = {
+							trade_goods = gold
+						}
+					}
+					add_claim = POR
+				}
+			}
+		}
+	}
+
+	option = {
+		name = central_african.9.b
+		reverse_add_opinion = {
+			who = POR
+			modifier = opinion_killed_fernandes
+		}
+	}
+}
+
+#Increased Trade With India
+country_event = {
+	id = central_african.10
+	title = central_african.10.t
+	desc = central_african.10.d
+	picture = AFRICAN_INDIAN_eventPicture
+
+	trigger = {
+		has_dlc = "Mare Nostrum"
+		capital_scope = {
+			region = east_africa_region
+		}
+		any_neighbor_country = {
+			capital_scope = {
+				continent = europe
+			}
+			any_owned_province = {
+				region = east_africa_region
+				has_port = yes
+			}
+			west_india_region = {
+				range = PREV
+			}
+		}
+		NOT = {
+			has_country_modifier = increased_african_indian_trade
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.7
+			has_idea_group = trade_ideas
+		}
+	}
+
+	option = {
+		name = central_african.10.a
+		add_country_modifier = {
+			name = increased_african_indian_trade
+			duration = 10950
+		}
+	}
+	option = {
+		name = central_african.10.b
+		add_years_of_income = 0.5
+	}
+}
+#MARAVI
+#The Land of Flames
+country_event = {
+	id = central_african.12
+	title = central_african.12.t
+	desc = central_african.12.d
+	picture = MARAVI_FURNACE_eventPicture
+
+	trigger = {
+		has_dlc = "Mare Nostrum"
+		tag = MRA
+		is_at_war = yes
+		NOT = {
+			has_country_modifier = maravi_land_of_flames
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = central_african.12.a
+		add_mil_power = 50
+		add_country_modifier = {
+			name = maravi_land_of_flames
+			duration = 365
+		}
+	}
+}
+
+
+#Exceptional Katikkiri
+country_event = {
+	id = central_african.18
+	title = central_african.18.t
+	desc = central_african.18.d
+	picture = ADVISOR_eventPicture
+
+	trigger = {
+		has_dlc = "Mare Nostrum"
+		tag = BUG
+		has_advisor = yes
+		NOT = {
+			has_country_modifier = katikkiri_timer
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600
+	}
+
+	immediate = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = katikkiri_timer
+				duration = 730
+				hidden = yes
+			}
+		}
+	}
+
+	option = {
+		name = central_african.18.a
+		add_adm_power = 100
+	}
+	option = {
+		name = central_african.18.b
+		add_dip_power = 100
+	}
+}
+
+
+#Kateregga Seizes the Throne
+country_event = {
+	id = central_african.19
+	title = central_african.19.t
+	desc = central_african.19.d
+	picture = SPY_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		has_dlc = "Mare Nostrum"
+		tag = BUG
+		has_regency = no
+		is_female = no
+		is_year = 1600
+		NOT = {
+			is_year = 1680
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600
+	}
+
+	option = {
+		name = central_african.19.a
+		define_ruler = {
+			name = "Kateregga"
+			dynasty = "Kamegere"
+			adm = 3
+			dip = 5
+			mil = 4
+			age = 20
+			claim = 70
+			fixed = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 1
+		}
+		if = {
+			limit = {
+				has_dlc = "Rights of Man" 
+			}
+			hidden_effect = { add_ruler_personality = intricate_web_weaver_personality }
+		}
+		set_ruler_flag = kateregga_seized_power
+	}
+
+	option = {
+		name = central_african.19.b
+		kill_ruler = yes
+		add_prestige = -10
+		add_adm_power = -25
+	}
+}
+
+
+#Kateregga's Children
+country_event = {
+	id = central_african.20
+	title = central_african.20.t
+	desc = central_african.20.d
+	picture = CENTRAL_AFRICAN_COURT_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		has_dlc = "Mare Nostrum"
+		tag = BUG
+		has_ruler_flag = kateregga_seized_power
+		has_government_attribute = heir
+	}
+
+	mean_time_to_happen = {
+		months = 160
+	}
+
+	option = {
+		name = central_african.20.a
+		define_heir = {
+			dynasty = "Kamegere"
+			claim = 100		
+		}
+	}
+
+	option = {
+		name = central_african.20.b
+		define_heir = {
+			dynasty = "Kamegere"
+			claim = 70
+		}
+	}
+
+	option = {
+		name = central_african.20.c
+		define_heir = {
+			dynasty = "Kamegere"
+			claim = 30	
+		}
+	}
+}
+
+
+#Kateregga dies
+country_event = {
+	id = central_african.21
+	title = central_african.21.t
+	desc = central_african.21.d
+	picture = KING_SICK_IN_BED_eventPicture
+
+	trigger = {
+		has_dlc = "Mare Nostrum"
+		tag = BUG
+		has_ruler_flag = kateregga_seized_power
+		ruler_age = 30
+	}
+
+	mean_time_to_happen = {
+		months = 480
+	}
+
+	option = {
+		name = central_african.21.a
+		kill_ruler = yes
+	}
+}
+
+
+

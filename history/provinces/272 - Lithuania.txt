@@ -1,0 +1,14 @@
+culture = lithuanian
+religion = pantheon
+trade_goods = grain
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = VIL
+controller = VIL
+add_core = VIL
+capital = "Vilnius"
+
+discovered_by = VIL
+hre = no

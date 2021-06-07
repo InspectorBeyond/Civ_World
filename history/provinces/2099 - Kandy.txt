@@ -1,0 +1,14 @@
+culture = tamil
+religion = pantheon
+trade_goods = spices
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+owner = KND
+controller = KND
+add_core = KND
+capital = "Kandy"
+
+discovered_by = KND
+hre = no

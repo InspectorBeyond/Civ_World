@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = korean
+religion = pantheon
+technology_group = western
+capital = 2745
+
+1444.11.10 = {
+	monarch = {
+		name = "Seondeok"
+		dynasty = "Silla"
+		adm = 6
+		dip = 6
+		mil = 6
+	female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = scholar_personality
+}

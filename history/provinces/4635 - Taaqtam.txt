@@ -1,0 +1,30 @@
+# No previous file for Taaqtam
+
+culture = barbarian
+religion = pantheon 
+capital = "Taaqtam" 
+trade_goods = unknown
+hre = no 
+base_tax = 3 
+base_production = 3 
+base_manpower = 3 
+native_size = 5 
+native_ferocity = 1 
+native_hostileness = 4 
+
+
+
+discovered_by = north_american
+
+1731.1.1 = {
+	owner = PIM
+	controller = PIM
+	add_core = PIM
+	trade_goods = wool
+	is_city = yes 
+} #representing various desert tribes
+
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

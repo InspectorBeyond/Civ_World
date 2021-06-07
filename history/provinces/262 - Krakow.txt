@@ -1,0 +1,20 @@
+culture = polish
+religion = pantheon
+trade_goods = salt
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+owner = PLC
+controller = PLC
+add_core = PLC
+capital = "Krakow"
+
+discovered_by = PLC
+
+1444.11.13 = {
+owner = ---
+controller = ---
+add_core = ---
+}
+hre = no

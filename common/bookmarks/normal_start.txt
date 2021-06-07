@@ -1,0 +1,11 @@
+bookmark =
+{
+	name = "NORMAL_START"
+	desc = "NORMAL_START_DESC"
+	date = 1444.11.11
+	
+	center = 112
+	default = yes
+	
+	
+}

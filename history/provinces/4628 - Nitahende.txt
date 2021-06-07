@@ -1,0 +1,39 @@
+# No previous file for Nitahende
+
+culture = barbarian
+religion = pantheon
+capital = "Nitahendé"
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+native_size = 6
+native_ferocity = 2
+native_hostileness = 8
+
+
+
+discovered_by = north_american
+
+1541.1.1 = { discovered_by = SPA }
+1682.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	is_city = yes
+	trade_goods = grain
+	religion = pantheon
+	culture = barbarian 
+} #Isleta Mission
+1810.9.16 = {
+	owner = MEX
+	add_core = MEX
+	controller = SPA 
+} # Mexican War of Independence
+
+
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

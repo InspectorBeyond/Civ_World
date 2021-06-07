@@ -1,0 +1,15 @@
+#4361 - Central + East March (Roxburghshire+Berwickshire+Selkirkshire)
+
+
+culture = barbarian
+religion = pantheon
+base_tax = 3
+base_production = 3
+trade_goods = iron
+base_manpower = 3
+
+discovered_by = SCO
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
+hre = no

@@ -1,0 +1,78 @@
+country_decisions = { 
+    random_movement = {
+		
+		major = yes
+		
+        potential = {
+			ai = no
+			NOT = {
+				has_global_flag = countries_moved
+			}
+			NOT = { is_year = 1445 }
+		}   
+		allow = {
+			always = yes
+		}
+		effect = {
+			set_global_flag = countries_moved
+			custom_tooltip = randomize_start_tooltip
+			hidden_effect = {
+				every_country = {
+					save_event_target_as = movecountry
+					random_province = {
+						limit = {
+							owned_by = ---
+							is_island = no
+							any_province = {
+								province_distance = {
+									who = PREV
+									distance = 65
+								}
+								OR = {
+									owned_by = ---
+									owned_by = event_target:movecountry
+								}
+							}
+						}
+						cede_province = PREV
+						add_core = PREV
+						change_culture = PREV
+						change_religion = PREV
+						save_event_target_as = MoveTarget
+						change_native_ferocity = -9
+						change_native_hostileness = -9
+						change_native_size = -45
+					}
+					move_unit_effect = { type=infantry }
+					move_unit_effect = { type=cavalry }
+					move_unit_effect = { type=artillery }
+					move_ship_effect = { type=heavy_ship shipvalue=50 }
+					move_ship_effect = { type=light_ship shipvalue=25 }
+					move_ship_effect = { type=galley shipvalue=10 }
+					move_ship_effect = { type=transport shipvalue=12 }
+					capital_scope = {
+						remove_core = PREV
+						cede_province = ---
+					}
+					every_province = {
+						undiscover_country = PREV
+					}
+					every_province = {
+						limit = {
+							NOT = {
+								province_distance = {
+									who = event_target:MoveTarget
+									distance = 40
+								}
+							}
+						}
+						discover_country = PREV
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
