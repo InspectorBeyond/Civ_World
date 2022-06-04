@@ -1,0 +1,14 @@
+#1106 - Te Tai Tokerau
+
+add_core = MAO
+owner = MAO
+controller = MAO
+culture = maori
+religion = pantheon
+hre = no
+capital = "Te Hokinaga-nui-a-kupe"
+is_city = yes
+trade_goods = tropical_wood
+base_tax = 3 
+base_production = 3
+base_manpower = 3

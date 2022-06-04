@@ -1,9 +1,8 @@
-government = monarchy
-add_government_reform = feudalism_reform
-
-primary_culture = cosmopolitan_french
-religion = catholic
-technology_group = eastern
+government = republic
+add_government_reform = free_city
+primary_culture = hebrew
+religion = pantheon
+technology_group = western
 capital = 379	# Jerusalem
 
 

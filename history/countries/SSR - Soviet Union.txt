@@ -1,5 +1,6 @@
 government = republic
 add_government_reform = peasants_republic
+government_rank = 2
 primary_culture = russian
 religion = pantheon
 technology_group = western

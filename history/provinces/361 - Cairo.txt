@@ -10,9 +10,9 @@ add_core = AYU
 discovered_by = AYU
 
 1444.11.13 = {
-owner = ---
-controller = ---
-add_core = ---
+	owner = ---
+	controller = ---
+	add_core = ---
 }
 native_size = 45
 native_ferocity = 9

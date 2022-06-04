@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+technology_group = western
+unit_type = sub_saharan
+religion = pantheon
+primary_culture = somali
+capital = 1205 #Mogadishu
+

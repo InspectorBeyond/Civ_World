@@ -677,6 +677,7 @@ gaelic	= {
 		}
 	}
 }
+
 italian = {
 	graphical_culture = westerngfx
 	lombard = {
@@ -1743,7 +1744,11 @@ turko_semitic = { #Levantine
 			Umay Usunbike Vahide Yasar Yeldem Yildiz Zehra Zuhal Hatice Safiye Zeynep Hurrem Mihrimah Nurbanu 
 			Handan Alime Kosem Huma 
 		}
-	}	
+	}
+}	
+arabic = {
+	graphical_culture = muslimgfx
+
 	al_misr_arabic = { #Egyptian Arab
 		primary = MAM
 		dynasty_names = {
@@ -3906,7 +3911,9 @@ wlevantine_group = {
 		Danel Kanmi Maharbaal Milkpilles Melqartpilles Milkyaton Massinissa Hiempsal Juba
 	}
 	female_names = {
-		Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar Adiya Tabua Yapa Ytab Suhaima Huldu Mashah Gamila Asherah Izavel Iezabel Arishat Elissa Muttunbaal
+		Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar Adiya Tabua 
+		Yapa Ytab Suhaima Huldu Mashah Gamila Asherah Izavel Iezabel 
+		Arishat Elissa Muttunbaal
 	}
 }
 

@@ -1,5 +1,6 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 2
 primary_culture = polish
 add_accepted_culture = lithuanian
 religion = pantheon
@@ -9,7 +10,7 @@ capital = 262 # Krakow
 1444.11.10 = {
 	monarch = {
 		name = "Jadwiga"
-		dynasty = "Jagiellon"
+		dynasty = "Anjou-Hungary"
 		adm = 6
 		dip = 6
 		mil = 6

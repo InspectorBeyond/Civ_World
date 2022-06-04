@@ -170,42 +170,74 @@ SPA_ideas = {
 		may_explore = yes
 		colonists = 2
 	}
-	
 	bonus = {
 		global_colonial_growth = 25
 	}
-	
 	trigger = {
 		tag = SPA
 	}
 	free = yes		#will be added at load.
-
-	the_reconquista = {
-		discipline = 0.05
-	}
-	spanish_inquisition = {
-		global_missionary_strength = 0.02
+	devout_catholisism = {
+		papal_influence = 2
 	}
 	inter_caetera = {
 		idea_claim_colonies = yes
 		colonists = 1
 	}
-	devout_catholisism = {
-		papal_influence = 2
-	}
-
 	gold_fleet = {
-		global_tariffs = 0.15
-		global_prov_trade_power_modifier = 0.1
+		naval_forcelimit_modifier = 0.25
 	}
-
 	spanish_armada = {
-		heavy_ship_power = 0.10
-		global_sailors_modifier = 0.1
+		heavy_ship_power = 0.1
+		leader_naval_manuever = 1
 	}
-
+	spa_casa_de_contracion = {
+		envoy_travel_time = -0.33
+		global_tariffs = 0.15
+	}
+	spa_cortes = { 
+		possible_dip_policy = 1
+	}
 	siglo_de_oro = {
 		prestige = 1
+	}
+}
+
+CAS_ideas = {
+	start = {
+		may_explore = yes
+		colonists = 2
+	}
+	bonus = {
+		global_colonial_growth = 25
+	}
+	trigger = {
+		tag = CAS
+	}
+	free = yes		#will be added at load.
+	the_reconquista = {
+		army_tradition_decay = -0.01
+	}
+	spanish_inquisition = {
+		global_missionary_strength = 0.02
+		missionaries = 1
+	}
+	cabildos = {
+		production_efficiency = 0.1
+	}
+	inter_caetera = {
+		idea_claim_colonies = yes
+		colonists = 1
+	}
+	infantas = {
+		diplomatic_reputation = 1
+		heir_chance = 0.33
+	}
+	salamanca_scholars = {
+		global_institution_spread = 0.1
+	}
+	nueva_planta = {
+		global_autonomy = -0.05
 	}
 }
 
@@ -577,8 +609,8 @@ POR_ideas = {
 
 POL_ideas = {
 	start = {
-		may_explore = yes
 		colonists = 2
+		may_explore = yes
 	}
 	
 	bonus = {
@@ -586,7 +618,10 @@ POL_ideas = {
 	}
 	
 	trigger = {
-		tag = POL
+		OR = {
+			tag = POL
+			tag = PLC
+		}
 	}
 	free = yes		#will be added at load.
 	
@@ -672,6 +707,46 @@ CHI_ideas = {
 	
 	trigger = {
 		tag = QIN
+	}
+	free = yes		#will be added at load.
+	
+	nine_garrisons_of_the_great_wall = {
+		defensiveness = 0.05
+		garrison_size = 0.25
+	}
+	revived_three_grand_divisions = {
+		discipline = 0.05
+	}
+	inward_perfection = {
+		stability_cost_modifier = -0.10
+	}
+	yellow_river_dykes = {
+		production_efficiency = 0.1
+	}
+	salt_monopoly = {
+		trade_efficiency = 0.1
+	}
+	single_whip_law = {
+		global_tax_modifier = 0.10
+	}
+	the_red_cannon = {
+		leader_land_fire = 1
+	}
+}
+
+
+VTM_ideas = {
+	start = {
+		may_explore = yes
+		colonists = 2
+	}
+	
+	bonus = {
+		improve_relation_modifier = 0.3
+	}
+	
+	trigger = {
+		tag = VTM
 	}
 	free = yes		#will be added at load.
 	
@@ -2356,7 +2431,7 @@ SPR_ideas = {
 	trigger = {
 		OR = {
 			TAG = SPR
-			}
+		}
 	}
 	free = yes
 		
@@ -2395,7 +2470,7 @@ CFG_ideas = {
 	}
 	
 	trigger = {
-		tag = CAR
+		tag = CFG
 	}
 	free = yes
 	
@@ -2708,7 +2783,7 @@ NUB_ideas = {
 	}
 	
 	trigger = {
-		tag = NUB
+		tag = NBI
 	}
 	free = yes
 	

@@ -5,12 +5,12 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 
-owner = NUB
-controller = NUB
-add_core = NUB
+owner = NBI
+controller = NBI
+add_core = NBI
 capital = "Meroe"
 
-discovered_by = NUB
+discovered_by = NBI
 
 1444.11.13 = {
 owner = ---
@@ -18,7 +18,7 @@ controller = ---
 add_core = ---
 }
 
-discovered_by = NUB
+discovered_by = NBI
 native_size = 45
 native_ferocity = 9
 native_hostileness = 9

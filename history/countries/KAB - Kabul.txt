@@ -4,4 +4,4 @@ government_rank = 1
 primary_culture = afghani
 religion = pantheon
 technology_group = western
-capital = 4730
+capital = 451
