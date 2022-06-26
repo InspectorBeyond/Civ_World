@@ -1,4 +1,4 @@
-culture = saxon
+culture = barbarian
 religion = pantheon
 trade_goods = wool
 base_tax = 3
@@ -6,10 +6,9 @@ base_production = 3
 base_manpower = 3
 
 
-owner = WTT
-controller = WTT
-add_core = WTT
-capital = "Wittenberg"
 
-discovered_by = WTT
+native_size = 45
+native_ferocity = 9
+native_hostileness = 9
 hre = no
+

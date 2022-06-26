@@ -942,8 +942,8 @@ JAP_ideas = {
 	
 	trigger = {
 		OR = {
-			tag = JAP
 			tag = ODA
+			tag = JAP
 		}
 	}
 	free = yes
@@ -1751,7 +1751,7 @@ ROM_ideas = {
 	}
 }
 
-AYU_ideas = {
+HSN_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
@@ -1760,7 +1760,7 @@ AYU_ideas = {
 		discipline = 0.05
 	}
 	trigger = {
-		tag = AYU
+		tag = HSN
 	}
 	free = yes
 	

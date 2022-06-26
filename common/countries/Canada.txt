@@ -3,7 +3,7 @@
 graphical_culture = westerngfx
 random_nation_chance = 0
 
-color = { 249 249 249 }
+color = { 239 239 239 }
 revolutionary_colors = { 5  0  5 }
 
 historical_idea_groups = {
@@ -35,96 +35,204 @@ historical_units = {
 }
 
 monarch_names = {
-	"Jeffery #0" = 5
-	"Samuel #0" = 40
-	"James #0" = 5
-	"Guy #0" = 20
-	"Frederick #0" = 20
-	"Robert #0" = 20
-	"Thomas #0" = 20
-	"George #0" = 20
-	"Charles #0" = 40
-	"Louis #0" = 20
-	"Jean #0" = 5
-	"Pierre #0" = 5
-	"Daniel #0" = 20
-	"Augustin #0" = 5
-	"Joseph #0" = 5
-	"Jacques #0" = 5
-	"Philippe #0" = 5
-	"Roland #0" = 5
-	"Michel #0" = 5
-	"Gordon #0" = 5
-	"Wilfrid #1" = 40
+	"Albert #0" = 20 
+	"Alexander #0" = 20 
+	"Alfred #0" = 20 
+	"Angus #0" = 20 
+	"Archibald #0" = 20 
+	"Arthur #0" = 20 
+	"Charles #0" = 20 
+	"Christopher #0" = 20 
+	"Colin #0" = 20 
+	"David #0" = 20 
+	"Edmund #0" = 20 
+	"Frederick #0" = 20 
+	"George #0" = 20 
+	"Gordon #0" = 20 
+	"Hugh #0" = 20 
+	"James #0" = 20 
+	"John #0" = 20 
+	"Joseph #0" = 20 
+	"Mackenzie #0" = 20 
+	"Mark #0" = 20 
+	"Matthew #0" = 20 
+	"Michael #0" = 20 
+	"Nicholas #0" = 20 
+	"Norman #0" = 20 
+	"Patrick #0" = 20 
+	"Paul #0" = 20 
+	"Peter #0" = 20 
+	"Robert #0" = 20 
+	"Samuel #0" = 20 
+	"Simon #0" = 20 
+	"Sydney #0" = 20 
+	"Thomas #0" = 20 
+	"William #0" = 20 
 	
-	"Alexander #0" = 0
-	"Amable #0" = 0
-	"Antoine #0" = 0
-	"Benjamin #0" = 0
-	"Christopher #0" = 0
-	"David #0" = 0
-	"David William #0" = 0
-	"Edward #0" = 0
-	"Ephraim #0" = 0
-	"François #0" = 0
-	"Gabriel #0" = 0
-	"Guillaume #0" = 0
-	"Hubert #0" = 0
-	"Hugh #0" = 0
-	"Hyacinthe #0" = 0
-	"Ignace #0" = 0
-	"Isaac #0" = 0
-	"Jacob #0" = 0
-	"Jean-Baptiste #0" = 0
-	"Charles-Michel #0" = 0
-	"Jeremiah #0" = 0
-	"John #0" = 0
-	"Louis-Joseph #0" = 0
-	"Louis-Hippolyte #0" = 0
-	"Mathew #0" = 0
-	"Nathaniel #0" = 0
-	"Nicolas #0" = 0
-	"Parshall #0" = 0
-	"Peter #0" = 0
-	"Philip #0" = 0
-	"Pierre-Louis #0" = 0
-	"Richard #0" = 0
-	"René #0" = 0
-	"Solomon #0" = 0
-	"Timothy #0" = 0
-	"William #0" = 0
+	"Adolphe #0" = 20 
+	"Alain #0" = 20 
+	"Alphonse #0" = 20 
+	"Athanase #0" = 20 
+	"Auguste-Real #0" = 20 
+	"Charles #0" = 20 
+	"Charles-Seraphin #0" = 20 
+	"Denis-Benjamin #0" = 20 
+	"Dionel #0" = 20 
+	"Elzear #0" = 20 
+	"Etienne-Paschal #0" = 20 
+	"Francois-Edouard #0" = 20 
+	"George-Etienne #0" = 20 
+	"Georges #0" = 20 
+	"Gilles #0" = 20 
+	"Guillaume #0" = 20 
+	"Guillaume-Alphonse #0" = 20 
+	"Hector-Louis #0" = 20 
+	"Henri #0" = 20 
+	"Hermenegilde #0" = 20 
+	"Honore #0" = 20 
+	"Jacques #0" = 20 
+	"Jean #0" = 20 
+	"Jean-Baptiste #0" = 20 
+	"Jean-Docile #0" = 20 
+	"Jean-Paul #0" = 20 
+	"Joseph #0" = 20 
+	"Joseph-Oscar #0" = 20 
+	"Joseph-Remi #0" = 20 
+	"Laurent-Olivier #0" = 20 
+	"Leandre #0" = 20 
+	"Louis-Adelard #0" = 20 
+	"Louis-Joseph #0" = 20 
+	"Louis-Olivier #0" = 20 
+	"Louis-Philippe #0" = 20 
+	"Louis-Rodrigue #0" = 20 
+	"Marcel #0" = 20 
+	"Mathieu #0" = 20 
+	"Michel #0" = 20 
+	"Narcisse-Fortunat #0" = 20 
+	"Napoleon #0" = 20 
+	"Olivier #0" = 20 
+	"Olivier-Napoleon #0" = 20 
+	"Pierre #0" = 20 
+	"Pierre-Aurele #0" = 20 
+	"Pierre-Stanislas #0" = 20 
+	"Rene-Edouard #0" = 20 
+	"Simon-Napoleon #0" = 20 
+	"Telesphore #0" = 20 
+	"Theodore #0" = 20 
+	"Theophile #0" = 20 
+	"Ulric-Joseph #0" = 20 
+	"Valmont #0" = 20 
+	"Wifrid #1" = 40
 
-	"Laura #0" = -1
-	"Maria #0" = -1	
-	"Victoria #0" = -1
-	"Charlotte #0" = -1
-	"Adrienne #0" = -1
-	"Marguerite #0" = -1
+	"Victoria #0" = -20
+	"Jane #0" = -20 
+	"Adela #0" = -20 
+	"Adelaide #0" = -20 
+	"Alice #0" = -20 
+	"Amice #0" = -20 
+	"Anne #0" = -20 
+	"Anna #0" = -20 
+	"Aveline #0" = -20 
+	"Avelina #0" = -20 
+	"Beatrice #0" = -20 
+	"Blanche #0" = -20 
+	"Catherine #0" = -20 
+	"Cecilia #0" = -20 
+	"Constance #0" = -20 
+	"Edith #0" = -20 
+	"Ela #0" = -20 
+	"Eleanor #0" = -20 
+	"Elizabeth #0" = -20 
+	"Emma #0" = -20 
+	"Hawise #0" = -20 
+	"Isabel #0" = -20 
+	"Isabella #0" = -20 
+	"Elisabeth #0" = -20 
+	"Joan #0" = -20 
+	"Joanna #0" = -20 
+	"Juliana #0" = -20 
+	"Mahaut #0" = -20 
+	"Margaret #0" = -20 
+	"Mary #0" = -20 
+	"Maria #0" = -20 
+	"Maud #0" = -20 
+	"Matilda #0" = -20 
+	"Philippa #0" = -20 
+	"Sybilla #0" = -20 
+	"Sibylla #0" = -20
+	
+	"Andrea #0" = -20 
+	"Anne-Marie #0" = -20 
+	"Antonia #0" = -20 
+	"Antonine #0" = -20 
+	"Azelie #0" = -20 
+	"Blanche #0" = -20 
+	"Catherine #0" = -20 
+	"Charlotte #0" = -20 
+	"Cora #0" = -20 
+	"Denise #0" = -20 
+	"Dina #0" = -20 
+	"Edith #0" = -20 
+	"Elise #0" = -20 
+	"Elizabeth #0" = -20 
+	"Ellen #0" = -20 
+	"Elmire #0" = -20 
+	"Esther #0" = -20 
+	"Grace #0" = -20 
+	"Helene #0" = -20 
+	"Henriette #0" = -20 
+	"Isabelle #0" = -20 
+	"Jacqueline #0" = -20 
+	"Jeanne #0" = -20 
+	"Josephine #0" = -20 
+	"Julie #0" = -20 
+	"Louise #0" = -20 
+	"Marcia #0" = -20 
+	"Marie #0" = -20 
+	"Marie-Amable #0" = -20 
+	"Marie-Anne #0" = -20 
+	"Marie-Louise #0" = -20 
+	"Marinda #0" = -20 
+	"Marjolaine #0" = -20 
+	"Maxime #0" = -20 
+	"Pierrette #0" = -20 
+	"Philloma #0" = -20 
+	"Raymonde #0" = -20 
+	"Sophie #0" = -20 
+	"Yvette #0" = -20 
 }
 
-leader_names = { 
-	Allsopp Amherst Auldjo
-	Baby Barnes Beasley Bédard Bégin Bell Bernier Berthelot Black Boileau Boisseau Booth Bouc Boucher Boudreau Bowen Brodeur Brock Bronson Browne By
-	Caldwell Campbell Carleton Cartier Chartier Cherrier Coffin Cornwall Craig Craigie Cuthbert
-	Dalhousie Dambourgés Dartigny 
-	"D'Arcy" "de Bonne" "de Lavaltrie" "de Lorimier" "de Lotbinière" "de Rocheblave" "de Rouville" "de Salaberry" "de Tonnancour" 
-	Digé Dorion Dorland Ducharme Duchesnay Dufour Dumont Dunière Dunn Dupré Duplessis Dumas Durocher Duvernay
-	Éthier
-	Fairfield Fisher Foucher Fraser French Frobisher
-	Grant Gray Godefroy Gouin Guerout Guy
-	Hardison Hart Harwood Hébert Henry Hertel Huot
-	Ingersoll Irvine
-	Jessup Jodoin Jordan Jones
-	Lacroix Lafontaine Larocque Lebreton "le Comte" Lee Lees Lester Lynd
-	Macnider Macomb Malhiot Marcoux Martineau McBeath McCrae McDonell McGill McGillivray McKee McLeod Menut Millet Monk Montour Moore Mure Murray
-	Nelson
-	Panet Papineau Paquet Pawling Perrault Périnault Pettit Pierreville Planté Prescott Prévost
-	Raby Richardson Richmond Riel Rivard Robinson Rogers Roy
-	"Saint-Martin" Secord Sewell Shaw Sherbrooke Sirois Smith Spencer Stanley Stuart Street Swayze
-	Taché Taschereau Terry Thompson Tod
-	"Van Alstine" Vanier Viger
-	Walker White Wilkinson
-	Young
+leader_names = {
+	Abbott Acheson Bishop Byng Colborne Hamilton-Temple-Blackwood Kempt Lambton 
+	Lansdowne Lennox Lisgar Lorne Macdonald Monck Preston Stanley
+	Thomson Whitworth-Aylmer Young 	Affleck Armour Bates Beavan Beckwith Bernard Bethune Bishop Blewett Borden Bowell Bradford Brown 
+	Calder Campbell Caron Churchill Clark Coleman Conan Corrigan Crawford Currie Curzon Cushing Deeks 
+	Dickey Diggs Dougall Duncan Field Fleming Garner Graham Guthrie Harrison Hayes Herbert Holmes Hughes 
+	Jennings Jones Katzmann Kemp Kennedy King Langton Lawson Lefevre Leprohon Mackenzie MacNab Maitland 
+	McDonald McIlwraith McIsaac McKellar Merrick Mewburn Mitchell Monthomery Moodie Morin Mountcastle 
+	Murray Neil Newhall Panet Parke Patterson Piers Pope Pottinger Rae Robertson Rogers Ross Sedgewick 
+	Shaw Sheard Sivell Smith Strong Thompson Tisdale Tonge Traill Trenholme Vail Vining Walker Walshe Wetherald
+ 
+	Anthoine Archinard Augereau Aucouturier Alavoine
+	Baraguey Bazaine Billot Bosquet Boulanger Bourbaki "Boue de Lapeyrere" Bouet-Willaumez Bugeaud Beaugendre Bronchard Baudet Bodinier Bouillet Biere
+	Caillard Canrobert Courbet Cousin-Mountauban "de Castellane" "de Castelnau" Combes Cloue Cornet Colas Chauvet Carrere Chartier Combelles Chaude Colin Cruchon Cauvry Chau "de  Collet" Cottrel Charron Caudrelier Courcelles
+	Davout Depre Dubail Dubois Duchene Dupetit-Thouars Desbordes Delcasse Dortignacq Dargassies Desgrange Daumain Decaup Dozol Duboc Darche Deloffre Dutiron Denizot Dufour Devilly Dhers Dartigue Degy
+	Exelmans
+	Foch Forey Franchet d'Esperey Freycinet Faidherbe Fily Fleury Forestier Figuet
+	Gallieni Gouraud Guillaumat "de Gaulle" Gain Georget Gabory Guillarme Garrigou Genin Geraud Godivier Germain Gardent Goujon
+	Hamelin Harispe Hoche Humbert d'Hilliers Habierre Herbelin Harquet
+	Jamais Jaures Joffre Jaureguiberry Jousselin
+	Lebouef Lyautey "de Langle" "de Cary" Leygoute Lignon Lallement Lacroix Lafourcade LeBars Lachaise Leman Lorillon Lecointe Langlade Leblanc Lagagner Leroy Lapize
+	Marmontel Murat "de Montaignac" Mazel Maitron Menager Meili Mathonat
+	"Ney d'Elchingen" Nivelle Nancy Neboux Nempon
+	Oudin Ory
+	Petain Pellissier Pothier Pasquier Pautrat Payan Passerieu Paulmier Ponson Pietrois Pardon
+	Quenon
+	Ringeval Roux Rabot Riviere Roche Riou Ricaux Roquebert Rottie
+	Saget "de Saint Arnaud" Soulie
+	Trebutien Trousselier Tuvache
+	Vaillant Ventresque Villette Vivier Vaidis Vilette
+	Wattelier Winant
 }
 
 ship_names = {

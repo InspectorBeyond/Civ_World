@@ -1,4 +1,4 @@
-culture = american
+culture = anglo_canadian
 religion = pantheon
 trade_goods = unknown
 base_tax = 3

@@ -1,7 +1,7 @@
 #2218 - Shiraz
 
 
-culture = parthian
+culture = old_persian
 religion = pantheon
 capital = "Pasargadae"
 trade_goods = wine #and Glass

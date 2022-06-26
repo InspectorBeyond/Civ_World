@@ -4,10 +4,10 @@ trade_goods = cloth
 base_tax = 3 
 base_production = 3
 base_manpower = 3
-controller = AYU
-owner = AYU
-add_core = AYU
-discovered_by = AYU
+controller = HSN
+owner = HSN
+add_core = HSN
+discovered_by = HSN
 
 1444.11.13 = {
 	owner = ---

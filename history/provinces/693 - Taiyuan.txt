@@ -1,4 +1,4 @@
-culture = xibei
+culture = zhongyuan
 religion = pantheon
 trade_goods = iron
 base_tax = 3 

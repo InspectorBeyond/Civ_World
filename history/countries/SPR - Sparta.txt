@@ -7,7 +7,7 @@ religion = pantheon
 capital = 145	# Morea
 fixed_capital = 145 # Cannot move capital away from this province & no power cost to move to it
 
-1444.11.10 = {
+1444.1.1 = {
 	monarch = {
 		name = "Gorgo"
 		dynasty = "Agiad"
@@ -18,4 +18,16 @@ fixed_capital = 145 # Cannot move capital away from this province & no power cos
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = martial_educator_personality
+}
+
+1444.1.1 = {
+	queen = {
+		name = "Leonidas"
+		dynasty = "Agiad"
+		death_date = 1600.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_queen_personality = immortal_personality
 }

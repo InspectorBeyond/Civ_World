@@ -2,7 +2,8 @@ government = monarchy
 add_government_reform = autocracy_reform
 technology_group = western
 religion = pantheon
-primary_culture = american
+primary_culture = anglo_canadian
+add_accepted_culture = franco_canadian
 government_rank = 2
 capital = 991	# Ottawa
 
@@ -14,6 +15,7 @@ capital = 991	# Ottawa
 		adm = 6
 		dip = 6
 		mil = 6
+		culture = franco_canadian
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = silver_tongue_personality

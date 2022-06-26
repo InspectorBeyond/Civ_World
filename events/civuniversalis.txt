@@ -9,9 +9,15 @@ country_event = {
 		religion = pantheon
 		is_year = 1470
 		total_development = 100
-		has_idea_group = religious_ideas
+		OR = {
+			full_idea_group = religious_ideas
+			tag = HSN
+			tag = ARB
+		}
 		NOT = { tag = KON }
 		NOT = { has_country_flag = religions_chosen }
+		NOT = { has_reform = city_state }
+		NOT = { has_country_flag = civuniversalis.1_happened }
 		OR = {
 			NOT = { has_global_flag = shinto_exists }
 			NOT = { has_global_flag = norse_pagan_reformed_exists }
@@ -52,12 +58,27 @@ country_event = {
             change_religion = shinto
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = shinto_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = ODA
+					tag = JAP
+				}
+			}
+			modifier = {
+				factor = 500
+				OR = {
+					tag = HJO
+					tag = HJP
+				}
+			}
 		}
     }
     option = {
@@ -72,12 +93,19 @@ country_event = {
             change_religion = norse_pagan_reformed
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = norse_pagan_reformed_exists
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 500
+				OR = {
+					tag = NOR
+					tag = DAN
+				}
+			}
 		}
     }
 	option = {
@@ -92,12 +120,37 @@ country_event = {
             change_religion = catholic
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = catholic_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = DAN
+					tag = CAS
+					tag = VEN
+					tag = SPA
+					tag = ROM
+					tag = POR
+					tag = HRE
+					tag = POL
+					tag = PLC
+					tag = SCO
+					tag = CEL
+					tag = HAB
+					tag = HUN
+					tag = FRA
+					tag = AQT
+					tag = KON
+					tag = BRZ
+					tag = COL
+					tag = CAN
+				}
+			}
 		}
 	}
 	option = {
@@ -113,13 +166,25 @@ country_event = {
             change_religion = protestant
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
 		enable_religion = protestant
         set_global_flag = protestant_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = ENG
+					tag = NED
+					tag = NOR
+					tag = SWE
+					tag = USA
+					tag = GER
+				}
+			}
 		}
 	}
 	option = {
@@ -134,12 +199,24 @@ country_event = {
             change_religion = orthodox
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = orthodox_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = RUS
+					tag = KRU
+					tag = BYZ
+					tag = GEO
+					tag = GRE
+					tag = SPR
+				}
+			}
 		}
     }
 	option = {
@@ -154,12 +231,20 @@ country_event = {
             change_religion = coptic
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = coptic_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = ABS
+					tag = ETH
+				}
+			}
 		}
     }
 	option = {
@@ -174,12 +259,24 @@ country_event = {
             change_religion = sunni
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = sunni_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = ARB
+					tag = HSN
+					tag = MAL
+					tag = TUR
+					tag = SON
+					tag = MOR
+				}
+			}
 		}
     }
 	option = {
@@ -194,12 +291,21 @@ country_event = {
             change_religion = hinduism
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = hinduism_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = HND
+					tag = MRY
+					tag = MAJ
+				}
+			}
 		}
     }
 	option = {
@@ -214,10 +320,11 @@ country_event = {
             change_religion = sikhism
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = sikh_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
 		}
@@ -234,12 +341,32 @@ country_event = {
             change_religion = buddhism
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = buddhism_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = HJO
+					tag = HJP
+					tag = SIA
+					tag = KHM
+					tag = KOR
+					tag = YUA
+				}
+			}
+			modifier = {
+				factor = 500
+				OR = {
+					tag = ODA
+					tag = JAP
+					tag = MRY
+				}
+			}
 		}
     }
 	option = {
@@ -254,10 +381,11 @@ country_event = {
             change_religion = confucianism
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = confucianism_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
 		}
@@ -274,12 +402,20 @@ country_event = {
             change_religion = taosism
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = taosism_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = QIN
+					tag = CZH
+				}
+			}
 		}
     }
 	option = {
@@ -294,12 +430,20 @@ country_event = {
             change_religion = zoroastrian
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = zoroastrian_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = PER
+					tag = ASY
+				}
+			}
 		}
     }
 	option = {
@@ -314,12 +458,20 @@ country_event = {
             change_religion = jewish
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = jewish_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = PHO
+					tag = CFG
+				}
+			}
 		}
     }
 	option = {
@@ -334,12 +486,21 @@ country_event = {
             change_religion = tengri_pagan_reformed
         }
 		add_country_modifier = {
-			name = "additional_missionaries"
+			name = "extra_missionaries"
 			duration = -1
 		}
         set_global_flag = tengri_pagan_reformed_exists
+		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = MON
+					tag = HNZ
+					tag = SCY
+				}
+			}
 		}
     }
 	option = {

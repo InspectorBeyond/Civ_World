@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = westerngfx
+graphical_culture = africangfx
 
 color = { 31 31 31 }
 
@@ -34,19 +34,15 @@ historical_units = {
 }
 
 monarch_names = {
-	"Giovanni #0" = 40
+	"Abidemi #0" = 20
 	
-	"Agostino #0" = 0
+	"Mavuto #0" = -20
 }
 
 leader_names = {
-	Albergati Aldrovandi Angelelli Ariosti Acquisti Alemani Algardi Attndolo
+	Mwenemutapa
 }
 
 ship_names = {
 	
-}
-
-army_names = {
-	"Armata di $PROVINCE$"
 }

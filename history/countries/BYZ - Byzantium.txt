@@ -7,7 +7,7 @@ technology_group = western
 capital = 151 # Constantinople
 fixed_capital = 151 # Cannot move capital away from this province & no power cost to move to it
 
-1444.11.10 = {
+1444.1.1 = {
 	monarch = {
 		name = "Theodora"
 		dynasty = "Justinian"
@@ -20,4 +20,17 @@ fixed_capital = 151 # Cannot move capital away from this province & no power cos
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = free_thinker_personality
 	add_ruler_personality = tolerant_personality
+}
+
+1444.1.1 = {
+	queen = {
+		name = "Justinian"
+		dynasty = "Justinian"
+		birth_date = 1417.11.11
+		death_date = 1600.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_queen_personality = immortal_personality
 }

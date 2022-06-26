@@ -1,7 +1,7 @@
 government = republic
-add_government_reform = free_city
+add_government_reform = city_state
 government_rank = 1
 technology_group = western
 religion = pantheon
-primary_culture = american
+primary_culture = anglo_canadian
 capital = 973

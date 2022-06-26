@@ -28,58 +28,109 @@ historical_units = {
 }
 
 monarch_names = {
-	"Muhammad #6" = 140
-	"Yûsuf #2" = 60
-	"'Alî #0" = 20
-	"Sa'd #0" = 20
-	"Isma'îl #2" = 10
-	"Nasr #1" = 5
-	"'Abd al-Karim #0" = 0
-	"Ayman #0" = 0
-	"Barakat #0" = 0
-	"Basir #0" = 0
-	"Dawud #0" = 0
-	"Fahd #0" = 0
-	"Faris #0" = 0
-	"Faruq #0" = 0
-	"Firdaus #0" = 0
-	"Fuad #0" = 0
-	"Haidar #0" = 0
-	"Hashim #0" = 0
-	"Husam #0" = 0
-	"Iqbal #0" = 0
-	"Jabbar #0" = 0
-	"Ja'far #0" = 0
-	"Jamal #0" = 0
-	"Junayd #0" = 0
-	"Khaliq #0" = 0
-	"Malik #0" = 0
-	"Mansur #0" = 0
-	"Mustafa #0" = 0
-	"Najib #0" = 0
-	"Qasim #0" = 0
-	"Qusay #0" = 0
-	"Rahim #0" = 0
-	"Rashîd #0" = 0
-	"Safi #0" = 0
-	"Sakhr #0" = 0
-	"Samir #0" = 0
-	"Tariq #0" = 0
-	"Umar #0" = 0
-	"Wahid #0" = 0
-	"Zahir #0" = 0
+	"Abbad #0" = 20 
+	"Abbas #0" = 20 
+	"Abdallah #0" = 20 
+	"Abdul-Aziz #0" = 20 
+	"Abdul-Hakam #0" = 20 
+	"Abdul-Hasan #0" = 20 
+	"Abdul-Hazm #0" = 20 
+	"Abdul-Rahman #0" = 20 
+	"Abdul-Razzaq #0" = 20 
+	"Abdul #0" = 20 
+	"Abu #0" = 20 
+	"Abu-Bakr #0" = 20 
+	"Adfuns #0" = 20 
+	"Ahmad #0" = 20 
+	"Ali #0" = 20 
+	"Amr #0" = 20 
+	"Ayyub #0" = 20 
+	"Balashk #0" = 20 
+	"Bilal #0" = 20 
+	"Fadl #0" = 20 
+	"Fath #0" = 20 
+	"Galind #0" = 20 
+	"Garsiya #0" = 20 
+	"Hakam #0" = 20 
+	"Hilal #0" = 20 
+	"Ibrahim #0" = 20 
+	"Isma_il #0" = 20 
+	"Jyad #0" = 20 
+	"Lubb #0" = 20 
+	"Man #0" = 20 
+	"Mubashir #0" = 20 
+	"Muhammad #0" = 20 
+	"Mundir #0" = 20 
+	"Musa #0" = 20 
+	"Muyahid #0" = 20 
+	"Raf #0" = 20 
+	"Rashid #0" = 20 
+	"Rasiq #0" = 20 
+	"Sad #0" = 20 
+	"Sanyo #0" = 20 
+	"Siddray #0" = 20 
+	"Suleyman #0" = 20 
+	"Tariq #0" = 20 
+	"Tifilwit #0" = 20 
+	"Umar #0" = 20 
+	"Utman #0" = 20 
+	"Wannaqo #0" = 20 
+	"Yafar #0" = 20 
+	"Yahaff #0" = 20 
+	"Yahya #0" = 20 
+	"Yusuf #0" = 20 
 	
-	"Aliya #0" = -1
-	"Fahima #0" = -1
-	"Haifa #0" = -1
+	"Abda #0" = -20 
+	"Ahu #0" = -20 
+	"Aiza #0" = -20 
+	"Aliyah #0" = -20 
+	"Butayna #0" = -20 
+	"Daniyah #0" = -20 
+	"Dima #0" = -20 
+	"Fahra #0" = -20 
+	"Fahriya #0" = -20 
+	"Fatima #0" = -20 
+	"Gamila #0" = -20 
+	"Ghada #0" = -20 
+	"Habiba #0" = -20 
+	"Huda #0" = -20 
+	"Ibtisam #0" = -20 
+	"Isra #0" = -20 
+	"Karima #0" = -20 
+	"Kera #0" = -20 
+	"Khadija #0" = -20 
+	"Layla #0" = -20 
+	"Maha #0" = -20 
+	"Malika #0" = -20 
+	"Mariam #0" = -20 
+	"Munya #0" = -20 
+	"Nadia #0" = -20 
+	"Naila #0" = -20 
+	"Nur #0" = -20 
+	"Rafiqa #0" = -20 
+	"Rahat #0" = -20 
+	"Raisa #0" = -20 
+	"Randa #0" = -20 
+	"Safiya #0" = -20 
+	"Salma #0" = -20 
+	"Shakira #0" = -20 
+	"Suraya #0" = -20 
+	"Tahira #0" = -20 
+	"Tarifa #0" = -20 
+	"Thashim #0" = -20 
+	"Umm #0" = -20 
+	"Wahida #0" = -20 
+	"Yasmin #0" = -20 
+	"Zahida #0" = -20 
+	"Zahra #0" = -20 
 }
 
 leader_names = {
-	"Ibn Abd al-Rahman" "Ibn Abbad" "Ibn Abd Allah" "Ibn Abi Hafs" "Ibn al-Azafi" "Ibn Ali"
-	"Ibn Hakan" "Ibn Hammud" "Ibn Hisam" "Ibn Husayn"
-	"Ibn Idris" "Ibn Ishaq" "Ibn Isma'il"
-	"Ibn Marwan" "Ibn Muhammad" "Ibn Nasr" "Ibn Qasim" "Ibn Sa'd" "Ibn Sulayman"
-	"Ibn Umar" "Ibn Ummay" "Ibn Utman" "Ibn Ya'far" "Ibn Yahyà" "Ibn Yusuf"
+	Mutamin Huddid Matiyid Tahirid Razinid Hakamid Wazirid Ismailid Farayid 
+	"Abu-Yafarid" Mardanisid Mursiyid banu Fatima Laridid Ishbiliyid 
+	Qunkid Balansiyyid Maymunid Adhavid Hassunid Gharnatid Hishamid 
+	Mahfuzid Ahlidid Zannunid Mahdid Sadid Wadalqavirid Qadirid Hamdinid 
+	Yakubid Yassin Aminid Ismailid Nasrid Muzaffar Bajjah Zuhr "al-Baitar" "al-Khatib" Rushd Hafsid
 }
 
 ship_names = {

@@ -33,56 +33,75 @@ historical_units = {
 }
 
 monarch_names = {
-	"Godfrey #1" = 60
-	"Baldwin #5" = 60
-	"Henry #2" = 40
-	"Amalric #2" = 30
-	"John #2" = 10
-	"Fulk #1" = 10
-	"Conrad #3" = 10
-	"Sibylla #1" = -5
-	"Isabella #2" = -10
-	"Melisende #1" = -5
-	"Maria #1" = -5
-	"Guy #1" = 5
-	"Hugues #1" = 5
+	"Abraham  #0" = 20 
+	"Albert #0" = 20 
+	"Benjamin #0" = 20 
+	"Daniel #0" = 20 
+	"David #0" = 20 
+	"Franz #0" = 20 
+	"Gerson #0" = 20 
+	"Gustav #0" = 20 
+	"Heinrich #0" = 20 
+	"Hermann #0" = 20 
+	"Ignatz #0" = 20 
+	"Isaak #0" = 20 
+	"Jakob #0" = 20 
+	"Jeremias #0" = 20 
+	"Josef #0" = 20 
+	"Julius #0" = 20 
+	"Leonhard #0" = 20 
+	"Michael #0" = 20 
+	"Moses #0" = 20 
+	"Salomon #0" = 20 
+	"Saul #0" = 20 
+	"Shmuel #0" = 20 
+	"Sigmund #0" = 20 
+	"Simon #0" = 20 
+	"Theodor #0" = 20 
+	
+	"Angela #0" = -20 
+	"Alice #0" = -20 
+	"Amalie #0" = -20 
+	"Berta #0" = -20 
+	"Emma Elsa #0" = -20 
+	"Johanna #0" = -20 
+	"Klara Karoline #0" = -20 
+	"Minna Margarete #0" = -20 
+	"Regine #0" = -20 
+	"Zoe #0" = -20 
 }
 
 ship_names = {
-	"The Holy Cross"
-	"The Grail"
-	"The Faithful"
-	"Hammer of God"
-	"True Believer"
-	"The Cleansing"
-	"Baldwin's Gate"
-	"The Rapture"
-	"God Will Know His Own"
-	Paladin
-	Purifier
-	Crusader
-	Guardian
-	Pilgrim
-	Absolution
-	Avenger
-	Vindicator
-	"The Scourge"
+	
 }
 
 leader_names = { 
-	Bragadin 
-	Crispo
-	Doria	
-	Fadrigue
-	Lusignans
-	Melissinos 
-	Plethon
-	Rendis
-	Saraceno 
-	Tocco
-	Maxwell
-	Duncan Douglas Selkirk
-	Schrüder Sauerzapff Minucci Sulerzycki Stichsenstein Hagedorn Arenberg
-	"de La Barthe" "de La Ferrandie" "de La Galissonière" "de La Mothe" "de La Motte d'Airan" "de La Porte" "Le Tellier" "de Lhéry" "de Luynes"
-	"di Paesana" "Paleologi Montferrato" Pallavicini Paradisi Petrucci Pico Pignatelli "dalla Rosa" "della Rovere"
+	Abramovitch
+	Ashkenazi
+	Bernstein
+	Birnbaum
+	Bloch
+	Cantor
+	Cohen
+	Frank
+	Friedlander
+	Ginsberg
+	Goldstein
+	Horowitz
+	Israel
+	Jacobsohn
+	Kagan
+	Kaplan
+	Klein
+	Levin
+	Luria
+	Morgenstern
+	Nathan
+	Oren
+	Rosenthal
+	Sachs
+	Schapiro
+	Schwartz
+	Weinstein
+	Weiss
 }

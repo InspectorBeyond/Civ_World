@@ -1,8 +1,12 @@
 country_decisions = {
-united_oda_japan = {
+	united_oda_japan = {
 		major = yes
 		potential = {
 			tag = ODA
+			OR = {
+				NOT = { exists = HJO }
+				NOT = { exists = JAP }
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -28,16 +32,27 @@ united_oda_japan = {
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
+			#if = {
+			#	limit = {
+			#		has_custom_ideas = no
+			#		NOT = { has_idea_group = ODA_ideas }
+			#	}
+			#	country_event = { id = ideagroups.1 } #Swap Ideas
+			#}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	
-united_hojo_japan = {
+	united_hojo_japan = {
 		major = yes
 		potential = {
 			tag = HJO
+			OR = {
+				NOT = { exists = ODA }
+				NOT = { exists = HJP }
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -48,8 +63,10 @@ united_hojo_japan = {
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
-			NOT = { exists = ODA }
-			NOT = { exists = HJP }
+			OR = {
+				NOT = { exists = ODA }
+				NOT = { exists = HJP }
+			}
 			owns = 1020
 			owns = 1028
 			has_institution = renaissance
@@ -63,11 +80,16 @@ united_hojo_japan = {
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
+			#if = {
+			#	limit = {
+			#		has_custom_ideas = no
+			#		NOT = { has_idea_group = HJO_ideas }
+			#	}
+			#	country_event = { id = ideagroups.1 } #Swap Ideas
+			#}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
-	
 }

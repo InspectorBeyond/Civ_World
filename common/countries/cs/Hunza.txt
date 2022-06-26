@@ -34,13 +34,38 @@ historical_units = {
 }
 
 monarch_names = {
-	"Giovanni #0" = 40
+	"Alonso #0" = 20 
+	"Brizuela #0" = 20 
+	"Comerio #0" = 20 
+	"Enriquillo #0" = 20 
+	"Guama #0" = 20 
+	"Jumacao #0" = 20 
+	"Mabey #0" = 20 
+	"Nasio #0" = 20 
+	"Ornofay #0" = 20 
+	"Pedro #0" = 20 
+	"Yaureibo #0" = 20 
 	
-	"Agostino #0" = 0
+	"Anacaona #0" = -20 
+	"Barbe #0" = -20 
+	"Casiguaya #0" = -20 
+	"Ines #0" = -20 
+	"Isabel #0" = -20 
+	"Maria #0" = -20 
+	"Tinima #0" = -20 
+	"Yahima #0" = -20 
+	"Yuisa #0" = -20 
 }
 
 leader_names = {
-	Albergati Aldrovandi Angelelli Ariosti Acquisti Alemani Algardi Attndolo
+	Barreiro
+	Carrera
+	Coa
+	Guani
+	Mendez
+	Mexias
+	Nibonri
+	Torres
 }
 
 ship_names = {

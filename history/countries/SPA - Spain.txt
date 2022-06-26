@@ -11,7 +11,7 @@ national_focus = MIL
 
 1444.11.10 = {
 	monarch = {
-		name = "Philip II"
+		name = "Phillip II"
 		dynasty = "Habsgurg"
 		adm = 6
 		dip = 6

@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = castillian
+primary_culture = colombian
 religion = pantheon
 technology_group = western
 capital = 825	# Bogota

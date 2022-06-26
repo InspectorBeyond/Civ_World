@@ -34,13 +34,17 @@ historical_units = {
 }
 
 monarch_names = {
-	"Giovanni #0" = 40
+	"Ahari #0" = 20
 	
-	"Agostino #0" = 0
+	"Haya #0" = -20 
+	"Isani #0" = -20 
+	"Takuiba #0" = -20 
+	"Twengga #0" = -20 
+
 }
 
 leader_names = {
-	Albergati Aldrovandi Angelelli Ariosti Acquisti Alemani Algardi Attndolo
+	Eregu
 }
 
 ship_names = {

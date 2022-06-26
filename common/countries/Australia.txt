@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 0 84 0 }
+color = { 32 92 32 }
 revolutionary_colors = { 0  15  0 }
 
 historical_idea_groups = {
@@ -34,64 +34,168 @@ historical_units = {
 }
 
 monarch_names = {
-	"John #1" = 40
-	"Phillip #0" = 20
-	"Lachlan #0" = 20
-	"William #0" = 15
-	"John #0" = 15
-	"Arthur #0" = 10
-	"Thomas #0" = 10
-	"Ambrose #0" = 0
-	"Ralph #0" = 0
-	"Benjamin #0" = 0
-	"Brian #0" = 0
-	"Richard #0" = 0
-	"Christopher #0" = 0
-	"Conrad #0" = 0
-	"Denis #0" = 0
-	"Duncan #0" = 0
-	"Eustace #0" = 0
-	"Frederick #0" = 0
-	"Gerard #0" = 0
-	"Gregory #0" = 0
-	"George #0" = 0
-	"Homer #0" = 0
-	"Joseph #0" = 0
-	"Julius #0" = 0
-	"Kevin #0" = 0
-	"Laurence #0" = 0
-	"Leroy #0" = 0
-	"Lewis #0" = 0
-	"Matthew #0" = 0
-	"Michael #0" = 0
-	"Montgomery #0" = 0
-	"Nicholas #0" = 0
-	"Peter #0" = 0
-	"Rowan #0" = 0
-	"Scott #0" = 0
-	"Silvester #0" = 0
-	"Spencer #0" = 0
-	"Ulysses #0" = 0
-	"Victor #0" = 0
+	"Henry #0" = 20 
+	"Edward #0" = 20 
+	"Charles #0" = 20 
+	"James #0" = 20 
+	"William #0" = 20 
+	"Richard #0" = 20 
+	"Philip #0" = 20 
+	"Henry #0" = 20 
+	"Frederick #0" = 20 
+	"Arthur #0" = 20 
+	"Charles #0" = 20 
+	"James #0" = 20 
+	"Edgar #0" = 20 
+	"Thomas #0" = 20 
+	"Edmund #0" = 20 
+	"George #0" = 20 
+	"John #1" = 40 
+	"Jacob #0" = 20 
+	"Humphrey #0" = 20 
+	"Robert #0" = 20 
+	"Stephen #0" = 20 
+	"Adam #0" = 20 
+	"Alexander #0" = 20 
+	"Albert #0" = 20 
+	"Alfred #0" = 20 
+	"Ambrose #0" = 20 
+	"Andrew #0" = 20 
+	"Anthony #0" = 20 
+	"Archibald #0" = 20 
+	"Benjamin #0" = 20 
+	"Christopher #0" = 20 
+	"Daniel #0" = 20 
+	"David #0" = 20 
+	"Ernest #0" = 20 
+	"Francis #0" = 20 
+	"Geoffrey #0" = 20 
+	"Guy #0" = 20 
+	"Horatio #0" = 20 
+	"Hugh #0" = 20 
+	"Isaac #0" = 20 
+	"Jeremy #0" = 20 
+	"Jonathan #0" = 20 
+	"Joseph #0" = 20 
+	"Lawrence #0" = 20 
+	"Matthew #0" = 20 
+	"Nehemiah #0" = 20 
+	"Oliver #0" = 20 
+	"Samuel #0" = 20 
+	"Sydney #0" = 20
+	"Adam #0" = 20 
+	"Alan #0" = 20 
+	"Albert #0" = 20 
+	"Alexander #0" = 20 
+	"Alfred #0" = 20 
+	"Andrew #0" = 20 
+	"Anselm #0" = 20 
+	"Arnold #0" = 20 
+	"Arthur #0" = 20 
+	"Aubrey #0" = 20 
+	"Christopher #0" = 20 
+	"David #0" = 20 
+	"Edmund #0" = 20 
+	"Eric #0" = 20 
+	"Erik #0" = 20 
+	"Eustace #0" = 20 
+	"Fulk #0" = 20 
+	"Folke #0" = 20 
+	"Gerald #0" = 20 
+	"Gilbert #0" = 20 
+	"Godfrey #0" = 20 
+	"Gregory #0" = 20 
+	"Henry #0" = 20 
+	"Hugh #0" = 20 
+	"Humphrey #0" = 20 
+	"Jocelyn #0" = 20 
+	"John #0" = 20 
+	"Jordan #0" = 20 
+	"Laurence #0" = 20 
+	"Lionel #0" = 20 
+	"Mark #0" = 20 
+	"Marcus #0" = 20 
+	"Martin #0" = 20 
+	"Matthew #0" = 20 
+	"Maurice #0" = 20 
+	"Michael #0" = 20 
+	"Nicholas #0" = 20 
+	"Paul #0" = 20 
+	"Peter #0" = 20 
+	"Ralph #0" = 20 
+	"Randolph #0" = 20 
+	"Reginald #0" = 20 
+	"Roger #0" = 20 
+	"Simon #0" = 20 
+	"Theobald #0" = 20 
+	"Waleran #0" = 20 
+	"Walter #0" = 20
 	
-	"Victoria #0" = -1
-	"Ambrosia #0" = -1
-	"Charlotte #0" = -1
+	"Victoria #0" = -20
+	"Jane #0" = -20 
+	"Adela #0" = -20 
+	"Adelaide #0" = -20 
+	"Alice #0" = -20 
+	"Amice #0" = -20 
+	"Anne #0" = -20 
+	"Anna #0" = -20 
+	"Aveline #0" = -20 
+	"Avelina #0" = -20 
+	"Beatrice #0" = -20 
+	"Blanche #0" = -20 
+	"Catherine #0" = -20 
+	"Cecilia #0" = -20 
+	"Constance #0" = -20 
+	"Edith #0" = -20 
+	"Ela #0" = -20 
+	"Eleanor #0" = -20 
+	"Elizabeth #0" = -20 
+	"Emma #0" = -20 
+	"Hawise #0" = -20 
+	"Isabel #0" = -20 
+	"Isabella #0" = -20 
+	"Elisabeth #0" = -20 
+	"Joan #0" = -20 
+	"Joanna #0" = -20 
+	"Juliana #0" = -20 
+	"Mahaut #0" = -20 
+	"Margaret #0" = -20 
+	"Mary #0" = -20 
+	"Maria #0" = -20 
+	"Maud #0" = -20 
+	"Matilda #0" = -20 
+	"Philippa #0" = -20 
+	"Sybilla #0" = -20 
+	"Sibylla #0" = -20
 }
 
 leader_names = { 
-	Bourke Darling
-	Brisbane Macquarie
-	Bligh King Butler
-	Hunter Phillip Denison
-	Fitzroy Belmore
-	Robinson
-	Loftus Carrington
-	Duff Hampden Beauchamp Rawson
-	Chelmsford Yagan 
-	Strickland Davidson
-	Grey Flinders
-	Bass
+	Austin Anderson Adams Armstrong Astor Albright Averill Ayers Arnold Armistead
+	Boone Bannister Brown Buchanan Bacon Bryant Barclay Butler Brooks Bowie Bagge Berlin Baird Baker
+	Banks Banning Bailey Booth Barnum Barlett Bates Boyle Buell Burnside Burr
+	Coolidge Chamberlain Crockett Cooper Carpenter Coles Coffey Clemens Cleveland Cass Curley Choate
+	Custis Curtiss Clinch Cranston Call Canby Crawford Corbin
+	Davis Daniels Dolan Durant Dewitt Dent Drake Dilworth
+	Early Evans Eppes
+	Findlay Franklin Ford Farragut Featherstone Fitzgerald Firefly Fox Fillmore
+	Garrett Gurney Grant Gibson Garfield Gage Gallatin Gorslin
+	Harding Hayes Hamilton Hughes Hart Harrison Hannegan Hill Hicks Holly Hammer Harney Halleck
+	Hancock Hawkins Harris
+	Jackson Jefferson Jones Jennings Johnson Jessup Jay Joslyn
+	Kirkpatrick Key Kent Kearney
+	Lee Lincoln Langley Lovelace London Larned Lewis
+	Monroe Madison McKinley Meade Morganson McNeely Miller McClellan Mulhouse May Malone McCarthy
+	McGivney MacGregor Morris Mason McCauley
+	Owens "O'Hara" Oswald "O'Neill"
+	Peck Peterson Peel Poole Pierce Pickett Palmer Payne Penn Parton Parker
+	Rogers Richardson Roberts Reed Rice Ratliffe Randolph Revere Ross
+	Scott Stevens Smith Sanders "St. Paul" "St. Germaine" Simmons "St. Vincent" Stuart Sewall Sousa
+	Sullivan Sherman Sheridan Stuyvesant Short Shaftoe
+	Taft Thompson Tweed Taylor Todd Temple Trump Twiggs Totten Tuttle Twigden
+	Vane
+	Washington Wayne Wilson Wood Williams Whitney Waldron Wolfe Wright Wyatt Worsam Wilkes Wythe
+	Waterhouse
+	Young Yelverton
 }
 
 ship_names = {

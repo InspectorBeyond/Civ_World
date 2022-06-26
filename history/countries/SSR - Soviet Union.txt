@@ -1,5 +1,5 @@
-government = republic
-add_government_reform = peasants_republic
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = russian
 religion = pantheon
@@ -10,7 +10,8 @@ national_focus = MIL
 
 1444.11.10 = {
 	monarch = {
-		name = "Joseph Stalin"
+		name = "Iosif"
+		dynasty = "Stalin"
 		culture = georgian
 		adm = 6
 		dip = 6

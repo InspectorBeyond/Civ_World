@@ -34,19 +34,137 @@ historical_units = {
 }
 
 monarch_names = {
-	"Giovanni #0" = 40
+	"Vira #0" = 20 
+	"Pandya" #0" = 20 
+	"Narasa" #0" = 20 
+	"Tenna" #0" = 20 
+	"Naransa #0" = 20 
+	"Pillai" #0" = 20 
+	"Kuru #0" = 20 
+	"Kuru #0" = 20 
+	"Timmappa" #0" = 20 
+	"Kattyama #0" = 20 
+	"Kamaiya" #0" = 20 
+	"Cimappa" #0" = 20 
+	"Ayyakarai #0" = 20 
+	"Veyyapa" #0" = 20 
+	"Vishvanatha" #0" = 20 
+	"Krishnappa" #0" = 20 
+	"Virappa" #0" = 20 
+	"Muttu #0" = 20 
+	"Krishnappa" #0" = 20 
+	"Muttu #0" = 20 
+	"Virappa" #0" = 20 
+	"Tirumala" #0" = 20 
+	"Chokkanatha" #0" = 20 
+	"Muttu #0" = 20 
+	"Linga" #0" = 20 
+	"Vijayaranga #0" = 20 
+	"Chokkanatha" #0" = 20 
+	"Minaski" #0" = 20 
+	"Yachama" #0" = 20 
+	"Raghunatha" #0" = 20 
+	"Ariyanatha" #0" = 20 
+	"Chanda" #0" = 20 
+	"Ramayyan" #0" = 20 
+	"Shungrasoobyer" #0" = 20 
+	"Seshayya" #0" = 20 
+	"Ramaswami" #0" = 20 
+	"Amarapuyankan #0" = 20 
+	"Amarabhujanga #0" = 20 
+	"Aparacita #0" = 20 
+	"Aparajita #0" = 20 
+	"Aparacitavarman #0" = 20 
+	"Aparajitavarman #0" = 20 
+	"Apputaiyan #0" = 20 
+	"Arikecari #0" = 20 
+	"Arikesari #0" = 20 
+	"Arincaya #0" = 20 
+	"Arinjaya #0" = 20 
+	"Arulmolitevar #0" = 20 
+	"Arulmolivarman #0" = 20 
+	"Atiracentira #0" = 20 
+	"Athirajendra #0" = 20 
+	"Atitta #0" = 20 
+	"Aditya #0" = 20 
+	"Avaniyalappirantar #0" = 20 
+	"Avraaham #0" = 20 
+	"Abraham #0" = 20 
+	"Brahmamarayar #0" = 20 
+	"Cadayan #0" = 20 
+	"Cankili #0" = 20 
+	"Cataiyavarman #0" = 20 
+	"Sadayavarman #0" = 20 
+	"Catturukalamakalatittan #0" = 20 
+	"Cayantavarman #0" = 20 
+	"Jayantavarman #0" = 20 
 	
-	"Agostino #0" = 0
+	"Aaleyaamma #0" = -20 
+	"Elizabeth #0" = -20 
+	"Accamma #0" = -20 
+	"Rebecca #0" = -20 
+	"Accattevi #0" = -20 
+	"Annamma #0" = -20 
+	"Anna #0" = -20 
+	"Aiyyarratikal #0" = -20 
+	"Akkaranankayar #0" = -20 
+	"Amittiravalli #0" = -20 
+	"Ammaiyalvi #0" = -20 
+	"Ammakkanar #0" = -20 
+	"Ammankatevi #0" = -20 
+	"Ammangadevi #0" = -20 
+	"Ankati #0" = -20 
+	"Aramutaiyal #0" = -20 
+	"Aricukati #0" = -20 
+	"Ariyapillai #0" = -20 
+	"Arincikai #0" = -20 
+	"Arincikaipiratti #0" = -20 
+	"Arincikaippirattiyar #0" = -20 
+	"Arulmolinankaiyar #0" = -20 
+	"Aruvanki #0" = -20 
+	"Atavallal #0" = -20 
+	"Atittapatariyar #0" = -20 
+	"Atittapitari #0" = -20 
+	"Atittapitariyar #0" = -20 
+	"Atticapitariyar #0" = -20 
+	"Avutaiyalccani #0" = -20 
+	"Cankani #0" = -20 
+	"Cantiradevi #0" = -20 
+	"Cenkulam #0" = -20 
+	"Ceyyacolam #0" = -20 
+	"Ceyyavaymani #0" = -20 
+	"Civatevi #0" = -20 
+	"Civallapatevi #0" = -20 
+	"Corappaiyar #0" = -20 
+	"Camuntappai #0" = -20 
+	"Ceramankai #0" = -20 
+	"Colamatevi #0" = -20 
+	"Eccumantai #0" = -20 
+	"Eluvanai #0" = -20 
+	"Eluvattur #0" = -20 
+	"Etuttapatam #0" = -20 
+	"Iracinkam #0" = -20 
+	"Iracaticci #0" = -20 
+	"Iracacuntari #0" = -20 
+	"Kalacci #0" = -20 
+	"Kalicci #0" = -20 
+	"Kanavati #0" = -20 
+	"Kannapparaciyar #0" = -20 
+	"Kantiyur #0" = -20 
+	"Kariyamatevi #0" = -20 
+	"Karumanikkam #0" = -20 
+	"Kaucalaiyar #0" = -20 
+	"Kavatiyakkan #0" = -20 
+	"Kanciakkan #0" = -20 
+	"Kutitankinal #0" = -20 
 }
 
 leader_names = {
-	Albergati Aldrovandi Angelelli Ariosti Acquisti Alemani Algardi Attndolo
+	"Saadatullahid" "Anwarudid" "Pandya" "Thondaiman" "Thanjavuri" "Sethupathy" "Saluva" 
+	"Thanjavur Mutharaiyar" "Udayagiri Mutharaiyar" "Simhapuri Mutharaiyar" "Ay" "Pallava" "Chola" 
+	"Pandya" "Chera" "Aryacakravarti" 
 }
 
 ship_names = {
 	
-}
-
-army_names = {
-	"Armata di $PROVINCE$"
 }

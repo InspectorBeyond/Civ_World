@@ -33,35 +33,123 @@ historical_units = {
 }
 
 monarch_names = {
-	"Camilo #0" = 20
-	"Enrique #0" = 20
-	"Fernando #0" = 20
-	"Juan #0" = 20
-	"Phillip #2" = 40
-	"Alfonso #0" = 20
-	"Carlos #0" = 20
-	"Sancho #0" = 20
-	"Ramiro #0" = 20
-	"Pedro #0" = 20
-	"Alonso #0" = 20
-	"Alvaro #0" = 20
-	"Baltasar #0" = 20
-	"Bernardo #0" = 20
-	"Hernando #0" = 20
-	"Simon #0" = 20
+	"Enrique #0" = 20 
+	"Fernando #0" = 20 
+	"Juan #0" = 20 
+	"Phillip #2" = 40 
+	"Alfonso #0" = 20 
+	"Carlos #0" = 20 
+	"Sancho #0" = 20 
+	"Ramiro #0" = 20 
+	"Pedro #0" = 20 
+	"Alonso #0" = 20 
+	"Alvaro #0" = 20 
+	"Baltasar #0" = 20 
+	"Bernardo #0" = 20 
+	"Bertran #0" = 20 
+	"Hernando #0" = 20 
+	"Cristobal #0" = 20 
+	"Diego #0" = 20 
+	"Domingo #0" = 20 
+	"Esteban #0" = 20 
+	"Fadrique #0" = 20 
+	"Francisco #0" = 20 
+	"Garcia #0" = 20 
+	"Gomez #0" = 20 
+	"Gonzalo #0" = 20 
+	"Gutierre #0" = 20 
+	"Hermenegildo #0" = 20 
+	"Ignacio #0" = 20 
+	"Lain #0" = 20 
+	"Lope #0" = 20 
+	"Miguel #0" = 20 
+	"Nuno #0" = 20 
+	"Odon #0" = 20 
+	"Ramon #0" = 20 
+	"Rodrigo #0" = 20 
+	"Tomas #0" = 20 
+	"Valeriano #0" = 20 
+	"Alphonse #0" = 20 
+	"Alvar #0" = 20 
+	"Oliver #0" = 20 
+	"Bermudo #0" = 20 
+	"Vermudo #0" = 20 
+	"Diaco #0" = 20 
+	"Henry #0" = 20 
+	"Frederick #0" = 20 
+	"Philip #0" = 20 
+	"Ferdinand #0" = 20 
+	"Fruela #0" = 20 
+	"Froila #0" = 20 
+	"Gil #0" = 20 
+	"Egidius #0" = 20 
+	"Guillen #0" = 20 
+	"Guillermo #0" = 20 
+	"William #0" = 20 
+	"Walter #0" = 20 
+	"Lupo #0" = 20 
+	"Luis #0" = 20 
+	"Manrique #0" = 20 
+	"Amalric #0" = 20 
+	"Martin #0" = 20 
+	"Munio #0" = 20 
+	"Ordono #0" = 20 
+	"Obeko #0" = 20 
+	"Peter #0" = 20 
+	"Pelayo #0" = 20 
+	"Pelagius #0" = 20 
+	"Roderick #0" = 20 
+	"Salvador #0" = 20 
+	"Suero #0" = 20 
+	"Tello #0" = 20 
+	"Vela #0" = 20 
+	"Vela #0" = 20 
+	"Suero #0" = 20 
+	"Oveco #0" = 20 
+	"John #0" = 20 
+	"Camilo #0" = 20 
+	"Bruno #0" = 20 
+	"Felix #0" = 20 
+	"Augustin #0" = 20 
 	
-	"Aldonza #0" = -20
-	"Anderquina #0" = -20
-	"Beatriz #0" = -20
-	"Berenguela #0" = -20
-	"Berengaria #0" = -20
-	"Blanca #0" = -20
-	"Constanza #0" = -20
-	"Elvira #0" = -20
-	"Estefania #0" = -20
-	"Fronilda #0" = -20
-	"Gontroda #0" = -20
-	"Agnes #0" = -20
+	"Aldonza #0" = -20 
+	"Anderquina #0" = -20 
+	"Beatriz #0" = -20 
+	"Berenguela #0" = -20 
+	"Berengaria #0" = -20 
+	"Blanca #0" = -20 
+	"Constanza #0" = -20 
+	"Elvira #0" = -20 
+	"Estefania #0" = -20 
+	"Fronilda #0" = -20 
+	"Gontroda #0" = -20 
+	"Agnes #0" = -20 
+	"Elisabeth #0" = -20 
+	"Jimena #0" = -20 
+	"Juana #0" = -20 
+	"Leonor #0" = -20 
+	"Eleanor #0" = -20 
+	"Mafalda #0" = -20 
+	"Maria #0" = -20 
+	"Marina #0" = -20 
+	"Mayor #0" = -20 
+	"Mencia #0" = -20 
+	"Milia #0" = -20 
+	"Emily #0" = -20 
+	"Sancha #0" = -20 
+	"Teresa #0" = -20 
+	"Toda #0" = -20 
+	"Urraca #0" = -20 
+	"Isabel #0" = -20 
+}
+
+leader_names = {
+	Acuna Aguirre "Alcala-Zamora" Allendesalazar Alonso Aranda "Arguelles-Meres" 
+	Asensio Aznar Barradas Bugallal Cano Cervera Diaz  Espartero Escoda Fernandez 
+	Franco Garcia Gonzalez Heredia Hernandez Herrera Hevia Linares Lopez Maroto 
+	"Martinez-Campos" Maura Menendez Miaja "Millan-Astray" Mina Mola Munoz Marquez 
+	Narvaez "O'Donnell" Ortega Pavia Perez "Queipo de Llano" Rodriguez Rojo Ruiz 
+	Sanjurjo Serrano Silvestre Topete Valdes Varela Villapol Villar Weyler Yague Alvarez
 }
 
 ship_names = {
@@ -129,3 +217,4 @@ army_names = {
 fleet_names = {
 	"Armada Real"	"Flota de $PROVINCE$"
 }
+

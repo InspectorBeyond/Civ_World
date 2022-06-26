@@ -287,13 +287,38 @@ chibchan = {
 	muisca = {
 		primary = MCA
 		dynasty_names = {
-			
+			Barreiro
+			Carrera
+			Coa
+			Guani
+			Mendez
+			Mexias
+			Nibonri
+			Torres
 		}
 		male_names = {
-			Meicuchuca
+			Alonso
+			Brizuela
+			Comerio
+			Enriquillo
+			Guama
+			Jumacao
+			Mabey
+			Nasio
+			Ornofay
+			Pedro
+			Yaureibo
 		}
 		female_names = {
-			Chia
+			Anacaona
+			Barbe
+			Casiguaya
+			Ines
+			Isabel
+			Maria
+			Tinima
+			Yahima
+			Yuisa
 		}
 	}
 	cara = {
@@ -1153,13 +1178,35 @@ western_aryan = {
 	gujarati = {
 		primary = GUJ
 		dynasty_names = {
-			"Muzaffarid"
+			Ambani
+			Baro
+			Damjee
+			Mehta
+			Modhvadia
+			Pansara
+			Parmar
+			Solanki
+			Vaghela
 		}
 		male_names = {
-			Zafar
+			Anand
+			Balwantry
+			Bharatsingh
+			Chabildas
+			Chetan
+			Curumsey
+			Fakirbhai
+			Jivraj
+			Khemchand
+			Madhavsingh
+			Maniraj
+			Manubhai
 		}
 		female_names = {
-			Fatima
+			Asha
+			Lata
+			Meena
+			Usha
 		}
 	}
 	saurashtri = {
@@ -1177,13 +1224,40 @@ western_aryan = {
 	marathi = {
 		primary = MAR
 		dynasty_names = {
-			"Bhonsle" 
+			Appa Sahib
+			Ballal
+			Bhandari
+			Bowa_Sahib
+			Gujar
+			Kalash
+			Mohite
+			Narayan
+			Phadnis
+			Rao
 		}
 		male_names = {
+			Bajirao
+			Balaji
+			Madhava
+			Narayan
+			Pratapsinha
+			Raghunath
+			Rajaram
+			Sawai
+			Shahuji
+			Shambhaji
 			Shivaji
+			Venkatji
 		}
 		female_names = {
-			Ahilyabai
+			Ahilyabai 
+			Anandibai
+			Gangabai
+			Gopikabai
+			Radhabai
+			Rani
+			Soyarabai
+			Umabai
 		}
 	}
 	sindhi = {

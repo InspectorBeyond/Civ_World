@@ -34,19 +34,86 @@ historical_units = {
 }
 
 monarch_names = {
-	"Giovanni #0" = 40
+	"Adrian #0" = 20 
+	"Alexandru #0" = 20 
+	"Andrei #0" = 20 
+	"Anton #0" = 20 
+	"Artur #0" = 20 
+	"Bogdan #0" = 20 
+	"Carol #0" = 20 
+	"Cezar #0" = 20 
+	"Constantin #0" = 20 
+	"Constin #0" = 20 
+	"Cosmin #0" = 20 
+	"Daniel #0" = 20 
+	"Dumitru #0" = 20 
+	"Emanuel #0" = 20 
+	"Eremia #0" = 20 
+	"Eugen #0" = 20 
+	"Ferdinand #0" = 20 
+	"Flaviu #0" = 20 
+	"Florea #0" = 20 
+	"Gheorghe #0" = 20 
+	"Grigore #0" = 20 
+	"Henric #0" = 20 
+	"Horatiu #0" = 20 
+	"Iacob #0" = 20 
+	"Ilie #0" = 20 
+	"Ioan #0" = 20 
+	"Ion #0" = 20 
+	"Ion #0" = 20 
+	"Emanuel #0" = 20 
+	"Iosif #0" = 20 
+	"Iulian #0" = 20 
+	"Iuliu #0" = 20 
+	"Laurentiu #0" = 20 
+	"Leontin #0" = 20 
+	"Luca #0" = 20 
+	"Lucian #0" = 20 
+	"Mihai #0" = 20 
+	"Mircea #0" = 20 
+	"Nicolae #0" = 20 
+	"Ovidiu #0" = 20 
+	"Petru #0" = 20 
+	"Radu #0" = 20 
+	"Sergiu #0" = 20 
+	"Silviu #0" = 20 
+	"Simion #0" = 20 
+	"Stefan #0" = 20 
+	"Valeriu #0" = 20 
+	"Vasile #0" = 20 
+	"Victor #0" = 20 
+	"Vintila #0" = 20 
+	"Vlad #0" = 20 
 	
-	"Agostino #0" = 0
+	"Adela #0" = -20 
+	"Ana #0" = -20 
+	"Constanta #0" = -20 
+	"Daria #0" = -20 
+	"Dora #0" = -20 
+	"Ecaterina #0" = -20 
+	"Elena #0" = -20 
+	"Elisa #0" = -20 
+	"Elisabeta #0" = -20 
+	"Eugenia #0" = -20 
+	"Iulia #0" = -20 
+	"Iuliana #0" = -20 
+	"Lucretia #0" = -20 
+	"Maria #0" = -20 
+	"Maritica #0" = -20 
 }
 
 leader_names = {
-	Albergati Aldrovandi Angelelli Ariosti Acquisti Alemani Algardi Attndolo
+	Cantemir Caradja Conachi "de Reuss-Mirza" "de Hohenzollern" "Dinotto-Gusti" Dragos 
+	Ghica Hasdeu Hurmuzachi Kogalniceanu Mocioni Moruzi Murgulet Racovita Sturdza 
+	Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu
+	Cihoski Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+	Falcoianu Flechtenmacher Florescu Froza Gardescu Grigorescu Harjeu Holban Iancovescu
+	Iliasevici Iliescu Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu
+	Poenaru Prezan Salajan Samsonovici Schitiu Scodrea Slaniceanu
+	Steflea Tatarascu Tenescu Vaitoianu Zottu
 }
 
 ship_names = {
 	
-}
-
-army_names = {
-	"Armata di $PROVINCE$"
 }

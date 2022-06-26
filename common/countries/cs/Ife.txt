@@ -34,19 +34,15 @@ historical_units = {
 }
 
 monarch_names = {
-	"Giovanni #0" = 40
+	"Oranyan #0" = 20
 	
-	"Agostino #0" = 0
+	"Winona #0" = -20
 }
 
 leader_names = {
-	Albergati Aldrovandi Angelelli Ariosti Acquisti Alemani Algardi Attndolo
+	Alaafin
 }
 
 ship_names = {
 	
-}
-
-army_names = {
-	"Armata di $PROVINCE$"
 }
