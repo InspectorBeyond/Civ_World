@@ -3,5 +3,5 @@ add_government_reform = city_state
 government_rank = 1
 technology_group = western
 religion = pantheon
-primary_culture = polish
+primary_culture = mongol
 capital = 48
