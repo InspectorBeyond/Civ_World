@@ -7,7 +7,6 @@ christian = {
 	can_form_personal_unions = yes
 	ai_will_propagate_through_trade = yes
 	
-	center_of_religion = 118 # Rome
 
 	# Flag emblem values - Used for Dynamic Setup of Random Nations.
 	# Emblem texture: game/gfx/interface/client_state_symbols_large.dds
@@ -1212,46 +1211,6 @@ eastern = {
 	}
 	crusade_name = HOLY_WAR
 }
-pagan_reformed = {
-
-	flags_with_emblem_percentage = 10
-	flag_emblem_index_range = { 83 96 }
-	ai_will_propagate_through_trade = yes
-	
-	norse_pagan_reformed = {
-		icon = 21
-		color = { 174 174 174 }
-		country = {
-			land_forcelimit_modifier = 0.10
-			naval_forcelimit_modifier = 0.10
-		}
-		country_as_secondary = {
-			merc_maintenance_modifier = -0.1
-			galley_power = 0.2
-		}
-		province = {
-			local_missionary_strength = 0.02
-		}
-		
-		personal_deity = yes
-		
-		heretic = { OLD_NORSE }	
-		crusade_name = CRUSADE
-	}
-	
-	tengri_pagan_reformed = {
-		icon = 27
-		color = { 0 79 255 }
-		country = {
-			cav_to_inf_ratio = 0.25
-			global_regiment_cost = -0.2
-		}
-		heretic = { OLD_TENGRI }
-	}
-	
-	crusade_name = CRUSADE
-	
-}
 
 dharmic = {
 
@@ -1335,6 +1294,24 @@ pagan = {
 
 	pantheon = {
 		color = { 247 216 2 }
+		icon = 11
+		country = {
+			tolerance_own = 1
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			loot_amount = 0.25
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		
+		heretic = { SNAKE_CLAN }
+	}
+	
+	animism = {
+		color = { 127 0 0 }
 		icon = 11
 		country = {
 			tolerance_own = 1
@@ -1456,6 +1433,61 @@ pagan = {
 		
 		heretic = { MESOAMERICAN_HERETIC }	
 	}
+	
+	
+	dreamtime = {
+		icon = 29
+		color = { 197 133 43 }
+		country = {
+			shock_damage_received = -0.05
+			diplomatic_reputation = 1
+		}
+		country_as_secondary = {
+			shock_damage = 0.1
+			hostile_attrition = 2
+		}
+		
+		fetishist_cult = yes
+		heretic = { WAGYLKOOP MOORAMOORA GINGARRURNDE }
+	}
+	
+	crusade_name = CRUSADE
+	harmonized_modifier = harmonized_pagan
+}
+
+pagan_reformed_group = {
+	norse_pagan_reformed = {
+		icon = 21
+		color = { 174 174 174 }
+		country = {
+			land_forcelimit_modifier = 0.10
+			naval_forcelimit_modifier = 0.10
+		}
+		country_as_secondary = {
+			merc_maintenance_modifier = -0.1
+			galley_power = 0.2
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		
+		personal_deity = yes
+		
+		heretic = { OLD_NORSE }	
+	}
+	
+	tengri_pagan_reformed = {
+		icon = 27
+		color = { 0 79 255 }
+		country = {
+			cav_to_inf_ratio = 0.25
+			global_regiment_cost = -0.2
+		}
+		heretic = { OLD_TENGRI }
+	}
+	
+	crusade_name = CRUSADE
+	harmonized_modifier = harmonized_pagan
 }
 
 jewish_group = {
@@ -1479,7 +1511,93 @@ jewish_group = {
 			local_missionary_strength = -0.02
 		}
 		
+		uses_judaism_power = yes
+		aspects_name = JEWISH_ASPECTS
+			
+		aspects = {
+			judaism_rosh_hashanah_aspect
+			judaism_simchat_torah_aspect
+			judaism_sukkot_aspect
+			judaism_communities_aspect
+			jewish_abrahamic_aspect
+			judaism_diplomatic_rabbi_aspect
+			judaism_yom_kippur_aspect
+			judaism_remember_passover_aspect
+			judaism_purim_teachings_aspect
+		}
+		
 		heretic = { SAMARITAN KARAITE }
+
+		celebrate = {
+			cost = 200
+			potential = {
+			}
+			allow = {
+				custom_trigger_tooltip = {
+					tooltip = JUDAISM_HAS_ADM_ASPECT
+					OR = {
+						has_church_aspect = judaism_rosh_hashanah_aspect
+						has_church_aspect = judaism_simchat_torah_aspect
+						has_church_aspect = judaism_sukkot_aspect
+					}
+				}
+				if = {
+					limit = {
+						has_church_aspect = judaism_rosh_hashanah_aspect
+					}
+					NOT = { stability = 3 }
+				}
+			}
+			effect = {
+				if = {
+					limit = {
+						has_church_aspect = judaism_rosh_hashanah_aspect
+					}
+					add_stability = 1
+				}
+				if = {
+					limit = {
+						has_church_aspect = judaism_simchat_torah_aspect
+					}
+					change_government_reform_progress = 20
+					add_legitimacy_equivalent = {
+						amount = 5
+						republican_tradition = 5
+					}
+					if = {
+						limit = {
+							has_heir = yes
+						}
+						add_heir_claim = 5
+					}
+				}
+				if = {
+					limit = {
+						has_church_aspect = judaism_sukkot_aspect
+					}
+					add_years_of_income = 0.3
+					add_inflation = -1
+				}
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					OR = {
+						AND = {
+							NOT = { has_church_aspect = judaism_communities_aspect }
+							NOT = { has_church_aspect = jewish_abrahamic_aspect }
+							NOT = { has_church_aspect = judaism_diplomatic_rabbi_aspect }
+						}
+						AND = {
+							NOT = { has_church_aspect = judaism_yom_kippur_aspect }
+							NOT = { has_church_aspect = judaism_remember_passover_aspect }
+							NOT = { has_church_aspect = judaism_purim_teachings_aspect }
+						}
+					}
+				}
+			}
+		}
 	}
 	
 	harmonized_modifier = harmonized_jewish_group
@@ -1505,6 +1623,16 @@ zoroastrian_group = {
 		country_as_secondary = {
 			merchants = 1
 			tolerance_own = 1
+		}
+
+		holy_sites = { 421 4430 2223 441 2235 }
+
+		blessings = {
+			blessing_yasna
+			blessing_haoma
+			blessing_navjote
+			blessing_manthras
+			blessing_dakhma
 		}
 		
 		heretic = { MAZDAKI MANICHEAN }	

@@ -1549,6 +1549,8 @@ country_decisions = {
 		}
 	}
 	
+#PAGAN conversions
+
 	pagan_conversion_to_christianity = {
 		potential = {
 			religion_group = pagan
@@ -1572,7 +1574,7 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { religion = animism }
+				NOT = { religion = pantheon }
 			}
 		}
 	}
@@ -1599,7 +1601,7 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { religion = animism }
+				NOT = { religion = pantheon }
 			}
 		}
 	}
@@ -1626,7 +1628,7 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { religion = animism }
+				NOT = { religion = pantheon }
 			}
 		}
 	}
@@ -1653,7 +1655,7 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { religion = animism }
+				NOT = { religion = pantheon }
 			}
 		}
 	}
@@ -1680,7 +1682,7 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { religion = animism }
+				NOT = { religion = pantheon }
 			}
 		}
 	}
@@ -1707,14 +1709,13 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { religion = animism }
+				NOT = { religion = pantheon }
 			}
 		}
 	}
 	pagan_conversion_to_tengri = {
 		potential = {
 			religion_group = pagan
-			NOT = { religion = tengri_pagan_reformed }
 			any_owned_province = {
 				religion = tengri_pagan_reformed
 			}
@@ -1734,14 +1735,13 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { religion = animism }
+				NOT = { religion = pantheon }
 			}
 		}
 	}
 	pagan_conversion_to_norse = {
 		potential = {
-			religion_group = pagan
-			NOT = { religion = tengri_pagan_reformed }
+			religion = norse_pagan_reformed
 			any_owned_province = {
 				religion = norse_pagan_reformed
 			}
@@ -1761,7 +1761,7 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { religion = animism }
+				NOT = { religion = pantheon }
 			}
 		}
 	}
@@ -1792,7 +1792,7 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { tag = PUN }
+				NOT = { religion = pantheon }
 			}
 		}
 	}

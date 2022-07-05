@@ -2111,27 +2111,6 @@ iranian	= {
 			Afsaneh
 		}
 	}
-	old_persian = {
-		dynasty_names = {
-			Aramid Arid Arkhid Asinid Arsacid Deiocid Menid Pacorid Savacid Vardanid
-		}
-		male_names = {
-			Abulites Achaimenes Anaphes Arbupales Ariabignes Ariaspes Ariobarzanes Aristozanes 
-			Bagoas Barsaintes Baryaxes Barzanes Batis Belesys Bessos Bisthanes Bubales
-			Chorienes Dareios Datames Dataphernes Datis Gergis Harmamitres Haustanes Histanes 
-			Hydarnes Hystaspes Ithamitres Katanes Kophenes Kyros Madates Mardonios Masistes Mauakes 
-			Mazakes Mazaios Mazaros Megapanos Mithradates Mithraustes Mithrines Mithrobaios Mithrobuzanes 
-			Nabarzanes Niphates Ochos Oiobazos Okontobates Omares Onthotopates Ordanes Orontes Orxines 
-			Otaspes Oxathres Oxyartes Oxydates Petines Pharasmanes Pharnabazos Pharnuches Pherendates Phrasaortes 
-			Phrataphernes Prexaspes Rheomitres Rhoisakes Sabakos Sataspes Satibarzanes Siromitres Sisamnes Sisines 
-			Smerdomenes Spitamenes Spithridates Tiriaspes Tissaphernes Tritantaichmes Xerxes
-		}
-		female_names = {
-			Aramid Arid Arkhid Asinid Arsacid Deiocid Menid Pacorid Savacid Vardanid Surenid
-			Karinid Gaumatid Gobryasid Hydarnid Smerdid Vivanid Xerxid Abadanid Orontid Atropatid
-			Mithridatid Artiaxid Sassanid Mihranid Chosroid Artashid Bagabignid Cambysid
-		}
-	}
 	kurdish = {
 		primary = ARD
 		dynasty_names = { 
@@ -2158,6 +2137,27 @@ iranian	= {
 			Gazi Gelavej Gerdengaz Gozel Goze Grivan Guhtem Gulbehar Golbahar Gulsen Gulnar Gulnaz Golnaz 
 			Gelas Helez Heliz Helvin Hemayil Keje Keser Kevok Kevi Kewser Kezizer Kocer Leyle Leymin Lezin 
 			Lolav Lorke Lori Lorican Lorin Lelav 
+		}
+	}
+	old_persian = {
+		dynasty_names = {
+			Aramid Arid Arkhid Asinid Arsacid Deiocid Menid Pacorid Savacid Vardanid
+		}
+		male_names = {
+			Abulites Achaimenes Anaphes Arbupales Ariabignes Ariaspes Ariobarzanes Aristozanes 
+			Bagoas Barsaintes Baryaxes Barzanes Batis Belesys Bessos Bisthanes Bubales
+			Chorienes Dareios Datames Dataphernes Datis Gergis Harmamitres Haustanes Histanes 
+			Hydarnes Hystaspes Ithamitres Katanes Kophenes Kyros Madates Mardonios Masistes Mauakes 
+			Mazakes Mazaios Mazaros Megapanos Mithradates Mithraustes Mithrines Mithrobaios Mithrobuzanes 
+			Nabarzanes Niphates Ochos Oiobazos Okontobates Omares Onthotopates Ordanes Orontes Orxines 
+			Otaspes Oxathres Oxyartes Oxydates Petines Pharasmanes Pharnabazos Pharnuches Pherendates Phrasaortes 
+			Phrataphernes Prexaspes Rheomitres Rhoisakes Sabakos Sataspes Satibarzanes Siromitres Sisamnes Sisines 
+			Smerdomenes Spitamenes Spithridates Tiriaspes Tissaphernes Tritantaichmes Xerxes
+		}
+		female_names = {
+			Aramid Arid Arkhid Asinid Arsacid Deiocid Menid Pacorid Savacid Vardanid Surenid
+			Karinid Gaumatid Gobryasid Hydarnid Smerdid Vivanid Xerxid Abadanid Orontid Atropatid
+			Mithridatid Artiaxid Sassanid Mihranid Chosroid Artashid Bagabignid Cambysid
 		}
 	}
 	luri = {

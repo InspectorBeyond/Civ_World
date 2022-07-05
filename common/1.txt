@@ -9,7 +9,6 @@ COL_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -48,7 +47,6 @@ GBR_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -88,7 +86,6 @@ SWE_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -129,7 +126,6 @@ RUS_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -171,9 +167,8 @@ RUS_ideas = {
 
 SPA_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	bonus = {
 		global_colonial_growth = 25
@@ -210,9 +205,8 @@ SPA_ideas = {
 
 CAS_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	bonus = {
 		global_colonial_growth = 25
@@ -249,9 +243,8 @@ CAS_ideas = {
 
 NED_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -293,7 +286,6 @@ DAN_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -333,9 +325,8 @@ DAN_ideas = {
 
 AQT_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -374,9 +365,8 @@ AQT_ideas = {
 
 FRA_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -415,9 +405,8 @@ FRA_ideas = {
 
 TUR_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -458,7 +447,6 @@ VEN_ideas = {
 	start = {
 		colonists = 1
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -502,7 +490,6 @@ PRU_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -543,7 +530,6 @@ PRU_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -582,9 +568,8 @@ PRU_ideas = {
  
 POR_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 1
 	}
 	
 	bonus = {
@@ -626,7 +611,6 @@ POL_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -672,7 +656,6 @@ HAB_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -714,9 +697,8 @@ HAB_ideas = {
 
 CHI_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -755,9 +737,8 @@ CHI_ideas = {
 
 VTM_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -795,9 +776,8 @@ VTM_ideas = {
 
 CZH_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -835,9 +815,8 @@ CZH_ideas = {
 
 PER_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -877,7 +856,6 @@ SCO_Ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -917,7 +895,6 @@ HUN_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -955,9 +932,8 @@ HUN_ideas = {
 
 JAP_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -998,9 +974,8 @@ JAP_ideas = {
 
 HJO_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -1043,7 +1018,6 @@ BYZ_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1083,7 +1057,6 @@ SIA_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1120,9 +1093,8 @@ SIA_ideas = {
 
 NOR_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -1162,9 +1134,8 @@ NOR_ideas = {
 
 KOR_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -1204,7 +1175,6 @@ ETH_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1246,7 +1216,6 @@ USA_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1287,7 +1256,6 @@ SON_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1326,7 +1294,6 @@ KON_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -1368,7 +1335,6 @@ MAL_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1407,7 +1373,6 @@ IRO_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1447,7 +1412,6 @@ GEO_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1487,7 +1451,6 @@ MAJ_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1527,7 +1490,6 @@ AZT_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -1566,7 +1528,6 @@ MPC_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	bonus = {
 		diplomats = 1
@@ -1603,7 +1564,6 @@ INC_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	bonus = {
 		free_leader_pool = 1
@@ -1641,7 +1601,6 @@ KHM_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1681,7 +1640,6 @@ CAN_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1722,7 +1680,6 @@ BRZ_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	bonus = {
 		global_trade_goods_size_modifier = 0.1
@@ -1759,7 +1716,6 @@ ROM_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1799,7 +1755,6 @@ HSN_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	bonus = {
 		discipline = 0.05
@@ -1836,7 +1791,6 @@ CEL_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1877,7 +1831,6 @@ GAU_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -1918,7 +1871,6 @@ MOR_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	bonus = {
 		hostile_attrition = 1
@@ -1957,7 +1909,6 @@ ASY_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -1996,7 +1947,6 @@ BAB_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -2038,7 +1988,6 @@ SMR_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -2077,7 +2026,6 @@ HNZ_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -2117,7 +2065,6 @@ SCY_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -2155,9 +2102,8 @@ SCY_ideas = {
 
 IND_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -2197,9 +2143,8 @@ IND_ideas = {
 
 MRY_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -2239,9 +2184,8 @@ MRY_ideas = {
 
 KRU_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -2278,9 +2222,8 @@ KRU_ideas = {
 
 MAC_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -2322,9 +2265,8 @@ MAC_ideas = {
 
 MAO_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -2363,7 +2305,6 @@ PER_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -2403,7 +2344,6 @@ ZUL_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -2442,9 +2382,8 @@ ZUL_ideas = {
 PLY_ideas = {
 	start = {
 		colonists = 2
+		range = 0.8
 		may_explore = yes
-		range = 0.9
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -2483,7 +2422,6 @@ SPR_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -2525,7 +2463,6 @@ CFG_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -2565,7 +2502,6 @@ PHO_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -2605,7 +2541,6 @@ EGY_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	bonus = {
@@ -2646,7 +2581,6 @@ SHO_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -2685,7 +2619,6 @@ WCR_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -2724,7 +2657,6 @@ GRE_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -2762,9 +2694,8 @@ GRE_ideas = {
 
 MAY_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -2804,9 +2735,8 @@ MAY_ideas = {
 
 KHA_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -2844,9 +2774,8 @@ KHA_ideas = {
 
 NUB_ideas = {
 	start = {
-		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		colonists = 2
 	}
 	
 	bonus = {
@@ -2886,7 +2815,6 @@ SSR_ideas = {
 		republican_tradition = 5
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -2929,7 +2857,6 @@ AST_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -2968,7 +2895,6 @@ ARB__ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -3015,7 +2941,6 @@ YUA_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	bonus = {
 		governing_capacity_modifier = 0.1

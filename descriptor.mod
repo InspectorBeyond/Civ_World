@@ -4,7 +4,7 @@ tags={
 }
 name="Civ World 3.1"
 supported_version="1.33.2"
-path="mod/Civ_World"
+path="mod/civ_world_3"
 replace_path="common/countries"
 replace_path="common/bookmarks"
 replace_path="common/country_tags"
