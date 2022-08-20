@@ -1073,7 +1073,7 @@ french	= {
 	gascon = { #Not used
 		primary = GUY
 	}
-	normand = { Not used
+	normand = { #Not used
 		primary = NRM
 	}
 	aquitaine = { #Not used
@@ -3300,41 +3300,8 @@ east_asian = {	# Chinese Group
 			Xiao'e Xiaoying Xiaoyuan Xiaoji Xiaolou
 		}
 	}
-	manchu_new = {
-		primary = MCH
-	}
-	chihan = {	#Zhili
-		primary = YAN
-	}
 	miao = {
 		primary = CMI
-	}
-	cantonese = {
-		primary = YUE
-	}
-	jin = {
-		primary = JIN
-	}
-	wu = {
-		primary = WUU
-	}
-	chimin = {
-		primary = MIN
-	}
-	hakka = {
-		primary = HUA
-	}
-	gan = {
-		primary = NNG
-	}
-	xiang = {
-		primary = CHC
-	}
-	sichuanese = {
-		primary = SHU
-	}
-	jianghuai = {
-		primary = MNG
 	}
 	hubei = {
 		primary = CXI

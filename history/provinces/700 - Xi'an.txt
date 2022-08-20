@@ -10,6 +10,7 @@ add_core = QIN
 capital = "Xi'An"
 
 discovered_by = QIN
+discovered_by = CZH
 
 1444.11.13 = {
 owner = ---

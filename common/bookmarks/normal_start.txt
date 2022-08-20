@@ -1,5 +1,4 @@
-bookmark =
-{
+bookmark = {
 	name = "NORMAL_START"
 	desc = "NORMAL_START_DESC"
 	date = 1444.11.11

@@ -1,7 +1,6 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 2
-government_rank = 2
 primary_culture = carthaginian
 religion = pantheon
 technology_group = western

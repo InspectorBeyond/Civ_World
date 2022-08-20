@@ -976,18 +976,6 @@ burman = {
 			"Yaza Dewi"
 		}
 	}
-	mon = {
-		primary = PEG
-		dynasty_names = {
-			Pegu
-		}
-		male_names = {
-			"Razadarit"
-		}
-		female_names = {
-			"Mya"
-		}	
-	}
 	chin = {
 		primary = MLB
 		dynasty_names = {

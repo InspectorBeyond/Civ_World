@@ -1,7 +1,0 @@
-government = republic
-add_government_reform = city_state
-government_rank = 1
-primary_culture = central_thai
-religion = pantheon
-technology_group = western
-capital = 600 # Ayutthaya

@@ -1,5 +1,4 @@
-bookmark =
-{
+bookmark = {
 	name = "OLD_WORLD_ONLY"
 	desc = "OLD_WORLD_DESC"
 	date = 1444.11.12

@@ -5,7 +5,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 
-discovered_by = NUB
+discovered_by = NBI
 native_size = 50
 native_hostileness = 9
 native_size = 45

@@ -497,44 +497,7 @@ new_world_i = {
 
 	history = {
 		OR = {
-			AND = {
-				is_year = 1500
-				continent = europe
-				OR = {
-					owner = { has_idea = quest_for_the_new_world }
-					owner = { colony = 1 }
-				}
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
+			is_year = 1500
 			AND = {
 				is_year = 1600
 				superregion = near_east_superregion
@@ -572,11 +535,6 @@ new_world_i = {
 	
 	can_start = {
 		is_year = 1500
-		OR = {
-			continent = europe
-			continent = asia
-			continent = africa
-		}
 		has_port = yes
 		is_island = no
 		is_state = yes
