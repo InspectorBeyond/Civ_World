@@ -4,8 +4,13 @@ trade_goods = iron
 base_tax = 3
 base_production = 3
 base_manpower = 3
-discovered_by = PHO
-native_size = 45
-native_ferocity = 9
-native_hostileness = 9
-hre = no
+controller = HSN
+owner = HSN
+add_core = HSN
+discovered_by = HSN
+
+1444.11.13 = {
+	owner = ---
+	controller = ---
+	add_core = ---
+}

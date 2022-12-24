@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = phoenicia
 religion = pantheon
-technology_group = western
+technology_group = civilization_tech
 historical_friend = CFG
 capital = 1855  #Sidon
 

@@ -2,7 +2,7 @@ government = republic
 add_government_reform = city_state
 primary_culture = hebrew
 religion = pantheon
-technology_group = western
+technology_group = civilization_tech
 capital = 379	# Jerusalem
 
 

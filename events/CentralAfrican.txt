@@ -209,6 +209,34 @@ country_event = {
 		add_years_of_income = 0.5
 	}
 }
+
+#Descended from the same breast
+country_event = {
+	id = central_african.11
+	title = central_african.11.t
+	desc = central_african.11.d
+	picture = CENTRAL_AFRICAN_COURT_eventPicture
+
+	trigger = {
+		has_dlc = "Mare Nostrum"
+		OR = {
+			primary_culture = nyasa
+			primary_culture = makua
+		}
+		NOT = {
+			stability = 2
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 800
+	}
+
+	option = {
+		name = central_african.11.a
+		add_stability_or_adm_power = yes
+	}
+}
 #MARAVI
 #The Land of Flames
 country_event = {

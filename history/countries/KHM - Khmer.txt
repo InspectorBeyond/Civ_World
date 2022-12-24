@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = khmer
 religion = pantheon
-technology_group = western
+technology_group = civilization_tech
 capital = 609
 fixed_capital = 609
 

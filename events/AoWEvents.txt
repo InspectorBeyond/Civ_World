@@ -2008,7 +2008,30 @@ province_event = {
 }
 
 # Pope Discovers Duplicity
+province_event = {
+	id = aow_events.46
+	title = "aow_events.46.t"
+	desc = "aow_events.46.d"
+	picture = POPE_PREACHING_eventPicture
+	goto = root
 
+	is_triggered_only = yes
+
+	trigger = {
+		exists = PAP
+	}
+
+	# 
+	option = {
+		name = "aow_events.46.a"
+		PAP = {
+			add_opinion = {
+				who = ROOT
+				modifier = bribed_cardinal
+			}
+		}
+	}
+}
 
 # Cardinal Distrusts Heathens
 province_event = {
@@ -2058,6 +2081,7 @@ country_event = {
 	trigger = {
 		papacy_active = yes
 		religion = catholic
+		NOT = { tag = PAP }
 		OR = {
 			employed_advisor = {
 				type = theologian
@@ -2089,6 +2113,7 @@ country_event = {
 			limit = {
 				development = 10
 				continent = europe
+				religion = catholic
 				has_cardinal = no
 			}
 			add_cardinal = yes

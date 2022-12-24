@@ -4,12 +4,13 @@ trade_goods = fish
 base_tax = 3
 base_production = 3
 base_manpower = 3
-owner = HJO
-controller = HJO
-add_core = HJO
-capital = "Tokyo"
 
-discovered_by = HJO
+owner = TKG
+controller = TKG
+add_core = TKG
+
+discovered_by = TKG
+capital = "Tokyo"
 
 1444.11.13 = {
 owner = ---

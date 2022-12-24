@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = kongolese
 religion = pantheon
-technology_group = western
+technology_group = civilization_tech
 unit_type = sub_saharan
 capital = 1170	# M'banza Kongo
 

@@ -5,6 +5,19 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 
+
+owner = BAV
+controller = BAV
+add_core = BAV
+capital = "Munich"
+
+discovered_by = BAV
+
+1444.11.13 = {
+owner = ---
+controller = ---
+add_core = ---
+}
 native_size = 45
 native_ferocity = 9
 native_hostileness = 9

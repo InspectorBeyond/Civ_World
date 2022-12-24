@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = mayan
 religion = pantheon
-technology_group = western
+technology_group = civilization_tech
 capital = 4594
 fixed_capital = 4594
 

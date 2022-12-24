@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = autocracy_reform
-technology_group = western
+technology_group = civilization_tech
 primary_culture = maori
 religion = pantheon
 capital = 1106 # Whangarei

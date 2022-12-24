@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = austrian
 religion = pantheon
-technology_group = western
+technology_group = civilization_tech
 capital = 134 # Wien
 fixed_capital = 134
 

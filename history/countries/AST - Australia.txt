@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = autocracy_reform
-technology_group = western
+technology_group = civilization_tech
 religion = pantheon
 primary_culture = australian
 capital = 4859

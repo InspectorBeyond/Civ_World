@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = georgian
 religion = pantheon
-technology_group = western
+technology_group = civilization_tech
 capital = 423 # T'bilisi
 
 

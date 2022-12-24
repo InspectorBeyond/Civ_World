@@ -1,7 +1,6 @@
 # First policy below is the default if no other selected
 
-maximize_profit =
-{
+maximize_profit = {
 	can_select = {
 		FROM = {
 			has_trader = ROOT
@@ -10,7 +9,7 @@ maximize_profit =
 
 	trade_power = {
 		duration = -1
-		 power_modifier = 0.05
+		power_modifier = 0.05
 		key = maximize_profits
 	}
 	
@@ -18,8 +17,7 @@ maximize_profit =
 	button_gfx = GFX_Trading_Policy_Max_Profit
 }
 
-hostile_trading =
-{
+hostile_trading = {
 	can_select = {
 		FROM = {
 			has_trader = ROOT
@@ -34,37 +32,45 @@ hostile_trading =
 	button_gfx = GFX_Trading_Policy_Hostile_Trading
 }
 
-improve_inland_routes =
-{
+improve_inland_routes = {
 	can_select = {
-		FROM = {
+		FROM = {			
 			has_trader = ROOT
-			trade_share = {
-				country = ROOT
-				share = 50
+		}
+		if = {
+			limit = { NOT = { has_government_attribute = free_improve_inland_routes } }
+			FROM = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
 			}
 		}
 	}
 
 	can_maintain = {
-		FROM = {
+		FROM = {			
 			has_trader = ROOT
-			trade_share = {
-				country = ROOT
-				share = 40
+		}
+		if = {
+			limit = { NOT = { has_government_attribute = free_improve_inland_routes } }
+			FROM = {
+				trade_share = {
+					country = ROOT
+					share = 40
+				}
 			}
 		}
 	}
 	
 	node_province_modifier = {
 		siege_ability = 0.10
-		artillery_bonus_vs_fort = 1
+		artillery_levels_available_vs_fort = 1
 	}	
 	button_gfx = GFX_Trading_Policy_Improve_Routes
 }
 
-establish_communities =
-{
+establish_communities = {
 	can_select = {
 		FROM = {
 			has_trader = ROOT

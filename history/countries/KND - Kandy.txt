@@ -1,6 +1,6 @@
 government = republic
 add_government_reform = city_state
-technology_group = western
+technology_group = civilization_tech
 religion = pantheon
 primary_culture = tamil
 capital = 2099 #Kandy

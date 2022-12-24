@@ -2,16 +2,16 @@ government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = castillian
 religion = pantheon
-technology_group = western
+technology_group = civilization_tech
 capital = 208
 
 1444.11.10 = {
 	monarch = {
 		name = "Isabella I"
 		dynasty = "de Trastamara"
-		adm = 5
+		adm = 6
 		dip = 6
-		mil = 3
+		mil = 6
 		female = yes
 	}
 	add_ruler_personality = zealot_personality

@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = autocracy_reform
-technology_group = western
+technology_group = civilization_tech
 primary_culture = celtic
 religion = pantheon
 government_rank = 2
@@ -10,7 +10,7 @@ fixed_capital = 373
 1444.11.10 = {
 	monarch = {
 		name = "Boudicca"
-		dynasty = "Celtic"
+		dynasty = "Iceni"
 		birth_date = 1414.11.11
 		adm = 6
 		dip = 6

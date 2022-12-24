@@ -2,6 +2,6 @@ government = republic
 add_government_reform = city_state
 primary_culture = andalucian
 religion = pantheon
-technology_group = western
+technology_group = civilization_tech
 capital = 223	# Granada
 government_rank = 1

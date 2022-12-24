@@ -4,7 +4,7 @@ government_rank = 2
 primary_culture = polish
 add_accepted_culture = lithuanian
 religion = pantheon
-technology_group = western
+technology_group = civilization_tech
 capital = 262 # Krakow
 
 1444.11.10 = {

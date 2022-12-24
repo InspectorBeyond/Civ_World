@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 2
-technology_group = western
+technology_group = civilization_tech
 primary_culture = athenian
 religion = pantheon
 capital = 146	# Athens

@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = javanese
-technology_group = western
+technology_group = civilization_tech
 religion = pantheon
 capital = 628
 fixed_capital = 628

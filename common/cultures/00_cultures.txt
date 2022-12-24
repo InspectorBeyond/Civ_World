@@ -2105,10 +2105,28 @@ iranian	= {
 	persian = {
 		primary = PER
 		male_names = { 
-			Abbas
+			Ahmad
+			"Fath Ali" Fereydoun Mahmoud Mohammad "Mohammad Ali" "Mohammad Hassan" "Mozzafer ed-Din"
+			"Naser ed-Din" "Sultan Hamid" Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali 
+			Bahram Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim
+			"Lotf Ali" Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Muhsin Murad
+			"Naser ed-Din" Nosret Reza Sadegh
 		}
 		female_names = { 
-			Afsaneh
+			Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh Bahar Banafsheh Behnaz Burandokht Darya Delaram 
+			Delbar Dinah Donya Elham Elnaz Farah Fareedeh Farnaz Farrin Farva Furuzan Ghamze Ghazal 
+			Ghoncheh Ghoncheh Golbahar Golbahar Golnaz Golnaz Golpari Golshan Hamdam Hurmat Irandokht 
+			Jamileh Javaneh Leila Mahdokht Mahtab Mariam Mariam Navvaba Nazgol Nazgol Nazilla Noor Parvaneh 
+			Parvaneh Parvin Pertevniyal Pourandokht Pourandokht Roshanora Roxana Salomeh Shahrzad Shahzadeh 
+			Shirin Soraya Touran Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh Atiya
+		}
+		dynasty_names = {
+			al-Saltaneh Alamir Astarabadi Ashtiani Bakhtiari
+			Farmanfarma Hakimi Hedayat Khalatbari Pirnia
+			Qajar Airom Ansari Ayrum
+			Buzarjomehri Davallu Esfahani Farhani Jahanbani Jamshidian
+			Kashani Khan Khuzai Meshhedi Nakhchevani Pesyan Rokni
+			Sadegh Shafaei Shahbakhti Shirazi Tabrizi Tahmasebi Zahedi
 		}
 	}
 	kurdish = {
@@ -2941,8 +2959,6 @@ east_asian = {	# Chinese Group
 		}
 	}
 	altaic_new	= {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
 		primary = YUA
 		male_names = {
 			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
@@ -2965,8 +2981,6 @@ east_asian = {	# Chinese Group
 	}
 
 	manchu_new = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
 		primary = MCH
 		dynasty_names = {
 			"Aisin Gioro" Wanyan "Yehe Nara" "Ula Nara" "Magiya Hala" Niohuru

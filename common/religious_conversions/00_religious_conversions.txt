@@ -95,7 +95,7 @@ hussite_center_of_reformation = {
 	map_icon = GFX_religious_conversion_center_protestant
 
 	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 2
+	base_conversion_speed = 2.5
 
 	target_province_weights = {
 		factor = 2
@@ -203,6 +203,13 @@ hussite_center_of_reformation = {
 			has_state_edict = edict_religion_enforced
 		}
 		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		modifier = {
+			factor = 0.75
+			is_part_of_hre = yes
+			PAP = {
+				is_part_of_hre = yes
+			}
+		}
 	}
 }
 
@@ -241,10 +248,12 @@ anglican_center_of_reformation = {
 		modifier = {
 			factor = 0
 			religion = reformed
+			owner = { NOT = { religion = anglican } }
 		}
 		modifier = {
 			factor = 0
 			religion = protestant
+			owner = { NOT = { religion = anglican } }
 		}
 		modifier = {
 			factor = 0
@@ -293,6 +302,7 @@ anglican_center_of_reformation = {
 		modifier = {
 			factor = 0
 			religion = hussite
+			owner = { NOT = { religion = anglican } }
 		}
 		modifier = {
 			factor = 2
@@ -321,6 +331,13 @@ anglican_center_of_reformation = {
 			has_state_edict = edict_religion_enforced
 		}
 		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		modifier = {
+			factor = 0.75
+			is_part_of_hre = yes
+			PAP = {
+				is_part_of_hre = yes
+			}
+		}
 	}
 }
 
@@ -331,7 +348,7 @@ protestant_center_of_reformation = {
 	map_icon = GFX_religious_conversion_center_protestant
 
 	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 2
+	base_conversion_speed = 2.5
 
 	target_province_weights = {
 		factor = 2
@@ -435,7 +452,13 @@ protestant_center_of_reformation = {
 			has_state_edict = edict_religion_enforced
 		}
 		# HRE is more resistant to reformation when the Pope is an Imperial Prince
-		
+		modifier = {
+			factor = 0.75
+			is_part_of_hre = yes
+			PAP = {
+				is_part_of_hre = yes
+			}
+		}
 	}
 }
 
@@ -446,7 +469,7 @@ reformed_center_of_reformation = {
 	map_icon = GFX_religious_conversion_center_protestant
 
 	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 2
+	base_conversion_speed = 2.5
 
 	target_province_weights = {
 		factor = 2
@@ -550,6 +573,132 @@ reformed_center_of_reformation = {
 			has_state_edict = edict_religion_enforced
 		}
 		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		modifier = {
+			factor = 0.75
+			is_part_of_hre = yes
+			PAP = {
+				is_part_of_hre = yes
+			}
+		}
+	}
+}
+
+catholic_center_of_reformation = {
+
+	religion = catholic
+	
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 2.5
+
+	target_province_weights = {
+		factor = 2
 		
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 118 # Rome, seat of Papacy
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 0
+			religion = protestant
+		}
+		modifier = {
+			factor = 0
+			religion = anglican
+		}
+		modifier = {
+			factor = 0
+			religion = hussite
+		}
+		modifier = {
+			factor = 0
+			NOT = { religion_group = christian }
+		}
+		modifier = {
+			factor = 0
+			NOT = { continent = FROM }
+		}
+		modifier = {
+			factor = 0.7
+			owner = {
+				num_of_cardinals = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			owner = {
+				num_of_cardinals = 4
+			}
+		}
+		modifier = {
+			factor = 0.7
+			owner = {
+				num_of_cardinals = 3
+			}
+		}
+		modifier = {
+			factor = 0.7
+			owner = {
+				num_of_cardinals = 2
+			}
+		}
+		modifier = {
+			factor = 0.7
+			owner = {
+				num_of_cardinals = 1
+			}
+		}
+		modifier = {
+			factor = 1.5
+			owner = {
+				religion = reformed
+			}
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+			development = 10
+		}
+		modifier = {
+			factor = 0.1
+			religion = coptic
+		}		
+		modifier = {
+			factor = 0.5
+			religion = orthodox
+		}		
+		modifier = {
+			factor = 0.5
+			has_state_edict = edict_religion_enforced
+		}
+		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		modifier = {
+			factor = 0.75
+			is_part_of_hre = yes
+			PAP = {
+				is_part_of_hre = yes
+			}
+		}
 	}
 }

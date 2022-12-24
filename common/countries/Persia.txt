@@ -2,7 +2,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 107 151 255 }
+color = { 128 0 0  }
 revolutionary_colors = { 10  0  5 }
 
 historical_idea_groups = {
@@ -31,45 +31,138 @@ historical_units = {
 }
 
 monarch_names = {
-	"Cyrus #2" = 40
-	"Darius #0" = 30
-	"Arsaces #0" = 30
-	"Tiridates #0" = 20
-	"Phriapatius #0" = 10
-	"Phraates #0" = 30
-	"Mithridates #0" = 30
-        "Artabanus #0" = 20
-        "Vologases #0" = 10
-        "Gotarzes #0" = 10
-        "Sanatruces #0" = 10
-        "Orodes #0" = 10
-	"Pacorus #0" = 10
-	"Vonones #0" = 5
-	"Cinnamus #0" = 10
-	"Vardanes #0" = 10
-	"Osroes #0" = 10
-        "Parmahamaspates #0" = 10
-		
-		"Amestris #0" = -1
-		"Atossa #0" = -1
-		"Damaspia #0" = -1
-		"Parmys #0" = -1
-		"Stateira #0" = -1
-		"Musa #0" = -1
+	"Nader #0" = 40
+	"Abbas #0" = 40
+	"Abdolazim #0" = 40
+	"Abdolhossein #0" = 40
+	"Abdolsamad #0" = 40
+	"Abolghasem #0" = 40
+	"Ahmad #0" = 40
+	"Ali #0" = 40
+	"Bahram #0" = 40
+	"Ebrahim #0" = 40
+	"Esmail #0" = 40
+	"Fath_Ali #0" = 40
+	"Fazlollah #0" = 40
+	"Hamzeh #0" = 40
+	"Hasan #0" = 40
+	"Hossein #0" = 40
+	"Kamran #0" = 40
+	"Karim #0" = 40
+	"Lotf Ali #0" = 40
+	"Mahmoud #0" = 40
+	"Massoud #0" = 40
+	"Mohammad #0" = 40
+	"Moin_ed-Din #0" = 40
+	"Mozzafer_ed-Din #0" = 40
+	"Muhsin #0" = 40
+	"Murad #0" = 40
+	"Naser_ed-Din #0" = 40
+	"Nosret #0" = 40
+	"Reza #0" = 40
+	"Sadegh #0" = 40
+	
+	"Afsaneh #0" = -10 
+	"Ahu #0" = -10 
+	"Arghavan #0" = -10 
+	"Azarmidokht #0" = -10 
+	"Asa #0" = -10 
+	"Azadeh #0" = -10 
+	"Bahar #0" = -10 
+	"Banafsheh #0" = -10 
+	"Behnaz #0" = -10 
+	"Burandokht #0" = -10 
+	"Darya #0" = -10 
+	"Delaram #0" = -10 
+	"Delbar #0" = -10 
+	"Dinah #0" = -10 
+	"Donya #0" = -10 
+	"Elham #0" = -10 
+	"Elnaz #0" = -10 
+	"Farah #0" = -10 
+	"Fareedeh #0" = -10 
+	"Farnaz #0" = -10 
+	"Farrin #0" = -10 
+	"Farva #0" = -10 
+	"Furuzan #0" = -10 
+	"Ghamze #0" = -10 
+	"Ghazal #0" = -10 
+	"Ghoncheh #0" = -10 
+	"Ghoncheh #0" = -10 
+	"Golbahar #0" = -10 
+	"Golbahar #0" = -10 
+	"Golnaz #0" = -10 
+	"Golnaz #0" = -10 
+	"Golpari #0" = -10 
+	"Golshan #0" = -10 
+	"Hamdam #0" = -10 
+	"Hurmat #0" = -10 
+	"Irandokht #0" = -10 
+	"Jamileh #0" = -10 
+	"Javaneh #0" = -10 
+	"Leila #0" = -10 
+	"Mahdokht #0" = -10 
+	"Mahtab #0" = -10 
+	"Mariam #0" = -10 
+	"Mariam #0" = -10 
+	"Navvaba #0" = -10 
+	"Nazgol #0" = -10 
+	"Nazgol #0" = -10 
+	"Nazilla #0" = -10 
+	"Noor #0" = -10 
+	"Parvaneh #0" = -10 
+	"Parvaneh #0" = -10 
+	"Parvin #0" = -10 
+	"Pertevniyal #0" = -10 
+	"Pourandokht #0" = -10 
+	"Pourandokht #0" = -10 
+	"Roshanora #0" = -10 
+	"Roxana #0" = -10 
+	"Salomeh #0" = -10 
+	"Shahrzad #0" = -10 
+	"Shahzadeh #0" = -10 
+	"Shirin #0" = -10 
+	"Soraya #0" = -10 
+	"Touran #0" = -10 
+	"Tourandokht #0" = -10 
+	"Yasaman #0" = -10 
+	"Yekta #0" = -10 
+	"Zarrindokht #0" = -10 
+	"Zeynab #0" = -10 
+	"Zohreh #0" = -10 
+	"Atiya #0" = -10 
 }
 
 leader_names = {
-	Sabiri
-	Jalili
-	Azizi
-	Shahy
-	Daei
-	Qazai
-	Dalwand
-	Ahrari
-	Fatemi
-	Sabet
-	Ansari
+	Abbas
+	Abdolazim
+	Abdolhossein
+	Abdolsamad
+	Abolghasem
+	Ahmad
+	Ali
+	Bahram
+	Ebrahim
+	Esmail
+	Fath_Ali
+	Fazlollah
+	Hamzeh
+	Hasan
+	Hossein
+	Kamran
+	Karim
+	Lotf_Ali
+	Mahmoud
+	Massoud
+	Mohammad
+	Moin_ed-Din
+	Mozzafer_ed-Din
+	Muhsin
+	Murad
+	Naser_ed-Din
+	Nosret
+	Reza
+	Sadegh
 }
 
 ship_names = {

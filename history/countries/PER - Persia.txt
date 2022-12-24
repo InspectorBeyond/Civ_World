@@ -1,15 +1,15 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = old_persian
+primary_culture = persian
 religion = pantheon
-technology_group = western
-capital = 2218
+technology_group = civilization_tech
+capital = 2221
 add_army_professionalism = 0.05
 
 1444.11.10 = {
 	monarch = {
-		name = "Cyrus II"
-		dynasty = "Achaemenid"
+		name = "Nader"
+		dynasty = "Afsharid"
 		adm = 6
 		dip = 6
 		mil = 6
