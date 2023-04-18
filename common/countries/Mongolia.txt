@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 86  14  15 }
+color = { 81  0  9 }
 
 historical_idea_groups = {
 	exploration_ideas
@@ -29,7 +29,7 @@ historical_units = {
 }
 
 monarch_names = {
-	"Genghis #1" = 40
+	"Temujin #1" = 40
 	"Agbarjin #0" = 20
 	"Adai #0" = 20
 	"Altan #0" = 20

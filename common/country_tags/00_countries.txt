@@ -29,7 +29,6 @@ GRE	= "countries/Greece.txt"
 KNI	= "countries/Knights.txt"
 MOE	= "countries/Morea.txt"
 MOL	= "countries/Moldavia.txt"
-MON	= "countries/Montenegro.txt"
 NAX	= "countries/Naxos.txt"
 RMN	= "countries/Romania.txt"
 SER	= "countries/Serbia.txt"
@@ -214,7 +213,6 @@ UTR	= "countries/Utrecht.txt"
 
 #Russia 
 ARM	= "countries/Armenia.txt"
-AST	= "countries/Astrakhan.txt"
 CRI	= "countries/Crimea.txt"
 KAZ	= "countries/Kazan.txt"
 MOS	= "countries/Muscowy.txt"
@@ -461,7 +459,6 @@ OUC = "countries/Ouchi.txt"
 SBA = "countries/Shiba.txt"
 SMZ = "countries/Shimazu.txt"
 TKD = "countries/Takeda.txt"
-TKG = "countries/Tokugawa.txt"
 UES = "countries/Uesugi.txt"
 YMN = "countries/Yamana.txt"
 RFR	= "countries/Nanbu.txt"
@@ -514,7 +511,6 @@ FRM = "countries/Formosa.txt"
 # 1.27 steppe tags
 ILK = "countries/Ilkhanate.txt"
 KLM = "countries/Kalmyk.txt"
-MGE = "countries/MongolEmpire.txt"
 
 # 1.29 new tags
 SOO = "countries/So.txt" # Japanese potential pirate daimyo
@@ -749,7 +745,7 @@ CHU = "countries/Chukchi.txt"
 HOD = "countries/Hodyntsy.txt"
 CHV = "countries/Chavchuveny.txt"
 KMC = "countries/Kamchadals.txt"
-BRT = "countries/Buryats.txt"
+GBR = "countries/Buryats.txt"
 
 #North American Additions
 ARP = "countries/Arapaho.txt"
@@ -941,7 +937,6 @@ KAA = "countries/Kauai.txt"
 TOG = "countries/Tonga.txt"
 SAM = "countries/Samoa.txt"
 VIT = "countries/Viti.txt"
-VIL = "countries/Viti Levu.txt"
 VNL = "countries/Vanua Levu.txt"
 LAI = "countries/Lau.txt"
 

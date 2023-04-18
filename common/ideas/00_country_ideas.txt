@@ -3,13 +3,12 @@
 # If adding new groups or ideas, make sure they are unique.
 
 ### Nation specific idea groups
-
+#####auto_explore_adjacent_to_colony = yes
 
 COL_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
@@ -46,9 +45,8 @@ COL_ideas = {
 
 GBR_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		naval_morale = 0.20
+		heavy_ship_power = 0.15
 	}
 
 	bonus = {
@@ -56,12 +54,13 @@ GBR_ideas = {
 	}
 	
 	trigger = {
-		tag = ENG
+		tag = GBR
 	}
 	free = yes		#will be added at load.
 
 	gbr_acts_of_union = {
 		diplomatic_annexation_cost = -0.15
+		governing_capacity_modifier = 0.1
 	}
 	city_upon_a_hill = {
 		global_colonial_growth = 20
@@ -81,14 +80,55 @@ GBR_ideas = {
 	britanna_rules_the_waves = {
 		leader_naval_manuever = 1
 		blockade_efficiency = 0.33
+		allowed_marine_fraction = 0.50
+	}
+}
+
+ENG_ideas = {
+	start = {
+		infantry_power = 0.10 # agincourt
+		global_unrest = -1 # magna carta, parliament
+	}
+
+	bonus = {
+		free_leader_pool = 1
+	}
+	
+	trigger = {
+		tag = ENG
+	}
+	free = yes		#will be added at load.
+	
+	royal_navy = {
+		navy_tradition = 0.25
+		heavy_ship_power = 0.10
+	}
+	eltham_ordinance = {
+		production_efficiency = 0.1
+	}
+	secretaries_of_state = {
+		diplomatic_upkeep = 1
+	}
+	navigation_acts = {
+		trade_efficiency = 0.1
+	}
+	eng_red_coats = {
+		fire_damage = 0.1
+		allowed_marine_fraction = 0.25
+	}
+	sick_and_hurt_board = {
+		sailors_recovery_speed = 0.10
+		sailor_maintenance_modifer = -0.1
+	}
+	british_bill_of_rights = {
+		years_of_nationalism = -5
 	}
 }
 
 SWE_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		infantry_power = 0.07
+		merc_maintenance_modifier = -0.15
 	}
 
 	bonus = {
@@ -127,14 +167,14 @@ SWE_ideas = {
 
 RUS_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		core_creation = -0.10
+		global_manpower_modifier = 0.33
 	}
 
 	bonus = {
-		auto_explore_adjacent_to_colony = yes
-		global_colonial_growth = 35
+		legitimacy = 1
+		republican_tradition = 0.3
+		devotion = 1
 	}
 
 	trigger = {
@@ -145,8 +185,9 @@ RUS_ideas = {
 	land_of_the_rus = {
 		ae_impact = -0.1
 	}
-	third_rome = {
-	legitimacy = 3
+	siberian_frontier = {
+		may_establish_frontier = yes
+		auto_explore_adjacent_to_colony = yes
 	}
 	russian_artillery_yard = {
 		artillery_cost = -0.1
@@ -171,17 +212,19 @@ RUS_ideas = {
 
 SPA_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		land_morale = 0.15
+		artillery_fire = 1
 	}
+	
 	bonus = {
-		global_colonial_growth = 25
+		discipline = 0.05
 	}
+	
 	trigger = {
-		tag = SPA
+		tag = SPN
 	}
 	free = yes		#will be added at load.
+
 	devout_catholisism = {
 		papal_influence = 2
 	}
@@ -210,9 +253,8 @@ SPA_ideas = {
 
 CAS_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		land_morale = 0.15
+		allowed_marine_fraction = 0.25
 	}
 	bonus = {
 		global_colonial_growth = 25
@@ -249,9 +291,8 @@ CAS_ideas = {
 
 NED_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		global_sailors_modifier = 0.25
+		naval_forcelimit_modifier = 0.50
 	}
 	
 	bonus = {
@@ -271,7 +312,7 @@ NED_ideas = {
 		trade_range_modifier = 0.10
 	}
 	polders = {
-		development_cost = -0.1
+		development_cost = -0.3
 	}
 	instructie_voor_de_admiraliteiten = {
 		leader_naval_fire = 2
@@ -291,9 +332,8 @@ NED_ideas = {
 
 DAN_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		navy_tradition = 1
+		global_manpower_modifier = 0.2
 	}
 	
 	bonus = {
@@ -333,9 +373,8 @@ DAN_ideas = {
 
 AQT_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		diplomatic_reputation = 1
+		global_manpower_modifier = 0.20
 	}
 	
 	bonus = {
@@ -374,9 +413,8 @@ AQT_ideas = {
 
 FRA_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		manpower_recovery_speed = 0.3
+		global_manpower_modifier = 0.20
 	}
 	
 	bonus = {
@@ -415,9 +453,8 @@ FRA_ideas = {
 
 TUR_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		discipline = 0.05
+		tolerance_heathen = 3
 	}
 	
 	bonus = {
@@ -429,13 +466,13 @@ TUR_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	ghazi = {
-		manpower_recovery_speed = 0.3
-	}		
 	millets = {
 		core_creation = -0.20
 		num_accepted_cultures = 1
-	}
+	}	
+	ghazi = {
+		manpower_recovery_speed = 0.2
+	}		
 	timariot_system = {
 		cavalry_power = 0.15
 	}
@@ -456,9 +493,8 @@ TUR_ideas = {
 
 VEN_ideas = {
 	start = {
-		colonists = 1
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		trade_steering = 0.33
+		trade_efficiency = 0.25
 	}
 	
 	bonus = {
@@ -498,93 +534,87 @@ VEN_ideas = {
 }
 
 
-PRU_ideas = {
+GER_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		legitimacy = 1
+		devotion = 1
+		infantry_power = 0.15
 	}
 	
 	bonus = {
-		discipline = 0.05
-	}
-	
+		diplomatic_upkeep = 1
+	}	
+
 	trigger = {
 		tag = GER
 	}
-	free = yes		#will be added at load.
+	free = yes
 	
-	kammergericht = {
-		global_tax_modifier = 0.1
+	ger_german_confederation = {
+		global_unrest = -2
 	}
-	divided_estates = {
-		stability_cost_modifier = -0.1
+	ger_german_universities = {
+		technology_cost = -0.1
 	}
-	army_professionalism = {
-		land_morale = 0.20
-	}	
-	noble_cadets = {
-		army_tradition_decay = -0.01
+	ger_reichsheer = {
+		discipline = 0.05
 	}
-	goose_step = {
-		infantry_power = 0.20
+	ger_new_hanseatics = {
+		trade_efficiency = 0.10
 	}
-	regimental_cantons = {
-		global_manpower_modifier = 0.25
-		global_regiment_recruit_speed = -0.10
+	ger_junkers = {
+		army_tradition = 0.5
 	}
-	religious_toleration = {
-		development_cost = -0.05
-		tolerance_heretic = 1
+	ger_reichstag = {
+		administrative_efficiency = 0.05
+	}
+	ger_eisen_und_kohle = {
+		global_trade_goods_size_modifier = 0.2
 	}
 }
  
  HLR_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		possible_policy = 1
+		diplomatic_reputation = 2
 	}
 	
 	bonus = {
+		administrative_efficiency = 0.05
+	}	
+
+	trigger = {
+		tag = HRE
+	}
+	free = yes
+	
+	hlr_imperial_throne = {
+		legitimacy = 1.5 #unique (it's the HRE :D)
+	}
+	hlr_kaiserliche_armee = {
+		land_morale = 0.15
+	}
+	hlr_imperial_diplomacy = {
+		improve_relation_modifier = 0.33
+	}
+	hlr_centralised_empire = {
+		global_tax_modifier = 0.2
+	}
+	hlr_roman_heritage = {
+		core_creation = -0.2
+	}
+	hlr_adopting_the_goosestep = {
 		discipline = 0.05
 	}
-	
-	trigger = {
-			tag = HRE
-	}
-	free = yes		#will be added at load.
-	
-	kammergericht = {
-		global_tax_modifier = 0.1
-	}
-	divided_estates = {
-		stability_cost_modifier = -0.1
-	}
-	army_professionalism = {
-		land_morale = 0.20
-	}	
-	noble_cadets = {
-		army_tradition_decay = -0.01
-	}
-	goose_step = {
-		infantry_power = 0.20
-	}
-	regimental_cantons = {
-		global_manpower_modifier = 0.25
-		global_regiment_recruit_speed = -0.10
-	}
-	religious_toleration = {
-		development_cost = -0.05
-		tolerance_heretic = 1
+	hlr_onwards_and_upwards = {
+		governing_capacity_modifier = 0.1
 	}
 }
  
 POR_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		movement_speed_in_fleet_modifier = 1
+		infantry_power = 0.1
 	}
 	
 	bonus = {
@@ -592,13 +622,13 @@ POR_ideas = {
 	}
 	
 	trigger = {
-		tag = POR
+		tag = PRT
 	}
 	free = yes		#will be added at load.
 	
 	legacy_of_the_navigator = {
-		range = 0.25
-		global_sailors_modifier = 0.25
+		naval_morale = 0.1
+		range = 0.20
 	}
 	afonsine_ordinances = {
 		global_trade_goods_size_modifier = 0.1
@@ -606,27 +636,27 @@ POR_ideas = {
 	case_de_india = {
 		global_trade_power = 0.1
 	}
-	the_bandeirantes = {
-		merchants = 1
-	}
-	royal_absolutism = {
-		build_cost = -0.15
-		yearly_absolutism = 0.1
-	}
 	land_before_faith = {
 		global_colonial_growth = 15
 	}
-	open_up_the_guilds = {
-		trade_efficiency = 0.1
+	the_bandeirantes = {
+		trade_efficiency = 0.15
+	}
+	royal_absolutism = {
+		build_cost = -0.15
+		yearly_absolutism = 0.5
+	}
+	por_royal_military_academy = {
+		defensiveness = 0.1
+		artillery_fire = 1
 	}
 }
 
 
 POL_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		cavalry_cost = -0.1
+		num_accepted_cultures = 1
 	}
 	
 	bonus = {
@@ -634,10 +664,7 @@ POL_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = POL
-			tag = PLC
-		}
+		tag = POL
 	}
 	free = yes		#will be added at load.
 	
@@ -653,8 +680,8 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
-		cav_to_inf_ratio = 0.10
+		cavalry_power = 0.3
+		can_recruit_hussars = yes
 	}
 	wojsko_komputoe = {
 		global_regiment_cost = -0.10
@@ -667,12 +694,51 @@ POL_ideas = {
 	}
 }
 
+PLC_ideas = {
+	start = {
+		nobles_loyalty_modifier = 0.1
+		num_accepted_cultures = 2 
+	}
+	
+	bonus = {
+		tolerance_heretic = 3
+	}
+	
+	trigger = {
+		tag = PLC
+	}
+	free = yes
+	
+	plc_prosperous_folwarks = { #Same for all of them
+		global_trade_goods_size_modifier = 0.10
+	}
+	pol_jagiellonian_university = {
+		idea_cost = -0.10
+	}
+	plc_the_obrona_potoczna = { #Same for all of them
+		drill_gain_modifier = 0.25
+		army_tradition = 1
+	}
+	winged_hussars = { 
+		cavalry_power = 0.3
+		can_recruit_hussars = yes
+	}
+	plc_refine_our_golden_liberty = { #Same for all of them
+		country_admin_power = 1 
+	}
+	pol_royal_guards = {
+		infantry_power = 0.15
+	}
+	plc_tempered_by_neighbors = { #Same for all of them
+		discipline = 0.05
+	}
+}
+
 
 HAB_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		land_morale = 0.10
+		improve_relation_modifier = 0.3
 	}
 	
 	bonus = {
@@ -707,16 +773,15 @@ HAB_ideas = {
 	}
 	hofkriegsrat = {
 		reinforce_speed = 0.3
-		discipline = 0.03
+		discipline = 0.05
 	}
 }
 
 
 CHI_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		fort_maintenance_modifier = -0.2
+		idea_cost = -0.10
 	}
 	
 	bonus = {
@@ -724,48 +789,10 @@ CHI_ideas = {
 	}
 	
 	trigger = {
-		tag = QIN
-	}
-	free = yes		#will be added at load.
-	
-	nine_garrisons_of_the_great_wall = {
-		defensiveness = 0.05
-		garrison_size = 0.25
-	}
-	revived_three_grand_divisions = {
-		discipline = 0.05
-	}
-	inward_perfection = {
-		stability_cost_modifier = -0.10
-	}
-	yellow_river_dykes = {
-		production_efficiency = 0.1
-	}
-	salt_monopoly = {
-		trade_efficiency = 0.1
-	}
-	single_whip_law = {
-		global_tax_modifier = 0.10
-	}
-	the_red_cannon = {
-		leader_land_fire = 1
-	}
-}
-
-
-VTM_ideas = {
-	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
-	}
-	
-	bonus = {
-		improve_relation_modifier = 0.3
-	}
-	
-	trigger = {
-		tag = VTM
+		OR = {
+			tag = QIN
+			tag = MNG
+		}
 	}
 	free = yes		#will be added at load.
 	
@@ -795,9 +822,8 @@ VTM_ideas = {
 
 CZH_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		fort_maintenance_modifier = -0.2
+		idea_cost = -0.10
 	}
 	
 	bonus = {
@@ -833,51 +859,50 @@ CZH_ideas = {
 	}
 }
 
-PER_ideas = {
+
+VTM_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		hostile_attrition = 1.0
+		culture_conversion_cost = -0.15
 	}
 	
 	bonus = {
-		recover_army_morale_speed = 0.05
+		land_morale = 0.10
 	}
 	
 	trigger = {
-		tag = PER
+		tag = VTM
 	}
-	free = yes
-
-	the_qizilbash = {
-		global_manpower_modifier = 0.15
+	free = yes		#will be added at load.
+	
+	the_great_proclamation = {
+		infantry_power = 0.1
 	}
-	persian_rug_production = {
-		global_trade_goods_size_modifier = 0.1
-	}
-	the_ghulams = {
-		discipline = 0.05
-	}
-	improved_silk_road = {
-		caravan_power = 0.2
-	}
-	encouraged_art = {
+	confucian_revival = {
 		prestige = 1
-		production_efficiency = 0.05
 	}
-	promotion_of_irrigation = {
-		manpower_recovery_speed = 0.10
+	autonomous_villages = {
+		defensiveness = 0.2
 	}
-	increased_crown_lands = {
-		global_tax_modifier = 0.10
+	village_militia = {
+		global_manpower_modifier = 0.25
+	}
+	don_dien = {
+		core_creation = -0.10
+	}
+	thuan_thien = {
+		legitimacy = 1
+		imperial_mandate = 0.05
+	}
+	literary_reform = {
+		technology_cost = -0.05
 	}
 }
 
 SCO_Ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		leader_land_shock = 1
+		land_forcelimit_modifier = 0.33
 	}
 	
 	bonus = {
@@ -915,9 +940,8 @@ SCO_Ideas = {
 
 HUN_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		cavalry_power = 0.20
+		recover_army_morale_speed = 0.05
 	}
 	
 	bonus = {
@@ -955,9 +979,8 @@ HUN_ideas = {
 
 JAP_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		stability_cost_modifier = -0.1
+		discipline = 0.05
 	}
 	
 	bonus = {
@@ -999,9 +1022,8 @@ JAP_ideas = {
 
 HJO_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		stability_cost_modifier = -0.1
+		discipline = 0.05
 	}
 	
 	bonus = {
@@ -1042,9 +1064,8 @@ HJO_ideas = {
 
 BYZ_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		advisor_cost = -0.10
+		tolerance_own = 3
 	}
 	
 	bonus = {
@@ -1082,48 +1103,46 @@ BYZ_ideas = {
 
 SIA_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		land_morale = 0.1
+		global_manpower_modifier = 0.3
 	}
-	
 	bonus = {
-		vassal_income = 0.25
+		discipline = 0.05
 	}
-	
 	trigger = {
 		tag = SIA
 	}
 	free = yes
-	
-	white_elephant = {
-		global_tax_modifier = 0.10
+	sia_royal_poets = {
+		prestige = 0.5
+		idea_cost = -0.1
 	}
-	corvee_system = {
-		global_manpower_modifier = 0.10
+	sia_advanced_elephant_warfare = {
+		cavalry_power = 0.15
+		cavalry_fire = 1
 	}
-	ayu_foreign_mercenaries = {
-		merc_maintenance_modifier = -0.15
+	sia_experienced_ambassadors = {
+		diplomatic_reputation = 2
 	}
-	ayu_embassies = {
-		diplomats = 1
+	sia_encourage_immigration = {
+		development_cost = -0.1
 	}
-	trading_links = {
-		trade_range_modifier = 0.20
+	sia_integrating_the_realm = {
+		diplomatic_annexation_cost = -0.2
 	}
-	personal_executions = {
-		stability_cost_modifier = -0.1
+	sia_education_reform = {
+		technology_cost = -0.1
 	}
-	phrai_luang = {
-		global_unrest = -1
+	sia_royal_absolutism = {
+		yearly_absolutism = 1
+		legitimacy = 1
 	}
 }
 
 NOR_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		global_sailors_modifier = 0.25
+		ship_durability = 0.10
 	}
 	
 	bonus = {
@@ -1135,16 +1154,15 @@ NOR_ideas = {
 	}
 	free = yes
 	
-	natural_seamanship = {
-		naval_morale = 0.20
-		
-	}
 	call_of_our_forefathers = {
 		range = 0.33
 		may_explore = yes
 	}
 	pioneer_spirit = {
 		colonists = 1
+	}
+	natural_seamanship = {
+		naval_morale = 0.20		
 	}
 	nor_shipbuilding = {
 		global_ship_cost = -0.1
@@ -1161,55 +1179,56 @@ NOR_ideas = {
 	}
 }
 
-KOR_ideas = {
-	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+SLA_ideas = {
+	 start = {
+        build_cost = -0.1
+        land_morale = 0.1
+    }
+    bonus = {
+        infantry_power = 0.1
+    }
+    trigger = {
+		or = {
+			tag = SLA
+			tag = KOR
+		}
+    }
+    free = yes
+    kor_uijeongbu = {
+        advisor_cost = -0.1
+        all_estate_loyalty_equilibrium = 0.05
+    }
+    metal_movable_type = {
+        adm_tech_cost_modifier = -0.05
+        innovativeness_gain = 0.5
+    }
+    choi_mu_seon_gunpower_engines = {
+        fire_damage = 0.1
+    }
+    korean_artisanery = {
+        prestige = 1
+        development_cost = -0.05
+    }
+    hyanyak_system = {
+        production_efficiency = 0.10
+    }
+    geobukseon = {
+        ship_durability = 0.1
+        naval_morale = 0.05
+    }
+    kyujanggak = {
+        idea_cost = -0.1
 	}
-	
-	bonus = {
-		infantry_power = 0.1
-	}
-	
-	trigger = {
-		tag = KOR
-	}
-	free = yes
-	
-	hanguel_alphabet = {
-		technology_cost = -0.05
-	}
-	grand_code = {
-		stability_cost_modifier = -0.10
-	}
-	hyanyak_system = {
-		production_efficiency = 0.10
-	}
-	geobukseon = {
-		ship_durability = 0.05
-	}
-	hopae_system = {
-		global_manpower_modifier = 0.10
-	}
-	kyujanggak = {
-		idea_cost = -0.1
-	}
-	kor_economy_reform = {
-		global_tax_modifier = 0.10
-	}
-	
 }
 
 ETH_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		global_autonomy = -0.05
+		land_attrition = -0.10
 	}
 	
 	bonus = {
-		legitimacy = 1
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -1225,9 +1244,11 @@ ETH_ideas = {
 	}
 	nagusa_negast = {
 		heir_chance = 0.5
+		legitimacy = 1
 	}
 	hostile_borders = {
 		defensiveness = 0.20
+		war_exhaustion = -0.03
 	}
 	diplomatic_demeanor = {
 		diplomatic_reputation = 1
@@ -1239,15 +1260,14 @@ ETH_ideas = {
 		core_creation = -0.10
 	}
 	eth_reformed_armies = {
-		infantry_power = 0.1
+		army_tradition = 0.5
 	}
 }
 
 USA_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		merchants = 1
+		allowed_marine_fraction = 0.5
 	}
 	
 	bonus = {
@@ -1255,7 +1275,12 @@ USA_ideas = {
 	}
 	
 	trigger = {
-		tag = USA
+		OR = {
+			tag = USA
+			tag = WAS
+			tag = NYK
+			tag = KTC
+		}
 	}
 	free = yes
 	
@@ -1285,10 +1310,9 @@ USA_ideas = {
 
 
 SON_ideas = {
-	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+	tart = {
+		infantry_power = 0.1
+		army_tradition = 0.5
 	}
 	
 	bonus = {
@@ -1325,9 +1349,8 @@ SON_ideas = {
 
 KON_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		trade_efficiency = 0.1
+		land_attrition = -0.20
 	}
 
 	bonus = {
@@ -1335,7 +1358,10 @@ KON_ideas = {
 	}
 
 	trigger = {	
-		tag = KON
+		OR = {
+			tag = KON
+			tag = ANG
+		}
 	}
 	free = yes		#will be added at load.
 	
@@ -1367,9 +1393,8 @@ KON_ideas = {
 
 MAL_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		land_attrition = -0.10
+		tolerance_heathen = 2
 	}
 	
 	bonus = {
@@ -1385,7 +1410,7 @@ MAL_ideas = {
 		vassal_income = 0.20
 	}
 	gold_of_bure = {
-		production_efficiency = 0.10
+		global_trade_goods_size_modifier = 0.1
 	}
 	reclamation_of_land = {
 		global_manpower_modifier = 0.10
@@ -1406,9 +1431,8 @@ MAL_ideas = {
 
 IRO_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		infantry_power = 0.1
+		diplomatic_reputation = 1
 	}
 	
 	bonus = {
@@ -1446,9 +1470,8 @@ IRO_ideas = {
 
 GEO_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		defensiveness = 0.25
+		infantry_power = 0.1
 	}
 	
 	bonus = {
@@ -1486,49 +1509,48 @@ GEO_ideas = {
 
 MAJ_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		ae_impact = -0.15
+		legitimacy = 1
 	}
 	
 	bonus = {
-		naval_maintenance_modifier = -0.2
+		diplomatic_annexation_cost = -0.15
 	}
+	
+	free = yes		#will be added at load.
 	
 	trigger = {
 		tag = INO
 	}
-	free = yes
-	
-	candi_shrines = {
-		religious_unity = 0.20
+	maj_nusantara_tributaries = {
+		vassal_forcelimit_bonus = 1
+		reduced_liberty_desire = 10
 	}
-	indianization = {
-		global_institution_spread = 0.1
-	}
-	dharmasastra = {
+	maj_restore_candi = {
 		global_missionary_strength = 0.02
 	}
-	pan_asian_trade = {
-		merchants = 1
-		trade_steering = 0.10
-	}
-	bi_yearly_harvest = {
-		global_trade_goods_size_modifier = 0.10
-	}
-	modernized_shipbuilding = {
-		global_ship_cost = -0.10
-	}
-	terracotta_banking = {
+	maj_maritime_silk_road = {
 		trade_efficiency = 0.1
+	}
+	maj_nusa_tenggara = {
+		colonists = 1
+	}
+	maj_gajah_madas_oath = {
+		land_morale = 0.1
+	}
+	maj_majapahit_armada = {
+		heavy_ship_power = 0.1
+		navy_tradition = 1
+	}
+	maj_reformed_bhattara_saptaprabhu = {
+		advisor_cost = -0.15
 	}
 }
 
 AZT_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		infantry_power = 0.1
+		idea_cost = -0.1
 	}
 
 	bonus = {
@@ -1536,7 +1558,7 @@ AZT_ideas = {
 	}
 	
 	trigger = {
-			tag = AZT
+		tag = AZT
 	}
 	free = yes		#wibe added at load.
 	
@@ -1565,9 +1587,8 @@ AZT_ideas = {
 
 MPC_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		hostile_attrition = 1
+		global_manpower_modifier = 0.1
 	}
 	bonus = {
 		diplomats = 1
@@ -1602,9 +1623,8 @@ MPC_ideas = {
 
 INC_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		idea_cost = -0.1
+		land_forcelimit_modifier = 0.2
 	}
 	bonus = {
 		free_leader_pool = 1
@@ -1640,9 +1660,8 @@ INC_ideas = {
 
 KHM_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		advisor_cost = -0.10
+		global_tax_modifier = 0.1
 	}
 	
 	bonus = {
@@ -1680,13 +1699,11 @@ KHM_ideas = {
 
 CAN_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		trade_efficiency = 0.1
+		land_attrition = -0.15
 	}
 	
 	bonus = {
-		republican_tradition = 0.3
 		legitimacy = 1
 	}
 	
@@ -1721,9 +1738,8 @@ CAN_ideas = {
 
 BRZ_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		hostile_attrition = 1
+		envoy_travel_time = -0.25
 	}
 	bonus = {
 		global_trade_goods_size_modifier = 0.1
@@ -1758,9 +1774,9 @@ BRZ_ideas = {
 
 ROM_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		discipline = 0.05
+		legitimacy = 1
+		devotion = 1
 	}
 	
 	bonus = {
@@ -1773,7 +1789,7 @@ ROM_ideas = {
 	free = yes
 	
 	pax_romana = {
-		global_unrest = -1
+		global_unrest = -2
 	}
 	legacy_of_rome = {
 		diplomatic_reputation = 2
@@ -1790,17 +1806,18 @@ ROM_ideas = {
 	}
 	imperial_bureaucracy = {
 		global_tax_modifier = 0.1
+		administrative_efficiency = 0.05
 	}
 	imperium_sine_fine = {
-		core_creation = -0.20
+		core_creation = -0.25
+		years_of_nationalism = -5
 	}
 }
 
 HSN_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		shock_damage_received = -0.1
+		global_tax_modifier = 0.1
 	}
 	bonus = {
 		discipline = 0.05
@@ -1835,9 +1852,8 @@ HSN_ideas = {
 
 CEL_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		land_morale = 0.1
+		trade_efficiency = 0.1
 	}
 	
 	bonus = {
@@ -1876,9 +1892,8 @@ CEL_ideas = {
 
 GAU_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		land_morale = 0.1
+		trade_efficiency = 0.1
 	}
 	
 	bonus = {
@@ -1917,9 +1932,8 @@ GAU_ideas = {
 
 MOR_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		may_perform_slave_raid = yes
+		naval_forcelimit_modifier = 0.25
 	}
 	bonus = {
 		hostile_attrition = 1
@@ -1956,9 +1970,8 @@ MOR_ideas = {
 
 ASY_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		build_cost = -0.15
+		stability_cost_modifier = -0.10
 	}
 
 	bonus = {
@@ -1995,9 +2008,8 @@ ASY_ideas = {
 
 BAB_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		infantry_power = 0.1
+		global_autonomy = -0.05
 	}
 
 	bonus = {
@@ -2005,10 +2017,7 @@ BAB_ideas = {
 	}
 
 	trigger = {
-		OR = {
-			tag = BAB
-			tag = SMR
-		}
+		tag = BAB
 	}
 	free = yes
 
@@ -2037,9 +2046,8 @@ BAB_ideas = {
 
 SMR_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		infantry_power = 0.1
+		global_autonomy = -0.05
 	}
 
 	bonus = {
@@ -2076,13 +2084,11 @@ SMR_ideas = {
 
 HNZ_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		cavalry_power = 0.1
+		mil_tech_cost_modifier = -0.1
 	}
 
 	bonus = {
-		auto_explore_adjacent_to_colony = yes
 	}
 
 	trigger = {
@@ -2116,172 +2122,159 @@ HNZ_ideas = {
 
 SCY_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		ae_impact = -0.10
+		years_of_nationalism = -5
 	}
-
+	
 	bonus = {
-		auto_explore_adjacent_to_colony = yes
+		stability_cost_modifier = -0.10
 	}
-
+	
 	trigger = {
 		tag = SCY
 	}
 	free = yes
-
-	unified_hunnic_empire = {
-		num_accepted_cultures = 2
+	
+	life_of_steppe_warrior = {
+		land_attrition = -0.20
 	}
-	annual_tribute_huns = {
-		global_tax_modifier = 0.10
+	traditions_of_the_great_khan = {
+		cavalry_power = 0.20
 	}
-	scourge_of_god = {
-		tolerance_heathen = -2
-		global_missionary_strength = 0.01
+	horse_supplies = {
+		land_maintenance_modifier = -0.05
 	}
-	feared_fighters_huns = {
-		land_morale = 0.1
+	steppe_leaders = {
+		leader_land_shock = 1
 	}
-	hunnic_expansion = {
+	tradition_of_conquest = {
 		core_creation = -0.25
 	}
-	mercenary_soldiers_huns = {
-		mercenary_cost = -0.25
+	logistics_of_khan = {
+		manpower_recovery_speed = 0.2
 	}
-	raiding_warbands_huns = {
-		prestige = 1
+	glory_of_conquest = {
+		global_manpower_modifier = 0.25
 	}
 }
 
 IND_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		stability_cost_modifier = -0.1
+		state_maintenance_modifier = -0.15
 	}
-	
 	bonus = {
-		artillery_power = 0.6
+		years_of_nationalism = -5
 	}
-
 	
 	trigger = {
 		tag = HND
 	}
-	free = yes		# will be added at load
-	
-	caste_system = {
-		global_unrest = -1
+	free = yes
+
+	bha_modernized_war_elephants = {
+		cavalry_power = 0.15
 	}
-	religious_plurality = {
-		tolerance_heretic = 2
-		tolerance_heathen = 2
+	bha_united_india = {
+		num_accepted_cultures = 2
 	}
-	bengal_tiger = {
-		prestige = 1
+	bha_sanskrit_golden_age = {
+		technology_cost = -0.05
 	}
-	united_india = {
-		stability_cost_modifier = -0.1
-		enemy_core_creation = 0.5
+	bha_indian_army = {
+		discipline = 0.05
 	}
-	ind_long_history = {
-		prestige_decay = -0.02
+	bha_ganga = {
+		tolerance_own = 2
 	}
-	the_indian_ocean = {
-		global_trade_power = 0.1
+	bha_brahmin_administration = {
+		administrative_efficiency = 0.05
 	}
-	the_himalayas = {
-		manpower_recovery_speed = 0.33
+	bha_rocketry = {
+		artillery_power = 0.1
 	}
 }
 
 MRY_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		merchants = 1
+		infantry_power = 0.1
 	}
-	
 	bonus = {
-		diplomats = 1
+		prestige = 1
 	}
-
 	
 	trigger = {
 		tag = MRY
 	}
-	free = yes		# will be added at load
-	
-	caste_system = {
-		global_unrest = -1
+	free = yes
+
+	hindu_sufi_syncretism = {            
+		religious_unity = 0.5
 	}
-	religious_plurality = {
-		tolerance_heretic = 2
-		tolerance_heathen = 2
+	ganges_brahmaputra_confluence = {                    
+		trade_efficiency = 0.1
 	}
-	bengal_tiger = {
-		prestige = 1
+	rice_fields = {                
+		global_manpower_modifier = 0.2
 	}
-	united_india = {
-		stability_cost_modifier = -0.1
-		enemy_core_creation = 0.5
+	mustard_oil_ilish_mach = {                             
+		war_exhaustion_cost = -0.10
 	}
-	ind_long_history = {
-		prestige_decay = -0.02
+	jute_production = {
+		production_efficiency = 0.1 #Uses bonus from Tripuran ideas
 	}
-	the_indian_ocean = {
-		global_trade_power = 0.1
+	opium_fields = {
+		global_tax_modifier = 0.1
 	}
-	the_himalayas = {
-		manpower_recovery_speed = 0.33
+	bengali_renaissance = {
+		global_institution_spread = 0.1
 	}
 }
 
 KRU_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		manpower_recovery_speed = 0.1
+		global_manpower_modifier = 0.15
 	}
-	
+
 	bonus = {
-		auto_explore_adjacent_to_colony = yes
+		discipline = 0.05
 	}
-	
+ 
 	trigger = {
 		tag = KRU
 	}
-	free = yes		# will be added at load
-	
-	nomad_cavalry_tradtions = {
-		cavalry_power = 0.10
+	free = yes
+ 
+	mother_of_russian_cities = { #Mother of Russian States
+		legitimacy = 0.5
+		prestige = 0.5
 	}
-	breadbasket = {
-		global_manpower_modifier = 0.2
+	international_influences = {
+		tolerance_heretic = 2
 	}
-	ukrainian_orthodox_church = {
-		tolerance_own = 2
+	zaporizhian_cossacs = {
+		cavalry_power = 0.15
 	}
-	zaporozhian_cossacks = {
-		mercenary_cost = -0.25
+	east_and_west = {
+		global_trade_power = 0.1
 	}
-	black_sea_trade = {
-		global_trade_power = 0.10
-	}
-	ukrainian_nationalism = {
-		land_morale = 0.1
-	}
-	verkhovna_rada = {
+	legacy_of_ancient_rus = {
 		stability_cost_modifier = -0.1
+	}
+	reuniting_rus = {
+		years_of_nationalism = -5
+	}
+	birth_of_russian_orthodoxy = {
+		tolerance_own = 1
 	}
 }
 
 MAC_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		ae_impact = -0.20
+		infantry_power = 0.09
 	}
 	
 	bonus = {
@@ -2289,9 +2282,7 @@ MAC_ideas = {
 	}
 	
 	trigger = { 
-		OR = {
-			tag = MAC
-		}
+		tag = MAC
 	}
 	free = yes
 	
@@ -2323,48 +2314,48 @@ MAC_ideas = {
 
 MAO_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		global_regiment_recruit_speed = -0.10
+		harsh_treatment_cost = -0.20
 	}
 	
 	bonus = {
-		stability_cost_modifier = -0.1
+		prestige = 1
 	}
-
+	
 	trigger = {
 		tag = MAO
 	}
-	free = yes		# will be added at load
+	free = yes
 	
-	maori_traditions = {
+	sons_of_kupe = {
+		global_sailors_modifier = 0.10
+		range = 0.10
+	}
+	kaitiakitanga = {
+		tolerance_own = 1
+	}
+	kaumatua = {
+		stability_cost_modifier = -0.20
+	}
+	kapa_haka = {
 		land_morale = 0.10
 	}
-	bird_species_of_new_zealand = {
-		global_manpower_modifier = 0.10
+	pa_defence = {
+		fort_maintenance_modifier = -0.10
 	}
-	ta_moko = {
-		prestige = 1
+	te_moko = {
+		leader_land_shock = 1
 	}
-	dairy_products_meat_and_wine = {
-		global_trade_power = 0.1
-	}
-	peaceful_policy = {
-		diplomatic_reputation = 5
-	}
-	colonial_roots = {
-		global_colonial_growth = 25
-	}
-	kiwi_dollar = {
-		global_tax_modifier = 0.1
+	maori_king = {
+		core_creation = -0.10
+		legitimacy = 1
 	}
 }
 
 PER_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		land_morale = 0.15
+		cavalry_power = 0.15 
 	}
 	
 	bonus = {
@@ -2405,50 +2396,49 @@ PER_ideas = {
 
 ZUL_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		army_tradition_from_battle = 1
+		land_forcelimit_modifier = 0.25
 	}
 	
 	bonus = {
-		global_manpower_modifier = 0.25
+		discipline = 0.05
 	}
-
+	
 	trigger = {
 		tag = ZUL
 	}
-	free = yes		# will be added at load
+	free = yes
 	
-	many_tribes = {
-		global_tax_modifier = 0.1
+	zul_confederacy_of_clans = {
+		stability_cost_modifier = -0.1
 	}
-	warrior_culture = {
+	zul_the_ukubuthwa = {
+		manpower_recovery_speed = 0.2
+	}
+	zul_the_impi_warriors = {
 		infantry_power = 0.1
-		global_regiment_recruit_speed = -0.10
+		shock_damage = 0.1
 	}
-	rapid_expansion = {
-		land_forcelimit_modifier = 0.25
+	zul_zulu_expansion = {
+		core_creation = -0.1
+		years_of_nationalism = -3
 	}
-	isizulu_language = {
-		core_creation = -0.20
-	}
-	shaka = {
+	zul_warrior_culture = {
 		land_morale = 0.15
 	}
-	horned_bull_formation = {
-		discipline = 0.05
+	zul_shaka_reforms = {
+		reform_progress_growth = 0.1
+		governing_capacity_modifier = 0.1
 	}
-	shaka_reforms = {
-		prestige = 1
+	zul_conquest_through_patronage = {
+		accept_vassalization_reasons = 10
 	}
 }
 
 PLY_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
 		range = 0.9
-		auto_explore_adjacent_to_colony = yes
+		galley_cost = -0.20
 	}
 
 	bonus = {
@@ -2485,13 +2475,12 @@ PLY_ideas = {
 
 SPR_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		galley_cost = -0.2
+		sailor_maintenance_modifer = -0.1
 	}
 	
 	bonus = {
-		war_exhaustion = -0.2
+		core_creation = -0.1 #Megali Idea
 	}
 	
 	trigger = {
@@ -2527,9 +2516,12 @@ SPR_ideas = {
 
 CFG_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		galley_cost = -0.2
+		sailor_maintenance_modifer = -0.1
+	}
+	
+	bonus = {
+		core_creation = -0.1
 	}
 	
 	bonus = {
@@ -2567,13 +2559,12 @@ CFG_ideas = {
 
 PHO_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		galley_cost = -0.2
+		sailor_maintenance_modifer = -0.1
 	}
 	
 	bonus = {
-		naval_forcelimit_modifier = 0.25
+		core_creation = -0.1
 	}
 	
 	trigger = {
@@ -2607,17 +2598,19 @@ PHO_ideas = {
 
 EGY_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		trade_steering = 0.25
+		cavalry_power = 0.10
 	}
-
+	
 	bonus = {
-		global_unrest = -1
+		global_prov_trade_power_modifier = 0.25
 	}
 
 	trigger = {
-		tag = EGY
+		OR = {
+			tag = PLM
+			tag = EGY
+		}
 	}
 	free = yes
 
@@ -2648,9 +2641,8 @@ EGY_ideas = {
 
 SHO_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		manpower_recovery_speed = 0.15
+		prestige_from_land = 1.0
 	}
 	
 	bonus = {
@@ -2687,9 +2679,8 @@ SHO_ideas = {
 
 WCR_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		manpower_recovery_speed = 0.15
+		prestige_from_land = 1.0
 	}
 	
 	bonus = {
@@ -2726,9 +2717,8 @@ WCR_ideas = {
 
 GRE_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		galley_cost = -0.2
+		sailor_maintenance_modifer = -0.1
 	}
 	
 	bonus = {
@@ -2766,9 +2756,8 @@ GRE_ideas = {
 
 MAY_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		global_unrest = -1
+		defensiveness = 0.15
 	}
 	
 	bonus = {
@@ -2783,43 +2772,42 @@ MAY_ideas = {
 	}
 	free = yes		# will be added at load
 	
-	build_tradition = {
-		development_cost = -0.3
-	}
-	sacred_senote = {
+	mayan_sacred_cenote = {
 		stability_cost_modifier = -0.1
 	}
-	shipwreck_surv = {
+	mayan_building_traditions = {
+		development_cost = -0.1
+	}
+	mayan_ancient_feuds = {
+		ae_impact = -0.10
+	}
+	mayan_shipwreck_survivors = {
 		technology_cost = -0.05
 	}
-	ancient_feuds = {
-		ae_impact = -0.1
-	}
-	kuchkabla = {
+	mayan_kuchkabal = {
 		global_tax_modifier = 0.1
 	}
-	remove_isolat = {
-		land_attrition = 1
+	mayan_remote_isolation = {
+		hostile_attrition = 1.0
 	}
-	castle_war = {
+	mayan_caste_war = {
 		land_morale = 0.1
 	}
 }
 
 KHA_ideas = {
+	
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		cavalry_power = 0.20
+		core_creation = -0.20
 	}
 	
 	bonus = {
-		auto_explore_adjacent_to_colony = yes
-		global_colonial_growth = 40
+		leader_land_shock = 1
 	}
 
 	trigger = {
-		tag = MON
+		tag = MGE
 	}
 	free = yes		# will be added at load
 	
@@ -2846,15 +2834,14 @@ KHA_ideas = {
 	}
 }
 
-NUB_ideas = {
+NBI_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		stability_cost_modifier = -0.1
+		hostile_attrition = 1
 	}
 	
 	bonus = {
-		land_maintenance_modifier = -0.05
+		fire_damage = 0.1
 	}
 	
 	trigger = {
@@ -2862,35 +2849,39 @@ NUB_ideas = {
 	}
 	free = yes
 	
-	nubian_nile = {
-		global_trade_goods_size_modifier = 0.1
+	nbi_our_land = {
+		global_unrest = -2
 	}
-	nubian_heritage = {
-		stability_cost_modifier = -0.1
-	}
-	nubian_sahara = {
-		hostile_attrition = 1
-	}
-	nubian_long_distance_trade = {
-		caravan_power = 0.1
-	}
-	nubian_religious_struggles = {
+	
+	nbi_religious_friction = {
 		global_missionary_strength = 0.02
 	}
-	nubian_desert_cavalry = {
-		cavalry_power = 0.10
+	
+	nbi_desert_knowledge = {
+		land_attrition = -0.1
 	}
-	nubian_fortified_strongholds = {
-		fort_maintenance_modifier = -0.1
+	
+	nbi_military_strength = {
+		discipline = 0.05
+	}
+	
+	nbi_nile_control = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	nbi_christian_ties = {
+		tolerance_own = 2
+	}
+	
+	nbi_egyptian_relations = {
+		adm_tech_cost_modifier = -0.1
 	}
 }
 
 SSR_ideas = {
 	start = {
-		republican_tradition = 5
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		global_manpower_modifier = 0.5
+		army_tradition = 0.5
 	}
 	
 	bonus = {
@@ -2903,9 +2894,9 @@ SSR_ideas = {
 	free = yes		# will be added at load
 	
 	collectivisation_of_land = {
-		manpower_recovery_speed = 0.10
+		global_tax_modifier = 0.10
 	}
-	cults_of_personality = {
+	state_etheism = {
 		prestige = 2
 		tolerance_own = -2
 		tolerance_heretic = -2
@@ -2931,13 +2922,12 @@ SSR_ideas = {
 
 AST_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		global_ship_cost = -0.2
+		global_colonial_growth = 25
 	}
 	
 	bonus = {
-		advisor_cost = -0.1
+		development_cost = -0.15
 	}
 
 	trigger = {
@@ -2945,81 +2935,73 @@ AST_ideas = {
 	}
 	free = yes		# will be added at load
 	
-	aboriginal_traditions = {
-		land_attrition = -0.10
+	outback_stations = {
+		colonists = 1
 	}
-	the_bush = {
-		global_manpower_modifier = 0.20
+	land_downunder = {
+		land_attrition = -0.1
+		hostile_attrition = 0.01
 	}
-	australian_democracy = {
-		republican_tradition = 0.5
+	eureka_rebellion = {
+		global_manpower_modifier = 0.2
 	}
-	good_education = {
-		technology_cost = -0.1
+	the_diggers = {
+		infantry_power = 0.1
+		naval_forcelimit_modifier = 0.5
 	}
-	australian_dollar = {
-		inflation_reduction = 0.1
+	royal_aus_navy = {
+		galley_cost = -0.1
+		naval_attrition = -0.1
 	}
-	australian_constitution = {
-		stability_cost_modifier = -0.20
+	bushrangers = {
+		shock_damage = 0.1
 	}
-	sydney_opera_house = {
-		prestige = 1
+	waltzing_matilda = {
+		build_cost = -0.1
 	}
 }
 
 ARB__ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		global_manpower_modifier = 0.15
+		land_attrition = -0.15
 	}
 	
 	bonus = {
-		global_trade_power = 0.20
+		leader_land_shock = 1
 	}
-	
 	trigger = {
 		tag = ARB
-	}
-
-	free = yes
+	}free = yes
 	
-	red_sea_trade = {
-		global_trade_power = 0.05
-		trade_range_modifier = 0.10
+	arab_indian_ocean_trade = {
+		trade_steering = 0.15
 	}
-
-	monuments_to_greatness = {
+	arabian_horses = {
+		cavalry_cost = -0.1
+		cavalry_flanking = 0.25
+	}
+	land_of_the_prophet = {
+		global_unrest = -1
+	}
+	spreading_the_prophets_word = {
+		global_missionary_strength = 0.01
+	}
+	bedouin_traders = {
+		global_trade_power = 0.1
+	}
+	arab_clan_loyalties = {
+		leader_land_manuever = 1
+	}
+	arabia = {
 		prestige = 1
-	}
-
-	nile_transport = {
-		manpower_recovery_speed = 0.20
-	}
-
-	egy_drilling = {
-		discipline = 0.05
-	}
-
-	egy_production = {
-		production_efficiency = 0.2
-	}
-
-	egy_succession = {
-		stability_cost_modifier = -0.15
-	}
-
-	egy_monopoly_ports = {
-		trade_efficiency = 0.10
 	}
 }
 
 YUA_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
-		auto_explore_adjacent_to_colony = yes
+		global_manpower_modifier = 0.25
+		cavalry_power = 0.20
 	}
 	bonus = {
 		governing_capacity_modifier = 0.1

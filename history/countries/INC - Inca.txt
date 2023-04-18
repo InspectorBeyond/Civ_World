@@ -18,4 +18,8 @@ capital = 808	# Cuzco
 
 	add_ruler_personality = careful_personality
 	add_ruler_personality = immortal_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

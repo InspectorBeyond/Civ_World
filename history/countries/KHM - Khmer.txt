@@ -10,11 +10,15 @@ fixed_capital = 609
 1444.11.10 = {
 	monarch = {
 		name = "Jayavarman VII"
-		dynasty = "Khmer"
+		dynasty = "Varman"
 		adm = 6
 		dip = 6
 		mil = 6
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = architectural_visionary_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

@@ -577,7 +577,7 @@ POR_ideas = {
 	}
 	
 	trigger = {
-		tag = POR
+		tag = PRT
 	}
 	free = yes		#will be added at load.
 	
@@ -1132,7 +1132,7 @@ NOR_ideas = {
 	}
 }
 
-KOR_ideas = {
+SLA_ideas = {
 	start = {
 		may_explore = yes
 		colonists = 2
@@ -1143,7 +1143,7 @@ KOR_ideas = {
 	}
 	
 	trigger = {
-		tag = KOR
+		tag = SLA
 	}
 	free = yes
 	
@@ -2537,7 +2537,7 @@ PHO_ideas = {
 	}
 }
 
-EGY_ideas = {
+PLM_ideas = {
 	start = {
 		colonists = 2
 		may_explore = yes
@@ -2548,7 +2548,7 @@ EGY_ideas = {
 	}
 
 	trigger = {
-		tag = EGY
+		tag = PLM
 	}
 	free = yes
 

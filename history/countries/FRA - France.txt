@@ -9,13 +9,19 @@ government_rank = 2
 
 1444.11.10 = {
 	monarch = {
-		name = "Napoleone"
+		name = "Napoleone I"
 		dynasty = "Bonaparte"
+		culture = sardinian
 		adm = 6
 		dip = 6
 		mil = 6
 	}
 	add_ruler_personality = immortal_personality
-	add_ruler_personality = conqueror_personality
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = calm_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }
 

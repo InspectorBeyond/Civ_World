@@ -1,6 +1,3 @@
 
-discovered_by = USA
-native_size = 45
-native_ferocity = 9
-native_hostileness = 9
-hre = no
+
+discovered_by = WAS

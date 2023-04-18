@@ -9,12 +9,18 @@ national_focus = MIL
 
 1444.11.10 = {
 	monarch = {
-		name = "Gustav"
-		dynasty = "Adolf"
+		name = "Gustav Adolf"
+		monarch_name = "Gustav II Adolf"
+		dynasty = "Vasa"
 		adm = 6
 		dip = 6
 		mil = 6
 	}
 	add_ruler_personality = immortal_personality
-	add_ruler_personality = scholar_personality
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

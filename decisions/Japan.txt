@@ -5,6 +5,7 @@ country_decisions = {
 			tag = ODA
 			OR = {
 				NOT = { exists = HJO }
+				NOT = { exists = TKG }
 				NOT = { exists = JAP }
 			}
 		}
@@ -13,6 +14,7 @@ country_decisions = {
 				province_id = 1020
 				province_id = 1028
 				owned_by = HJO
+				owned_by = TKG
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -27,6 +29,7 @@ country_decisions = {
 		effect = {
 			change_tag = JAP
 			set_country_flag = formed_japan_flag
+			set_capital = 1020
 			set_government_rank = 3
 			add_legitimacy = 100
 			add_adm_power = 100
@@ -51,6 +54,7 @@ country_decisions = {
 			tag = HJO
 			OR = {
 				NOT = { exists = ODA }
+				NOT = { exists = TKG }
 				NOT = { exists = HJP }
 			}
 		}
@@ -59,6 +63,7 @@ country_decisions = {
 				province_id = 1020
 				province_id = 1028
 				owned_by = ODA
+				owned_by = TKG
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -75,6 +80,57 @@ country_decisions = {
 		effect = {
 			change_tag = HJP
 			set_country_flag = formed_hojo_japan_flag
+			set_government_rank = 3
+			add_legitimacy = 100
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			#if = {
+			#	limit = {
+			#		has_custom_ideas = no
+			#		NOT = { has_idea_group = HJO_ideas }
+			#	}
+			#	country_event = { id = ideagroups.1 } #Swap Ideas
+			#}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	united_tokugawa_japan = {
+		major = yes
+		potential = {
+			tag = TKG
+			OR = {
+				NOT = { exists = ODA }
+				NOT = { exists = HJO }
+				NOT = { exists = TKJ }#
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1020
+				province_id = 1028
+				owned_by = ODA
+				owned_by = HJO
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			OR = {
+				NOT = { exists = ODA }
+				NOT = { exists = HJO }
+				NOT = { exists = TKJ } #
+			}
+			owns = 1020
+			owns = 1028
+			has_institution = renaissance
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			change_tag = TKJ
+			set_country_flag = formed_tokugawa_japan_flag
 			set_government_rank = 3
 			add_legitimacy = 100
 			add_adm_power = 100

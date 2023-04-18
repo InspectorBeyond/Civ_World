@@ -1,18 +1,22 @@
 government = monarchy
 add_government_reform = autocracy_reform
 technology_group = civilization_tech
-primary_culture = prussian
+primary_culture = bavarian
 religion = pantheon
 capital = 50	# Berlin
 
 1444.11.10 = {
 	monarch = {
-		name = "Otto"
-		dynasty = "von Bismark"
+		name = "Ludwig II"
+		dynasty = "Wittelsbach"
 		adm = 6
 		dip = 6
 		mil = 6
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = architectural_visionary_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

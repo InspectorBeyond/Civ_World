@@ -3,7 +3,6 @@ add_government_reform = autocracy_reform
 primary_culture = kongolese
 religion = pantheon
 technology_group = civilization_tech
-unit_type = sub_saharan
 capital = 1170	# M'banza Kongo
 
 1444.11.10 = {
@@ -16,4 +15,8 @@ capital = 1170	# M'banza Kongo
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = pious_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

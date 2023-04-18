@@ -8,7 +8,7 @@ fixed_capital = 628
 
 1444.11.10 = {
 	monarch = {
-		name = "Gitarja"
+		name = "Tribhuwana"
 		dynasty = "Rajaza"
 		adm = 6
 		dip = 6
@@ -17,4 +17,8 @@ fixed_capital = 628
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = entrepreneur_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

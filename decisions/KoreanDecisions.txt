@@ -3,7 +3,7 @@ country_decisions = {
 	found_hall_of_worthies = {
 		potential = { #Removed as actually set up in 1420 and later disbanded in 1456.
 			always = no
-#			tag = KOR
+#			tag = SLA
 #			normal_or_historical_nations = yes
 #			is_playing_custom_nation = no
 #			NOT = { has_country_modifier = hall_of_worthies }

@@ -1571,7 +1571,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 3
 			modifier = {
 				factor = 0
 				NOT = { religion = pantheon }
@@ -1598,7 +1598,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 3
 			modifier = {
 				factor = 0
 				NOT = { religion = pantheon }
@@ -1625,7 +1625,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 3
 			modifier = {
 				factor = 0
 				NOT = { religion = pantheon }
@@ -1652,7 +1652,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 3
 			modifier = {
 				factor = 0
 				NOT = { religion = pantheon }
@@ -1679,7 +1679,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 3
 			modifier = {
 				factor = 0
 				NOT = { religion = pantheon }
@@ -1706,7 +1706,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 3
 			modifier = {
 				factor = 0
 				NOT = { religion = pantheon }
@@ -1732,7 +1732,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 3
 			modifier = {
 				factor = 0
 				NOT = { religion = pantheon }
@@ -1741,7 +1741,7 @@ country_decisions = {
 	}
 	pagan_conversion_to_norse = {
 		potential = {
-			religion = norse_pagan_reformed
+			religion_group = pagan
 			any_owned_province = {
 				religion = norse_pagan_reformed
 			}
@@ -1758,38 +1758,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { religion = pantheon }
-			}
-		}
-	}
-	
-	muslim_conversion_to_sikhism = {
-		potential = {
-			religion_group = muslim
-			any_owned_province = {
-				religion = sikhism
-			}
-			is_free_or_tributary_trigger = yes
-		}
-		allow = {
-			stability = 1
-		}
-		effect = {
-			add_prestige = -100
-			add_stability = -2
-			change_religion = sikhism
-			if = {
-				limit = {
-					has_reform_level = 2
-				}
-				add_government_reform = khalsa_reform
-			}
-		}
-		ai_will_do = {
-			factor = 1
+			factor = 3
 			modifier = {
 				factor = 0
 				NOT = { religion = pantheon }

@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = civilization_tech
+religion = pantheon
+primary_culture = mongol
+capital = 4678
+
+1444.11.10 = {
+	monarch = {
+		name = "Temujin"
+		dynasty = "Borjigin"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = conqueror_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
+}

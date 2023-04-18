@@ -1,0 +1,26 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = castillian
+religion = pantheon
+technology_group = civilization_tech
+capital = 217
+fixed_capital = 217
+
+national_focus = MIL
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Phillip II"
+		dynasty = "von Habsgurg"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = navigator_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
+}

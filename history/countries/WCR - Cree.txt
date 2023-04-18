@@ -9,8 +9,8 @@ capital = 1813
 
 1444.11.10 = {
 	monarch = {
-		name = "Poundmaker"
-		dynasty = "of Cree"
+		name = "Pihtokahanapiwiyin"
+		dynasty = "Tootoosis"
 		birth_date = 1410.11.11
 		adm = 6
 		dip = 6
@@ -18,4 +18,8 @@ capital = 1813
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = silver_tongue_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

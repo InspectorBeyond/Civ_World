@@ -4,7 +4,7 @@ government_rank = 2
 primary_culture = togoku
 religion = pantheon
 technology_group = civilization_tech
-capital = 1028# Musashi
+capital = 1020
 
 1444.11.10 = {
 	monarch = {
@@ -16,4 +16,8 @@ capital = 1028# Musashi
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = tolerant_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

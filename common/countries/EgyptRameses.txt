@@ -1,0 +1,67 @@
+graphical_culture = muslimgfx
+
+color = { 234  228  28 }
+
+revolutionary_colors = { 0  10  0 }
+
+historical_idea_groups = {
+	religious_ideas
+	exploration_ideas
+	expansion_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+monarch_names = {
+	"Amyrteos #0" = 20
+	"Ankhmachis #0" = 20
+	"Anemhor #0" = 20
+	"Charias #0" = 20
+	"Djedhor #0" = 20
+	"Ezena #0" = 20
+	"Horemakhet #0" = 20
+	"Isocrates #0" = 20
+	"Khabbabash #0" = 20
+	"Leonippus #0" = 20
+	"Lydiadas #0" = 20
+	"Manetho #0" = 20
+	"Massiva #0" = 20
+	
+	"Agape #0" = -20
+	"Agathoclea #0" = -20
+	"Amanishabheto #0" = -20
+	"Berenice #0" = -20
+	"Charis #0" = -20
+	"Cleopatra #0" = -40
+	"Cynna #0" = -20
+	"Demetria #0" = -20
+	"Elpis #0" = -20
+	"Eirene #0" = -20
+	"Hypatia #0" = -20
+	"Nysa #0" = -20
+	"Oenanthe #0" = -20
+	"Olympia #0" = -20
+	"Phila #0" = -20
+	"Theophila #0" = -20
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Ships of $PROVINCE$"
+}

@@ -7,8 +7,8 @@ country_event = {
 	
 	trigger = {
 		religion = pantheon
-		is_year = 1470
-		total_development = 100
+		date = 1500.1.1
+		total_development = 200
 		OR = {
 			full_idea_group = religious_ideas
 			tag = HSN
@@ -54,9 +54,10 @@ country_event = {
             }
         }
         change_religion = shinto
-        every_owned_province = {
-            change_religion = shinto
-        }
+		random_owned_province = {
+			change_religion = shinto
+			add_reform_center = shinto
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -89,9 +90,10 @@ country_event = {
             }
         }
         change_religion = norse_pagan_reformed
-        every_owned_province = {
-            change_religion = norse_pagan_reformed
-        }
+		random_owned_province = {
+			change_religion = norse_pagan_reformed
+			add_reform_center = norse_pagan_reformed
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -116,9 +118,10 @@ country_event = {
             }
         }
         change_religion = catholic
-        every_owned_province = {
-            change_religion = catholic
-        }
+		random_owned_province = {
+			change_religion = catholic
+			add_reform_center = catholic
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -134,8 +137,7 @@ country_event = {
 					tag = CAS
 					tag = VEN
 					tag = SPA
-					tag = ROM
-					tag = POR
+					tag = PRT
 					tag = HRE
 					tag = POL
 					tag = PLC
@@ -162,9 +164,10 @@ country_event = {
             }
         }
         change_religion = protestant
-        every_owned_province = {
-            change_religion = protestant
-        }
+		random_owned_province = {
+			change_religion = catholic
+			add_reform_center = catholic
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -195,9 +198,10 @@ country_event = {
             }
         }
         change_religion = orthodox
-        every_owned_province = {
-            change_religion = orthodox
-        }
+		random_owned_province = {
+			change_religion = orthodox
+			add_reform_center = orthodox
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -227,9 +231,10 @@ country_event = {
             }
         }
         change_religion = coptic
-        every_owned_province = {
-            change_religion = coptic
-        }
+		random_owned_province = {
+			change_religion = coptic
+			add_reform_center = coptic
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -243,6 +248,8 @@ country_event = {
 				OR = {
 					tag = ABS
 					tag = ETH
+					tag = EGY
+					tag = PLM
 				}
 			}
 		}
@@ -255,9 +262,10 @@ country_event = {
             }
         }
         change_religion = sunni
-        every_owned_province = {
-            change_religion = sunni
-        }
+		random_owned_province = {
+			change_religion = sunni
+			add_reform_center = sunni
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -275,6 +283,7 @@ country_event = {
 					tag = TUR
 					tag = SON
 					tag = MOR
+					tag = PER
 				}
 			}
 		}
@@ -287,9 +296,10 @@ country_event = {
             }
         }
         change_religion = hinduism
-        every_owned_province = {
-            change_religion = hinduism
-        }
+		random_owned_province = {
+			change_religion = hinduism
+			add_reform_center = hinduism
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -316,9 +326,10 @@ country_event = {
             }
         }
         change_religion = sikhism
-        every_owned_province = {
-            change_religion = sikhism
-        }
+		random_owned_province = {
+			change_religion = sikhism
+			add_reform_center = sikhism
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -337,9 +348,10 @@ country_event = {
             }
         }
         change_religion = buddhism
-        every_owned_province = {
-            change_religion = buddhism
-        }
+		random_owned_province = {
+			change_religion = buddhism
+			add_reform_center = buddhism
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -353,10 +365,15 @@ country_event = {
 				OR = {
 					tag = HJO
 					tag = HJP
+					tag = TKG
+					tag = TKJ
 					tag = SIA
 					tag = KHM
-					tag = KOR
+					tag = SLA
 					tag = YUA
+					tag = TKG
+					tag = TKJ
+					tag = CZH
 				}
 			}
 			modifier = {
@@ -364,7 +381,6 @@ country_event = {
 				OR = {
 					tag = ODA
 					tag = JAP
-					tag = MRY
 				}
 			}
 		}
@@ -377,9 +393,10 @@ country_event = {
             }
         }
         change_religion = confucianism
-        every_owned_province = {
-            change_religion = confucianism
-        }
+		random_owned_province = {
+			change_religion = confucianism
+			add_reform_center = confucianism
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -388,6 +405,12 @@ country_event = {
 		set_country_flag = religions_chosen
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = MNG
+				}
+			}
 		}
     }
 	option = {
@@ -398,9 +421,10 @@ country_event = {
             }
         }
         change_religion = taosism
-        every_owned_province = {
-            change_religion = taosism
-        }
+		random_owned_province = {
+			change_religion = taosism
+			add_reform_center = taosism
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -413,7 +437,6 @@ country_event = {
 				factor = 1000
 				OR = {
 					tag = QIN
-					tag = CZH
 				}
 			}
 		}
@@ -426,9 +449,10 @@ country_event = {
             }
         }
         change_religion = zoroastrian
-        every_owned_province = {
-            change_religion = zoroastrian
-        }
+		random_owned_province = {
+			change_religion = zoroastrian
+			add_reform_center = zoroastrian
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -440,7 +464,7 @@ country_event = {
 			modifier = {
 				factor = 1000
 				OR = {
-					tag = PER
+					tag = ACM
 					tag = ASY
 				}
 			}
@@ -454,9 +478,10 @@ country_event = {
             }
         }
         change_religion = jewish
-        every_owned_province = {
-            change_religion = jewish
-        }
+		random_owned_province = {
+			change_religion = jewish
+			add_reform_center = jewish
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -482,9 +507,10 @@ country_event = {
             }
         }
         change_religion = tengri_pagan_reformed
-        every_owned_province = {
-            change_religion = tengri_pagan_reformed
-        }
+		random_owned_province = {
+			change_religion = tengri_pagan_reformed
+			add_reform_center = tengri_pagan_reformed
+		}
 		add_country_modifier = {
 			name = "extra_missionaries"
 			duration = -1
@@ -496,7 +522,7 @@ country_event = {
 			modifier = {
 				factor = 1000
 				OR = {
-					tag = MON
+					tag = MGE
 					tag = HNZ
 					tag = SCY
 				}

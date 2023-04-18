@@ -7,7 +7,7 @@ capital = 1240
 
 1444.11.10 = {
 	monarch = {
-		name = "Kamehameha I"
+		name = "Kamehameha"
 		dynasty = "Kamehameha"
 		adm = 6
 		dip = 6
@@ -15,4 +15,8 @@ capital = 1240
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = navigator_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

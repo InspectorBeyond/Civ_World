@@ -4,7 +4,6 @@ government_rank = 2
 primary_culture = amhara
 religion = pantheon
 technology_group = civilization_tech
-unit_type = sub_saharan
 capital = 1213	# Shewa
 fixed_capital = 1213
 
@@ -18,4 +17,8 @@ fixed_capital = 1213
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = silver_tongue_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

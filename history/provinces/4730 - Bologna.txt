@@ -4,9 +4,9 @@
 trade_goods = cloth
 culture = romagnan 
 religion = pantheon 
-base_tax = 3 
-base_production = 3 
-base_manpower = 3
+base_tax = 2 
+base_production = 2 
+base_manpower = 2
 
 owner = BLG
 controller = BLG

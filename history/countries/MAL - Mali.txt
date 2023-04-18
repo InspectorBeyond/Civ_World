@@ -9,7 +9,7 @@ religious_school = maliki_school
 
 1444.11.10 = {
 	monarch = {
-		name = "Musa I"
+		name = "Musa"
 		dynasty = "Keita"
 		adm = 6
 		dip = 6
@@ -17,5 +17,9 @@ religious_school = maliki_school
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = midas_touched_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }
 

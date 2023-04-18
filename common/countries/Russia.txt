@@ -2,7 +2,7 @@
 
 graphical_culture = easterngfx
 
-color = { 247 216 0 }
+color = { 239 180 0 }
 
 revolutionary_colors = { 184 0 0 }
 
@@ -39,7 +39,7 @@ historical_units = {
 monarch_names = {
 	"Ivan #0" = 20
 	"Fyodor #0" = 20
-	"Peter #1" = 60
+	"Pyotr #1" = 60
 	"Vasiliy #0" = 20
 	"Aleksandr #0" = 20
 	"Alexei #0" = 20
@@ -90,24 +90,10 @@ monarch_names = {
 }
 
 leader_names = {
-	Adashev Apraxine Atlasov
-	Basmanov Baryatiski Bibikov Beketov Baranov
-	Chernigovets Chelyuskin Chuiski
-	Dolgorukov Dubenski Dezhnev
-	Ermolov
-	Fermor
-	Godunov Golitsyn Gagarin Glinski
-	Kasimovskiy Kurbski Khovanski Kutuzov Koltsov-Mosalski Khabarov
-	Mikulinski Menshikov Minih Mansurov Moskvitin
-	Ovchina-Obolenski Osterman-Tolstoy Orlov
-	Pozharski Potemkin Petrov Poyarkov Patrikeev
-	Romodanovski Rumyantsev Repnin Rebrov
-	Shuiski Sheremetev Skopin Shein Soltikov Spiridof Senyavin Stroganov Semenov
-	Tottleben "de Tolly" Tomasov
-	Ushakov
-	Vorotinski Vishnevetski
-	Wittgenstein
-	Yalichev Yermak
+	Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin Dragomirov Frolov 
+	Golovin Grishin Gurko Ivanov Kasso Kolchak Konev Konstantinov Kornilov Kuropatkin Lazarev 
+	Makarov Menshikov Nakhimov Nebogatov Nikolaevich Ostrovsky Pavlov Putyatin Romanov Rozhestvensky 
+	Shuvalov Skobelev Surkov Sorokin Tukhachevsky Vorontsov Voroshilov Yegorov Yudenich Zavoyko
 }
 
 ship_names = {

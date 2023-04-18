@@ -1,9 +1,9 @@
 culture = anglo_canadian
 religion = pantheon
 trade_goods = tobacco #nearby Petuns were called the Tobacco indians
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
 owner = TRN
 controller = TRN

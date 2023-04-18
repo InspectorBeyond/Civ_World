@@ -2,9 +2,9 @@
 
 graphical_culture = westerngfx
 
-color = { 112  136  213 }
+color = { 0  94  184 }
 
-preferred_religion = reformed
+preferred_religion = catholic
 
 historical_idea_groups = {
 	exploration_ideas

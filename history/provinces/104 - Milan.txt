@@ -1,9 +1,9 @@
 culture = lombard
 religion = pantheon
 trade_goods = cloth
-base_tax = 3 
-base_production = 3 
-base_manpower = 3
+base_tax = 2 
+base_production = 2 
+base_manpower = 2
 
 owner = MLO
 controller = MLO

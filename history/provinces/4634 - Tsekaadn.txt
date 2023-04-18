@@ -5,9 +5,9 @@ religion = pantheon
 capital = "Tsékaadn"
 trade_goods = unknown
 hre = no
-base_tax = 3 
-base_production = 3
-base_manpower = 3
+base_tax = 2 
+base_production = 2
+base_manpower = 2
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
@@ -16,7 +16,7 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1541.1.1 = { discovered_by = SPA } # Francisco Vásquez de Coronado
+1541.1.1 = { discovered_by = SPN } # Francisco Vásquez de Coronado
 
 1710.1.1 = { 
 	owner = APA
@@ -26,7 +26,7 @@ discovered_by = north_american
 	culture = barbarian
 	add_core = APA 
 } #Plains tribe expand
-native_size = 45
-native_ferocity = 9
+native_size = 10
+native_ferocity = 5
 native_hostileness = 9
 hre = no

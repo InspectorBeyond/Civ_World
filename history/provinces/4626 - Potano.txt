@@ -5,9 +5,9 @@ religion = pantheon
 capital = "Potano"
 trade_goods = unknown
 hre = no
-base_tax = 3 
-base_production = 3
-base_manpower = 3
+base_tax = 2 
+base_production = 2
+base_manpower = 2
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
@@ -17,12 +17,12 @@ native_hostileness = 2
 discovered_by = north_american
 
 1513.4.2 = { discovered_by = CAS } # Juan Ponce de Leon
-1516.1.23 = { discovered_by = SPA }
+1516.1.23 = { discovered_by = SPN }
 
 1600.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
+	owner = SPN
+	controller = SPN
+	add_core = SPN
 	culture = barbarian
 	religion = pantheon
 	is_city = yes
@@ -34,15 +34,15 @@ discovered_by = north_american
 	owner = GBR
 	controller = GBR
 	add_core = GBR
-	remove_core = SPA
+	remove_core = SPN
 	religion = pantheon
 	culture = barbarian
 } # Florida is traded for Havana 
 1783.9.3 = {
-	owner = SPA
-	controller = SPA
+	owner = SPN
+	controller = SPN
 	remove_core = GBR
-	add_core = SPA
+	add_core = SPN
 	culture = barbarian
 	religion = pantheon
 } # Treaty of Paris, returned to Spain
@@ -50,9 +50,9 @@ discovered_by = north_american
 	owner = USA
 	controller = USA
 	add_core = USA
-	remove_core = SPA
+	remove_core = SPN
 } # The Adams-Onís Treaty
-native_size = 45
-native_ferocity = 9
+native_size = 10
+native_ferocity = 5
 native_hostileness = 9
 hre = no

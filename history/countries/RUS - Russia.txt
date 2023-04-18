@@ -10,7 +10,7 @@ national_focus = ADM
 
 1444.11.10 = {
 	monarch = {
-		name = "Peter I"
+		name = "Pyotr"
 		dynasty = "Romanov"
 		adm = 6
 		dip = 6
@@ -18,4 +18,8 @@ national_focus = ADM
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = expansionist_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

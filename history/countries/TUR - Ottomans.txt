@@ -5,16 +5,21 @@ religion = pantheon
 technology_group = civilization_tech
 capital = 326
 national_focus = MIL
-religious_school = hanafi_school
 
 1444.11.10 = {
 	monarch = {
-		name = "Suleiman"
+		name = "Suleyman"
+		monarch_name = "Suleyman I Kanuni"
 		dynasty = "Osmanoglu"
 		adm = 6
 		dip = 6
 		mil = 6
 	}
 	add_ruler_personality = immortal_personality
-	add_ruler_personality = conqueror_personality
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = just_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

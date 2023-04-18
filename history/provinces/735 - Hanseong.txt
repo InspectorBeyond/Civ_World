@@ -1,14 +1,14 @@
 culture = korean
 religion = pantheon
 trade_goods = grain
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
-owner = SEU
-controller = SEU
-add_core = SEU
+owner = KOR
+controller = KOR
+add_core = KOR
 capital = "Seoul"
 
-discovered_by = SEU
+discovered_by = KOR
 hre = no

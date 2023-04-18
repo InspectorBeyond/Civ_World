@@ -1,16 +1,16 @@
 culture = castillian
 religion = pantheon
 trade_goods = grain
-base_tax = 3 
-base_production = 3
-base_manpower = 3
+base_tax = 2 
+base_production = 2
+base_manpower = 2
 owner = CAS
 controller = CAS
 add_core = CAS
 capital = "Leon"
 
 discovered_by = CAS
-native_size = 45
-native_ferocity = 9
+native_size = 10
+native_ferocity = 5
 native_hostileness = 9
 hre = no

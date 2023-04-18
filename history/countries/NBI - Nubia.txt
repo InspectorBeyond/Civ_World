@@ -3,7 +3,6 @@ add_government_reform = autocracy_reform
 primary_culture = meroitic
 religion = pantheon
 technology_group = civilization_tech
-unit_type = sub_saharan
 capital = 2797
 fixed_capital = 2797
 
@@ -19,4 +18,8 @@ fixed_capital = 2797
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = architectural_visionary_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

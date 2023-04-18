@@ -5,3 +5,9 @@ primary_culture = togoku
 religion = pantheon
 technology_group = civilization_tech
 capital = 1020
+
+
+add_country_modifier = {
+	name = civ_nation
+	duration = -1
+}

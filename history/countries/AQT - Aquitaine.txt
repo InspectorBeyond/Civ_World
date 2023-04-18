@@ -9,13 +9,18 @@ capital = 196
 1444.11.10 = {
 	monarch = {
 		name = "Eleanor"
-		dynasty = "Ramnulfid"
+		dynasty = "Poitiers"
 		birth_date = 1429.11.11
 		adm = 6
 		dip = 6
 		mil = 6
-	female = yes
+		female = yes
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = just_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

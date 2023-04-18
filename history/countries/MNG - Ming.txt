@@ -2,17 +2,21 @@ government = monarchy
 add_government_reform = autocracy_reform
 technology_group = civilization_tech
 religion = pantheon
-primary_culture = xibei
-capital = 700	#Xi'an
+primary_culture = jianghuai
+capital = 1821	# Nanjing
 
 1444.11.10 = {
 	monarch = {
-		name = "Shi Huang"
-		dynasty = "Qin"
-		adm = 6
+		name = "Di" #Yongle Emperor
+		dynasty = "Zhu"
+		adm = 5
 		dip = 6
 		mil = 6
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = architectural_visionary_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

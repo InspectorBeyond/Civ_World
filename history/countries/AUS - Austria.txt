@@ -10,7 +10,7 @@ fixed_capital = 134
 1444.11.10 = {
 	monarch = {
 		name = "Maria Theresa"
-		dynasty = "Habsgurg"
+		dynasty = "von Habsgurg"
 		birth_date = 1416.11.11
 		adm = 6
 		dip = 6
@@ -19,4 +19,8 @@ fixed_capital = 134
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = silver_tongue_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

@@ -18,4 +18,8 @@ capital = 423 # T'bilisi
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = architectural_visionary_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

@@ -91,45 +91,7 @@ germanic = {
 		primary = FKN
 	}
 	swabian = { #Not used
-		primary = SWA
-		male_names = {
-			Adalbero Adalbert Adalhard Adam Ademar Adolf Alarich Alberich Albrecht Amadeus Amalrich Andreas Anno Anselm Ansgar Archembald Arnold Arnulf Augustin
-			Baldarich Baldewin Baldomar Baldur Berard Berengar Bernhard Berthold Bruno Burchard Christopher
-			Dieter Dietmar Dietpold Dietrich Dietwin
-			Eberhard Eginolf Ehrenfried Ekbert Ekkehard Emelrich Emich Emmerich Emund Engelbert Erich Ernst Ezzo
-			Ferdinand Filibert Folkhard Folkmar Folmar Franz Friedrich
-			Gautselin Gebhard Georg Gerhard Gerlach Giselbert Gottfried Gotthard Gottschalk Gotzelo Guntram Gunzelin Gunther
-			Hans Hartmann Hartwig Hardwin Hatto Heinrich Helferich Heribert Hermann Hesso Hugo Humbert Hunfrid Hupold Iwo
-			Jakob Johann Jurgen Karl Karlmann Kaspar Konrad Kuno
-			Lambert Landolf Leopold Liudolf Liutbert Liutbrand Liutpold Lothar Ludolf Ludwig Lutbert
-			Magnus Manegold Manfred Markward Martin Matthias Meginhard Meinhard Michael Milo
-			Nikolaus Norbert Notker Otto Peter Philipp Poppo
-			Radbot Reinhard Reinhold Rudolf Ruprecht Rutger
-			Siegfried Sieghard Siegmund Sigismund Simon Stefan
-			Theodorich Thietmar Thomas Udalrich Ulrich Viktor Waldemar
-			Waldo Walram Walter Walther Welf Wenzel Wernhard Werner Wido Wigerich Wilhelm Wolfgang Wolfram
-		}
-		female_names = {
-			Adela Adelheid Adelinde Agathe Agnes Alberade Amalberga Amalie
-			Barbara Beatrix Benedicta Berchte Berta Brunhilde
-			Cecilie Christine Cothilda
-			Dorothea
-			Elisabeth Emma Engeltraud Ermengard Eufemia
-			Frida Friedrica
-			Gerberga Gerhild Gertrude Gisela Gudrun Gunhilda
-			Hedwig Heike Heilwiva Helene Helga Hemma Henrike Hildeburg Hildegard
-			Ida Ilsa Inga Ingeltrude Irmele Irmeltrud Irmgard Isentrude
-			Jutta
-			Karlotte Katharina Klara Klementia Konstanze Kriemhild Kunigunde
-			Luitgard
-			Margarete Maria Mechthild
-			Oda Osterhild
-			Richara Richenza Richwara Romilda
-			Serhilda Sofie Sybille
-			Trude
-			Ulrike Ursula Ute
-			Walpurga Wilhelmina Winfrida Wulfhilde
-		}
+		primary = HRE
 	}
 	bavarian = { #Not used
 		primary = BAV
@@ -987,7 +949,7 @@ iberian	= {
 		}
 	}
 	portugese = {
-		primary = POR
+		primary = PRT
 		dynasty_names = {
 			"de Aviz" "de Braganca" "de Crato" "d'Alburquerque" "de Portugal" "de Lencastre" "de Melo" 
 			"de Moura" "de Napoles" "de Menezes" "de Saldanha" 
@@ -1423,34 +1385,42 @@ hungarian_group = {
 	hungarian = {
 		primary = HUN
 		dynasty_names = {
-			Arpady Csaszar Vajlok Kan Omodej Zapolsky Drugeth Csak Pallfy Apafi 
-			Banffy Berzenyi Bocskai Borsa Cziraky Debreceni Derencsenyi Dioszegi 
-			Dory Egervari Forgach Garai Paloczi Hedervari Hunyadi Kan Karolyi Koszegi 
-			Kun Losonczi Maroti Perenyi Ratot Rozgonyi Szakoly Szecsenyi Szechy 
-			Telegdi Thurzo Ujlaki Kanizsai Meggyesi Osli Viczay Balassa Bathory 
-			Kalnoky Niedzica Zapolya Szekely Dozsa Apafi Balassi Budai_Nagy Celko 
-			Corvinus David Decsey Mezesi Draskovich Erdody Revay Duruzmic Szemere 
-			Hadik Batthyany Csesznegi Esterhazy Hajdu Jesensky Medveczky Rakoczi 
-			Szapolyai Zichy Zrinski	
+			Báthory Hunyadi Szapolyai Rákóczy Bocskai Bethlen Almásy Andrássy Batthyány Csáky Dessewffy
+			Erdody Eszterházy Festetics Hajdú Károlyi Kun Magyary Perényi Rónai Széchenyi Szepessy 
+			Thököly Tisza Zrínyi Teleki
+			Majláth Dóczy Dobó Koháry Orczy Frankopan Garay Mikes Szécsi Imreffy Nádasdy Rhédey
+			
+			#CK2
+			Zrinski Hadik Both "Rákóczi" Forgách Cseszneky Derencsényi Décsey Révay Esterházy
+			Kállay Kemény Thurzó Zichy
 		}
 		male_names = {
-			Abel Adarn Agoston Almos Arpad Odon Alajos Ambrus Andras Antal Attila Balint 
-			Bela Balazs Benedek Bernat Bertok Bertalan Boldizsar Bonuslo Borisz Csak Csaba 
-			Csongor Denes Domotor Dezso Domoszlo Donat Elek Elemer Endre Erno Fulop Ferenc 
-			Frigyes Gabor Gabriel Gaspar Geza Gazsi Gellert Gergely Gyorgy Gyula Imre Istvan 
-			Izsak Jakob Janos Jozsef Jeno Kalman Karoly Konrad Kornel Kristof Laszlo Lazar Lorinc 
-			Lajos Lampert Levente Lukacs Mark Marton Mate Matyas Moric Mozes Mihaly Miklos Nandor 
-			Orban Oszkar Pal Peter Samuel Sandor Salamon Saul Soma Szilveszter Tador Tacsony 
-			Tamas Tibor Tivadar Vazul Vencel Vilmos Zoltan Zsigmond Zsolt
+			Ulászló László Lajos Albert János Mátyás Zsigmond András Károly István Béla Anasztáz Barnabás 
+			Boldizsár Dávid Dömötör Edvárd Ernö Ferenc Gábor György Izsák Jenö József Kálmán Kázmér Lörinc 
+			Miklós Oszkár Ottó Patrik Péter Simon Tamás Vencel
+			Ábel Ádárn Ágoston Álmos Árpád Õdön Otto Alajos Ambrus András Andrew Antal Attila Bálint 
+			Albert Balázs Benedek Benedict Bernát Bernard Bertók Bertalan Boldizsár Bonuslo
+			Borisz Boris Csák Csaba Csongor Dénes Dömötör Dezsõ Domoszló Donát Elek Elemér Endre Ernõ 
+			Philip Ferenc Francis Frigyes Gábor Gábriel Gabriel Gáspár Caspar Géza Gazsi
+			Gellért Gergely György George Gyula Imre István Stephen Izsák Jákob Jacob János John József 
+			Joseph Jenõ Kálmán Károly Charles Konrád Konrad Kornél Kristóf László Lázár Lõrinc Lajos 
+			Lampert Levente Lukács Márk Marcus Márton Martin Máté Mátyás Matthew Móric Mózes Mihály 
+			Michael Louis Fulöp Béla
+			Miklós Nándor Orbán Oszkár Pál Paul Péter Peter Sámuel Samuel Sándor Alexander Salamon 
+			Szilveszter Silvester Tádor Tacsony Tamás Thomas Tibor Tivadar Vazul Vencel Vaclav Vilmos 
+			Zoltán Zsigmond Sigmund Zsolt Saul Soma
 		}
 		female_names = {
-			Agnes Eva Adelaida Agata Amalia Angyalka Aniko Aranka Berta Borbala 
-			Csilla Csillag Czenzi Dorottya Edit Emoke Emese Erika Erzsebet Eszter 
-			Etel Euphemia Gizella Gyorgyi Hajnal Hedwig Ibolya Ildiko Illona Iren 
-			Jacinta Jozsa Julia Jolan Judith Kamilla Katalin Kinga Klara Konstancia 
-			Krisztina Kunigunda Luca Maria Marta Magdolna Margareta Margit Matild Natalia 
-			Odola Orsolya Panni Piroska Rozsa Sara Sarolt Skolasztika Sophia Tunder 
-			Terezia Viola Virag Zoltana Zsofia Zsanett Zsuzsa
+			Ágnes Agnes Éva Eva Adelaida Adelaide Agáta Agatha Amália Amelia Angyalka Anikó Aranka 
+			Bertha Borbála Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emõke Emese Erika Erzsébet 
+			Elisabeth Eszter Berta Anna
+			Etel Euphemia Euphemia Gizella Gisela Györgyi Georgia Hajnal Hedwig Hedwig Ibolya Ildikó 
+			Irén Irene Jácinta Józsa Júlia Juliana Jolán Judith Judith Kamilla Camilla Katalin 
+			Kinga Klára Clara Catherine Illona
+			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Mária Maria Márta Martha 
+			Magdolna Magdalena Margaréta Margaret Margit Matild Matilda Natália Natalia Odola Orsolya 
+			Panni Piroska Rózsa Rosa Sára Sarah Sarolt Zsuzsa Zsanett
+			Skolasztika Sophia Sophia Tundér Terezia Teresa Viola Viola Virág Zoltána Zsófia Sophia
 		}
 	}
 }
@@ -2911,7 +2881,7 @@ east_asian = {	# Chinese Group
 	}
 	
 	korean_new = {
-		#primary = KOR
+		#primary = SLA
 		dynasty_names = { 
 			Yi Wang Kim Pak Shin Song Chae Gang Jeong Jang Yun Han Hong Yu Ki Choi Ga Gye Go Na Noh Woo Do Du Ban Ma Min Mun
 			Seo Son Sim An Yang O Jeon Cho Jin Ha Hong Heo Kwak Lim Won Kwon Hwang Bae Seok Bang Dae Gyeong Nam Sung Baek
@@ -3354,7 +3324,7 @@ korean_g = {
 	graphical_culture = asiangfx
 	
 	korean = {
-		primary = KOR
+		primary = SLA
 		dynasty_names = { 
 			Yi Wang Kim Shin Song Pak Chae Gang Jeong Jang Yun Han Hong Yu Ki
 		}
@@ -3542,9 +3512,6 @@ southeastasian_group = {
 			"Mya"
 		}	
 	}
-	dynasty_names = {
-		"Mangrai"
-	}
 	vietnamese = {
 		primary = DAI
 		dynasty_names = {
@@ -3640,18 +3607,6 @@ eastern_aryan = {
 		primary = GHR
 		dynasty_names = {
 			Chand Parmar Prakash Katoch
-		}
-	}
-	nepali = {
-		primary = NPL
-		dynasty_names = {
-			"Malla"
-		}
-		male_names = {
-			Jayajyotimalla
-		}
-		female_names = {
-			Devaladevi
 		}
 	}
 	oriya = {
@@ -4019,6 +3974,16 @@ kongo_group = {
 	}
 	mbundu = {
 		primary = NDO
+		
+		dynasty_names = { 
+			Cilemo Cimbungu Cinene Hundungulu Kacingangu Kaneketela Kanene Kapusukusu Kiapungo Ndunduma Njambayamina Vasovava Yale
+		}
+		male_names = {
+			Ciasungu Cikunyu Cingi Ciponge Hungulu Kahala Kakembembe Kapoko Kayangula Kinya Livonge Ngelo Nguvenge Vilombo Wambu Kaza Matamba Mbande
+		}
+		female_names = {
+			Mussasa Njinga Tembandumba
+		}
 	}
 	chokwe = {
 		primary = CKW
@@ -4299,7 +4264,7 @@ barbarian_group = { #Nordic
 kemetic_group = {
 	graphical_culture = muslimgfx
 	old_egyptian = {
-		primary = EGY
+		primary = PLM
 	}
 	meroitic = {
 		primary = NUB

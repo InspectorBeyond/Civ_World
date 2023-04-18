@@ -16,4 +16,8 @@ religious_school = maliki_school
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = tactical_genius_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

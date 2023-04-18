@@ -3,17 +3,20 @@ add_government_reform = autocracy_reform
 primary_culture = korean
 religion = pantheon
 technology_group = civilization_tech
-capital = 2745
+capital = 735
 
 1444.11.10 = {
 	monarch = {
-		name = "Seondeok"
-		dynasty = "Silla"
+		name = "Sejong Do" #Sejong Daewang
+		dynasty = "Yi"
 		adm = 6
 		dip = 6
 		mil = 6
-	female = yes
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = scholar_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

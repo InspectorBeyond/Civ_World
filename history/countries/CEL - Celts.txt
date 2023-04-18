@@ -19,5 +19,9 @@ fixed_capital = 373
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = bold_fighter_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }
 

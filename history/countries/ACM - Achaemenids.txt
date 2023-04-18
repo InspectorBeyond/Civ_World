@@ -16,4 +16,8 @@ add_army_professionalism = 0.05
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = midas_touched_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

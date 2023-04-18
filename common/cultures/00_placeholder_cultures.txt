@@ -1625,7 +1625,7 @@ evenks = {
 	}
 	buryat = {
 		graphical_culture = inuitgfx
-		primary = BRT
+		primary = GBR
 		dynasty_names = {
 			Badarhan
 		}
@@ -1709,3 +1709,83 @@ kamchatkan_g = {
 	}
 }
 
+hymalayan_g = {
+	tibetan = {
+		dynasty_names = {
+			Lhalu
+			Ngapoi
+			Chophel
+			Dzasa
+			Lungshar
+			Rinpoche
+			Shakabpa
+			Shatra
+			Tashi
+			Wangyal
+		}
+		male_names = {
+			Andruk
+			Chamba
+			Gendun
+			Jamphel
+			Mipham
+			Namgang
+			Norbhu
+			Penor
+			Trimon
+			Tsarong
+			Tsepon
+		}
+		female_names = {
+			Jamyang
+			Lhakpa
+			Ngawang
+			Phuntsog
+			Tsewang
+		}
+	}
+	nepali = {
+		dynasty_names = {
+			Basnyat
+			"Bahadur Rana"
+			Bhandari
+			Chautariya
+			Koirala
+			Kunwar
+			Mahat
+			Pande
+			Singh
+			"Singh Thapa"
+			Thapa
+			Rana
+			Acharya
+			Ban
+			Das
+			Devi
+			Neupane
+			Sob
+		}
+		male_names = {
+			Amar
+			Bhakti
+			Bhim_Shamsher
+			Bhimsen
+			"Bir Shamsher"
+			"Chandra Shamsher"
+			"Deva Shamsher"
+			Jang
+			Ranjur
+			Renaudip
+			Shamsher
+		}
+		female_names = {
+			Anuradha 
+			Divyeshwari
+			Durga
+			Lakshmi
+			Sangita
+			Sunita
+			Yogmaya 
+		}
+	}
+}

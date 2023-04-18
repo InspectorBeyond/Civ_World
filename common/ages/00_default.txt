@@ -334,7 +334,7 @@ age_of_reformation = {
 				factor = 10
 			}
 		}
-	
+	}
 }
 
 

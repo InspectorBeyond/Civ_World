@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = civilization_tech
+primary_culture = american
+religion = pantheon
+capital = 940
+government_rank = 2
+
+
+1444.11.10 = {
+	monarch = {
+		name = "Abraham"
+		dynasty = "Lincoln"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = charismatic_negotiator_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
+}

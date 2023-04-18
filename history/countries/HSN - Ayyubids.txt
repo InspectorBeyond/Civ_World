@@ -1,9 +1,11 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = al_misr_arabic
+primary_culture = al_suryah_arabic
+add_accepted_culture = al_misr_arabic
+add_accepted_culture = bedouin_arabic
 religion = pantheon
 technology_group = civilization_tech
-capital = 361
+capital = 382
 
 1444.11.10 = {
 	monarch = {
@@ -17,4 +19,8 @@ capital = 361
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = scholar_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

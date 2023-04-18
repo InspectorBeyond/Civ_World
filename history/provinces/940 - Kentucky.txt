@@ -1,19 +1,19 @@
 culture = american
 religion = pantheon
 trade_goods = fur
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 2
+base_production = 2
+base_manpower = 2
 native_size = 5
 native_hostileness = 1
 
 
-owner = USA
-controller = USA
-add_core = USA
+owner = KTC
+controller = KTC
+add_core = KTC
 capital = "Louiseville"
 
-discovered_by = USA
+discovered_by = KTC
 
 
 1444.11.12 = {
@@ -22,7 +22,7 @@ controller = ---
 add_core = ---
 }
 1444.11.13 = {
-owner = USA
-controller = USA
-add_core = USA
+owner = KTC
+controller = KTC
+add_core = KTC
 }

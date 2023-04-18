@@ -10,7 +10,7 @@ capital = 262 # Krakow
 1444.11.10 = {
 	monarch = {
 		name = "Jadwiga"
-		dynasty = "Anjou-Hungary"
+		dynasty = "Anjou"
 		adm = 6
 		dip = 6
 		mil = 6
@@ -18,4 +18,8 @@ capital = 262 # Krakow
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = entrepreneur_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

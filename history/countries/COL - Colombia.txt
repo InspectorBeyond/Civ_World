@@ -16,4 +16,8 @@ capital = 825	# Bogota
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = navigator_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

@@ -1,8 +1,8 @@
 #Country Name: Please see filename.
 
-graphical_culture = easterngfx
+graphical_culture = westerngfx
 
-color = { 33 138 65 }
+color = { 50 120 54 }
 
 revolutionary_colors = { 0  10  0 }
 
@@ -36,7 +36,7 @@ historical_units = {
 }
 
 monarch_names = {
-	"Matthias #1" = 50
+	"Matyas #1" = 50
 	"István #0" = 40
 	"László #0" = 40
 	"Lajos #0" = 20

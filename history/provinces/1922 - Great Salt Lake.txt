@@ -1,6 +1,6 @@
 
 discovered_by = SHO
-native_size = 45
-native_ferocity = 9
+native_size = 10
+native_ferocity = 5
 native_hostileness = 9
 hre = no

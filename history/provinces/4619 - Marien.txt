@@ -5,9 +5,9 @@ religion = pantheon
 capital = "Marien"
 trade_goods = unknown 
 hre = no
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 2
+base_production = 2
+base_manpower = 2
 native_size = 10
 native_ferocity = 1
 native_hostileness = 2
@@ -25,10 +25,10 @@ discovered_by = ARW
 }
 1510.1.1 = { trade_goods = sugar }
 1516.1.23 = {
-	discovered_by = SPA
-	owner = SPA
-	add_core = SPA
-	controller = SPA
+	discovered_by = SPN
+	owner = SPN
+	add_core = SPN
+	controller = SPN
 	remove_core = CAS
 } 
 1529.1.1 = {  }
@@ -36,7 +36,7 @@ discovered_by = ARW
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	remove_core = SPA
+	remove_core = SPN
 	culture = barbarian 
 }
 1707.1.1 = { unrest = 3 } # Choiseul-Beaupré sought to get rid of the French pirates, when it became a French colony
@@ -51,7 +51,7 @@ discovered_by = ARW
 	remove_core = FRA
 } # Haiti declares independence
 
-native_size = 45
-native_ferocity = 9
+native_size = 10
+native_ferocity = 5
 native_hostileness = 9
 hre = no

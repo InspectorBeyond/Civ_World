@@ -4,17 +4,17 @@
 trade_goods = livestock
 culture = mongol 
 religion = pantheon 
-base_tax = 3 
-base_production = 3 
-base_manpower = 3
+base_tax = 2 
+base_production = 2 
+base_manpower = 2
 
 
-owner = MON
-controller = MON
-add_core = MON
+owner = MGE
+controller = MGE
+add_core = MGE
 capital = "Qaraqorum"
 
-discovered_by = MON
+discovered_by = MGE
 
 1444.11.13 = {
 owner = ---

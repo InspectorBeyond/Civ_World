@@ -9,7 +9,7 @@ fixed_capital = 148 # Cannot move capital away from this province & no power cos
 
 1444.11.10 = {
 	monarch = {
-		name = "Alexander"
+		name = "Alexandros"
 		dynasty = "Argead"
 		adm = 6
 		dip = 6
@@ -17,4 +17,8 @@ fixed_capital = 148 # Cannot move capital away from this province & no power cos
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = conqueror_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

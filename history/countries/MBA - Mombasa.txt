@@ -3,5 +3,4 @@ add_government_reform = city_state
 primary_culture = swahili
 religion = pantheon
 technology_group = civilization_tech
-unit_type = sub_saharan
 capital = 1202	# Mombasa

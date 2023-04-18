@@ -7,8 +7,8 @@ capital = 613	# Hanoi
 
 1444.11.10 = {
 	monarch = {
-		name = "Trieu"
-		dynasty = "Au"
+		name = "Au"
+		dynasty = "Trieu"
 		adm = 6
 		dip = 6
 		mil = 6
@@ -16,4 +16,8 @@ capital = 613	# Hanoi
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = martial_educator_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

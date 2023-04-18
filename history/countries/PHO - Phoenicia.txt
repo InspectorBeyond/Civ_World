@@ -10,7 +10,7 @@ capital = 1855  #Sidon
 1444.11.10 = {
 	monarch = {
 		name = "Dido"
-		dynasty = "of Carthage"
+		dynasty = "Didonid"
 		birth_date = 1378.11.11
 		adm = 6
 		dip = 6
@@ -19,4 +19,8 @@ capital = 1855  #Sidon
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = navigator_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

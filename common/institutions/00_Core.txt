@@ -24,97 +24,7 @@ feudalism = {
 
 
 	history = {
-		is_year = 1000
-		OR = {
-			AND = { #If this is changed costs for Nation Designer may also need to be changed.
-				OR = {
-					continent = new_world
-					continent = north_america
-					continent = south_america
-					continent = oceania
-				}
-				owner = {
-					is_playing_custom_nation = yes
-					OR = {
-						technology_group = western
-						technology_group = eastern
-						technology_group = ottoman
-						technology_group = muslim
-						technology_group = indian
-						technology_group = chinese
-						#technology_group = high_american #Is listed below as High Americans get it regardless of if Nation Designer is used.
-					}
-				}
-			}
-			AND = {
-				owner = { is_playing_custom_nation = no }
-				OR = {
-					culture = persian
-					culture = azerbaijani
-					culture = kurdish
-					culture = armenian
-					culture = mazandarani
-					culture = turkish
-					culture = omani_culture
-					culture = yemeni_culture
-					culture = swahili
-					area = ningguta_area
-					area = jilin_area
-					culture_group = byzantine
-					culture_group = dravidian
-					culture_group = east_asian
-					culture_group = east_slavic
-					culture_group = eastern_aryan
-					culture_group = japanese_g
-					culture_group = korean_g
-					culture_group = scandinavian
-					culture_group = west_slavic
-					culture_group = western_aryan
-					province_id = 383
-					province_id = 412
-					province_id = 2327
-					province_id = 2329
-					province_id = 2331
-					province_id = 2999
-				}
-			}
-			AND = {
-				region = horn_of_africa_region
-				owner = { NOT = { has_reform = tribal_federation } }
-			}
-			AND = {
-				culture = al_misr_arabic
-				NOT = { area = al_wahat_area }
-				NOT = { area = cyrenaica_area }
-			}
-			AND = {
-				culture_group = hindusthani
-				NOT = { owner = { has_reform = tribal_kingdom } } #Ladakh
-			}
-			owner = { technology_group = high_american }
-			owner = {
-				NOT = {
-					government = tribal
-					government = native
-					primary_culture = bedouin_arabic
-					primary_culture = uyghur
-					technology_group = andean
-					technology_group = mesoamerican
-					technology_group = north_american
-					technology_group = south_american
-					technology_group = sub_saharan
-					technology_group = aboriginal_tech
-				}
-			}
-			AND = {
-				is_year = 1600
-				owner = {
-					NOT = { has_reform = siberian_tribe }
-					NOT = { has_reform = steppe_horde }
-				}
-			}
-			is_year = 1700
-		}
+		always = yes
 	}
 	
 	# no need for events, as its there from the start.
@@ -285,68 +195,16 @@ renaissance = {
 	historical_start_province = 116 # Florence
 
 	history = {
-		OR = {
-			AND = {
-				is_year = 1450
-				region = italy_region
-			}
-			
-			AND = {
-				is_year = 1450
-				continent = europe
-			}
-			AND = {
-				is_year = 1500
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1500
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1500
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				continent = asia
-				owner = {
-					NOT = { government = tribal }
-				}
-			}
-			is_year = 1780
-		}
+		is_year = 1780
 	}
 	
 	can_start = {
 		is_year = 1450
 		is_institution_enabled = feudalism
-		region = italy_region
-		is_state = yes
-		NOT = { province_id = 126 }
 		is_island = no
 		OR = {
-			development = 20
+			development = 25
 			is_capital = yes
-			normal_or_historical_nations = no
 			is_year = 1475
 		}
 	}
@@ -392,76 +250,6 @@ renaissance = {
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
 					renaissance = 100
-				}
-			}
-		}
-		modifier = {
-			factor = 1
-			potential = {
-				region = italy_region
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_italian_capital
-				is_capital = yes
-				region = italy_region
-				culture_group = latin
-			}
-			
-			
-		}
-		modifier = {
-			factor = 0.05
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_10
-				continent = europe
-				development = 10
-			}
-		}
-		modifier = {
-			factor = 0.05
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_20
-				development = 20
-				continent = europe
-			}
-		}
-		modifier = {
-			factor = 0.1
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_5_post_1500
-				continent = europe
-				is_year = 1500
-				development = 5
-			}
-		}
-		modifier = {
-			factor = 0.5
-			scale = yes
-			potential = {
-				OR = {
-					area = flanders_area
-					area = tuscany_area
-					area = venetia_area
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_flanders_tuscany_venetia
-				OR = {
-					area = flanders_area
-					area = tuscany_area
-					area = venetia_area
 				}
 			}
 		}
@@ -549,88 +337,12 @@ new_world_i = {
 	historical_start_province = 224 #Sevilla
 
 	history = {
-		OR = {
-			AND = {
-				is_year = 1500
-				continent = europe
-				OR = {
-					owner = { has_idea = quest_for_the_new_world }
-					owner = { colony = 1 }
-				}
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				superregion = near_east_superregion
-			}
-			AND = {
-				is_year = 1600
-				continent = europe
-			}
-			AND = {
-				is_year = 1625
-				superregion = persia_superregion
-			}
-			AND = {
-				is_year = 1650
-				superregion = india_superregion
-			}
-			
-			
-			AND = {
-				is_year = 1650
-				superregion = china_superregion
-			}
-			
-			AND = {
-				is_year = 1650
-				superregion = east_indies_superregion
-			}
-			AND = {
-				is_year = 1700
-				superregion = africa_superregion
-			}
-			is_year = 1800
-		}
+		is_year = 1500
 	}
 	
 	can_start = {
 		is_year = 1500
 		is_institution_enabled = renaissance
-		OR = {
-			continent = europe
-			continent = asia
-			continent = africa
-		}
 		has_port = yes
 		is_island = no
 		is_state = yes
@@ -644,13 +356,6 @@ new_world_i = {
 			has_any_exploration_idea = yes
 			#at least one province colonised or colonising, or have a subject colony
 			OR = {
-				any_owned_province = {
-					OR = {
-						continent = north_america
-						continent = south_america
-						continent = new_world
-					}
-				}
 				any_subject_country = {
 					OR = {
 						is_subject_of_type = colony
@@ -666,11 +371,6 @@ new_world_i = {
 						}
 					}
 				}
-			}
-			OR = {
-				north_america = { has_discovered = PREV }
-				south_america = { has_discovered = PREV }
-				new_world = { has_discovered = PREV }
 			}
 		}
 	}

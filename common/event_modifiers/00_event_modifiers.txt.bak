@@ -1633,7 +1633,7 @@ western_trade = {
 	prestige = -1
 }
 
-#Korean modifiers
+#Sillan modifiers
 state_council = {
 	adm_tech_cost_modifier = -0.05
 }
@@ -8060,7 +8060,7 @@ defended_denmark = {
 	legitimacy = 1
 }
 
-#KOR
+#SLA
 
 korean_frontier = {
 	local_hostile_attrition = 3
@@ -8115,7 +8115,7 @@ kapilendras_ambition = {
 	land_morale = 0.1
 }
 
-#POR
+#PRT
 swahili_ports_under_portuguese_thumb = {
 	global_trade_power = 0.01
 	trade_efficiency = 0.15
