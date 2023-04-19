@@ -2,7 +2,17 @@
 
 # country
 on_startup = {
-	add_treasury = 10000
+	if = { #Startup Event
+		limit = {
+			NOT = {
+				has_country_flag = FAQ_country_flag
+			}
+			ai = no
+		}
+		every_country = {
+			country_event = { id = wc.1 }
+		}
+	}
 	if = {
 		limit = {
 			current_age = age_of_discovery
@@ -5554,7 +5564,7 @@ on_colonial_nation_established = {
 }
 
 ##scope = colony province, FROM = owner country or province if there's a minority expulsion source
-on_colonist_boosting_colony = {
+on_colonist_boosting_colony = { #Civ COlony thing
 	on_colonist_boosting_colony_effect = yes
 }
 
