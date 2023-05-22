@@ -537,7 +537,7 @@ PRU_ideas = {
 	}
 	
 	trigger = {
-			tag = HRE
+			tag = HLR
 	}
 	free = yes		#will be added at load.
 	
@@ -577,7 +577,7 @@ POR_ideas = {
 	}
 	
 	trigger = {
-		tag = PRT
+		tag = POR
 	}
 	free = yes		#will be added at load.
 	
@@ -663,7 +663,7 @@ HAB_ideas = {
 	}
 	
 	trigger = {
-		tag = AUS
+		tag = HAB
 	}
 	free = yes		#will be added at load.
 
@@ -2864,7 +2864,7 @@ AST_ideas = {
 	}
 
 	trigger = {
-		tag = AST
+		tag = AUS
 	}
 	free = yes		# will be added at load
 	

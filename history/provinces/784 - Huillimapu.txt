@@ -14,9 +14,7 @@ capital = "Ngulu Mapu"
 discovered_by = MPC
 
 1444.11.12 = {
-owner = ---
-controller = ---
-add_core = ---
+decolonize = yes
 }
 1444.11.13 = {
 owner = MPC

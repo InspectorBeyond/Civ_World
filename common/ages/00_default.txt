@@ -127,8 +127,7 @@ age_of_discovery = {
 		}
 		
 
-		ab_transfer_vassal_wargoal = 
-		{
+		ab_transfer_vassal_wargoal = {
 			modifier = {
 				can_transfer_vassal_wargoal = yes
 				can_chain_claim = yes
@@ -158,7 +157,7 @@ age_of_discovery = {
 		}
 		ab_colony_boost_development = {
 			modifier = {
-				can_colony_boost_development = yes
+				colony_development_boost = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -171,7 +170,7 @@ age_of_discovery = {
 		
 		ab_attack_bonus_in_capital_terrain = {
 			modifier = {
-				attack_bonus_in_capital_terrain = yes
+				attack_bonus_in_capital_terrain = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -272,7 +271,6 @@ age_of_reformation = {
 			}
 		}
 	
-
 		ab_siege_blockades = {
 			modifier = {
 				siege_blockade_progress = 1

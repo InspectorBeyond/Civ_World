@@ -28,17 +28,17 @@ discovered_by = ARW
 	trade_goods = sugar
 }
 1516.1.23 = {
-	discovered_by = SPN
-	owner = SPN
-	controller = SPN
-	add_core = SPN
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	add_core = SPA
 	remove_core = CAS
 }
 1697.1.1 = {
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	remove_core = SPN
+	remove_core = SPA
 	culture = barbarian
 } # Spain tried to retake the area, ended in dissaster. Treaty of Ryswick
 1707.1.1 = { unrest = 3 } # Choiseul-Beaupré sought to get rid of the French pirates, when it became a French colony

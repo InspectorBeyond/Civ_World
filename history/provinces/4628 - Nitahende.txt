@@ -16,11 +16,11 @@ native_hostileness = 8
 
 discovered_by = north_american
 
-1541.1.1 = { discovered_by = SPN }
+1541.1.1 = { discovered_by = SPA }
 1682.1.1 = {
-	owner = SPN
-	controller = SPN
-	add_core = SPN
+	owner = SPA
+	controller = SPA
+	add_core = SPA
 	is_city = yes
 	trade_goods = grain
 	religion = pantheon
@@ -29,7 +29,7 @@ discovered_by = north_american
 1810.9.16 = {
 	owner = MEX
 	add_core = MEX
-	controller = SPN 
+	controller = SPA 
 } # Mexican War of Independence
 
 

@@ -14,13 +14,13 @@ native_hostileness = 9
 discovered_by = chinese
 
 
-1521.1.1 = { discovered_by = SPN } # Ferdinand Magellan 
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
 1595.1.1 = {	
 	capital = "Borongan"
 	culture = barbarian
-	owner = SPN
-	controller = SPN
-	add_core = SPN
+	owner = SPA
+	controller = SPA
+	add_core = SPA
 	is_city = yes
 	trade_goods = tropical_wood
 }

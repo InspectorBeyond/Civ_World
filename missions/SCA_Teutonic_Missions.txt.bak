@@ -1953,7 +1953,7 @@ teu_pru_dummy_hre_mission_slot_2 = {
 	}
 }
 
-#HRE Diplomatic Path
+#HLR Diplomatic Path
 teu_pru_diplomatic_hre_mission_slot = {
 	slot = 1
 	generic = no
@@ -2588,7 +2588,7 @@ teu_pru_diplomatic_seculization_mission_slot = {
 	}
 }
 
-#HRE Conquest Path
+#HLR Conquest Path
 teu_pru_conquest_hre_mission_slot = {
 	slot = 1
 	generic = no
@@ -3240,7 +3240,7 @@ teu_pru_secondary_conquest_hre_mission_slot = {
 	}
 }
 
-#Prussian Kingdom Path (leave the HRE immediately)
+#Prussian Kingdom Path (leave the HLR immediately)
 teu_pru_kingdom_of_prussia_mission_slot = {
 	slot = 1
 	generic = no

@@ -127,7 +127,7 @@ catholic_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -191,7 +191,7 @@ protestant_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -251,7 +251,7 @@ coptic_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -315,7 +315,7 @@ orthodox_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -379,7 +379,7 @@ sunni_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -443,7 +443,7 @@ buddhism_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -507,7 +507,7 @@ taosism_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -571,7 +571,7 @@ confucianism_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -635,7 +635,7 @@ shinto_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -699,7 +699,7 @@ sikh_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -763,7 +763,7 @@ norse_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -827,7 +827,7 @@ tengri_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -891,7 +891,7 @@ jewish_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -955,7 +955,7 @@ zoroastrian_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes
@@ -1019,7 +1019,7 @@ hindu_center_of_reformation = {
 			factor = 0.5
 			has_state_edict = edict_religion_enforced
 		}
-		# HRE is more resistant to reformation when the Pope is an Imperial Prince
+		# HLR is more resistant to reformation when the Pope is an Imperial Prince
 		modifier = {
 			factor = 0.75
 			is_part_of_hre = yes

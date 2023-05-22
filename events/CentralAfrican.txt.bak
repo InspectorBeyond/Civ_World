@@ -98,68 +98,6 @@ country_event = {
 	}
 }
 
-
-#Antionio Fernandes
-country_event = {
-	id = central_african.9
-	title = central_african.9.t
-	desc = central_african.9.d
-	picture = CENTRAL_AFRICAN_PORTUGUESE_eventPicture
-
-	fire_only_once = yes
-
-	trigger = {
-		has_dlc = "Mare Nostrum"
-		religion = shamanism
-		capital_scope = {
-			OR = {
-				area = zimbabwe_area
-				area = lower_zambezi_area
-				area = butua_area
-			}
-		}
-		east_africa_region = {
-			owned_by = POR
-		}
-	}
-
-
-	option = {
-		name = central_african.9.a
-		reverse_add_opinion = {
-			who = POR
-			modifier = opinion_welcomed_fernandes
-		}
-		if = {
-			limit = {
-				any_owned_province = {
-					trade_goods = gold
-				}
-			}
-			random = {
-				chance = 30
-				random_owned_province = {
-					limit = {
-						is_capital = no
-						NOT = {
-							trade_goods = gold
-						}
-					}
-					add_claim = POR
-				}
-			}
-		}
-	}
-
-	option = {
-		name = central_african.9.b
-		reverse_add_opinion = {
-			who = POR
-			modifier = opinion_killed_fernandes
-		}
-	}
-}
-
 #Increased Trade With India
 country_event = {
 	id = central_african.10

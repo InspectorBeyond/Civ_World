@@ -12,8 +12,6 @@ capital = "Thang Long"
 discovered_by = VTM
 
 1444.11.13 = {
-owner = ---
-controller = ---
-add_core = ---
+decolonize = yes
 }
 hre = no

@@ -7,8 +7,8 @@
 
 COL_ideas = {
 	start = {
-		colonists = 2
-		may_explore = yes
+		stability_cost_modifier = -0.10
+		advisor_cost = -0.1
 	}
 	
 	bonus = {
@@ -221,7 +221,7 @@ SPA_ideas = {
 	}
 	
 	trigger = {
-		tag = SPN
+		tag = SPA
 	}
 	free = yes		#will be added at load.
 
@@ -584,12 +584,12 @@ GER_ideas = {
 	}	
 
 	trigger = {
-		tag = HRE
+		tag = HLR
 	}
 	free = yes
 	
 	hlr_imperial_throne = {
-		legitimacy = 1.5 #unique (it's the HRE :D)
+		legitimacy = 1.5 #unique (it's the HLR :D)
 	}
 	hlr_kaiserliche_armee = {
 		land_morale = 0.15
@@ -622,7 +622,7 @@ POR_ideas = {
 	}
 	
 	trigger = {
-		tag = PRT
+		tag = POR
 	}
 	free = yes		#will be added at load.
 	
@@ -746,7 +746,7 @@ HAB_ideas = {
 	}
 	
 	trigger = {
-		tag = AUS
+		tag = HAB
 	}
 	free = yes		#will be added at load.
 
@@ -2920,7 +2920,7 @@ SSR_ideas = {
 	}
 }
 
-AST_ideas = {
+AUS_ideas = {
 	start = {
 		global_ship_cost = -0.2
 		global_colonial_growth = 25
@@ -2931,7 +2931,7 @@ AST_ideas = {
 	}
 
 	trigger = {
-		tag = AST
+		tag = AUS
 	}
 	free = yes		# will be added at load
 	

@@ -25,10 +25,10 @@ discovered_by = ARW
 	trade_goods = coffee 
 } # Founded by Diego Velázquez
 1516.1.23 = {
-	discovered_by = SPN
-	owner = SPN
-	controller = SPN
-	add_core = SPN
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	add_core = SPA
 	remove_core = CAS
 }
 1522.1.1 = { unrest = 2 } # Relatively small attack against the conquistadors

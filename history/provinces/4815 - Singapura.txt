@@ -1,6 +1,6 @@
 
 culture = malayan
-religion = pantheonic
+religion = pantheon
 capital = "Singapur"
 trade_goods = fish
 hre = no

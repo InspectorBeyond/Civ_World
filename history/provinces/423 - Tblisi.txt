@@ -14,9 +14,7 @@ add_core = GEO
 discovered_by = GEO
 
 1444.11.13 = {
-owner = ---
-controller = ---
-add_core = ---
+decolonize = yes
 }
 native_size = 10
 native_ferocity = 5

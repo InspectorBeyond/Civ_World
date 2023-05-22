@@ -19,4 +19,8 @@ national_focus = DIP
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = charismatic_negotiator_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

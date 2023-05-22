@@ -15,9 +15,7 @@ add_core = ACM
 discovered_by = ACM
 
 1444.11.13 = {
-owner = ---
-controller = ---
-add_core = ---
+decolonize = yes
 }
 native_size = 10
 native_ferocity = 5

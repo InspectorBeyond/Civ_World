@@ -25,10 +25,10 @@ discovered_by = ARW
 } #First settlements of Puerto Plata
 1510.1.1 = { trade_goods = sugar }
 1516.1.23 = {
-	discovered_by = SPN
-	owner = SPN
-	controller = SPN
-	add_core = SPN
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	add_core = SPA
 	remove_core = CAS
 }
 

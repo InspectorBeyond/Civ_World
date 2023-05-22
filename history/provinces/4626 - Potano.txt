@@ -17,12 +17,12 @@ native_hostileness = 2
 discovered_by = north_american
 
 1513.4.2 = { discovered_by = CAS } # Juan Ponce de Leon
-1516.1.23 = { discovered_by = SPN }
+1516.1.23 = { discovered_by = SPA }
 
 1600.1.1 = {
-	owner = SPN
-	controller = SPN
-	add_core = SPN
+	owner = SPA
+	controller = SPA
+	add_core = SPA
 	culture = barbarian
 	religion = pantheon
 	is_city = yes
@@ -34,15 +34,15 @@ discovered_by = north_american
 	owner = GBR
 	controller = GBR
 	add_core = GBR
-	remove_core = SPN
+	remove_core = SPA
 	religion = pantheon
 	culture = barbarian
 } # Florida is traded for Havana 
 1783.9.3 = {
-	owner = SPN
-	controller = SPN
+	owner = SPA
+	controller = SPA
 	remove_core = GBR
-	add_core = SPN
+	add_core = SPA
 	culture = barbarian
 	religion = pantheon
 } # Treaty of Paris, returned to Spain
@@ -50,7 +50,7 @@ discovered_by = north_american
 	owner = USA
 	controller = USA
 	add_core = USA
-	remove_core = SPN
+	remove_core = SPA
 } # The Adams-Onís Treaty
 native_size = 10
 native_ferocity = 5

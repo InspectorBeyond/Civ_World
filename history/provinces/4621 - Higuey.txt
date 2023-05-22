@@ -30,10 +30,10 @@ discovered_by = ARW
 1499.1.1 = { unrest = 6 } # Unrest and discontent among the settlers/Columbus's failure to deliver
 1500.1.1 = { unrest = 0 }# African slaves brought in for labor. Bobadilla arrives & Columbus is sent back to Spain
 1516.1.23 = {
-	discovered_by = SPN
-	owner = SPN
-	controller = SPN
-	add_core = SPN
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	add_core = SPA
 	remove_core = CAS
 }
 

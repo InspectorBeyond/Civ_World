@@ -16,9 +16,7 @@ discovered_by = MAO
 discovered_by = PLY
 
 1444.11.12 = {
-owner = ---
-controller = ---
-add_core = ---
+decolonize = yes
 }
 1444.11.13 = {
 owner = PLY

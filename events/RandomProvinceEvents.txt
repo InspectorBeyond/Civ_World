@@ -1136,7 +1136,7 @@ province_event = {
 	}
 }
 
-# Events for HRE members
+# Events for HLR members
 province_event = {
 	id = 758
 	title = "EVTNAME758"

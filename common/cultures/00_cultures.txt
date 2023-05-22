@@ -12,6 +12,20 @@ germanic = {
 	prussian = {
 		primary = PRU
 	}
+	baltic_german = {
+		primary = RIG
+		male_names = {
+			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
+			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
+			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
+			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
+			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
+			Prusas Sergonis Ulinniks Ulitis Jens Johann Engelbert Fromhold Johannes Henning Silvester Dietrich
+		}
+		female_names = {
+			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas Gertrud Ida
+		}
+	}
 	swiss = {
 		primary = SWI
 		male_names = {
@@ -91,7 +105,7 @@ germanic = {
 		primary = FKN
 	}
 	swabian = { #Not used
-		primary = HRE
+		primary = HLR
 	}
 	bavarian = { #Not used
 		primary = BAV
@@ -319,6 +333,24 @@ scandinavian = { #Nordic
 		}
 		dynasty_names = {
 			Ubmeje
+		}
+	}
+	karelian = {
+		primary = KRL
+		male_names = {
+			Mohkku Mokci Náhkol Náinnas Njulgu Oaván Orddot Rástos Riibma Ruigi Sárra Speaidna Viggu Kaarel Kaaren Kahus Kaido 
+			Kalev Kalju Kaljuvald Kalle Kaomeel Karuvald Kaugemeel Kaupo Pihl Piho Pikne Päevalemb Pärt Raak Raho Rahuleid Sulev 
+			Sutepelg Tambet Tarva Tarvet Dobrinya Dokya Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey 
+			Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka Tikshayka Tuhan Tyueykezhut Tyutyuk Tugan Kezhevat Kichay Koksha 
+			Kuaz Kudym-Osh Kya Kyldysin Malyaka Malyy Meltsayka Mosheg Nalka Turush Uchva Varaka Vechkas Velmayka Virdyan Viryas 
+			Viryay Vokan Yirkap Ylvan Zarny Tugan Parush Pivtsay Pokshayka Putyayka Setyamka Shindyay Shoksha Syrka Tikshayka 
+			Tyueykezhut Tylmache Tylze Tyushten Tyushtya Uzhara Varmanpaz
+		}
+		female_names = {
+			Nyayka Olota Ordava Oshama Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Ruzava 
+			Sanal'ka Sangasa Sernyava Serzhay Setyamka Seyamka Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka 
+			Syryava Tatka Tekay Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava 
+			Virtyava Yalgava Litova Mastorava Noroava
 		}
 	}
 	icelandic = {
@@ -592,7 +624,7 @@ british	= {
 	}
 }
 
-celtic_group = {
+gaelic = {
 	graphical_culture = westerngfx
 	celtic = {
 		male_names = {
@@ -912,6 +944,36 @@ iberian	= {
 			Aldonza
 		}
 	}
+	platinean = {
+		primary = LAP
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+		male_names = {
+			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
+			Bernardo Bertrán Hernando
+			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
+			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
+			Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil 
+			Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan 
+			Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono 
+			Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
+			Suero Tello Vela Vela Suero Oveco John Enrique
+		}
+		female_names = {
+			Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+			Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
+			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
+			Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
+			Isabel
+		}
+	}
 	aragonese = {
 		primary = ARA
 		dynasty_names = {
@@ -949,7 +1011,7 @@ iberian	= {
 		}
 	}
 	portugese = {
-		primary = PRT
+		primary = POR
 		dynasty_names = {
 			"de Aviz" "de Braganca" "de Crato" "d'Alburquerque" "de Portugal" "de Lencastre" "de Melo" 
 			"de Moura" "de Napoles" "de Menezes" "de Saldanha" 
@@ -1032,23 +1094,65 @@ french	= {
 	cosmopolitan_french = {
 		primary = FRA
 	}
-	gascon = { #Not used
+	gascon = {
+		
 		primary = GUY
 	}
-	normand = { #Not used
+	normand = {
+		
 		primary = NRM
 	}
-	aquitaine = { #Not used
+	aquitaine = {
+		
 		primary = TOU
 	}
-	burgundian = { #Not used
+	burgundian = {
+		
 		primary = BUR
 	}
 	occitain = {
+		
 		primary = PRO
 	}
-	wallonian = { #Not used
+	wallonian = {
+		
 		primary = HAI
+	}
+	louisianans = {
+		
+		primary = LOU
+	}
+	quebecois = {
+		
+		primary = QUE
+	}
+	anglois = {
+		primary = AVE
+		dynasty_names = { 
+			Plantagenet Lancaster York Tudor Dudley Mowbray Beaufort Neville Percy Howard Seymour Holland 
+			Talbot Stanley Courtenay "de la Pole" "de Vere" Stafford Grey Mortimer "le Despenser" "de Camoys"
+			"Oglethorpe" Hyde
+			# CKII
+			"Turberville" "Butler" "Montagu" "Beauchamp" "Raleigh" "Stratford"
+		}
+		male_names = {
+			Henry Edward Charles James William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund 
+			George John Jacob Humphrey Robert Stephen Adam Alexander Albert Alfred Ambrose Andrew Anthony Archibald 
+			Benjamin Christopher Daniel David Ernest Francis Geoffrey Guy Horatio Hugh Isaac Jeremy Jonathan Joseph 
+			Lawrence Matthew Nehemiah Oliver Samuel Sydney
+
+			Adam Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Christopher David 		
+			Edmund Edward Eric Erik Eustace Fulk Folke Geoffrey George Gerald Gilbert Godfrey Gregory Guy 
+			Henry Hugh Humphrey Jocelyn John Jordan Laurence Lionel Mark Marcus Martin Matthew Maurice 
+			Michael Nicholas Paul Peter Philip Ralph Randolph Reginald Richard Robert Roger Simon Stephen 
+			Theobald Thomas Waleran Walter William Jacob Ambrose Anthony Archibald Benjamin Daniel Ernest 
+			Francis Horatio Isaac Jeremy Jonathan Joseph Lawrence Nehemiah Oliver Samuel Sydney 
+		}
+		female_names = {
+			Jane Adela Adelaide Alice Amice Anne Anna Aveline Avelina Beatrice Blanche Catherine Cecilia 
+			Constance Edith Ela Eleanor Elizabeth Emma Hawise Isabel Isabella Elisabeth Joan Joanna 
+			Juliana Mahaut Margaret Mary Maria Maud Matilda Philippa Sybilla Sibylla
+		}
 	}
 	breton = { #Not used
 		primary = BRI
@@ -4125,7 +4229,7 @@ tartar	= {
 	}
 	
 	astrakhani = {
-		primary = AST
+		primary = AUS
 		dynasty_names = {
 			"Qara Chinua"
 		}
@@ -4701,6 +4805,186 @@ thai_group = {
 		}
 		female_names = {
 			"Thou Umma" 
+		}
+	}
+}
+
+lost_cultures_group = {
+	atlantean = { #EU Rome
+		dynasty_names = {
+			Alcetid Apollonid Aratid Helladid Omirid Peithid Peneid Philonid Proctid Pytheid Sosiclid Therid Theronid Timolid Xenonid
+			Zagreid Zosimid Zoticid
+		}
+		male_names = {
+			Acnonios Aeacides Aenias Aesillas Agathocles Agelaos Alcetas Aleos Alexander Ameinias Amynandros Amyntus Apollonides Aratos Archelaus Argaeus 
+			Arganos Aristomides Ariston Aristonous Aristophanes Aristotle Asklepiodorus Athineos Damasias Demetrius Dioedas Diophantus Echemos 
+			Ehnon Ephron Euclid Eudicus Eudoridas Euripides Eurycrates Helladius Hero Hippocrates Ikesios Isocrates Kleandros Kleitos Leonidas
+			Leonippus Lycurgus Lydiadas Lysander Lysimachus Machares Meleager Menon Metrophanes Midas Mitrodoros Neominios Neoptolemus Nicias Nicocrates 
+			Nicodemus Nikandros Nikomedes Nikon Olympos Omirus Orestes Pausanias Peithon Pelopidas Peneus Perdiccas Pericles Perseus Pheneos 
+			Phidias Philocrates Philon Philotheos Philip Phocas Phyleus Pitholaos Polydoros Polyperchon Polyphron Polysperchon Polyxenos 
+			Posidaeios Proctus Pythagoras Pytheos Selagus Skopas Sosicles Sophocles Sophronius Sthenelaus Teleclus Telesphoros Themistocles 
+			Theocritus Theodoros Therapon Theron Thymotes Timoleon Tisiphon Xanthos Xenocrates Xenon Xenophon Xenotimos Zagreus Zenodoros 
+			Zosimus Zoticus
+		}
+		female_names = {
+			Adelpha Agape Airlea Akantha Alexis Alkyone Antigone Apollonia Aristomache Artemisia Aspacia Athenais Berenice Charis Cleopatra Cynna Demetria Diantha Dionysia 
+			Elpis Eirene Eudocia Eunice Euphemia Eurydice Euthalia Evgenia Helen Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile 
+			Ptolema Sofia Sostrate Stratonice Thais Theophila Thetima Thessaloniki Thorakis Timo Xanthe Xene Xenia Zoe Zona
+		}
+	}
+	jan_mayenese = {
+		dynasty_names = {
+			Beliy Medved Bjorn Rawrrorr Rrrrr Grrr Gyp Qoi Styrbjorn Blomstfjellet
+		}
+		male_names = {
+			Björn Bamse Brum Grawr Nanuk Ursus Isbjorn Grrrowr Grrgrrr Rawr
+		}
+		female_names = {
+			Brummelisa Ursa Brumma
+		}
+	}
+	pruthenian = {
+		male_names = {
+		Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas 
+		Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
+		Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas 
+		Karijotas Kesgaila Kestutis Korigaila Korybutas
+		Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas 
+		Narimantas Povilas Pukuveras Rimantas 
+		Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas 
+		Traidenis Treniotas Vainius Vaisvilkas Valimantas Zygimantas
+		Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas 
+		}
+		female_names = {
+			Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna 
+			Mikova Roze Saule Svajone Vida Laima
+		}
+		dynasty_names = {
+			Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
+			# CKII
+			"Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan"
+			"Jankowskie" "Konopacki" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
+			# Ugric Baltic
+			"Karasi" "Ingrija" "Revala" "Virumaa" "Läänemaa" "Ingeri" "Livo" "Harjumaa"
+			"Ridala" "Saaremaa" "Vaiga" "Turaida"
+		}
+	}
+	scanian = {
+		male_names = {
+			Anders Anund Asger Benedikt Bjørn Bo Christopher Daniel Edvard 
+			Einar Fredrik Gorm Grim Hårik 
+			Halfdan Halvor Harold Helge Hemming Hjalmar Ingolf Jørn Jacob Jens Joakim Johann
+			John Knut Kristian Lennart Ludvig Louis Malthe Mads Mikkel Michael 
+			Mogens Nicholas Odd Olav Peder Pridbjørn Ragnar Ragnvald Rolf Rune Rørik Rurik Severin 
+			Sigfred Sigtryg Sigurd Sivard Steen Sven Sämund Thorolf Thorvald Torben Torbjørn Glitterhov
+			Torbjörn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
+			Christian Frederik Erik Christoffer Adolf Niels Karl Magnus Maximilian Ulrik Abel Vilhelm 
+			Knud Valdemar Harald Oluf Alfred Anton Bent Emanuel Esben Fritjof Frode Gunnar Hans Henrik 
+			Holger Jørgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
+			Frans Gnupa
+		}
+		female_names = {
+			Sophie Dorothe Margrete Sigrun
+			Agnethe Anna Asta Benedikte Benedicta Birgitta Brigid Bodil Cecilie Cecilia Christina Dagmar 
+			Dorothea Dorothy Elisabeth Ellinor Eleanor Emilie Emily Erika Ester Estrid Astrid Frederikke 
+			Frederique Freja Grethe Gudrun Gunhild Gyda Gytha Helena Helen Ida Ingeborg Ingegerd Ingrid 
+			Johanne Jutta Karin Karoline Katarina Katrine Catherine Kirsten Klara Lise Luitgard Lykke
+			Magdalene Magdalena Maren Margrethe Margaret Maria Martha Ragnfrid Ragnhild Rikissa Runa 
+			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis Åse Åsa
+		}
+		dynasty_names = {
+			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
+			"Friis" "Gyllenstierna" "Bille" "Adeler" "Arenstorff" "Brockenhuus"
+			"Beck" "Brock" "Grubbe" "Holck" "Huitfeldt" "Juel" "Kaas" "Krabbe"
+			"Lindenov" "Lykke" "Marsvin" "Mule" "Munk" "Oxe" "Reedtz" "Rodsteen"
+			"Rosenkrantz" "Skeel" "Skram" "Urne" "Vind" "Ahlefeldt"
+			# CKII
+			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grøn" "Daa"
+			"Reventlow" "Juul" "Ulfeldt" "Bang" 
+			Alfredsson Andersson Assarsson Batra Billgren Broman Ekberg Glans Gjedde Glenmark Hansson Jansson Ibrahimovic Järegård Kulle Larsson Lohmander Lundberg Malmkvist Malmsjö Melander Möller Nordqvist Nordström Ohlmarks Persson Poppe Ranelid Sundström Troell Wester Olsson
+		}
+	}
+	anglosaxon = { #CK2
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
+		}
+	}
+	etrurian = { #EU Rome
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia 
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		}
+	}
+	aramaic = { #EU Rome
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
+			Milkiramid Philosirid
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
+		}
+	}
+	livonian = {
+		male_names = {
+			Alo Asso Caupo Dabrel Gerweder Ilmedous Ilo Imme Kike Kovals Layanus Lembewalde Musts Paimis Peite Piške Sula Uldenago Usis Valke Vesiki Vietso Waldeko Ylo Ymaut
+		}
+		female_names = {
+			Elmede Use Valata Vasara
+		}
+		dynasty_names = {
+			"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "Läänemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
+			"Ridala" "Saaremaa" "Vaiga" "Turaida"
 		}
 	}
 }

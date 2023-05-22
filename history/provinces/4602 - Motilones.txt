@@ -19,10 +19,10 @@ native_ferocity = 1
 native_hostileness = 2
 
 1539.1.1 = {
-	discovered_by = SPN
-	owner = SPN
-	controller = SPN
-	add_core = SPN
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	add_core = SPA
 	culture = barbarian
 	religion = pantheon
 	trade_goods = gems
@@ -32,7 +32,7 @@ native_hostileness = 2
 	controller = COL
 	add_core = COL
 } # Colombia declares independence
-1819.8.7 = { remove_core = SPN } # Colombia's independence is recongnized
+1819.8.7 = { remove_core = SPA } # Colombia's independence is recongnized
 
 
 native_size = 10

@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = mbundu
+religion = pantheon
+technology_group = civilization_tech
+capital = 1171
+
+1444.11.10 = {
+	monarch = {
+		name = "Nzinga"
+		dynasty = "Mbande"
+		adm = 6
+		dip = 6
+		mil = 6
+		female = yes
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = pious_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
+}

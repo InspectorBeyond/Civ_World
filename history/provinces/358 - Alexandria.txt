@@ -13,7 +13,5 @@ capital = "Ra-Kedet"
 discovered_by = PLM
 
 1444.11.13 = {
-owner = ---
-controller = ---
-add_core = ---
+decolonize = yes
 }

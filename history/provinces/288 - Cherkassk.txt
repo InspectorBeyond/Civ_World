@@ -13,9 +13,7 @@ capital = "Attila's Court"
 discovered_by = HNZ
 
 1444.11.13 = {
-owner = ---
-controller = ---
-add_core = ---
+decolonize = yes
 }
 
 native_size = 10

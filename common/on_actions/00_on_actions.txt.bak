@@ -1587,62 +1587,62 @@ on_emperor_elected = {
 	}
 }
 
-# HRE Prince released by the emperor
+# HLR Prince released by the emperor
 on_released_hre_member = {
 	events = {
 	}
 }
 
-# HRE Prince converts to non-Emperor religion
+# HLR Prince converts to non-Emperor religion
 on_hre_member_false_religion = {
 	events = {
 	}
 }
 
-# HRE Prince converts to Emperor religion
+# HLR Prince converts to Emperor religion
 on_hre_member_true_religion = {
 	events = {
 	}
 }
 
-# Emperor wins HRE defensive war
+# Emperor wins HLR defensive war
 on_hre_wins_defensive_war = {
 	events = {
 	}
 }
 
-# HRE member annexed by non-HRE country
+# HLR member annexed by non-HLR country
 on_hre_member_annexed = {
 	events = {
 	}
 }
 
-# HRE member released from non-HRE vassalage
+# HLR member released from non-HLR vassalage
 on_hre_released_vassal = {
 	events = {
 	}
 }
 
-# HRE member transferred from non-HRE vassalage to Emperor
+# HLR member transferred from non-HLR vassalage to Emperor
 on_hre_transfered_vassal = {
 	events = {
 	}
 }
 
-# Emperor coming to the defense of a HRE member
+# Emperor coming to the defense of a HLR member
 on_hre_defense = {
 	events = {
 	}
 }
 
-# Emperor NOT coming to the defense of a HRE member
+# Emperor NOT coming to the defense of a HLR member
 on_hre_non_defense = {
 	events = {
 		909
 	}
 }
 
-# HRE Member takes a HRE province from an outs100e country in a peace (province scope)
+# HLR Member takes a HLR province from an outs100e country in a peace (province scope)
 on_hre_province_reconquest = {
 	events = {
 	}

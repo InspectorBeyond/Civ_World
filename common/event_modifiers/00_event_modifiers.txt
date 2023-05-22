@@ -16,13 +16,13 @@ additional_missionaries = {
 
 civ_nation = {
 	colonists = 2
-	may_explore = yes
+	auto_explore_adjacent_to_colony = yes
 	global_colonial_growth = 50
 }
 
 venice_civ_nation = {
 	colonists = 1
-	may_explore = yes
+	auto_explore_adjacent_to_colony = yes
 	global_colonial_growth = 30
 }
 national_bank_interest = {
@@ -1733,7 +1733,7 @@ no_perfectionism_focus = {
 	yearly_corruption = 0.5
 }
 
-#HRE modifiers
+#HLR modifiers
 primas_germaniae = {
 	prestige = 0.5
 	diplomatic_reputation = 1

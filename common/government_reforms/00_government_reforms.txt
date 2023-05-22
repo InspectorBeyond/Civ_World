@@ -1615,7 +1615,7 @@ elective_monarchy_legacy = {
 	}
 }
 
-#Special for HRE free cities
+#Special for HLR free cities
 imperial_city = {
 	# government mechanics flags go here
 	icon = "judge"

@@ -25,10 +25,10 @@ discovered_by = ARW
 }
 1510.1.1 = { trade_goods = sugar }
 1516.1.23 = {
-	discovered_by = SPN
-	owner = SPN
-	add_core = SPN
-	controller = SPN
+	discovered_by = SPA
+	owner = SPA
+	add_core = SPA
+	controller = SPA
 	remove_core = CAS
 } 
 1529.1.1 = {  }
@@ -36,7 +36,7 @@ discovered_by = ARW
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	remove_core = SPN
+	remove_core = SPA
 	culture = barbarian 
 }
 1707.1.1 = { unrest = 3 } # Choiseul-Beaupré sought to get rid of the French pirates, when it became a French colony

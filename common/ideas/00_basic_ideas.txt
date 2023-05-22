@@ -920,7 +920,7 @@ economic_ideas = {
 	}
 }
 
-exploration_ideas = {
+exploration_ideas = { #Check for Spain, Castille and Portugal triggers
 	category = DIP
 	important = yes
 
@@ -976,46 +976,6 @@ exploration_ideas = {
 			current_age = age_of_revolutions #too late
 		}
 		modifier = {
-			factor = 0
-			NOT = {
-				any_owned_province = {
-					has_port = yes
-					sea_zone = {
-						NOT = { area = eastern_mediterrenean_area }
-					}
-				}
-			}
-			NOT = { 
-				any_owned_province = { 
-					is_in_capital_area = yes
-					has_empty_adjacent_province = yes
-				} 
-			}
-		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				any_owned_province = {
-					has_port = yes
-					sea_zone = {
-						OR = {
-							NOT = { region = mediterrenean_region }
-							province_id = 1293 #Gibraltar
-							province_id = 1294 #Almeria
-						}
-						NOT = { area = red_sea_area }
-						NOT = { area = baltic_area }
-					}
-				}
-			}
-			NOT = { 
-				any_owned_province = { 
-					is_in_capital_area = yes
-					has_empty_adjacent_province = yes
-				} 
-			}
-		}
-		modifier = {
 			factor = 0.1
 			NOT = { num_of_ports = 3 }
 			NOT = { 
@@ -1024,41 +984,6 @@ exploration_ideas = {
 					has_empty_adjacent_province = yes
 				}
 			}
-		}
-		modifier = {
-			factor = 0.1
-			NOT = { has_institution = renaissance }
-			NOT = { tag = POR }
-			NOT = { tag = CAS }
-		}
-		modifier = {
-			factor = 0.1
-			capital_scope = {
-				NOT = {
-					region = france_region
-					region = iberia_region
-					region = british_isles_region
-					region = low_countries_region
-				}
-			}
-			NOT = { technology_group = high_american }
-		}
-		modifier = {
-			factor = 0.5
-			tag = ARA
-		}
-		modifier = {
-			factor = 0.1
-			NOT = { is_year = 1490 }
-			capital_scope = {
-				NOT = {
-					region = iberia_region
-				}
-			}
-		}
-		modifier = {
-			factor = 10
-			technology_group = high_american
 		}
 		modifier = {
 			factor = 2.0
@@ -1075,24 +1000,6 @@ exploration_ideas = {
 		modifier = {
 			factor = 2.0
 			num_of_ports = 20
-		}
-		modifier = {
-			factor = 1000
-			OR = {
-				tag = POR
-				tag = CAS
-				tag = SPA
-			}
-		}
-		modifier = {
-			factor = 2
-			OR = {
-				tag = GBR
-				tag = NED
-				tag = ENG
-				tag = FRA
-				tag = KUR
-			}
 		}
 	}
 }
@@ -1369,7 +1276,7 @@ quantity_ideas = {
 }
 
 
-expansion_ideas = {
+expansion_ideas = { #Check for Spain, Castille and Portugal triggers
 	category = ADM
 	important = yes
 
@@ -1412,14 +1319,6 @@ expansion_ideas = {
 			}
 		}
 		modifier = {
-			factor = 5
-			OR = {
-				tag = CAS
-				tag = POR
-				tag = SPA
-			}
-		}
-		modifier = {
 			factor = 10
 			NOT = { has_dlc = "Third Rome" } # Has siberian frontier instead
 			tag = RUS
@@ -1436,14 +1335,6 @@ expansion_ideas = {
 				any_owned_province = {
 					has_empty_adjacent_province = yes
 				}
-			}
-		}
-		modifier = {
-			factor = 0.1
-			NOT = {
-				technology_group = western
-				technology_group = eastern
-				technology_group = muslim
 			}
 		}
 	}
