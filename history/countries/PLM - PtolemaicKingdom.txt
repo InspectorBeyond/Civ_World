@@ -24,3 +24,20 @@ capital = 358
 		duration = -1
 	}
 }
+
+1444.11.10 = {
+	queen = {
+		country_of_origin = ROM
+		name = "Gaius Julius"
+		dynasty = "Caesar"
+		death_date = 1600.1.1
+		female = no
+		culture = roman
+		adm = 6
+		dip = 6
+		mil = 6
+		leader = { name = "Gaius Julius Caesar"            type = general	fire = 6	shock = 4	manuever = 5	siege = 2 death_date = 1600.1.1}
+	}
+	add_queen_personality = immortal_personality
+}
+

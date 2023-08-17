@@ -10,7 +10,7 @@ national_focus = MIL
 	monarch = {
 		name = "Suleyman"
 		monarch_name = "Suleyman I Kanuni"
-		dynasty = "Osmanoglu"
+		dynasty = "Ottoman"
 		adm = 6
 		dip = 6
 		mil = 6
@@ -22,4 +22,18 @@ national_focus = MIL
 		name = civ_nation
 		duration = -1
 	}
+}
+
+1444.11.10 = {
+	queen = {
+		country_of_origin = KRU
+		name = "Hürrem"
+		death_date = 1600.1.1
+		adm = 4
+		dip = 5
+		mil = 1
+	female = yes
+	culture = ruthenian
+	}
+	add_queen_personality = immortal_personality
 }

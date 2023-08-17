@@ -35,85 +35,196 @@ historical_units = {
 }
 
 monarch_names = {
-	"Karl #0" = 40
-	"Gustav #0" = 60
-	"Erik #0" = 40
-	"Johan #0" = 40
-	"Gustav #2" = 40
-	"Karl #0 Gustav" = 20
-	"Karl #0 Johan" = 20
-	"Christian #0" = 20
-	"Christoph #0" = 20
-	"Adolf Fredrik #0" = 10
-	"Karl #0 Filip" = 10
-	"Magnus #0" = 10
-	"Adolf Johan #0" = 10
-	
-	"Oskar #0" = 10
-	"Fredrik #0" = 5
-	"Fredrik Adolf #0" = 5
-	"Fredrik August #0" = 5
-	"Göran Love #0" = 5
-	
-	"Sigismund #0" = 5
-	"Björn #0" = 1
-	"Knut #0" = 1
-	"Inge #0" = 1
-	"Sven #0" = 1
-	"Alfred #0" = 0
-	"Axel #0" = 0
-	"Bengt #0" = 0
-	"Edvard #0" = 0
-	"Einar #0" = 0
-	"Folke #0" = 0
-	"Gottfrid #0" = 0
-	"Henrik #0" = 0
-	"Jakob #0" = 0
-	"Lars #0" = 0
-	"Ludvig #0" = 0
-	"Mikael #0" = 0
-	"Nils #0" = 0
-	"Olof #0" = 0
-	"Patrik #0" = 0
-	"Rangvald #0" = 0
-	"Rettil #0" = 0
-	"Sigvard #0" = 0
-	"Simon #0" = 0
-	"Sten #0" = 0
-	"Svante #0" = 0
-	"Tomas #0" = 0
-	"Ulrik #0" = 0
-	
-	"Christina #0" = -10
-	"Hedwig #0" = -5
-	"Katarina #0" = -1
-	"Margareta #0" = -1
-	"Anna #0" = -1
-	"Cecilia #0" = -1
-	"Elisabet #0" = -1
-	"Birgitta #0" = -1
-	"Ulrika Eleonora #0" = -10
+	Albrecht #0" = 20 
+	"Alexander #0" = 20 
+	"Aron #0" = 20 
+	"Arnold #0" = 20 
+	"Anton #0" = 20 
+	"August #0" = 20 
+	"Axel #0" = 20 
+	"Albert #0" = 20 
+	"Anders #0" = 20 
+	"Adolf #0" = 20 
+	"Andreas #0" = 20 
+	"Abraham #0" = 20 
+	"Axel Knut" #0" = 20 
+	"Baltzar #0" = 20 
+	"Bror #0" = 20 
+	"Bengt #0" = 20 
+	"Bo #0" = 20 
+	"Björn #0" = 20 
+	"Carl #0" = 20 
+	"Christofer #0" = 20 
+	"Charles #0" = 20 
+	"Carl Edvard #0" = 20 
+	"Carl Fredrik #0" = 20 
+	"Carl Göran #0" = 20 
+	"Carl #0" = 20 
+	"Adam #0" = 20 
+	"Carl Axel #0" = 20 
+	"Daniel #0" = 20 
+	"Didrik #0" = 20 
+	"David #0" = 20 
+	"Edvard #0" = 20 
+	"Elias #0" = 20 
+	"Erkers #0" = 20 
+	"Emil #0" = 20 
+	"Erik #0" = 20 
+	"Esaias #0" = 20 
+	"Emanuel #0" = 20 
+	"Eric #0" = 20 
+	"Enar #0" = 20 
+	"Erik Gustaf #0" = 20 
+	"Fabian #0" = 20 
+	"Frans #0" = 20 
+	"Fredrik #0" = 20 
+	"Fritz #0" = 20 
+	"Gunnar #0" = 20 
+	"Gustav #0" = 20 
+	"Gustaf #0" = 20 
+	"Gustaf Adam #0" = 20 
+	"Gustaf Adolf #1" = 40 
+	"Henrik #0" = 20 
+	"Hans #0" = 20 
+	"Håkan #0" = 20 
+	"Henning #0" = 20 
+	"Herman #0" = 20 
+	"Isak #0" = 20 
+	"Jakob #0" = 20 
+	"Jesper #0" = 20 
+	"Johan #0" = 20 
+	"Julius #0" = 20 
+	"Jonas #0" = 20 
+	"Jon #0" = 20 
+	"Jöns #0" = 20 
+	"Jan #0" = 20 
+	"Johannes #0" = 20 
+	"Johan Fredrik #0" = 20 
+	"Jules #0" = 20 
+	"Karl #0" = 20 
+	"Knut #0" = 20 
+	"Klas #0" = 20 
+	"Lars #0" = 20 
+	"Lorentz #0" = 20 
+	"Ludvig #0" = 20 
+	"Leif #0" = 20 
+	"Magnus #0" = 20 
+	"Mikael #0" = 20 
+	"Martin #0" = 20 
+	"Michael #0" = 20 
+	"Mats #0" = 20 
+	"Mattias #0" = 20 
+	"Mårten #0" = 20 
+	"Nikolaus #0" = 20 
+	"Nils #0" = 20 
+	"Niklas #0" = 20 
+	"Nils Samuel #0" = 20 
+	"Nils August #0" = 20 
+	"Olof #0" = 20 
+	"Oscar #0" = 20 
+	"Ola #0" = 20 
+	"Otto #0" = 20 
+	"Olaus #0" = 20 
+	"Per #0" = 20 
+	"Petter #0" = 20 
+	"Peter #0" = 20 
+	"Pehr #0" = 20 
+	"Rudolf #0" = 20 
+	"Sten #0" = 20 
+	"Sven #0" = 20 
+	"Stefan #0" = 20 
+	"Simon #0" = 20 
+	"Samuel #0" = 20 
+	"Svante #0" = 20 
+	"Theodor #0" = 20 
+	"Thomas #0" = 20 
+	"Ulf #0" = 20 
+	"Verner #0" = 20 
+	"Viktor #0" = 20 
+	"Vilhelm #0" = 20 
+	"Wilhelm #0" = 20 
+	"Zacharias #0" = 20 
+	"Carl Johan #0" = 20
+
+	"Anna #0" = -20 
+	"Agda #0" = -20 
+	"Amalia #0" = -20 
+	"Augusta #0" = -20 
+	"Birgitta #0" = -20 
+	"Brita #0" = -20 
+	"Bengta #0" = -20 
+	"Britta #0" = -20 
+	"Carolina #0" = -20 
+	"Christina #0" = -20 
+	"Charlotta #0" = -20 
+	"Erika #0" = -20 
+	"Eva #0" = -20 
+	"Emma #0" = -20 
+	"Elna #0" = -20 
+	"Fredrika #0" = -20 
+	"Fenni #0" = -20 
+	"Gerda #0" = -20 
+	"Gustafva #0" = -20 
+	"Greta #0" = -20 
+	"Hanna #0" = -20 
+	"Helga #0" = -20 
+	"Helena #0" = -20 
+	"Ingrid #0" = -20 
+	"Inga #0" = -20 
+	"Ida #0" = -20 
+	"Johanna #0" = -20 
+	"Josefina #0" = -20 
+	"Kristina #0" = -20 
+	"Kajsa #0" = -20 
+	"Klara #0" = -20 
+	"Karin #0" = -20 
+	"Kerstin #0" = -20 
+	"Karolina #0" = -20 
+	"Karna #0" = -20 
+	"Louise #0" = -20 
+	"Lovisa #0" = -20 
+	"Margaretha #0" = -20 
+	"Matilda #0" = -20 
+	"Maja #0" = -20 
+	"Maria #0" = -20 
+	"Mathilda #0" = -20 
+	"Matilda #0" = -20 
+	"Sofie #0" = -20 
+	"Sanna #0" = -20 
+	"Stina #0" = -20 
+	"Sofia #0" = -20 
+	"Sara #0" = -20 
+	"Ulrika #0" = -20 
+	"Wilhelmina #0" = -20 
+	"Ulrika Eleonora #0" = -20 
+	"Victoria #0" = -20  
 }
 
 leader_names = {
-	Andersson Armfeldt "von Ascheberg" Adlercreutz Adlersparre Alkmaar Anckarström
-	Bagge Banér Bielke Brahe
-	Cronstedt
-	"von Döbeln" Dahlbergh Dufwa
-	Engelbrekt Eriksson Ehrensvärd "von Essen" Eka Ehrenstrahl
-	Fleming "von Fersen"
- 	Gadh Grip "af Gennäs" "de la Gardie" Gyllenhielm Gathenhielm Gustavsson
-	Horn Hård Hahn Hastfer Hjärne
-	Jägerhorn
-	Königsmarck Klingspor
-	Lewenhaupt Leijonhufvud Liljencrantz Lindschöld
-	Oxenstierna Lilliehöök
-	Palmstruch Piper Prinz
-	Rehnskiöld Ribbing
-	Stenbock Sandels Skytte Sture
-	"Tre Rosor" Torstensson Trolle Toll Tott
-	Wrangel Wachtmeister Wallenberg
-	Åkerhielm
+	Andersson Arenius Adlersparre Almquist Abelin Axelsson Arvidsson Andreasson
+	Bergstedt Berggren Borg Bjornstjerna Billström Björck Brusewitz Björkenstam Beckman Bennich Bergman Bernardotte 
+	Blomqvist Bengtsson Berg BergstrO_m Berglund Björk Berggren Blom
+	Casparsson Caspersson Christerson Carlberg Croneborg Cassel Cronstedt Carlsson
+	Dahlberg Dyrssen Danielsson Dahl
+	Ekman Ekenman Eriksson Eklund Engström Eliasson Ek
+	Fåhræus Fröman Fredriksson Forsberg Fransson
+	Gyllenram Gustafsson Gustavsson Gunnarsson
+	Hammar Holmgren Haeggman Holmberg Hasselrot Herlenius Hammarhjelm Heijkenskjöld Hansson Henriksson Holm Håkansson Hermansson Holmgren Hedlund Hellström
+	Ingelman Isaksson
+	Johansson Jons Jonsson Jansson Jönsson Jakobsson Johnsson Jonasson
+	Karlsson
+	Larsson Lindman Lundell Lindberson Lohmander Lilliehöök Lagerberg Lagerstråle Landgren Lagercrantz Lindberg 
+	Lindgren Lindström Lundberg Lundgren Lindqvist Lundin Lind Lundqvist
+	Meyer Munthe Malmsten Magnusson Mattsson Mårtensson Martinsson Abrahamsson
+	Nordenfelt Nisser Nordström Nilsson Nyberg Nyström
+	Oltner Olsson Olofsson
+	Peyron Petre Persson Pettersson	Petersson
+	Rosengren Rettig Ros Rydin Ryding
+	Samuelsson Stålhammar Sparre Sahlin Selggren Selander Svensson Sandberg Sjöberg Strom Söderberg Sundberg
+	Tiger Tulldahl Thorburn Troilius Tersmeden Taube Thornell
+	Ulner Uggla
+	Virgin
+	Wadensten Westman Wærn Wallin
 }
 
 ship_names = {

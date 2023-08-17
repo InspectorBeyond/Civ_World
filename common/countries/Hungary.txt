@@ -36,69 +36,178 @@ historical_units = {
 }
 
 monarch_names = {
-	"Matyas #1" = 50
-	"István #0" = 40
-	"László #0" = 40
-	"Lajos #0" = 20
-	"Albert #0" = 20
+	"Ábel #0" = 20
+	"Ádárn #0" = 20
+	"Ágoston #0" = 20
+	"Álmos #0" = 20
+	"Árpád #0" = 20
+	"Õdön #0" = 20
+	"Alajos #0" = 20
+	"Ambrus #0" = 20
+	"András #0" = 20
+	"Antal #0" = 20
+	"Attila #0" = 20
+	"Bálint #0" = 20
+	"Béla #0" = 20
+	"Balázs #0" = 20
+	"Benedek #0" = 20
+	"Bernát #0" = 20
+	"Bertók #0" = 20
+	"Bertalan #0" = 20
+	"Boldizsár #0" = 20
+	"Bonuslo #0" = 20
+	"Borisz #0" = 20
+	"Csák #0" = 20
+	"Csaba #0" = 20
+	"Csongor #0" = 20
+	"Dénes #0" = 20
+	"Dömötör #0" = 20
+	"Dezsõ #0" = 20
+	"Domoszló #0" = 20
+	"Donát #0" = 20
+	"Elek #0" = 20
+	"Elemér #0" = 20
+	"Endre #0" = 20
+	"Ernõ #0" = 20
+	"Fulöp #0" = 20
+	"Ferenc #0" = 20
+	"Frigyes #0" = 20
+	"Gábor #0" = 20
+	"Gábriel #0" = 20
+	"Gáspár #0" = 20
+	"Géza #0" = 20
+	"Gazsi #0" = 20
+	"Gellért #0" = 20
+	"Gergely #0" = 20
+	"György #0" = 20
+	"Gyula #0" = 20
+	"Imre #0" = 20
+	"István #0" = 20
+	"Izsák #0" = 20
+	"Jákob #0" = 20
 	"János #0" = 20
-	"Ulászló #0" = 20
-	"Mátyás #0" = 20
-	"András #0" = 15
-	"Károly #0" = 15
-	"Zsigmond #0" = 10
-	"Béla #0" = 5
-	"Anasztáz #0" = 0
-	"Barnabás #0" = 0
-	"Bertalan #0" = 0
-	"Boldizsár #0" = 0
-	"Dávid #0" = 0
-	"Dömötör #0" = 0
-	"Edvárd #0" = 0
-	"Ernö #0" = 0
-	"Ferenc #0" = 0
-	"Gábor #0" = 0
-	"György #0" = 0
-	"Izsák #0" = 0
-	"Jenö #0" = 0
-	"József #0" = 0
-	"Kálmán #0" = 0
-	"Kázmér #0" = 0
-	"Lörinc #0" = 0
-	"Lukács #0" = 0
-	"Márk #0" = 0
-	"Miklós #0" = 0
-	"Oszkár #0" = 0
-	"Ottó #0" = 0
-	"Patrik #0" = 0
-	"Péter #0" = 0
-	"Simon #0" = 0
-	"Tamás #0" = 0
-	"Vencel #0" = 0
-	"Anna #0" = -10
-	"Erzsébet #0" = -5
-	"Agnes #0" = -1
-	"Katalin #0" = -1
+	"József #0" = 20
+	"Jenõ #0" = 20
+	"Kálmán #0" = 20
+	"Károly #0" = 20
+	"Konrád #0" = 20
+	"Kornél #0" = 20
+	"Kristóf #0" = 20
+	"László #0" = 20
+	"Lázár #0" = 20
+	"Lõrinc #0" = 20
+	"Lajos #0" = 20
+	"Lampert #0" = 20
+	"Levente #0" = 20
+	"Lukács #0" = 20
+	"Márk #0" = 20
+	"Márton #0" = 20
+	"Máté #0" = 20
+	"Mátyás #1" = 40
+	"Móric #0" = 20
+	"Mózes #0" = 20
+	"Mihály #0" = 20
+	"Miklós #0" = 20
+	"Nándor #0" = 20
+	"Orbán #0" = 20
+	"Oszkár #0" = 20
+	"Pál #0" = 20
+	"Péter #0" = 20
+	"Sámuel #0" = 20
+	"Sándor #0" = 20
+	"Salamon #0" = 20
+	"Saul #0" = 20
+	"Soma #0" = 20
+	"Szilveszter #0" = 20
+	"Tádor #0" = 20
+	"Tacsony #0" = 20
+	"Tamás #0" = 20
+	"Tibor #0" = 20
+	"Tivadar #0" = 20
+	"Vazul #0" = 20
+	"Vencel #0" = 20
+	"Vilmos #0" = 20
+	"Zoltán #0" = 20
+	"Zsigmond #0" = 20
+	"Zsolt #0" = 20
+	
+	"Ágnes #0" = -20 
+	"Éva #0" = -20 
+	"Adelaida #0" = -20 
+	"Agáta #0" = -20 
+	"Amália #0" = -20 
+	"Angyalka #0" = -20 
+	"Anikó #0" = -20 
+	"Aranka #0" = -20 
+	"Berta #0" = -20 
+	"Borbála #0" = -20 
+	"Csilla #0" = -20 
+	"Csillag #0" = -20 
+	"Czenzi #0" = -20 
+	"Dorottya #0" = -20 
+	"Edit #0" = -20 
+	"Emõke #0" = -20 
+	"Emese #0" = -20 
+	"Erika #0" = -20 
+	"Erzsébet #0" = -20 
+	"Eszter #0" = -20 
+	"Etel #0" = -20 
+	"Euphemia #0" = -20 
+	"Gizella #0" = -20 
+	"Györgyi #0" = -20 
+	"Hajnal #0" = -20 
+	"Hedwig #0" = -20 
+	"Ibolya #0" = -20 
+	"Ildikó #0" = -20 
+	"Illona #0" = -20 
+	"Irén #0" = -20 
+	"Jácinta #0" = -20 
+	"Józsa #0" = -20 
+	"Júlia #0" = -20 
+	"Jolán #0" = -20 
+	"Judith #0" = -20 
+	"Kamilla #0" = -20 
+	"Katalin #0" = -20 
+	"Kinga #0" = -20 
+	"Klára #0" = -20 
+	"Konstancia #0" = -20 
+	"Krisztina #0" = -20 
+	"Kunigunda #0" = -20 
+	"Luca #0" = -20 
+	"Mária #0" = -20 
+	"Márta #0" = -20 
+	"Magdolna #0" = -20 
+	"Margaréta #0" = -20 
+	"Margit #0" = -20 
+	"Matild #0" = -20 
+	"Natália #0" = -20 
+	"Odola #0" = -20 
+	"Orsolya #0" = -20 
+	"Panni #0" = -20 
+	"Piroska #0" = -20 
+	"Rózsa #0" = -20 
+	"Sára #0" = -20 
+	"Sarolt #0" = -20 
+	"Skolasztika #0" = -20 
+	"Sophia #0" = -20 
+	"Tundér #0" = -20 
+	"Terezia #0" = -20 
+	"Viola #0" = -20 
+	"Virág #0" = -20 
+	"Zoltána #0" = -20 
+	"Zsófia #0" = -20 
+	"Zsanett #0" = -20 
+	"Zsuzsa #0" = -20 
 }
 
 leader_names = {
-	Andrássy Alvinczy
-	Bocskay Bethlen Báthory Batthyány Benovský Beleznay
-	Csák
-	Dessewffy
-	Esterházy
-	Festetics Frangepán
-	Garay
-	Hunyadi Hadik Horthy
-	Kinizsi Károlyi Kán "de Kovats" Kemeny
-	Lackovic' Losonci
-	Mészáros Milványi
-	Nadasdy
-	Ozoray
-	Rákóczi Rozgonyi
-	Šubic' Széchenyi
-	Thököly Teleki
-	Zrinski Zápolya Zichy
+	Árpády Császár Vajlok Vajlok Omodej Zapolsky Drugeth Csak Pallfy Apafi Apafi Berzényi Bocskai Borsa 
+	Cziráky Debreceni Derencsényi Diószegi Dõry Egervári Forgách Garai Pálóczi Hédervári Hunyadi Károlyi 
+	Kõszegi Kun Losonczi Maróti Perényi Rátót Rozgonyi Szakoly Szécsényi Széchy Telegdi Thurzó Újlaki Kanizsai 
+	Meggyesi Osli Viczay Balassa Báthory Kálnoky Niedzica Zápolya Székely Dózsa Apafi Balassi "Bethlen von Iktár" 
+	"of Szekezfehervar" "Budai Nagy" "de Kincstartó" Celko Corvinus "de Cseszneky" "de Milvány" "von Moraván" 
+	Dávid Décsey Mézesi "de Ruszka" Draskovich Erdödy Révay Duružmic Szemere Hadik Batthyány Csesznegi 
+	Esterházy Hajdú Jesenský Medveczky Rákóczi "Wass de Czege" Szapolyai Zichy Zrinski
 }
 
 ship_names = {

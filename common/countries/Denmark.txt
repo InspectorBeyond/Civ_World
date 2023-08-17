@@ -36,75 +36,157 @@ historical_units = {
 }
 
 monarch_names = {
-	"Christian #0" = 40
-	"Frederik #0" = 40
-	"Erik #0" = 20
-	"Christoffer #0" = 20
-	"Adolf #0" = 10
-	"Niels #0" = 10
-	"Karl #0" = 10
-	"Magnus #0" = 1
-	"Maximilian #0" = 10
-	"Ulrik #0" = 10
-	"Abel #0" = 10
-	"Vilhelm #0" = 5
-	"Knud #0" = 1
-	"Valdemar #0" = 1
-	"Harald #1" = 40
-	"Oluf #0" = 1
-	"Alfred #0" = 0
-	"Anton #0" = 0
-	"Bent #0" = 0
-	"Emanuel #0" = 0
-	"Esben #0" = 0
-	"Fritjof #0" = 0
-	"Frode #0" = 0
-	"Gunnar #0" = 0
-	"Hans #0" = 20
-	"Henrik #0" = 0
-	"Holger #0" = 0
-	"Jørgen #0" = 0
-	"Kasper #0" = 0
-	"Peter #0" = 0
-	"Poul #0" = 0
-	"Rudolf #0" = 0
-	"Sigrun #0" = 0
-	"Stefan #0" = 0
-	"Tobias #0" = 0
-	"Torbald #0" = 0
-	"Viktor #0" = 0
-	"Vilfred #0" = 0
-	"Joachim #0" = 0
-	"Ernst #0" = 0
-	"Frans #0" = 0
-	"Sofie #0" = -5
-	"Dorothea #0" = -10
-	"Margrete #1" = -10
-	"Louise #0" = -1
-	"Vilhelmina #0" = -1
-	"Anne #0" = -1
-	"Christina #0" = -1
+	"Abel #0" = 20 
+	"Anders #0" = 20 
+	"Anund #0" = 20 
+	"Asger #0" = 20 
+	"Balder #0" = 20 
+	"Benedikt #0" = 20 
+	"Bjørn #0" = 20 
+	"Bo #0" = 20 
+	"Christian #0" = 20 
+	"Christoffer #0" = 20 
+	"Edvard #0" = 20 
+	"Einar #0" = 20 
+	"Erik #0" = 20 
+	"Ernst #0" = 20 
+	"Esben #0" = 20 
+	"Fredrik #0" = 20 
+	"Frej #0" = 20 
+	"Frode #0" = 20 
+	"Glum #0" = 20 
+	"Gnupa #0" = 20 
+	"Gorm #0" = 20 
+	"Gotfred #0" = 20 
+	"Gregers #0" = 20 
+	"Grim #0" = 20 
+	"Gunnar #0" = 20 
+	"Hårik #0" = 20 
+	"Halfdan #0" = 20 
+	"Halvor #0" = 20 
+	"Hans #0" = 20 
+	"Harald #0" = 20 
+	"Helge #0" = 20 
+	"Hemming #0" = 20 
+	"Henrik #0" = 20 
+	"Hjalmar #0" = 20 
+	"Holger #0" = 20 
+	"Ingolf #0" = 20 
+	"Jørgen #0" = 20 
+	"Jørn #0" = 20 
+	"Jakob #0" = 20 
+	"Jens #0" = 20 
+	"Joakim #0" = 20 
+	"Johann #0" = 20 
+	"Karl #0" = 20 
+	"Knud #0" = 20 
+	"Kristian #0" = 20 
+	"Leif #0" = 20 
+	"Lennart #0" = 20 
+	"Ludvig #0" = 20 
+	"Malthe #0" = 20 
+	"Mads #0" = 20 
+	"Mikkel #0" = 20 
+	"Mogens #0" = 20 
+	"Niels #0" = 20 
+	"Odd #0" = 20 
+	"Olav #0" = 20 
+	"Oluf #0" = 20 
+	"Peder #0" = 20 
+	"Poul #0" = 20 
+	"Pridbjørn #0" = 20 
+	"Ragnar #0" = 20 
+	"Ragnvald #0" = 20 
+	"Rolf #0" = 20 
+	"Rune #0" = 20 
+	"Rørik #0" = 20 
+	"Severin #0" = 20 
+	"Sigfred #0" = 20 
+	"Sigtryg #0" = 20 
+	"Sigurd #0" = 20 
+	"Sivard #0" = 20 
+	"Steen #0" = 20 
+	"Svend #0" = 20 
+	"Sämund #0" = 20 
+	"Thorolf #0" = 20 
+	"Thorvald #0" = 20 
+	"Torben #0" = 20 
+	"Torbjørn #0" = 20 
+	"Tord #0" = 20 
+	"Torfinn #0" = 20 
+	"Torgils #0" = 20 
+	"Ture #0" = 20 
+	"Ubbe #0" = 20 
+	"Uffe #0" = 20 
+	"Ulf #0" = 20 
+	"Valdemar #0" = 20 
+	"Valentin #0" = 20 
+	"Vilfred #0" = 20 
+	"Yngvar #0" = 20
+	
+	"Agnethe #0" = -20 
+	"Anna #0" = -20 
+	"Asta #0" = -20 
+	"Benedikte #0" = -20 
+	"Birgitta #0" = -20 
+	"Bodil #0" = -20 
+	"Cecilie #0" = -20 
+	"Christina #0" = -20 
+	"Dagmar #0" = -20 
+	"Dorothea #0" = -20 
+	"Elisabeth #0" = -20 
+	"Ellinor #0" = -20 
+	"Emilie #0" = -20 
+	"Erika #0" = -20 
+	"Ester #0" = -20 
+	"Estrid #0" = -20 
+	"Frederikke #0" = -20 
+	"Freja #0" = -20 
+	"Grethe #0" = -20 
+	"Gudrun #0" = -20 
+	"Gunhild #0" = -20 
+	"Gyda #0" = -20 
+	"Helena #0" = -20 
+	"Ida #0" = -20 
+	"Ingeborg #0" = -20 
+	"Ingegerd #0" = -20 
+	"Ingrid #0" = -20 
+	"Johanne #0" = -20 
+	"Jutta #0" = -20 
+	"Karin #0" = -20 
+	"Karoline #0" = -20 
+	"Katarina #0" = -20 
+	"Katrine #0" = -20 
+	"Kirsten #0" = -20 
+	"Klara #0" = -20 
+	"Lise #0" = -20 
+	"Luitgard #0" = -20 
+	"Lykke #0" = -20 
+	"Magdalene #0" = -20 
+	"Maren #0" = -20 
+	"Margrethe #0" = -20 
+	"Maria #0" = -20 
+	"Martha #0" = -20 
+	"Ragnfrid #0" = -20 
+	"Ragnhild #0" = -20 
+	"Rikissa #0" = -20 
+	"Runa #0" = -20 
+	"Sanna #0" = -20 
+	"Signe #0" = -20 
+	"Sigrid #0" = -20 
+	"Silje #0" = -20 
+	"Sofie #0" = -20 
+	"Svanhild #0" = -20 
+	"Thyra #0" = -20 
+	"Tora #0" = -20 
+	"Thordis #0" = -20 
+	"Åse #0" = -20 
 }
 
 leader_names = {
-	Adeler Ahlefeldt Akeleye Arenstorff 
-	Bille Bielke Brahe Bernstorff Brockenhuus Brock
-	Christiansen
-	Daa
-	Ebbesen Eberstein Ellbrecht 
-	Falkenskjold Fischer
-	Galt Gersdorff Gjedde Gyldenløve Gyldenstjerne Gøye
-	Harboe Hardenberg Holstein Huitfeldt Høegh Høegh-Guldberg
-	Jensen Juel
-	Krabbe Krag Krumpen Knudtzon Kvistgaard Kaas
-	Lillienskjold Lingby Lunge Lützow Løvenørn
-	Moltke Moth Munk
-	Norby
-	Pedersen Povlsen Pallesen Pil
-	Rantzau Reventlow Rosenkrantz Rosenørn
-	Schlentz Schack Schimmelmann Scholten Sehested Skram
-	Thomsen "von Trampe" Trolle
-	Ulfeldt
+	Porse Glysing "af Danmark" "af Viborg" Sprakalegg Sturlung Svínfelling Vatnsfirðing Galen Vogelius 
+	Brock Banner Thott Botner Darre Egge Kusse Grand "af Frondholm" Gøye Grøn Friis Daa Ryning 
+	Reventlow "af Torestorp" Ulfstand Hack Juul Ulfeldt Bang Toll Vognsen Juel
 }
 
 ship_names = {

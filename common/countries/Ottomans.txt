@@ -38,104 +38,213 @@ historical_units = {
 }
 
 monarch_names = {
-	"Mehmed #0" = 40
-	"Mustafa #0" = 40
-	"Murad #0" = 40
-	"Ahmed #0" = 40
-	"Selim #0" = 40
-	"Osman #0" = 40
-	"Mahmud #0" = 40
-	"Suleyman #1" = 40
+	"Çagri #0" = 20
+	"Çaka #0" = 20
+	"Afsin #0" = 20
+	"Ahmet #0" = 20
+	"Aksonqor #0" = 20
+	"Alaeddin #0" = 20
+	"Ali #0" = 20
+	"Alkan #0" = 20
+	"Alp Arslan #0" = 20
+	"Alp Yurek #0" = 20
+	"Alptigin #0" = 20
+	"Artuk #0" = 20
+	"Ayaz #0" = 20
+	"Aydin #0" = 20
+	"Aydogan #0" = 20
+	"Aydogdu #0" = 20
+	"Aytekin #0" = 20
+	"Böru #0" = 20
+	"Bulend #0" = 20
+	"Bahadir #0" = 20
+	"Balaban #0" = 20
+	"Basbuga #0" = 20
+	"Batuhan #0" = 20
+	"Baturay #0" = 20
+	"Baybars #0" = 20
 	"Bayezid #0" = 20
+	"Baytas #0" = 20
+	"Belek #0" = 20
+	"Berkan #0" = 20
+	"Berkiyaruk #0" = 20
+	"Bozan #0" = 20
+	"Bugra #0" = 20
+	"Burak #0" = 20
+	"Cuneyd #0" = 20
+	"Dundar #0" = 20
+	"Danismend #0" = 20
+	"Davud #0" = 20
+	"Demir #0" = 20
+	"Dogan #0" = 20
+	"Dogukan #0" = 20
+	"Dukak #0" = 20
+	"Erdem #0" = 20
+	"Ertan #0" = 20
+	"Ertekin #0" = 20
+	"Ertugrul #0" = 20
+	"Gunduz #0" = 20
+	"Hasan #0" = 20
+	"Hizir #0" = 20
+	"Ibrahim #0" = 20
+	"Ilgazi #0" = 20
+	"Inal #0" = 20
+	"Iskender #0" = 20
+	"Kurboga #0" = 20
+	"Kaikaus #0" = 20
+	"Kaikhusraw #0" = 20
+	"Kaiqobad #0" = 20
+	"Kara #0" = 20
+	"Karatay #0" = 20
+	"Kasim #0" = 20
+	"Kaya #0" = 20
+	"Kaytun #0" = 20
+	"Kemal #0" = 20
+	"Kiliç #0" = 20
+	"Korkut #0" = 20
+	"Kutalmis #0" = 20
+	"Kutay #0" = 20
+	"Kutlug #0" = 20
+	"Mursel #0" = 20
+	"Mahmud #0" = 20
+	"Mehmed #0" = 20
+	"Meliksah #0" = 20
+	"Mengucek #0" = 20
+	"Mesud #0" = 20
+	"Murad #0" = 20
+	"Mustafa #0" = 20
 	"Orhan #0" = 20
-	"Abdülaziz #0" = 10
-	"Abdülhamid #0" = 10
-	"Ibrahim #0" = 10
-	"Abdülmecid #0" = 10
-	"Abdullah #0" = 1
-	"Cem #0" = 1
-	"Cihangir #0" = 1
-	"Alaaddin #0" = 1
-	"Isa #0" = 1
-	"Musa #0" = 1
-	"Ömer #0" = 1
-	"Seyfeddin #0" = 1
-	"Yakub #0" = 1
-	"Yusuf #0" = 1
-	"Giyaseddin #0" = 0
-	"Numan #0" = 0
-	"Abdurrahman #0" = 0
-	"Ali #0" = 0
-	"Davud #0" = 0
-	"Hasan #0" = 0
-	"Hüseyin #0" = 0
-	"Ishak #0" = 0
-	"Kamer #0" = 0
-	"Kasim #0" = 0
-	"Korkud #0" = 0
-	"Emin #0" = 0
-	"Iskender #0" = 0
-	"Halil #0" = 0
-	"Said #0" = 0
-	"Hamid #0" = 0
-	"Ertugrul #0" = 0
-	"Izzeddin #0" = 0
-	"Nizameddin #0" = 0
-	"Sinan #0" = 0
-	"Ferhad #0" = 0
-	"Salih #0" = 0
-	"Ismail #0" = 0
-	"Cüneyd #0" = 0
-	"Bahadir #0" = 0
-	"Hizir #0" = 0
-	"Harun #0" = 0
-	"Cemal #0" = 0
-	"Inal #0" = 0
-	"Celaleddin #0" = 0
-	"Ilyas #0" = 0
-	"Hayreddin #0" = 0
-	"Dursun #0" = 0
-	"Ramazan #0" = 0
-	"Receb #0" = 0
+	"Osman #0" = 20
+	"Porsuk #0" = 20
+	"Rustem #0" = 20
+	"Ramazan #0" = 20
+	"Ridvan #0" = 20
+	"Söbuk #0" = 20
+	"Sökmen #0" = 20
+	"Sönmez #0" = 20
+	"Suleyman #1" = 40
+	"Saim #0" = 20
+	"Saltuk #0" = 20
+	"Saruca #0" = 20
+	"Savtekin #0" = 20
+	"Savur #0" = 20
+	"Sehinsah #0" = 20
+	"Selçuk #0" = 20
+	"Selim #0" = 20
+	"Sencer #0" = 20
+	"Sinan #0" = 20
+	"Tanrivermis #0" = 20
+	"Tekin #0" = 20
+	"Timurtas #0" = 20
+	"Togay #0" = 20
+	"Togtekin #0" = 20
+	"Toktamis #0" = 20
+	"Tolun #0" = 20
+	"Toruntay #0" = 20
+	"Tugrul #0" = 20
+	"Tunga #0" = 20
+	"Turgut #0" = 20
+	"Turhan #0" = 20
+	"Tutus #0" = 20
+	"Uluç #0" = 20
+	"Umur #0" = 20
+	"Yakut #0" = 20
+	"Yaman #0" = 20
+	"Yinal #0" = 20
+	"Yunus #0" = 20
 
-	"Hadice #0" = -1
-	"Safiye #0" = -1
-	"Zeynep #0" = -1
-	"Hurrem #0" = -1
-	"Mihrimah #0" = -1
-	"Nurbanu #0" = -1
-	"Handan #0" = -1
-	"Alime #0" = -1
-	#"Kösem #0" = -1
-	"Hüma #0" = -1
-	"Nigar #0" = -1
-	"Emine #0" = -1
-	"Mahpeyker #0" = -1
-	"Gülfem #0" = -1
-	"Rabia #0" = -1
-	"Turhan #0" = -1
+	"Çiçek #0" = -20
+	"Çilen #0" = -20
+	"Çiltanesi #0" = -20
+	"Özgul #0" = -20
+	"Özlem #0" = -20
+	"Akgul #0" = -20
+	"Asli #0" = -20
+	"Aslihan #0" = -20
+	"Ayasun #0" = -20
+	"Ayla #0" = -20
+	"Ayse #0" = -20
+	"Ayten #0" = -20
+	"Azize #0" = -20
+	"Bahar #0" = -20
+	"Banu #0" = -20
+	"Bozçin #0" = -20
+	"Canan #0" = -20
+	"Ceylan #0" = -20
+	"Dunya #0" = -20
+	"Dilber #0" = -20
+	"Dilek #0" = -20
+	"Emine #0" = -20
+	"Esin #0" = -20
+	"Fatma #0" = -20
+	"Firuze #0" = -20
+	"Gulçiçek #0" = -20
+	"Gulay #0" = -20
+	"Gulbahar #0" = -20
+	"Gulfem #0" = -20
+	"Gulsum #0" = -20
+	"Gumus #0" = -20
+	"Gunduz #0" = -20
+	"Gundes #0" = -20
+	"Gunes #0" = -20
+	"Hatice #0" = -20
+	"Hayat #0" = -20
+	"Huriye #0" = -20
+	"Ilkay #0" = -20
+	"Ilknur #0" = -20
+	"Ipek #0" = -20
+	"Ipekel #0" = -20
+	"Irge #0" = -20
+	"Karacik #0" = -20
+	"Lale #0" = -20
+	"Leyla #0" = -20
+	"Mala #0" = -20
+	"Mansure #0" = -20
+	"Merve #0" = -20
+	"Mutlu #0" = -20
+	"Nagihan #0" = -20
+	"Nergis #0" = -20
+	"Neslihan #0" = -20
+	"Nilufer #0" = -20
+	"Nur #0" = -20
+	"Peksen #0" = -20
+	"Terkhen #0" = -20
+	"Samur #0" = -20
+	"Sarica #0" = -20
+	"Sati #0" = -20
+	"Sehnaz #0" = -20
+	"Serap #0" = -20
+	"Serife #0" = -20
+	"Sevilay #0" = -20
+	"Sevindik #0" = -20
+	"Sibel #0" = -20
+	"Sirin #0" = -20
+	"Sirma #0" = -20
+	"Songul #0" = -20
+	"Sumru #0" = -20
+	"Tekçe #0" = -20
+	"Tura #0" = -20
+	"Umay #0" = -20
+	"Usunbike #0" = -20
+	"Vahide #0" = -20
+	"Yasar #0" = -20
+	"Yeldem #0" = -20
+	"Yildiz #0" = -20
+	"Zehra #0" = -20
+	"Zuhal #0" = -20
 }
 
 leader_names = {
-	Abaza Alemdar Amasyali Ayas
-	Bali Bayram Bey Boshnak
-	Cezzar Çelebi Cerrah Çerkes Civan Çuhadar
-	Damad Dervish Defterdar
-	Gedik Gazi Gürcü
-	Hadim Haseki Hekimoglu Hersekli
-	Kemal Küçük Koca Karamanli Köse Kara Kemankesh Kaymak Kavalali
-	Ishak Izzed
-	Lala Lefkeli
-	Malkoç Müezzinzade
-	Nevshehirli Nishanci
-	Oruç Uluç Ohrili 
-	Rumi
-	Pasha Piri Piyale Pehlivan
-	Salih Sari Silahdar Semiz Serdar Seydi
-	Topal Tayyar Turgut Tarhuncu
-	Veli
-	Yemisçi
-	Pashaoglu
+	Tigin Arslan Bunduqdarid Aybakid Qutuzid Kitbughai Lajinli Jashnakirid Karesili Khurshidi 
+	Salaghurid Ghuzz Pishkinoghlu Bohruz Sonqorjali Juyushli "Aq Sonqor" Begtimurid Hazardinari Dulkadir 
+	Inalid Burid Inanj Bajkam Pervane Qayi Eretnid Germiyan Saruhan Mentese Aydin Karaman 
+	Tekke Balik Altar Aybars Doganin Ecevit Gökhan Ilhan Kagan Metehan Ozan Senol 
+	Tarkan Utku Yavuz Olcayto Özkan Doganin Artuqid Kazanjian "Namrun Kalesi" Ildeguzid 
+	Candar Doranites Kabasites Meizomates Tzanichites Mamluk Delhi Altunia Balban Khilji 
+	Kushru Tughluq Alauddin Saifuddin Awar Tughral Tamar Iuzbaki Tatar Iitigin Sonargaon 
+	Lakhnauti Satgaon Qabajah Yildoz Toghril Multani Ajmerid Kasid Magadhid Maturid Lahurid 
+	Bhadrid Maymanid Kyzylid Tabasid Barhid Bayezid Gök Mavi Yesil Güçlü Rüzgar 
+	Üzengi Trakhan Raisiyya Bunduqdarid Muhtajid 
 }
 
 #Discontinued leader names: Barbaros, Çandarli, Köprülü, Kanijeli, Pargali, Sokullu, Pasvanoglu, Jalili, Karaosmanoglu, Capanoglu, Oflu, Gümülcineli

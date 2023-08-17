@@ -32,6 +32,7 @@ fixed_capital = 145 # Cannot move capital away from this province & no power cos
 		adm = 6
 		dip = 6
 		mil = 6
+		leader = { name = "Leonidas Agiad"            type = general	fire = 1	shock = 6	manuever = 2	siege = 0 death_date = 1600.1.1}
 	}
 	add_queen_personality = immortal_personality
 }

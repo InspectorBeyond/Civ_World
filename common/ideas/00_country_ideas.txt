@@ -186,8 +186,8 @@ RUS_ideas = {
 		ae_impact = -0.1
 	}
 	siberian_frontier = {
-		may_establish_frontier = yes
-		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+		
 	}
 	russian_artillery_yard = {
 		artillery_cost = -0.1
@@ -1531,6 +1531,7 @@ MAJ_ideas = {
 	}
 	maj_maritime_silk_road = {
 		trade_efficiency = 0.1
+		may_explore = yes
 	}
 	maj_nusa_tenggara = {
 		colonists = 1
@@ -2538,6 +2539,7 @@ CFG_ideas = {
 	}	
 	carthaginian_navy = {
 		naval_morale = 0.15
+		may_explore = yes
 	}	
 	colonies_in_iberia = {
 		colonists = 1

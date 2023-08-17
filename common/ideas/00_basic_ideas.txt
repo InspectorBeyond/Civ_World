@@ -418,7 +418,7 @@ religious_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.5
 		modifier = {
 			factor = 0
 			has_idea_group = humanist_ideas
@@ -453,6 +453,54 @@ religious_ideas = {
 		modifier = {
 			factor = 0.5
 			NOT = { monthly_adm = 7 }
+		}
+		modifier = {
+			factor = 1.5
+			tag = HSN
+		}
+		modifier = {
+			factor = 1.5
+			tag = ARB
+		}
+		modifier = {
+			factor = 1.5
+			tag = SPA
+		}
+		modifier = {
+			factor = 1.5
+			tag = CAS
+		}
+		modifier = {
+			factor = 1.5
+			tag = HLR
+		}
+		modifier = {
+			factor = 1.5
+			tag = POL
+		}
+		modifier = {
+			factor = 1.5
+			tag = RUS
+		}
+		modifier = {
+			factor = 0
+			tag = SSR
+		}
+		modifier = {
+			factor = 1.5
+			tag = HND
+		}
+		modifier = {
+			factor = 1.5
+			tag = MRY
+		}
+		modifier = {
+			factor = 1.5
+			tag = HJO
+		}
+		modifier = {
+			factor = 1.5
+			tag = ODA
 		}
 	}
 }
@@ -922,7 +970,6 @@ economic_ideas = {
 
 exploration_ideas = { #Check for Spain, Castille and Portugal triggers
 	category = DIP
-	important = yes
 
 	bonus = {
 		cb_on_primitives = yes
@@ -954,7 +1001,7 @@ exploration_ideas = { #Check for Spain, Castille and Portugal triggers
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.3
 		modifier = {
 			factor = 0
 			is_colonial_nation = yes
@@ -1000,6 +1047,10 @@ exploration_ideas = { #Check for Spain, Castille and Portugal triggers
 		modifier = {
 			factor = 2.0
 			num_of_ports = 20
+		}	
+		modifier = {
+			factor = 0
+			has_reform = city_state
 		}
 	}
 }
@@ -1278,7 +1329,6 @@ quantity_ideas = {
 
 expansion_ideas = { #Check for Spain, Castille and Portugal triggers
 	category = ADM
-	important = yes
 
 	bonus = {
  		min_autonomy_in_territories = -0.1
@@ -1310,7 +1360,7 @@ expansion_ideas = { #Check for Spain, Castille and Portugal triggers
 	}
 
 	ai_will_do = {
-		factor = 0.5
+		factor = 0.3
 		modifier = {
 			factor = 10
 			OR = {
@@ -1336,6 +1386,10 @@ expansion_ideas = { #Check for Spain, Castille and Portugal triggers
 					has_empty_adjacent_province = yes
 				}
 			}
+		}	
+		modifier = {
+			factor = 0
+			has_reform = city_state
 		}
 	}
 }
