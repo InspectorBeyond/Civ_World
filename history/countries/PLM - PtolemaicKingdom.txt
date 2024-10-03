@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 primary_culture = old_egyptian
 add_accepted_culture = macedonian
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 358
 
 1444.11.10 = {
@@ -30,6 +30,7 @@ capital = 358
 		country_of_origin = ROM
 		name = "Gaius Julius"
 		dynasty = "Caesar"
+		birth_date = 1426.11.11
 		death_date = 1600.1.1
 		female = no
 		culture = roman

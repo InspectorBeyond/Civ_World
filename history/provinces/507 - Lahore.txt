@@ -6,10 +6,10 @@ base_production = 2
 base_manpower = 2
 
 
-owner = LHR
-controller = LHR
-add_core = LHR
+owner = MUG
+controller = MUG
+add_core = MUG
 capital = "Lahore"
 
-discovered_by = LHR
+discovered_by = MUG
 hre = no

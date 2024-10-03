@@ -1,16 +1,16 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 2
 primary_culture = mayan
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 4594
 fixed_capital = 4594
 
 
 1444.11.10 = {
 	monarch = {
-		name = "Wac Chanil Ajaw "
-		dynasty = "of Naranjo"
+		name = "Wac Chanil Ajaw"
 		adm = 6
 		dip = 6
 		mil = 6

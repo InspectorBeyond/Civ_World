@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = western
+primary_culture = normand
+add_accepted_culture = cosmopolitan_french
+religion = pantheon
+capital = 167	# Rouen
+
+1444.11.10 = {
+	monarch = {
+		name = "William"
+		dynasty = "d'Normandie"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = conqueror_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
+}

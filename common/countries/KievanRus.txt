@@ -37,7 +37,7 @@ historical_units = {
 }
 
 monarch_names = {
-	Afanasiy #0" = 20 
+	"Afanasiy #0" = 20 
 	"Alexandr #0" = 20 
 	"Alexei #0" = 20 
 	"Andrei #0" = 20 

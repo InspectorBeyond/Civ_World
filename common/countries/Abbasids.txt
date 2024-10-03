@@ -2,10 +2,11 @@
 
 graphical_culture = muslimgfx
 
-color = { 43 88 46 }
+color = { 50 102 54 }
 revolutionary_colors = { 0  10  0 }
 
 historical_idea_groups = {
+	religious_ideas
 	exploration_ideas
 	expansion_ideas
 	trade_ideas
@@ -27,133 +28,9 @@ historical_units = {
 }
 
 monarch_names = {
-	"Harun al-Rashid" #1" = 40 
-	"Abu-Bakr" #0" = 20 
-	"Aarif #0" = 20 
-	"Abdul-Gafur" #0" = 20 
-	"Abdul-Jaleel" #0" = 20 
-	"Abdul-Qadir" #0" = 20 
-	"Abdul-Wahab" #0" = 20 
-	"Abdul #0" = 20 
-	"Abdullah #0" = 20 
-	"Aghlab #0" = 20 
-	"Akin #0" = 20 
-	"Ali #0" = 20 
-	"Alim #0" = 20 
-	"Aram #0" = 20 
-	"Azam #0" = 20 
-	"Bahir #0" = 20 
-	"Burhanaddin #0" = 20 
-	"Fadil #0" = 20 
-	"Fadl #0" = 20 
-	"Faruk #0" = 20 
-	"Ghalib #0" = 20 
-	"Hafiz #0" = 20 
-	"Halil #0" = 20 
-	"Hasan #0" = 20 
-	"Husam #0" = 20 
-	"Hussayn #0" = 20 
-	"Ibrahim #0" = 20 
-	"Idris #0" = 20 
-	"Ismail #0" = 20 
-	"Isa #0" = 20 
-	"Jabir #0" = 20 
-	"Jalil #0" = 20 
-	"Jibril #0" = 20 
-	"Khaireddin #0" = 20 
-	"Khalil #0" = 20 
-	"Mahdi #0" = 20 
-	"Mahmud #0" = 20 
-	"Mansur #0" = 20 
-	"Mirza #0" = 20 
-	"Mubarak #0" = 20 
-	"Muhammad #0" = 20 
-	"Mukhtar #0" = 20 
-	"Murad #0" = 20 
-	"Musa #0" = 20 
-	"Muslihiddin #0" = 20 
-	"Muzaffaraddin #0" = 20 
-	"Najib #0" = 20 
-	"Nasr #0" = 20 
-	"Nizam #0" = 20 
-	"Qawurd #0" = 20 
-	"Ramadan #0" = 20 
-	"Sadaddin #0" = 20 
-	"Sadiq #0" = 20 
-	"Sami #0" = 20 
-	"Samir #0" = 20 
-	"Shaiban #0" = 20 
-	"Shamir #0" = 20 
-	"Shujah #0" = 20 
-	"Sulayman #0" = 20 
-	"Talib #0" = 20 
-	"Ubayd #0" = 20 
-	"Uways #0" = 20 
-	"Yahya #0" = 20 
-	"Yaqub #0" = 20 
-	"Youkhanna #0" = 20 
-	"Yusuf #0" = 20 
-	"Zeyd #0" = 20 
-	
-	"Adila #0" = -20 
-	"Amsha #0" = -20 
-	"Asiya #0" = -20 
-	"Faghira #0" = -20 
-	"Habiba #0" = -20 
-	"Hanifa #0" = -20 
-	"Jahaira #0" = -20 
-	"Kamala #0" = -20 
-	"Layla #0" = -20 
-	"Maryam #0" = -20 
-	"Nafisa #0" = -20 
-	"Nyawela #0" = -20 
-	"Parand #0" = -20 
-	"Parween #0" = -20 
-	"Paymaneh #0" = -20 
-	"Paywand #0" = -20 
-	"Qamara #0" = -20 
-	"Rafiqa #0" = -20 
-	"Rasa #0" = -20 
-	"Rashida #0" = -20 
-	"Reshawna #0" = -20 
-	"Saaman #0" = -20 
-	"Sabba #0" = -20 
-	"Saghar #0" = -20 
-	"Sahba #0" = -20 
-	"Sajida #0" = -20 
-	"Samira #0" = -20 
-	"Semeah #0" = -20 
-	"Setara #0" = -20 
-	"Shahrbano #0" = -20 
-	"Shahzadah #0" = -20 
-	"Shameem #0" = -20 
-	"Shararah #0" = -20 
-	"Sheeftah #0" = -20 
-	"Sheeva #0" = -20 
-	"Shogofa #0" = -20 
-	"Shokouh #0" = -20 
-	"Shola #0" = -20 
-	"Sholah #0" = -20 
-	"Simin #0" = -20 
-	"Souzan #0" = -20 
-	"Taliba #0" = -20 
-	"Tanaz #0" = -20 
-	"Taneen #0" = -20 
-	"Yagana #0" = -20 
-	"Yakta #0" = -20 
-	"Yasmin #0" = -20 
-	"Zaynab #0" = -20
 }
 
 leader_names = {
-	Rasulid Umarid Najadid Dinnid Qutalmish Qadir Toghan Walashma Usfurid Jarwanid Zurayid 
-	Muazzamid Banu_Hatim Qubaybid Halabanid Basri Hallaj Baghdadi Bistami Karkhi Qadir 
-	Jilani Chishti Badr Miqadiyid Munirid Nabhanid Nadjafid Hamdan Ashhadid Quraishid 
-	Kamalid Mosulid Jazrid Husayn Nazeerid Nasrid Bichrid Hafizid Fakhourid Nawawid Naderid 
-	Chakroun Atrashid Shehhid Hasanid Qasimid Sulaymanid Halwasid Jamalid Abbasid Razinid 
-	Numayrid Kaabid Jabrid Chrusarkha Hakamid Hanaya Ibrahimid "al-Duhli" Kinda Madhhij 
-	"al-Zawayhi" Mufaddalid Zurayid Bannu_Man Mahdid Hatimid Sulaymanid Tanukh Hilalid 
-	"al-Riyahdid" "al-Athbejid" "al-Zoghbadid" "al-Adid" Suleimid "al-Zegbid" "al-Debbabid" "al-Awfid"
 }
 
 ship_names = {

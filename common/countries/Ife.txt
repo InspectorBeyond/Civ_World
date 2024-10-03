@@ -34,13 +34,9 @@ historical_units = {
 }
 
 monarch_names = {
-	"Oranyan #0" = 20
-	
-	"Winona #0" = -20
 }
 
 leader_names = {
-	Alaafin
 }
 
 ship_names = {

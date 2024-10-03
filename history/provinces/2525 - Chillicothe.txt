@@ -1,4 +1,4 @@
-culture = barbarian
+culture = shawnee
 religion = pantheon
 trade_goods = fur
 base_tax = 2 
@@ -7,7 +7,20 @@ base_manpower = 2
 native_size = 5
 native_hostileness = 2
 
-native_size = 10
-native_ferocity = 5
-native_hostileness = 9
-hre = no
+owner = SHA
+controller = SHA
+add_core = SHA
+capital = "Prophetstown"
+
+discovered_by = SHA
+
+
+1444.11.12 = {
+decolonize = yes
+}
+
+1444.11.13 = {
+owner = SHA
+controller = SHA
+add_core = SHA
+}

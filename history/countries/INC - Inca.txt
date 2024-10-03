@@ -1,8 +1,9 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 2
 primary_culture = inca
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 unit_type = south_american
 capital = 808	# Cuzco
 

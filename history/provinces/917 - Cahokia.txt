@@ -7,10 +7,10 @@ base_manpower = 2
 native_size = 10
 native_hostileness = 0
 
-owner = CAH
-controller = CAH
-add_core = CAH
+owner = CAO
+controller = CAO
+add_core = CAO
 capital = "Cahokia"
 
-discovered_by = CAH
+discovered_by = CAO
 hre = no

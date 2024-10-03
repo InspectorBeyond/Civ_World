@@ -34,34 +34,9 @@ historical_units = {
 }
 
 monarch_names = {
-	"Owain #0" = 20 
-	"Dafydd #0" = 20 
-	"Gruffydd #0" = 20 
-	"Llewelyn #0" = 20 
-	"Rhodri #0" = 20
-	
-	"Elain #0" = -20 
-	"Addiena #0" = -20 
-	"Aelwyd #0" = -20 
-	"Aeronwen #0" = -20 
-	"Aeronwy #0" = -20 
-	"Afrella #0" = -20 
-	"Abrelda #0" = -20 
-	"Alys #0" = -20 
-	"Alice #0" = -20 
-	"Angharad #0" = -20 
-	"Annes #0" = -20 
-	"Anna #0" = -20 
-	"Annest #0" = -20 
-	"Annwyl #0" = -20 
-	"Anowed #0" = -20 
-	"Arddyn #0" = -20 
-	"Arianrhod #0" = -20 
-	"Blodwen #0" = -20
 }
 
 leader_names = {
-	Aberffraw Dinefwr Mathrafal Gwynedd Tudor Kernew "of Cornwall" Glyndwr "Ternyllwg"
 }
 
 ship_names = {

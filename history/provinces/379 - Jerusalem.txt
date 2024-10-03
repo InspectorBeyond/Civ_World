@@ -5,10 +5,10 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 
-owner = JER
-controller = JER
-add_core = JER
+owner = KOJ
+controller = KOJ
+add_core = KOJ
 capital = "Jerusalem"
 
-discovered_by = JER
+discovered_by = KOJ
 hre = no

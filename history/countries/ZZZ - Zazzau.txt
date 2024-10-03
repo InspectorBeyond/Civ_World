@@ -1,21 +1,25 @@
+# No previous file for Kano
+
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = mbundu
+government_rank = 2
+primary_culture = hausa
 religion = pantheon
-technology_group = civilization_tech
-capital = 1171
+technology_group = western
+capital = 1154	
+
 
 1444.11.10 = {
 	monarch = {
-		name = "Nzinga "
-		dynasty = "Mbande"
+		name = "Amina"
+		dynasty = "Zazzau"
+		dip = 4
 		adm = 6
-		dip = 6
 		mil = 6
 		female = yes
 	}
 	add_ruler_personality = immortal_personality
-	add_ruler_personality = pious_personality
+	add_ruler_personality = architectural_visionary_personality
 	add_country_modifier = {
 		name = civ_nation
 		duration = -1

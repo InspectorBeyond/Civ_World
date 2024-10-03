@@ -36,66 +36,9 @@ historical_units = {
 }
 
 monarch_names = {
-	"Friedrich #0" = 20 
-	"Otto #0" = 20 
-	"Heinrich #0" = 20 
-	"Werner #0" = 20 
-	"Ferdinand #0" = 20 
-	"Karl #0" = 20 
-	"Alfred #0" = 20 
-	"Benedikt #0" = 20 
-	"Christoph #0" = 20 
-	"Dietrich #0" = 20 
-	"Engelbert #0" = 20 
-	"Florian #0" = 20 
-	"Gerhard #0" = 20 
-	"Immanuel #0" = 20 
-	"Johan #0" = 20 
-	"Leonhard #0" = 20 
-	"Markus #0" = 20 
-	"Nikolaus #0" = 20 
-	"Paul #0" = 20 
-	"Ruprecht #0" = 20 
-	"Stefan #0" = 20 
-	"Thomas #0" = 20 
-	"Ulrich #0" = 20 
-	"Vinzenz #0" = 20 
-	"Andre #0" = 20 
-	"Charles #0" = 20 
-	"Didier #0" = 20 
-	"Emmanuel #0" = 20 
-	"Frederic #0" = 20 
-	"Gerard #0" = 20 
-	"Henri #0" = 20 
-	"Jules #0" = 20 
-	"Matthieu #0" = 20 
-	"Nicolas #0" = 20 
-	"Pascal #0" = 20 
-	"Vincent #0" = 20 
-	"Claudio #0" = 20 
-	"Edmondo #0" = 20 
-	"Leonardo #0" = 20 
-	"Timoteo #0" = 20 
-	
-	"Angela #0" = -20 
-	"Marlene #0" = -20 
-	"Hanna #0" = -20 
-	"Anastasia #0" = -20 
-	"Christina #0" = -20 
-	"Adelina #0" = -20 
-	"Adriana #0" = -20 
-	"Afina #0" = -20 
-	"Alexandra #0" = -20 
-	"Alexia #0" = -20 
-	"Ana #0" = -20 
-	"Anna #0" = -20 
-	"Arina #0" = -20 
 }
 
 leader_names = {
-	Ador Brenner Calonder Celio Chaudet Comtesse Cotti Deucher Dufour 
-	Fogliardi Fornerod Funk Guisan Haab Herzog Knusel Motta Munzinger 
-	Naff Ruchet Ruchonnet Schneider "Siegwart-Muller" Wille Zeni "de Staeel"
 }
 
 ship_names = {

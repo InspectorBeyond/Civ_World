@@ -474,7 +474,3 @@ ship_names = {
 	"Signora del Belvedere" "Sol d'Oro" Sole Speranza "Stella Maris" Tigre "Tomaso Francesco" "Toro Negro" Torre Totusmundus "Tre Mani" "Tre Re" Trionfo Tritone Tronco
 	"Uomo Armato" "Uomo di Mare" Valor "Valor Coronato" Venetia "Venezia Trionfante" "Vergine Santa" Vigilanza Vittoria Vulcano
 }
-
-army_names = {
-	"Armata di $PROVINCE$"
-}

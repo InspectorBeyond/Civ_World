@@ -34,42 +34,9 @@ historical_units = {
 }
 
 monarch_names = {
-	"Anittas #0" = 20 
-	"Arnuwandas #0" = 20 
-	"Hattusilis #0" = 20 
-	"Katuzili #0" = 20 
-	"Lubarna #0" = 20 
-	"Manapa-Tarhunda #0" = 20 
-	"Mursilis #0" = 20 
-	"Mutallu #0" = 20 
-	"Muwatallis #0" = 20 
-	"Piyamaradu #0" = 20 
-	"Sapalulme #0" = 20 
-	"Suppiluliuma #0" = 20 
-	"Telipinus #0" = 20 
-	"Tudhaliyas #0" = 20 
-	"Hasammeli #0" = 20 
-	"Ishtanu #0" = 20 
-	"Lelwani #0" = 20 
-	"Sharruma #0" = 20 
-	"Tarhu #0" = 20 
-	"Taru #0" = 20 
-	"Teshub #0" = 20 
-	
-	"Aliwanatti #0" = -20 
-	"Parkuwiya #0" = -20 
-	"Watti #0" = -20 
-	"Kuwatar #0" = -20 
-	"Arala #0" = -20 
-	"Zenkuruwa #0" = -20 
-	"Ambazzi #0" = -20 
-	"Nirni #0" = -20 
-	"Nahpaswe #0" = -20 
-	"Puliluwaswe #0" = -20
 }
 
 leader_names = {
-	Hatti
 }
 
 ship_names = {

@@ -116,10 +116,10 @@ germanic = {
 			Wila Wendelmoet Wenna Willemine Yonefij Yvonne Zoete
 		}
 		dynasty_names = {
-			"van Loon" "von Geldern" "van Bonen" "van Sulzbach" "van Wassemberg" "van Geldern" "van Bergh" "van Brabant" "van Namen" "van Loon" 
-			"van Heinsberg" "De Graeff" "van Susa" Groth" "van Egmond" "van Amstel" "van Arkel" "van Boutershem" "van Brederode" "van Brunesheim" 
+			"van Loon" "van Bonen" "van Sulzbach" "van Wassemberg" "van Geldern" "van Bergh" "van Brabant" "van Namen" 
+			"van Heinsberg" "De Graeff" "van Susa" Groth "van Egmond" "van Amstel" "van Arkel" "van Boutershem" "van Brederode" "van Brunesheim" 
 			"van Breda" "van Heemskerk" "van Gaveren" "van Glymes" "van Grimberghe" "van Hurne" "van Renesse" "van Wesemael" "van Wassenaer" 
-			"van Rheden" "van Bronckhorst" "van Keppel" "van Voorst" "van Lathum" "van Swane" "van Wisch" "van Kamerijk" Cirksena" 
+			"van Rheden" "van Bronckhorst" "van Keppel" "van Voorst" "van Lathum" "van Swane" "van Wisch" "van Kamerijk" Cirksena 
 			"van Visquard" "van Groothusen" "van Cuijck" "van Bierum" "van Rhenen" "van Are" "van Randerath" "van Sierck" "van Berthout" 
 			"van Diest" "van Voorne" "van Naaldwijk" "de Moravia" "van Yperen" "van Zeeland" Munthe "Mard-e Koochak" Hoving Kuiper
 		}
@@ -248,7 +248,7 @@ germanic = {
 		}
 	}
 	flemish = { #Not used
-		primary = FLA
+		primary = BSS
 	}
 	frisian = { #Not used
 		primary = FRI
@@ -2021,7 +2021,7 @@ arabic = {
 			Sulaymanid Mahmudid Bahadur Ata-Malik "Ma'anid" Hamdanid Farooqid Elbazid Abbarid Abbasid Shamid Allawid Aqilid Qahtanid 
 			Bahjatid Bekkalid Baradid Bseisoid Fattaid Fazilid Gheisarid Hayekid Ibrahimid Abdel_Nour Abdilla Mahdi "el-Khattab" Moneim 
 			Moosevi Mubarak Moustapha Nader Nafti Alam Naeemi Nahhas Nimri Himsi Haleem Qaderi Aqabid Jalalid Jarraid Arishid Jasemid 
-			Abdelid Alivid Qasimid Shaddad "al-Nafis" "al-Baghdadi" "al-Dakhwar" "al-Suri" Khorasani "al-Hasanid" Aqabid"
+			Abdelid Alivid Qasimid Shaddad "al-Nafis" "al-Baghdadi" "al-Dakhwar" "al-Suri" Khorasani "al-Hasanid" Aqabid
 		}
 	}
 	al_iraqiya_arabic = { #Mashriqi Arab
@@ -2031,7 +2031,7 @@ arabic = {
 			Sulaymanid Mahmudid Bahadur Ata-Malik "Ma'anid" Hamdanid Farooqid Elbazid Abbarid Abbasid Shamid Allawid Aqilid Qahtanid 
 			Bahjatid Bekkalid Baradid Bseisoid Fattaid Fazilid Gheisarid Hayekid Ibrahimid Abdel_Nour Abdilla Mahdi "el-Khattab" Moneim 
 			Moosevi Mubarak Moustapha Nader Nafti Alam Naeemi Nahhas Nimri Himsi Haleem Qaderi Aqabid Jalalid Jarraid Arishid Jasemid 
-			Abdelid Alivid Qasimid Shaddad "al-Nafis" "al-Baghdadi" "al-Dakhwar" "al-Suri" Khorasani "al-Hasanid" Aqabid"
+			Abdelid Alivid Qasimid Shaddad "al-Nafis" "al-Baghdadi" "al-Dakhwar" "al-Suri" Khorasani "al-Hasanid" Aqabid
 		}
 		male_names = {
 			Abdul-Azeem Abdul-Hamid Abdul-Lateef Abdul-Razzaq Abdul-Wahad Abdullah Adhid Adil Akab Ala'i Ali Amir Ashraf Aziz Bashar Boutros Da'ud Faisal
@@ -2391,6 +2391,9 @@ iranian	= {
 			Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
 			Esmerxan Nawal
 		}
+		dynasty_names = {
+			Arif Babajan Jan Javed Naqshbandi Shinwari Taunsvi
+		}
 	}
 	mazandarani = {
 		primary = TAB
@@ -2460,10 +2463,53 @@ altaic = {
 	uzbehk = {
 		primary = SHY
 		male_names = {
-			Abdul-Aziz
+			"Abd al-Ahad"
+			"Abd al-Karim"
+			"Abu al-Ghazi"
+			Abulfayz
+			Alimqul
+			"Allah Quli"
+			Aqim
+			Haydar
+			Husayn
+			Iltazar
+			Isfandiyar
+			Jahangir
+			Khudayar
+			Madali
+			Mahmud
+			Muhammad
+			Murad
+			"Nasir al-Din"
+			Nasrallah
+			Nurali
+			Pulad
+			Qilich
+			Qutlugh
+			Rahim
+			Shir
+			Umar
+			Yadigar
+			Yaqub
 		}
 		female_names = {
-			Temülen 
+			Halima
+			Irina
+			Mohlaroyim
+			Nargiz
+			Nazokat
+			Nilufar
+			Tursunoy
+			Yulduz
+			Zilola
+		}
+		dynasty_names = {
+			Kokand
+			Bahadur
+			Khan
+			Bahadur
+			Bukhari
+			Gulkhani
 		}
 	}
 	turkmeni = {
@@ -3875,13 +3921,44 @@ hindusthani = {
 	panjabi = {
 		primary = PUN
 		dynasty_names = {
-			"Kohkkar"
+			Ahluwalia
+			Dhillon
+			Kaur
+			Kunwar
+			Mal
+			Mulraj
+			Nalwa
+			Ramgarhia
 		}
 		male_names = {
-			"Jassa Ahuwalia"
+			Baba
+			Banda
+			Bhuma
+			Chand
+			Dhalip
+			Diwan
+			Ganda
+			Hari
+			Jassa
+			Kapur
+			Kaur
+			Kharak
+			Nau
+			Nawab
+			Nihal
+			Ranjit
+			Shir
 		}
 		female_names = {
-			Amro
+			Datar
+			Fateh
+			Jind
+			Mehtab
+			Moran
+			Rani
+			Riffat
+			Sada
+			Savita
 		}
 	}
 	kashmiri = {
@@ -4270,6 +4347,25 @@ cushitic = {
 			Abeba
 		}
 	}
+	aksumite = {
+		male_names = {
+			Amyrteos Ankhmachis Anemhor Aratos Arganos Charias Djedhor Ezena Horemakhet Isocrates Khabbabash Leonippus Lydiadas Manetho Massiva
+			Nakhthoreb Naravas Nefaarud Neferibre Nesisti Nicias Nicodemus Oezalces Oxyntas Pedubast Peneus Perdiccas Philocrates 
+			Philotheos Polyperchon Psherenamun Psherenptah Psammuthes Ptolemy Theocritus Therapon Timoleon Xanthos Xenon Zeteres Zosimus Ahmes
+			Ahmose Alarus Amasus Ameny Bakenrenef Cleomenes Euclid Harsiotef Henut Ibi Khabash Lagus Nectanebo Kheperkare Neferkare Nehi Osorkon Pami
+			Petubastis Teos
+		}
+		female_names = {
+			Agape Agathoclea Amanishabheto Antigone Apame Apollonia Aristomache Artemisia Aspacia Athenais Berenice Charis Cleopatra Cynna
+			Demetria Elpis Eirene Eudocia Eunice Euphemia Eurydice Euthalia Hypatia Nysa Oenanthe Olympia Phila Phile Sostrate Stratonice Thais
+			Theophila Thetima Thessaloniki Thorakis Timo Arsinoe Lysandra Kiya Qelhata
+		}
+		dynasty_names = {
+			Ahmid Galestus Kenamus Naravid Penamus Senuid Setnid Arganid Psammid Philothid Timolid 
+			Zosid Phileid Nicodemid Nefarid Bastid Xeneid Naravid Ezanid Ahmid Alarus 
+			Harsiotes Henus Ibus Khabbash Amasus Nectanebo Petubast Djedhid Tachys Mago
+		}
+	}
 	tigray = {
 		male_names = {
 			"Taqla Hâymânôt" 
@@ -4526,14 +4622,6 @@ wlevantine_group = {
 	}
 	carthaginian = {
 	}
-	phoenicia = {
-		primary = PHO
-	}
-	dynasty_names = {
-		Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barca Bostara Chelbesid Eshbaalid
-		Eugorid Hannid Hiramid Mago Mattanid Metallid Milkiramid Philosirid Gisgo Gerbalid
-		Hammid Eugarid Mashhid Ummashid
-	}
 	male_names = {
 		Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
 		Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
@@ -4545,6 +4633,11 @@ wlevantine_group = {
 		Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar Adiya Tabua 
 		Yapa Ytab Suhaima Huldu Mashah Gamila Asherah Izavel Iezabel 
 		Arishat Elissa Muttunbaal
+	}
+	dynasty_names = {
+		Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barca Bostara Chelbesid Eshbaalid
+		Eugorid Hannid Hiramid Mago Mattanid Metallid Milkiramid Philosirid Gisgo Gerbalid
+		Hammid Eugarid Mashhid Ummashid
 	}
 }
 

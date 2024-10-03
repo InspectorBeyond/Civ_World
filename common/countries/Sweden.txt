@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx	 
 
-color = { 10 72 185 }
+color = { 36 60 141 }
 
 revolutionary_colors = { 8  15  8 } #Fictional
 preferred_religion = protestant
@@ -35,7 +35,7 @@ historical_units = {
 }
 
 monarch_names = {
-	Albrecht #0" = 20 
+	"Albrecht #0" = 20 
 	"Alexander #0" = 20 
 	"Aron #0" = 20 
 	"Arnold #0" = 20 
@@ -47,7 +47,7 @@ monarch_names = {
 	"Adolf #0" = 20 
 	"Andreas #0" = 20 
 	"Abraham #0" = 20 
-	"Axel Knut" #0" = 20 
+	"Axel Knut #0" = 20 
 	"Baltzar #0" = 20 
 	"Bror #0" = 20 
 	"Bengt #0" = 20 

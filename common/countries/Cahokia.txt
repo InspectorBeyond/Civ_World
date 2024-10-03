@@ -30,57 +30,11 @@ historical_units = {
 }
 
 monarch_names = {
-	"Wahpeshakana #0" = 20 
-	"Kenmahreneah #0" = 20 
-	"Pakeeshama #0" = 20 
-	"Allenepeshensha #0" = 20 
-	"Wassacanga #0" = 20 
-	"Naynawitwa #0" = 20 
-	"Wissineeaw #0" = 20 
-	"Ramisswnoa #0" = 20 
-	"Whkahpesewah #0" = 20 
-	"Kemonsah #0" = 20 
-	"Wapesae #0" = 20 
-	"Pemekawai #0" = 20 
-	"Koongeepata #0" = 20 
-	"Batticy #0" = 20 
-	"Keemaranea #0" = 20 
-	"Wecomakana #0" = 20 
-	"Keeshammy #0" = 20 
-	"Aramapingea #0" = 20 
-	"Keemawassa #0" = 20 
-	"Wackshingga #0" = 20 
-	"Kitakimawa #0" = 20 
-	"Manggonssa #0" = 20 
-	"Mooyakacke #0" = 20 
-	"Pemmikawatta #0" = 20 
-	"Papenegisawa #0" = 20 
-	"Meshiwiratta #0" = 20 
-	"Mahkattamaweya #0" = 20 
-	"Queckaawpeeta #0" = 20 
-	"Chessagouasse #0" = 20 
-	"Mamentouensa #0" = 20 
-	"Chicagou #0" = 20 
-	"Ninkanape #0" = 20 
-	"MaressaShopinna #0" = 20 
-	"Wapamahwhawa #0" = 20 
-	
-	"Methoataske #0" = -20 
-	"Tacumwah #0" = -20 
-	"Moconnoquah #0" = -20 
-	"Kickkesequah #0" = -20 
-	"Oshawsequah #0" = -20
 }
 
 leader_names = {
-	Kaskaskia Cahokia Peoria Tamaroa Moingwena Michigamea Albiui Amonokoa Chepoussa Chinkoa Coiracoentanon Espeminkia 
-	Maroa Matchinkoa Michibousa Negawichi Tapouara
 }
 
 ship_names = {
 	
-}
-
-army_names = {
-	"Armata di $PROVINCE$"
 }

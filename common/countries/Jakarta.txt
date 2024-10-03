@@ -34,96 +34,9 @@ historical_units = {
 }
 
 monarch_names = {
-	"Girindrawardhana #0" = 20 
-	"Girishawardhana #0" = 20 
-	"Kertabumi #0" = 20 
-	"Kertawijaya #0" = 20 
-	"Rajasawardhana #0" = 20 
-	"Suraprabhawa #0" = 20 
-	"Wikramawardhana #0" = 20 
-	"Hayam #0" = 20 
-	"Wuruk #0" = 20 
-	"Kalagamet #0" = 20 
-	"Raden #0" = 20 
-	"Wijaya #0" = 20 
-	"Kertawardhana #0" = 20 
-	"Raden #0" = 20 
-	"Sotor #0" = 20 
-	"Raden #0" = 20 
-	"Sumirat #0" = 20 
-	"Singhawardhana #0" = 20
-	
-	"Suhita #0" = -20 
-	"Sri Gitarja #0" = -20
-	"Merenui #0" = -20 
-	"Metetini #0" = -20 
-	"Miri #0" = -20 
-	"Moea #0" = -20 
-	"Moeata #0" = -20 
-	"Moerani #0" = -20 
-	"Mohea #0" = -20 
-	"Nanihi #0" = -20 
-	"Nu’utea #0" = -20 
-	"Orama #0" = -20 
-	"Poe #0" = -20 
-	"Pear #0" = -20 
-	"Poehina #0" = -20 
-	"Poenui #0" = -20 
-	"Poerava #0" = -20 
-	"Puaiti #0" = -20 
-	"Puatea #0" = -20 
-	"Puaura #0" = -20 
-	"Ra’ihau #0" = -20 
-	"Ra’imere #0" = -20 
-	"Ra’inui #0" = -20 
-	"Ranitea #0" = -20 
-	"Rarahu #0" = -20 
-	"Raunui #0" = -20 
-	"Raurii #0" = -20 
-	"Tahiata #0" = -20 
-	"Taiana #0" = -20 
-	"Taina #0" = -20 
-	"Tania #0" = -20 
-	"Taurua #0" = -20 
-	"Tautiare #0" = -20 
-	"Tehani #0" = -20 
-	"Tehea #0" = -20 
-	"Teora #0" = -20 
-	"Tera #0" = -20 
-	"Tevai #0" = -20 
-	"Titaina #0" = -20 
-	"Titaua #0" = -20 
-	"Tuianu #0" = -20 
-	"Tumata #0" = -20 
-	"Unutea #0" = -20 
-	"Urarii #0" = -20 
-	"Vaea #0" = -20 
-	"Vaiana #0" = -20 
-	"Vaianu #0" = -20 
-	"Vaiata #0" = -20 
-	"Vaihere #0" = -20 
-	"Vaimiti #0" = -20 
-	"Vairea #0" = -20 
-	"Vaite #0" = -20 
-	"Vaitiare #0" = -20 
 }
 
 leader_names = {
-	Akbaruddin
-	Alaeddin
-	Djalaluddin
-	Emiruddin
-	Khairuddin
-	Mufakhir
-	Muttakin
-	Natadiningrat
-	Nurus
-	Salihin
-	Sepuh
-	Tajul
-	Hamengkubuwono
-	Pakualaman
-	Soerjowinoto
 }
 
 ship_names = {

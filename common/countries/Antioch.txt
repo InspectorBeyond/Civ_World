@@ -37,46 +37,6 @@ historical_units = {
 }
 
 monarch_names = {
-	"Justinian #0" = 20
-	"Adrianos #0" = 20
-	"Akakios #0" = 20
-	"Alexandros #0" = 20
-	"Alexios #0" = 20
-	"Anastasios #0" = 20
-	"Anatolios #0" = 20
-	"Bartholomaios #0" = 20
-	"Basileios #0" = 20
-	"Basil #0" = 20
-	"Belisarios #0" = 20
-	"Diogenes #0" = 20
-	"Dorotheos #0" = 20
-	"Eirenaios #0" = 20
-	"Eudoxios #0" = 20
-	"Eustratios #0" = 20
-	"Eugenios #0" = 20
-	"Euphemios #0" = 20
-	
-	"Theodora #0" = -20
-	"Alexandra #0" = -20
-	"Adriana #0" = -20
-	"Agatha #0" = -20
-	"Agnes #0" = -20
-	"Aikaterine #0" = -20
-	"Alexeia #0" = -20
-	"Anastasia #0" = -20
-	"Anthe #0" = -20
-	"Anthousa #0" = -20
-	"Antipatra #0" = -20
-	"Antonia #0" = -20
-	"Apollonia #0" = -20
-	"Athanasia #0" = -20
-	"Barbara #0" = -20
-	"Basillike #0" = -20
-	"Chrysogone #0" = -20
-	"Damiane #0" = -20
-	"Demetra #0" = -20
-	"Dionysia #0" = -20
-	"Dorothea #0" = -20
 	
 }
 

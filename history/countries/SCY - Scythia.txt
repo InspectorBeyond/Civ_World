@@ -1,14 +1,14 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 2
 primary_culture = scythian
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 2420 #Agyidel
 
 1444.11.10 = {
 	monarch = {
 		name = "Tomyris"
-		dynasty = "Tomyrid"
 		adm = 6
 		dip = 6
 		mil = 6

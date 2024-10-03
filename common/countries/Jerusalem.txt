@@ -33,42 +33,6 @@ historical_units = {
 }
 
 monarch_names = {
-	"Abraham  #0" = 20 
-	"Albert #0" = 20 
-	"Benjamin #0" = 20 
-	"Daniel #0" = 20 
-	"David #0" = 20 
-	"Franz #0" = 20 
-	"Gerson #0" = 20 
-	"Gustav #0" = 20 
-	"Heinrich #0" = 20 
-	"Hermann #0" = 20 
-	"Ignatz #0" = 20 
-	"Isaak #0" = 20 
-	"Jakob #0" = 20 
-	"Jeremias #0" = 20 
-	"Josef #0" = 20 
-	"Julius #0" = 20 
-	"Leonhard #0" = 20 
-	"Michael #0" = 20 
-	"Moses #0" = 20 
-	"Salomon #0" = 20 
-	"Saul #0" = 20 
-	"Shmuel #0" = 20 
-	"Sigmund #0" = 20 
-	"Simon #0" = 20 
-	"Theodor #0" = 20 
-	
-	"Angela #0" = -20 
-	"Alice #0" = -20 
-	"Amalie #0" = -20 
-	"Berta #0" = -20 
-	"Emma Elsa #0" = -20 
-	"Johanna #0" = -20 
-	"Klara Karoline #0" = -20 
-	"Minna Margarete #0" = -20 
-	"Regine #0" = -20 
-	"Zoe #0" = -20 
 }
 
 ship_names = {
@@ -76,32 +40,4 @@ ship_names = {
 }
 
 leader_names = { 
-	Abramovitch
-	Ashkenazi
-	Bernstein
-	Birnbaum
-	Bloch
-	Cantor
-	Cohen
-	Frank
-	Friedlander
-	Ginsberg
-	Goldstein
-	Horowitz
-	Israel
-	Jacobsohn
-	Kagan
-	Kaplan
-	Klein
-	Levin
-	Luria
-	Morgenstern
-	Nathan
-	Oren
-	Rosenthal
-	Sachs
-	Schapiro
-	Schwartz
-	Weinstein
-	Weiss
 }

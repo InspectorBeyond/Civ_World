@@ -1,4 +1,4 @@
-culture = barbarian
+culture = bantu
 religion = pantheon #Fetishism
 trade_goods = salt
 base_tax = 2
@@ -9,3 +9,14 @@ native_size = 10
 native_ferocity = 5
 native_hostileness = 9
 hre = no
+
+owner = BUG
+controller = BUG
+add_core = BUG
+capital = "Mengo"
+
+discovered_by = BUG
+
+1444.11.13 = {
+decolonize = yes
+}

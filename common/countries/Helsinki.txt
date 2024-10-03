@@ -34,13 +34,9 @@ historical_units = {
 }
 
 monarch_names = {
-	"Eerikki #0" = 20
-	
-	"Tarja #0" = -20
 }
 
 leader_names = {
-	Bielke
 }
 
 ship_names = {

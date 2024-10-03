@@ -420,6 +420,102 @@ religious_ideas = {
 	ai_will_do = {
 		factor = 0.5
 		modifier = {
+			factor = 10
+			tag = HSN
+		}
+		modifier = {
+			factor = 10
+			tag = ARB
+		}
+		modifier = {
+			factor = 10
+			tag = SPA
+		}
+		modifier = {
+			factor = 10
+			tag = CAS
+		}
+		modifier = {
+			factor = 10
+			tag = HLR
+		}
+		modifier = {
+			factor = 10
+			tag = POL
+		}
+		modifier = {
+			factor = 10
+			tag = RUS
+		}
+		modifier = {
+			factor = 0
+			tag = SSR
+		}
+		modifier = {
+			factor = 10
+			tag = HND
+		}
+		modifier = {
+			factor = 10
+			tag = MRY
+		}
+		modifier = {
+			factor = 10
+			tag = HJO
+		}
+		modifier = {
+			factor = 10
+			tag = ODA
+		}
+		modifier = {
+			factor = 10
+			tag = KOR
+		}
+		modifier = {
+			factor = 10
+			tag = QIN
+		}
+		modifier = {
+			factor = 10
+			tag = MNG
+		}
+		modifier = {
+			factor = 10
+			tag = KOR
+		}
+		modifier = {
+			factor = 10
+			tag = SIA
+		}
+		modifier = {
+			factor = 10
+			tag = KHM
+		}
+		modifier = {
+			factor = 10
+			tag = NRJ
+		}
+		modifier = {
+			factor = 10
+			tag = PLQ
+		}
+		modifier = {
+			factor = 10
+			tag = GEO
+		}
+		modifier = {
+			factor = 10
+			tag = BYZ
+		}
+		modifier = {
+			factor = 10
+			tag = SWE
+		}
+		modifier = {
+			factor = 10
+			tag = ACM
+		}
+		modifier = {
 			factor = 0
 			has_idea_group = humanist_ideas
 		}
@@ -454,54 +550,7 @@ religious_ideas = {
 			factor = 0.5
 			NOT = { monthly_adm = 7 }
 		}
-		modifier = {
-			factor = 1.5
-			tag = HSN
-		}
-		modifier = {
-			factor = 1.5
-			tag = ARB
-		}
-		modifier = {
-			factor = 1.5
-			tag = SPA
-		}
-		modifier = {
-			factor = 1.5
-			tag = CAS
-		}
-		modifier = {
-			factor = 1.5
-			tag = HLR
-		}
-		modifier = {
-			factor = 1.5
-			tag = POL
-		}
-		modifier = {
-			factor = 1.5
-			tag = RUS
-		}
-		modifier = {
-			factor = 0
-			tag = SSR
-		}
-		modifier = {
-			factor = 1.5
-			tag = HND
-		}
-		modifier = {
-			factor = 1.5
-			tag = MRY
-		}
-		modifier = {
-			factor = 1.5
-			tag = HJO
-		}
-		modifier = {
-			factor = 1.5
-			tag = ODA
-		}
+		
 	}
 }
 

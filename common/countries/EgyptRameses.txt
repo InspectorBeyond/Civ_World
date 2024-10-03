@@ -25,36 +25,6 @@ historical_units = {
 }
 
 monarch_names = {
-	"Amyrteos #0" = 20
-	"Ankhmachis #0" = 20
-	"Anemhor #0" = 20
-	"Charias #0" = 20
-	"Djedhor #0" = 20
-	"Ezena #0" = 20
-	"Horemakhet #0" = 20
-	"Isocrates #0" = 20
-	"Khabbabash #0" = 20
-	"Leonippus #0" = 20
-	"Lydiadas #0" = 20
-	"Manetho #0" = 20
-	"Massiva #0" = 20
-	
-	"Agape #0" = -20
-	"Agathoclea #0" = -20
-	"Amanishabheto #0" = -20
-	"Berenice #0" = -20
-	"Charis #0" = -20
-	"Cleopatra #0" = -40
-	"Cynna #0" = -20
-	"Demetria #0" = -20
-	"Elpis #0" = -20
-	"Eirene #0" = -20
-	"Hypatia #0" = -20
-	"Nysa #0" = -20
-	"Oenanthe #0" = -20
-	"Olympia #0" = -20
-	"Phila #0" = -20
-	"Theophila #0" = -20
 }
 
 

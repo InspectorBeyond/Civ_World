@@ -34,23 +34,12 @@ historical_units = {
 }
 
 monarch_names = {
-	"Ahari #0" = 20
-	
-	"Haya #0" = -20 
-	"Isani #0" = -20 
-	"Takuiba #0" = -20 
-	"Twengga #0" = -20 
 
 }
 
 leader_names = {
-	Eregu
 }
 
 ship_names = {
 	
-}
-
-army_names = {
-	"Armata di $PROVINCE$"
 }

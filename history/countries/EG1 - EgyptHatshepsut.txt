@@ -1,17 +1,15 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 2
 primary_culture = old_egyptian
 religion = pantheon
-technology_group = civilization_tech
-capital = 4319
-fixed_capital = 4319
+technology_group = western
+capital = 360
 
 1444.11.10 = {
 	monarch = {
-		name = "Cleopatra"
-		dynasty = "Ptolemaic"
-		culture = macedonian
-		birth_date = 1426.11.11
+		name = "Hatshepsut"
+		dynasty = "Thutmoside"
 		adm = 6
 		dip = 6
 		mil = 6
@@ -19,4 +17,8 @@ fixed_capital = 4319
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = silver_tongue_personality
+	add_country_modifier = {
+		name = civ_nation
+		duration = -1
+	}
 }

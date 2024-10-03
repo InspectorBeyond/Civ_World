@@ -204,9 +204,7 @@ prussian_republic_reform = {
 					have_had_reform = prussian_theocratic_reform
 				}
 			}
-			has_unlocked_government_reform = {
-				government_reform = prussian_republic_reform
-			}
+			has_unlocked_government_reform = { government_reform = prussian_republic_reform }
 		}
 	}
 	trigger = {
@@ -227,9 +225,7 @@ prussian_republic_reform = {
 					have_had_reform = prussian_theocratic_reform
 				}
 			}
-			has_unlocked_government_reform_tooltip = {
-				government_reform = prussian_republic_reform
-			}
+			has_unlocked_government_reform = { government_reform = prussian_republic_reform }
 		}
 	}
 	valid_for_nation_designer = yes
@@ -324,6 +320,7 @@ merchants_reform = {
 		enables_aristocratic_idea_group = no
 		is_merchant_republic = yes
 		elections_increase_factions_influence = yes
+		locked_government_type = yes
 	}
 	ai = {
 		factor = 0.75 #generic
@@ -355,6 +352,7 @@ merchants_reform = {
 venice_merchants_reform = {
 	icon = "trading_city"
 	allow_normal_conversion = yes
+	lock_level_when_selected = yes
 	modifiers = {
 		max_absolutism = -10
 		merchants = 1
@@ -370,6 +368,10 @@ venice_merchants_reform = {
 			tag = VEN
 			AND = {
 				is_playing_custom_nation = yes
+				have_had_reform = venice_merchants_reform
+			}
+			AND = {
+				tag = ITA
 				have_had_reform = venice_merchants_reform
 			}
 		}
@@ -404,7 +406,16 @@ venice_merchants_reform = {
 		can_form_trade_league = yes
 		trade_city_reform = trading_city
 	}
+	conditional = {
+		allow = {
+			has_dlc = "Winds of Change"
+		}
+		government_abilities = {
+			council_of_ten
+		}
+	}
 	custom_attributes = {
+		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 		lottery_election = yes
@@ -522,6 +533,7 @@ noble_elite_reform = {
 presidential_despot_reform = {
 	allow_normal_conversion = no
 	dictatorship = yes
+	is_eligible_for_hre_emperor = no
 	lock_level_when_selected = yes
 	icon = "parliament_hall"
 	potential = {
@@ -591,6 +603,7 @@ revolutionary_republic_reform = {
 		max_revolutionary_zeal = 50
 		max_absolutism = 40
 		papal_influence = -100
+		allowed_rev_guard_fraction = 0.2	
 	}
 	fixed_rank = 3
 	effect = {
@@ -655,6 +668,16 @@ revolutionary_republic_reform = {
 				override_country_name = GURKANI_EMPIRE_STRING
 				set_country_flag = is_gurkani_flag
 			}
+			if = {
+				limit = {
+					has_country_flag = is_revolutionary_iran_flag
+					is_revolutionary = no
+				}
+				clr_country_flag = is_revolutionary_iran_flag
+				restore_country_name = yes
+				override_country_name = IRAN_STRING
+				set_country_flag = is_iran_flag
+			}
 		}
 	}
 }
@@ -683,6 +706,7 @@ junior_revolutionary_republic_reform = {
 		max_revolutionary_zeal = 25
 		max_absolutism = 40
 		papal_influence = -100
+		allowed_rev_guard_fraction = 0.2
 	}
 	fixed_rank = 2
 	effect = {
@@ -736,6 +760,16 @@ junior_revolutionary_republic_reform = {
 				restore_country_name = yes
 				override_country_name = GURKANI_EMPIRE_STRING
 				set_country_flag = is_gurkani_flag
+			}
+			if = {
+				limit = {
+					has_country_flag = is_revolutionary_iran_flag
+					is_revolutionary = no
+				}
+				clr_country_flag = is_revolutionary_iran_flag
+				restore_country_name = yes
+				override_country_name = IRAN_STRING
+				set_country_flag = is_iran_flag
 			}
 		}
 	}
@@ -939,7 +973,9 @@ city_state = {
 		enables_aristocratic_idea_group = no
 	}
 	duration = 4
-}trading_city = {
+}
+
+trading_city = {
 	icon = "trading_city"
 	allow_normal_conversion = no
 	potential = {

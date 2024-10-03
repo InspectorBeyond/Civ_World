@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = russian
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 295 # Moskva
 fixed_capital = 295 # Cannot move capital away from this province & no power cost to move to it
 national_focus = MIL
@@ -19,6 +19,7 @@ national_focus = MIL
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = industrious_personality
+	add_ruler_personality = peasant_revolt_leader_personality
 	add_country_modifier = {
 		name = civ_nation
 		duration = -1

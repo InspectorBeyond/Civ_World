@@ -34,40 +34,9 @@ historical_units = {
 }
 
 monarch_names = {
-	"Bajirao #0" = 20 
-	"Balaji #0" = 20 
-	"Madhava #0" = 20 
-	"Narayan #0" = 20 
-	"Pratapsinha #0" = 20 
-	"Raghunath #0" = 20 
-	"Rajaram #0" = 20 
-	"Sawai #0" = 20 
-	"Shahuji #0" = 20 
-	"Shambhaji #0" = 20 
-	"Shivaji #0" = 20 
-	"Venkatji #0" = 20 
-	
-	"Ahilyabai  #0" = -20 
-	"Anandibai #0" = -20 
-	"Gangabai #0" = -20 
-	"Gopikabai #0" = -20 
-	"Radhabai #0" = -20 
-	"Rani #0" = -20 
-	"Soyarabai #0" = -20 
-	"Umabai #0" = -20 
 }
 
 leader_names = {
-	Appa Sahib
-	Ballal
-	Bhandari
-	Bowa_Sahib
-	Gujar
-	Kalash
-	Mohite
-	Narayan
-	Phadnis
-	Rao
 }
 
 ship_names = {

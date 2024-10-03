@@ -122,7 +122,3 @@ ship_names = {
 	"St Petrus Chrysologus" "St Petrus Damianus" "St Thomas Aquinas"
 	Throni "Virgo Maria" Virtutes
 }
-
-army_names = {
-	"Armata di $PROVINCE$"
-}

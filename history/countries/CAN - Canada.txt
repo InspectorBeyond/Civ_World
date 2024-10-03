@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
-technology_group = civilization_tech
+government_rank = 2
+technology_group = western
 religion = pantheon
 primary_culture = anglo_canadian
 add_accepted_culture = franco_canadian

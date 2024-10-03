@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = georgian
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 423 # T'bilisi
 
 
@@ -17,6 +17,7 @@ capital = 423 # T'bilisi
 	female = yes
 	}
 	add_ruler_personality = immortal_personality
+	add_ruler_personality = pious_personality
 	add_ruler_personality = architectural_visionary_personality
 	add_country_modifier = {
 		name = civ_nation

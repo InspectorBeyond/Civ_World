@@ -3,14 +3,13 @@ add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = shoshone
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 2020	# Bannock
 
 
 1444.11.10 = {
 	monarch = {
 		name = "Pocatello"
-		dynasty = "Shoshone"
 		adm = 6
 		dip = 6
 		mil = 6

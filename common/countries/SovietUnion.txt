@@ -37,75 +37,9 @@ historical_units = {
 }
 
 monarch_names = {
-	"Aleksandr #0" = 20 
-	"Alexei #0" = 20 
-	"Andrei #0" = 20 
-	"Anton #0" = 20 
-	"Boris #0" = 20 
-	"Dmitry #0" = 20 
-	"Fyodor #0" = 20 
-	"Gennady #0" = 20 
-	"Giorgi #0" = 20 
-	"Grigoriy #0" = 20 
-	"Igor #0" = 20 
-	"Ivan #0" = 20 
-	"Kirill #0" = 20 
-	"Konstantin #0" = 20 
-	"Lavr #0" = 20 
-	"Leonid #0" = 20 
-	"Lev #0" = 20 
-	"Maxim #0" = 20 
-	"Mikhail #0" = 20 
-	"Nikita #0" = 20 
-	"Nikolai #0" = 20 
-	"Oleg #0" = 20 
-	"Pavel #0" = 20 
-	"Pyotr #0" = 20 
-	"Roman #0" = 20 
-	"Semyon #0" = 20 
-	"Sergei #0" = 20 
-	"Valery #0" = 20 
-	"Vasily #0" = 20 
-	"Viktor #0" = 20 
-	"Vladimir #0" = 20 
-	"Vladislav #0" = 20 
-	"Yegor #0" = 20 
-	"Yevgeny #0" = 20 
-	"Yuri #0" = 20
-
-	"Anastasiya #0" = -20 
-	"Anna #0" = -20 
-	"Elena #0" = -20 
-	"Elizaveta #0" = -20 
-	"Evgenia #0" = -20 
-	"Kira #0" = -20 
-	"Maria #0" = -20 
-	"Olga #0" = -20 
-	"Xenia #0" = -20 
-	"Yekaterina #0" = -20 
-	"Aleksandra #0" = -20 
-	"Avdotya #0" = -20 
-	"Daria #0" = -20 
-	"Evlalia #0" = -20 
-	"Lydia #0" = -20 
-	"Lyobov #0" = -20 
-	"Sofia #0" = -20 
-	"Tatiana #0" = -20 
-	"Varvara #0" = -20 
-	"Vera #0" = -20 
-	"Yulia #0" = -20 
-	"Zinaida #0" = -20	
 }
 
 leader_names = {
-	Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin Dragomirov Frolov 
-	Golovin Grishin Gurko Ivanov Kasso Kolchak Konev Konstantinov Kornilov Kuropatkin 
-	Lazarev Makarov Menshikov  Nakhimov Nebogatov Nikolaevich Ostrovsky Pavlov 
-	Putyatin Rozhestvensky Shuvalov Skobelev Surkov Sorokin Tukhachevsky Vorontsov 
-	Voroshilov  Yegorov Yudenich Zavoyko Bestuzhev-Ryumin Bulatovich Buturlin 
-	Dolgorukov Demidov Gruzinsky Golitsyn Ignatiev Ivelich Kamensky Kushelev-Bezborodko 
-	Kutaisov Kurakin Lopukhin Lobanov-Rostovsky Matveyev Meshchersky Orlov Putyatin 
-	Rostopchin Rumyantsev Romanov Saltykov Tolstoy Volkonsky Yengalychev Yusupov Yuryevsky
 }
 
 ship_names = {

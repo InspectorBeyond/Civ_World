@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = macedonian
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 148	# Macedonia
 fixed_capital = 148 # Cannot move capital away from this province & no power cost to move to it
 

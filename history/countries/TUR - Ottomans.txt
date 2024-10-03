@@ -1,16 +1,16 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 2
 primary_culture = turkish
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 326
 national_focus = MIL
 
 1444.11.10 = {
 	monarch = {
-		name = "Suleyman"
-		monarch_name = "Suleyman I Kanuni"
-		dynasty = "Ottoman"
+		name = "Süleyman"
+		dynasty = "Osmanoglu"
 		adm = 6
 		dip = 6
 		mil = 6

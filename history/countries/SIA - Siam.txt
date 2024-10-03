@@ -1,8 +1,9 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 2
 primary_culture = central_thai
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 600 # Ayutthaya
 
 
@@ -15,7 +16,7 @@ capital = 600 # Ayutthaya
 		mil = 6
 	}
 	add_ruler_personality = immortal_personality
-	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = zealot_personality
 	add_country_modifier = {
 		name = civ_nation
 		duration = -1

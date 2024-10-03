@@ -3,13 +3,12 @@ add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = hunnic
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 288
 
 1444.11.10 = {
 	monarch = {
 		name = "Attila"
-		dynasty = "Uklinid"
 		adm = 6
 		dip = 6
 		mil = 6

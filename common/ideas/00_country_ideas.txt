@@ -1065,11 +1065,11 @@ HJO_ideas = {
 BYZ_ideas = {
 	start = {
 		advisor_cost = -0.10
-		tolerance_own = 3
+		improve_relation_modifier = 0.2
 	}
 	
 	bonus = {
-		prestige = 1
+		tolerance_own = 3
 	}
 	
 	trigger = {
@@ -1077,27 +1077,33 @@ BYZ_ideas = {
 	}
 	free = yes
 	
-	regulations_for_mercenaries = {
-		merc_maintenance_modifier = -0.15
-	}
 	repopulation_of_countryside = {
-		global_trade_goods_size_modifier = 0.05
-		global_manpower_modifier = 0.10
+		global_trade_goods_size_modifier = 0.1
 	}
-	byz_state_admin_reform = {
-		global_tax_modifier = 0.10
+	
+	byz_roman_empire = {
+		core_creation = -0.25
 	}
-	byz_admin_power = {
-		stability_cost_modifier = -0.1
-	}
-	merchant_class = {
-		global_trade_power = 0.1
-	}
-	new_imperial_army = {
-		discipline = 0.05
-	}
+	
 	ecumenical_patriarch = {
 		global_missionary_strength = 0.03
+		yearly_patriarch_authority = 0.003
+	}
+	
+	byz_corpus_iuris_civilis = {	#Replaces byz_admin_power for Purple Phoenix events
+		reform_progress_growth = 0.2
+	}
+	
+	byz_protect_the_frontiers = {
+		defensiveness = 0.15
+	}
+	
+	byz_strategikon = {
+		discipline = 0.05
+	}
+
+	new_imperial_army = {
+		global_manpower_modifier = 0.15
 	}
 }
 
@@ -1360,7 +1366,7 @@ KON_ideas = {
 	trigger = {	
 		OR = {
 			tag = KON
-			tag = ANG
+			tag = NDO
 		}
 	}
 	free = yes		#will be added at load.
@@ -1468,7 +1474,7 @@ IRO_ideas = {
 
 }
 
-GEO_ideas = {
+GEO_ideas = { #Georgia
 	start = {
 		defensiveness = 0.25
 		infantry_power = 0.1
@@ -2007,9 +2013,9 @@ ASY_ideas = {
 	}
 }
 
-BAB_ideas = {
+BAB_ideas = { #Babylon
 	start = {
-		infantry_power = 0.1
+		infantry_power = 0.01
 		global_autonomy = -0.05
 	}
 
@@ -2022,14 +2028,14 @@ BAB_ideas = {
 	}
 	free = yes
 
-	hanging_gardens = {
-		prestige = 1
-	}
 	code_of_hammurabi = {
 		global_unrest = -1
 	}
 	etemenaki_ziggurat = {
 		build_cost = -0.15
+	}
+	hanging_gardens = {
+		prestige = 1
 	}
 	impenetrable_city_walls = {
 		defensiveness = 0.2
@@ -2045,9 +2051,9 @@ BAB_ideas = {
 	}
 }
 
-SMR_ideas = {
+SMR_ideas = { #Sumeria
 	start = {
-		infantry_power = 0.1
+		infantry_power = 0.01
 		global_autonomy = -0.05
 	}
 
@@ -2083,7 +2089,7 @@ SMR_ideas = {
 	}
 }
 
-HNZ_ideas = {
+HNZ_ideas = { #Huns
 	start = {
 		cavalry_power = 0.1
 		mil_tech_cost_modifier = -0.1
@@ -2272,7 +2278,7 @@ KRU_ideas = {
 	}
 }
 
-MAC_ideas = {
+MAC_ideas = { #Macedon
 	start = {
 		ae_impact = -0.20
 		infantry_power = 0.09
@@ -2364,36 +2370,76 @@ PER_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = PER
-			tag = ACM
-		}
+		tag = PER
 	}
 	free = yes
-
 	the_qizilbash = {
 		global_manpower_modifier = 0.15
+		qizilbash_privilege_slots = 1
 	}
 	persian_rug_production = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	the_ghulams = {
 		discipline = 0.05
+		ghulams_privilege_slots = 1
 	}
 	improved_silk_road = {
 		caravan_power = 0.2
 	}
 	encouraged_art = {
 		prestige = 1
-		production_efficiency = 0.05
+		production_efficiency = 0.1
 	}
 	promotion_of_irrigation = {
-		manpower_recovery_speed = 0.10
+		manpower_recovery_speed = 0.15
+		development_cost = -0.05
 	}
 	increased_crown_lands = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.15
 	}
 }
+
+ERANSHAHR_ideas = {
+	start = {
+		land_morale = 0.15
+		diplomatic_reputation = 2
+	}
+	
+	bonus = {
+		overextension_impact_modifier = -0.2
+	}
+	
+	trigger = {
+		tag = ACM
+	}
+	free = yes
+	ers_guardians_of_the_sacred_fire = {
+		tolerance_own = 2
+		yearly_government_power = 1
+	}
+	ers_restore_the_academy_of_gondishapur = {
+		technology_cost = -0.05
+	}
+	ers_wuzurg_framadar = {
+		same_religion_advisor_cost = -0.2
+	}
+	ers_reform_the_savaran_cavalry = {
+		cavalry_power = 0.2
+	}
+	improved_silk_road = {
+		#same as in PER_ideas
+		#caravan_power = 0.2
+	}
+	ers_rebuild_the_caspian_gates = {
+		defensiveness = 0.2
+		garrison_size = 0.2
+	}
+	ers_sasanian_siege_warfare = {
+		artillery_level_modifier = 0.5
+	}
+}
+
 
 ZUL_ideas = {
 	start = {
@@ -2963,40 +3009,43 @@ AUS_ideas = {
 	}
 }
 
-ARB__ideas = {
+ARB_ideas = {
 	start = {
-		global_manpower_modifier = 0.15
-		land_attrition = -0.15
+		tolerance_own = 2
+		years_of_nationalism = -10
 	}
-	
+
 	bonus = {
-		leader_land_shock = 1
+		siege_ability = 0.15
 	}
+
 	trigger = {
 		tag = ARB
-	}free = yes
-	
-	arab_indian_ocean_trade = {
-		trade_steering = 0.15
 	}
-	arabian_horses = {
-		cavalry_cost = -0.1
-		cavalry_flanking = 0.25
+	free = yes
+
+	ARB_arabian_pincers = {
+		cav_to_inf_ratio = 0.25
+		cavalry_power = 0.25
 	}
-	land_of_the_prophet = {
-		global_unrest = -1
+	ARB_pact_of_umar = {
+		dhimmi_loyalty_modifier = 0.1
+		global_tax_modifier = 0.2
 	}
-	spreading_the_prophets_word = {
-		global_missionary_strength = 0.01
+	ARB_engage_in_indian_ocean_trade = {
+		trade_steering = 0.2	
 	}
-	bedouin_traders = {
-		global_trade_power = 0.1
+	ARB_conversion = {
+		global_missionary_strength = 0.03
 	}
-	arab_clan_loyalties = {
-		leader_land_manuever = 1
+	ARB_jihad = {
+		warscore_cost_vs_other_religion = -0.1
 	}
-	arabia = {
-		prestige = 1
+	ARB_new_caliphate_rising = {
+		missionaries = 2
+	}
+	ARB_mubarizun = {
+		army_tradition_decay = -0.01
 	}
 }
 

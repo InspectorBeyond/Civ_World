@@ -11,8 +11,6 @@ country_event = {
 		total_development = 200
 		OR = {
 			full_idea_group = religious_ideas
-			tag = HSN
-			tag = ARB
 		}
 		NOT = { tag = KON }
 		NOT = { has_country_flag = religions_chosen }
@@ -377,7 +375,7 @@ country_event = {
 				}
 			}
 			modifier = {
-				factor = 500
+				factor = 100
 				OR = {
 					tag = ODA
 					tag = JAP
@@ -409,6 +407,7 @@ country_event = {
 				factor = 1000
 				OR = {
 					tag = MNG
+					tag = KOR
 				}
 			}
 		}

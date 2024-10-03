@@ -1,11 +1,10 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 2
 primary_culture = mali
 religion = pantheon
-technology_group = civilization_tech
-capital = 1121
-fixed_capital = 1121
-religious_school = maliki_school
+technology_group = western
+capital = 1124
 
 1444.11.10 = {
 	monarch = {
@@ -17,6 +16,7 @@ religious_school = maliki_school
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = benevolent_personality
 	add_country_modifier = {
 		name = civ_nation
 		duration = -1

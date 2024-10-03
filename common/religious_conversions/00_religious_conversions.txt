@@ -80,7 +80,7 @@ catholic_center_of_reformation = {
 	
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 100 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	max_distance = 150 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
 	base_conversion_speed = 5
 
 	target_province_weights = {
@@ -101,6 +101,12 @@ catholic_center_of_reformation = {
 		modifier = {
 			factor = 0
 			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
 		}
 		modifier = {
 			factor = 0
@@ -165,6 +171,12 @@ protestant_center_of_reformation = {
 		modifier = {
 			factor = 0
 			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
 		}
 		modifier = {
 			factor = 0
@@ -235,6 +247,12 @@ coptic_center_of_reformation = {
 			NOT = { religion_group = pagan }
 		}
 		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
+		}
+		modifier = {
 			factor = 0
 			NOT = { continent = FROM }
 		}
@@ -289,6 +307,12 @@ orthodox_center_of_reformation = {
 		modifier = {
 			factor = 0
 			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
 		}
 		modifier = {
 			factor = 0
@@ -355,6 +379,12 @@ sunni_center_of_reformation = {
 			has_province_modifier = religious_zeal_at_conv
 		}
 		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
+		}
+		modifier = {
 			factor = 0
 			NOT = { religion_group = pagan }
 		}
@@ -417,6 +447,12 @@ buddhism_center_of_reformation = {
 		modifier = {
 			factor = 0
 			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
 		}
 		modifier = {
 			factor = 0
@@ -487,6 +523,12 @@ taosism_center_of_reformation = {
 			NOT = { religion_group = pagan }
 		}
 		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
+		}
+		modifier = {
 			factor = 0
 			NOT = { continent = FROM }
 		}
@@ -545,6 +587,12 @@ confucianism_center_of_reformation = {
 		modifier = {
 			factor = 0
 			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
 		}
 		modifier = {
 			factor = 0
@@ -611,6 +659,12 @@ shinto_center_of_reformation = {
 			has_province_modifier = religious_zeal_at_conv
 		}
 		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
+		}
+		modifier = {
 			factor = 0
 			NOT = { religion_group = pagan }
 		}
@@ -673,6 +727,12 @@ sikh_center_of_reformation = {
 		modifier = {
 			factor = 0
 			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
 		}
 		modifier = {
 			factor = 0
@@ -739,6 +799,12 @@ norse_center_of_reformation = {
 			has_province_modifier = religious_zeal_at_conv
 		}
 		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
+		}
+		modifier = {
 			factor = 0
 			NOT = { religion_group = pagan }
 		}
@@ -801,6 +867,12 @@ tengri_center_of_reformation = {
 		modifier = {
 			factor = 0
 			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
 		}
 		modifier = {
 			factor = 0
@@ -867,6 +939,12 @@ jewish_center_of_reformation = {
 			has_province_modifier = religious_zeal_at_conv
 		}
 		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
+		}
+		modifier = {
 			factor = 0
 			NOT = { religion_group = pagan }
 		}
@@ -931,6 +1009,12 @@ zoroastrian_center_of_reformation = {
 			has_province_modifier = religious_zeal_at_conv
 		}
 		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
+		}
+		modifier = {
 			factor = 0
 			NOT = { religion_group = pagan }
 		}
@@ -993,6 +1077,12 @@ hindu_center_of_reformation = {
 		modifier = {
 			factor = 0
 			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 1
+			any_neighbor_province = {
+				religion = pantheon
+			}
 		}
 		modifier = {
 			factor = 0

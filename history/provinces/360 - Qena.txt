@@ -5,12 +5,12 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 
-owner = EGY
-controller = EGY
-add_core = EGY
-capital = "Thebes"
+owner = EG1
+controller = EG1
+add_core = EG1
+capital = "Waset"
 
-discovered_by = EGY
+discovered_by = EG1
 
 1444.11.13 = {
 decolonize = yes

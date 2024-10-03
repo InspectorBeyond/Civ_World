@@ -34,13 +34,9 @@ historical_units = {
 }
 
 monarch_names = {
-	"Abidemi #0" = 20
-	
-	"Mavuto #0" = -20
 }
 
 leader_names = {
-	Mwenemutapa
 }
 
 ship_names = {

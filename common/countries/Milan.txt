@@ -103,7 +103,3 @@ ship_names = {
 	Terragni Teodolinda Torriani
 	Valperto Varese Virgilio
 }
-
-army_names = {
-	"Armata di $PROVINCE$"
-}

@@ -2,6 +2,6 @@ government = republic
 add_government_reform = city_state
 primary_culture = tuscan
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 116 # Firenze
 government_rank = 1

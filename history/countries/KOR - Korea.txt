@@ -1,8 +1,9 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 2
 primary_culture = korean
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 735
 
 1444.11.10 = {

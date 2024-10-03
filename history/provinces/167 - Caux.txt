@@ -1,12 +1,27 @@
-culture = barbarian
+culture = normand
 religion = pantheon
 trade_goods = cloth
 base_tax = 2
 base_production = 2
 base_manpower = 2
+native_size = 5
+native_hostileness = 2
 
-discovered_by = FRA
-native_size = 10
-native_ferocity = 5
-native_hostileness = 9
-hre = no
+
+owner = NRM
+controller = NRM
+add_core = NRM
+capital = "Rouen"
+
+discovered_by = NRM
+
+
+1444.11.12 = {
+decolonize = yes
+}
+
+1444.11.13 = {
+owner = NRM
+controller = NRM
+add_core = NRM
+}

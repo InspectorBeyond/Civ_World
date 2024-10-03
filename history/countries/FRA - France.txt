@@ -1,8 +1,9 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 2
 primary_culture = cosmopolitan_french
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 historical_friend = AQT
 capital = 183 # Paris
 government_rank = 2
@@ -18,7 +19,7 @@ government_rank = 2
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = inspiring_leader_personality
-	add_ruler_personality = calm_personality
+	add_ruler_personality = expansionist_personality
 	add_country_modifier = {
 		name = civ_nation
 		duration = -1

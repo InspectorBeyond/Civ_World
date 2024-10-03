@@ -4,14 +4,14 @@ primary_culture = al_suryah_arabic
 add_accepted_culture = al_misr_arabic
 add_accepted_culture = bedouin_arabic
 religion = pantheon
-technology_group = civilization_tech
+technology_group = western
 capital = 382
 
 1444.11.10 = {
 	monarch = {
-		name = "Saladin"
+		name = "Yusuf I Salah ad-Din"
 		dynasty = "Ayyubid"
-		culture = kurdish
+		culture = al_suryah_arabic
 		birth_date = 1407.11.11
 		adm = 6
 		dip = 6
@@ -19,6 +19,7 @@ capital = 382
 	}
 	add_ruler_personality = immortal_personality
 	add_ruler_personality = scholar_personality
+	add_ruler_personality = just_personality
 	add_country_modifier = {
 		name = civ_nation
 		duration = -1
